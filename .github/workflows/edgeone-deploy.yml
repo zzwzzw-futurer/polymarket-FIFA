@@ -1,0 +1,40 @@
+name: Deploy to EdgeOne Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+    steps:
+      - name: Skip when EdgeOne token is missing
+        if: ${{ env.EDGEONE_API_TOKEN == '' }}
+        run: echo "::notice::EDGEONE_API_TOKEN is not configured; skipping EdgeOne Pages deployment."
+
+      - name: Checkout repository
+        if: ${{ env.EDGEONE_API_TOKEN != '' }}
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        if: ${{ env.EDGEONE_API_TOKEN != '' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.11.0
+          cache: npm
+
+      - name: Install dependencies
+        if: ${{ env.EDGEONE_API_TOKEN != '' }}
+        run: npm ci
+
+      - name: Build project
+        if: ${{ env.EDGEONE_API_TOKEN != '' }}
+        run: npm run build
+
+      - name: Deploy to EdgeOne Pages
+        if: ${{ env.EDGEONE_API_TOKEN != '' }}
+        run: npx edgeone pages deploy ./dist -n world-cup-data-portal -t "$EDGEONE_API_TOKEN"

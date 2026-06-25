@@ -1,0 +1,59 @@
+name: Update World Cup Data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.11.0
+          cache: npm
+      - run: npm ci
+      - run: npm run sync:data
+        env:
+          ESPN_SCOREBOARD_URL: ${{ vars.ESPN_SCOREBOARD_URL || 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard' }}
+          ESPN_STANDINGS_URL: ${{ vars.ESPN_STANDINGS_URL || 'https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings' }}
+          ESPN_TEAMS_URL: ${{ vars.ESPN_TEAMS_URL || 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams' }}
+          ESPN_SUMMARY_URL: ${{ vars.ESPN_SUMMARY_URL || 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary' }}
+          ESPN_DATES: ${{ vars.ESPN_DATES || '20260611-20260719' }}
+          ESPN_SUMMARY_CONCURRENCY: ${{ vars.ESPN_SUMMARY_CONCURRENCY || '6' }}
+          ESPN_SUMMARY_LIMIT: ${{ vars.ESPN_SUMMARY_LIMIT || '104' }}
+          WORLDCUP_DISPLAY_TIME_ZONE: ${{ vars.WORLDCUP_DISPLAY_TIME_ZONE || 'Asia/Shanghai' }}
+          WORLDCUP_SYNC_INTERVAL_MS: ${{ vars.WORLDCUP_SYNC_INTERVAL_MS || '60000' }}
+          POLYMARKET_ENABLED: ${{ vars.POLYMARKET_ENABLED || 'true' }}
+          POLYMARKET_GAMMA_URL: ${{ vars.POLYMARKET_GAMMA_URL || 'https://gamma-api.polymarket.com' }}
+          POLYMARKET_SERIES_ID: ${{ vars.POLYMARKET_SERIES_ID || '11433' }}
+          POLYMARKET_EVENTS_LIMIT: ${{ vars.POLYMARKET_EVENTS_LIMIT || '40' }}
+          POLYMARKET_SEARCH_LIMIT: ${{ vars.POLYMARKET_SEARCH_LIMIT || '8' }}
+          POLYMARKET_SEARCH_CONCURRENCY: ${{ vars.POLYMARKET_SEARCH_CONCURRENCY || '6' }}
+          POLYMARKET_CONNECT_TIMEOUT_SECONDS: ${{ vars.POLYMARKET_CONNECT_TIMEOUT_SECONDS || '10' }}
+          POLYMARKET_MAX_TIME_SECONDS: ${{ vars.POLYMARKET_MAX_TIME_SECONDS || '30' }}
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- public/data/worldcup-live.json; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "world-cup-data-bot"
+          git config user.email "world-cup-data-bot@users.noreply.github.com"
+          git add public/data/worldcup-live.json
+          git commit -m "Update World Cup data"
+          git push
+      - name: Deploy refreshed data to EdgeOne Pages
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+        run: |
+          if [ -z "$EDGEONE_API_TOKEN" ]; then
+            echo "::notice::EDGEONE_API_TOKEN is not configured; skipping EdgeOne Pages deployment."
+            exit 0
+          fi
+          npm run build
+          npx edgeone pages deploy ./dist -n world-cup-data-portal -t "$EDGEONE_API_TOKEN"

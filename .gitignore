@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.npm-cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local QA captures are useful during design review but should not ship.
+AGENTS.md
+design-qa.md
+qa/
+public/qa/
+
+# Tooling and editor state.
+.vscode/
+.idea/
+*.log
