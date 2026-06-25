@@ -33,7 +33,7 @@ jobs:
 
       - name: Build project
         if: ${{ env.EDGEONE_API_TOKEN != '' }}
-        run: npm run build
+        run: npm run sync:data && npm run build
 
       - name: Deploy to EdgeOne Pages
         if: ${{ env.EDGEONE_API_TOKEN != '' }}
