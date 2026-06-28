@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-06-28T16:12:02.723Z",
-    "startedAt": "2026-06-28T16:11:59.497Z",
+    "fetchedAt": "2026-06-28T17:36:13.352Z",
+    "startedAt": "2026-06-28T17:36:10.579Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5681,21 +5681,21 @@
       "odds": []
     },
     "760486": {
-      "home": 15.7,
-      "draw": 25.9,
-      "away": 58.4,
+      "home": 17.6,
+      "draw": 28.6,
+      "away": 53.8,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "15.5%",
-          "draw": "25.5%",
-          "away": "57.5%",
-          "homeProbability": 0.155,
-          "drawProbability": 0.255,
-          "awayProbability": 0.575,
+          "home": "17.5%",
+          "draw": "28.5%",
+          "away": "53.5%",
+          "homeProbability": 0.175,
+          "drawProbability": 0.285,
+          "awayProbability": 0.535,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-rsa-can-2026-06-28",
           "eventUrl": "https://polymarket.com/event/fifwc-rsa-can-2026-06-28",
@@ -5784,19 +5784,19 @@
       ]
     },
     "760491": {
-      "home": 41.9,
-      "draw": 32.1,
-      "away": 26,
+      "home": 42.7,
+      "draw": 32,
+      "away": 25.3,
       "model": "ESPN / DraftKings moneyline 隐含概率",
       "trend": "ESPN odds",
       "odds": [
         {
           "book": "DraftKings",
           "source": "espn",
-          "home": "2.30",
+          "home": "2.25",
           "draw": "3.00",
-          "away": "3.70",
-          "spread": "MEX +130"
+          "away": "3.80",
+          "spread": "MEX +125"
         }
       ]
     },
@@ -6107,6 +6107,22 @@
   },
   "news": [
     {
+      "id": "49207806",
+      "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+      "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+      "imageAlt": "Manuel Ugarte [1296x729]",
+      "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+      "publishedAt": "2026-06-28T17:09:17Z",
+      "updatedAt": "2026-06-28T17:09:17Z",
+      "source": "ESPN news",
+      "matchId": "760486",
+      "matchLabel": "",
+      "stage": "32强",
+      "status": "未开始"
+    },
+    {
       "id": "49207302",
       "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
       "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
@@ -6114,8 +6130,8 @@
       "imageAlt": "World Cup trophy [1296x729]",
       "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
       "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-      "publishedAt": "2026-06-28T16:11:16Z",
-      "updatedAt": "2026-06-28T16:11:16Z",
+      "publishedAt": "2026-06-28T16:51:13Z",
+      "updatedAt": "2026-06-28T16:51:13Z",
       "source": "ESPN news",
       "matchId": "760486",
       "matchLabel": "",
@@ -6180,22 +6196,6 @@
       "link": "https://www.espn.com/espn/story/_/id/49195887/bafana-world-cup-clash-canada-change-south-africa-football-trajectory",
       "publishedAt": "2026-06-28T14:56:27Z",
       "updatedAt": "2026-06-28T14:56:27Z",
-      "source": "ESPN news",
-      "matchId": "760486",
-      "matchLabel": "南非 vs 加拿大",
-      "stage": "32强",
-      "status": "未开始"
-    },
-    {
-      "id": "49201916",
-      "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-      "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0626/dm_260626_COM_SOC_Analysis_Mudau3A_South_Africa_hope_to_put_up_a_good_fight_vs_Canada__GLOBAL_2026-06-26/dm_260626_COM_SOC_Analysis_Mudau3A_South_Africa_hope_to_put_up_a_good_fight_vs_Canada__GLOBAL_2026-06-26.jpg",
-      "imageAlt": "Mudau: South Africa hope to put up a good fight vs. Canada",
-      "credit": "",
-      "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-      "publishedAt": "2026-06-28T14:55:43Z",
-      "updatedAt": "2026-06-28T14:55:43Z",
       "source": "ESPN news",
       "matchId": "760486",
       "matchLabel": "南非 vs 加拿大",
@@ -6684,7 +6684,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-06-28T16:12:02.723Z",
+    "updatedAt": "2026-06-28T17:36:13.352Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -91714,7 +91714,7 @@
     },
     "760486": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.044Z",
+      "fetchedAt": "2026-06-28T17:36:11.215Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -92013,6 +92013,22 @@
       ],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
           "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
@@ -92020,8 +92036,8 @@
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:11:16Z",
-          "updatedAt": "2026-06-28T16:11:16Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -92091,22 +92107,6 @@
           "matchLabel": "南非 vs 加拿大",
           "stage": "32强",
           "status": "未开始"
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0626/dm_260626_COM_SOC_Analysis_Mudau3A_South_Africa_hope_to_put_up_a_good_fight_vs_Canada__GLOBAL_2026-06-26/dm_260626_COM_SOC_Analysis_Mudau3A_South_Africa_hope_to_put_up_a_good_fight_vs_Canada__GLOBAL_2026-06-26.jpg",
-          "imageAlt": "Mudau: South Africa hope to put up a good fight vs. Canada",
-          "credit": "",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "760486",
-          "matchLabel": "南非 vs 加拿大",
-          "stage": "32强",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -92117,7 +92117,7 @@
     },
     "760487": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.107Z",
+      "fetchedAt": "2026-06-28T17:36:11.251Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -92446,15 +92446,31 @@
       ],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -92524,22 +92540,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -92550,7 +92550,7 @@
     },
     "760488": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.213Z",
+      "fetchedAt": "2026-06-28T17:36:11.317Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -92828,6 +92828,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
           "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
@@ -92835,8 +92851,8 @@
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:11:16Z",
-          "updatedAt": "2026-06-28T16:11:16Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -92906,22 +92922,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -92932,7 +92932,7 @@
     },
     "760489": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.247Z",
+      "fetchedAt": "2026-06-28T17:36:11.361Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -93203,15 +93203,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -93281,22 +93297,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -93307,7 +93307,7 @@
     },
     "760490": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.177Z",
+      "fetchedAt": "2026-06-28T17:36:11.332Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -93557,15 +93557,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -93635,22 +93651,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -93661,7 +93661,7 @@
     },
     "760491": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.148Z",
+      "fetchedAt": "2026-06-28T17:36:11.324Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -93962,15 +93962,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -94040,22 +94056,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -94066,7 +94066,7 @@
     },
     "760492": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.143Z",
+      "fetchedAt": "2026-06-28T17:36:11.320Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -94367,15 +94367,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "760492",
           "matchLabel": "法国 vs 瑞典",
@@ -94445,22 +94461,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -94471,7 +94471,7 @@
     },
     "760493": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.243Z",
+      "fetchedAt": "2026-06-28T17:36:11.390Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -94721,15 +94721,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -94799,22 +94815,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -94825,7 +94825,7 @@
     },
     "760494": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.253Z",
+      "fetchedAt": "2026-06-28T17:36:11.412Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -95144,15 +95144,31 @@
       ],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -95222,22 +95238,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -95248,7 +95248,7 @@
     },
     "760495": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.412Z",
+      "fetchedAt": "2026-06-28T17:36:11.322Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -95526,15 +95526,31 @@
       ],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -95604,22 +95620,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -95630,7 +95630,7 @@
     },
     "760496": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.420Z",
+      "fetchedAt": "2026-06-28T17:36:11.392Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -95938,15 +95938,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -96016,22 +96032,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -96042,7 +96042,7 @@
     },
     "760497": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.348Z",
+      "fetchedAt": "2026-06-28T17:36:11.461Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -96331,15 +96331,31 @@
       ],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -96409,22 +96425,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -96435,7 +96435,7 @@
     },
     "760498": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.329Z",
+      "fetchedAt": "2026-06-28T17:36:11.398Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -96685,15 +96685,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -96763,22 +96779,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -96789,7 +96789,7 @@
     },
     "760499": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.537Z",
+      "fetchedAt": "2026-06-28T17:36:11.470Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -97050,15 +97050,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -97128,22 +97144,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -97154,7 +97154,7 @@
     },
     "760500": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.392Z",
+      "fetchedAt": "2026-06-28T17:36:11.458Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -97404,15 +97404,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -97482,22 +97498,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -97508,7 +97508,7 @@
     },
     "760501": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.425Z",
+      "fetchedAt": "2026-06-28T17:36:11.464Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -97758,15 +97758,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -97836,22 +97852,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -97862,7 +97862,7 @@
     },
     "760502": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.476Z",
+      "fetchedAt": "2026-06-28T17:36:11.456Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -97902,15 +97902,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -97980,22 +97996,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98006,7 +98006,7 @@
     },
     "760503": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.490Z",
+      "fetchedAt": "2026-06-28T17:36:11.481Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98046,15 +98046,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98124,22 +98140,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98150,7 +98150,7 @@
     },
     "760504": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.730Z",
+      "fetchedAt": "2026-06-28T17:36:11.518Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98190,15 +98190,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98268,22 +98284,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98294,7 +98294,7 @@
     },
     "760505": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.608Z",
+      "fetchedAt": "2026-06-28T17:36:11.535Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98334,15 +98334,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98412,22 +98428,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98438,7 +98438,7 @@
     },
     "760506": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.535Z",
+      "fetchedAt": "2026-06-28T17:36:11.585Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98478,15 +98478,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98556,22 +98572,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98582,7 +98582,7 @@
     },
     "760507": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.663Z",
+      "fetchedAt": "2026-06-28T17:36:11.531Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98622,15 +98622,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98700,22 +98716,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98726,7 +98726,7 @@
     },
     "760508": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.640Z",
+      "fetchedAt": "2026-06-28T17:36:11.540Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98766,15 +98766,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98844,22 +98860,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -98870,7 +98870,7 @@
     },
     "760509": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.635Z",
+      "fetchedAt": "2026-06-28T17:36:11.542Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -98910,15 +98910,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -98988,22 +99004,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99014,7 +99014,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.648Z",
+      "fetchedAt": "2026-06-28T17:36:11.662Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99054,15 +99054,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99132,22 +99148,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99158,7 +99158,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.792Z",
+      "fetchedAt": "2026-06-28T17:36:11.714Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99198,15 +99198,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99276,22 +99292,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99302,7 +99302,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.962Z",
+      "fetchedAt": "2026-06-28T17:36:11.608Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99342,15 +99342,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99420,22 +99436,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99446,7 +99446,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.729Z",
+      "fetchedAt": "2026-06-28T17:36:11.617Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99486,15 +99486,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99564,22 +99580,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99590,7 +99590,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.746Z",
+      "fetchedAt": "2026-06-28T17:36:11.701Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99630,15 +99630,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99708,22 +99724,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99734,7 +99734,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.766Z",
+      "fetchedAt": "2026-06-28T17:36:11.668Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99774,15 +99774,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99852,22 +99868,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -99878,7 +99878,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:00.807Z",
+      "fetchedAt": "2026-06-28T17:36:11.710Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -99918,15 +99918,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -99996,22 +100012,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -100022,7 +100022,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-06-28T16:12:01.075Z",
+      "fetchedAt": "2026-06-28T17:36:11.692Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -100062,15 +100062,31 @@
       "videos": [],
       "news": [
         {
+          "id": "49207806",
+          "headline": "Uruguay, Man United's Manuel Ugarte suffers knee ligament injury",
+          "description": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0628/r1681045_1296x729_16-9.jpg",
+          "imageAlt": "Manuel Ugarte [1296x729]",
+          "credit": "Photo by Alfredo ESTRELLA / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+          "publishedAt": "2026-06-28T17:09:17Z",
+          "updatedAt": "2026-06-28T17:09:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49207302",
-          "headline": "France, Argentina top World Cup odds; U.S. puts sportsbooks at risk",
+          "headline": "France, Argentina top World Cup odds; U.S. put sportsbooks at risk",
           "description": "Star-powered France and Argentina top the odds board to win the World Cup as the tournament moves into the knockout stage, while the United States' positive momentum will have sportsbooks sweating more with each game they win.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0526/r1663696_1296x729_16-9.jpg",
           "imageAlt": "World Cup trophy [1296x729]",
           "credit": "Isaiah Vazquez - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/sports-betting/story/_/id/49207302/france-argentina-top-world-cup-odds-us-puts-sportsbooks-risk",
-          "publishedAt": "2026-06-28T16:06:57Z",
-          "updatedAt": "2026-06-28T16:06:57Z",
+          "publishedAt": "2026-06-28T16:51:13Z",
+          "updatedAt": "2026-06-28T16:51:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -100135,22 +100151,6 @@
           "link": "https://www.espn.com/espn/story/_/id/49195887/bafana-world-cup-clash-canada-change-south-africa-football-trajectory",
           "publishedAt": "2026-06-28T14:56:27Z",
           "updatedAt": "2026-06-28T14:56:27Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49201916",
-          "headline": "Yaya Sithole's redemption arc key to South Africa's recovery from disastrous start at FIFA World Cup",
-          "description": "Yaya Sithole could have been forgiven for questioning whether he was in a waking nightmare midway through his first ever FIFA World Cup game, for South Africa against Mexico on July 11.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0627/r1680739_1296x729_16-9.jpg",
-          "imageAlt": "\"Everyone back home is buzzing, they won't be sleeping. We didn't have a good start, but it's not how you start, it's how you finish.\" - Yaya Sithole.",
-          "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/story/_/id/49201916/yaya-sithole-redemption-arc-key-south-africa-recovery-disastrous-start-fifa-world-cup",
-          "publishedAt": "2026-06-28T14:55:43Z",
-          "updatedAt": "2026-06-28T14:55:43Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
