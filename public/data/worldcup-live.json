@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-03T17:04:09.541Z",
-    "startedAt": "2026-07-03T17:04:05.648Z",
+    "fetchedAt": "2026-07-03T18:39:43.198Z",
+    "startedAt": "2026-07-03T18:39:41.311Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -2994,16 +2994,18 @@
       "matchday": 13801,
       "home": "628",
       "away": "2620",
-      "score": "-",
-      "status": "未开始",
+      "score": "0 - 1",
+      "status": "进行中",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
       "weather": "天气数据待接入",
-      "timeElapsed": "Scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "timeElapsed": "40'",
+      "homeScore": 0,
+      "awayScore": 1,
       "homeScorers": [],
-      "awayScorers": []
+      "awayScorers": [
+        "E. Ashour"
+      ]
     },
     {
       "id": "760500",
@@ -4342,6 +4344,15 @@
       "shots": 4
     },
     {
+      "name": "E. Ashour",
+      "country": "2620",
+      "team": "埃及",
+      "goals": 2,
+      "assists": 0,
+      "rating": 7.8,
+      "shots": 4
+    },
+    {
       "name": "E. Mahmic",
       "country": "452",
       "team": "波黑",
@@ -4511,15 +4522,6 @@
       "assists": 0,
       "rating": 7.8,
       "shots": 4
-    },
-    {
-      "name": "A. Al-Amri",
-      "country": "655",
-      "team": "沙特阿拉伯",
-      "goals": 1,
-      "assists": 0,
-      "rating": 7.4,
-      "shots": 2
     }
   ],
   "teamStats": [
@@ -5734,21 +5736,21 @@
       "odds": []
     },
     "760499": {
-      "home": 26.4,
-      "draw": 33.3,
-      "away": 40.3,
+      "home": 8.5,
+      "draw": 26.4,
+      "away": 65.2,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "26.5%",
-          "draw": "33.5%",
-          "away": "40.5%",
-          "homeProbability": 0.265,
-          "drawProbability": 0.335,
-          "awayProbability": 0.405,
+          "home": "8.50%",
+          "draw": "26.5%",
+          "away": "65.5%",
+          "homeProbability": 0.085,
+          "drawProbability": 0.265,
+          "awayProbability": 0.655,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-aus-egy-2026-07-03",
           "eventUrl": "https://polymarket.com/event/fifwc-aus-egy-2026-07-03",
@@ -5803,19 +5805,19 @@
       ]
     },
     "760502": {
-      "home": 19.3,
+      "home": 21,
       "draw": 27.4,
-      "away": 53.4,
+      "away": 51.6,
       "model": "ESPN / DraftKings moneyline 隐含概率",
       "trend": "ESPN odds",
       "odds": [
         {
           "book": "DraftKings",
           "source": "espn",
-          "home": "4.90",
+          "home": "4.50",
           "draw": "3.45",
-          "away": "1.77",
-          "spread": "MAR -130"
+          "away": "1.83",
+          "spread": "MAR -120"
         }
       ]
     },
@@ -5854,9 +5856,9 @@
       ]
     },
     "760505": {
-      "home": 30,
-      "draw": 30.5,
-      "away": 39.4,
+      "home": 30.3,
+      "draw": 29.9,
+      "away": 39.8,
       "model": "ESPN / DraftKings moneyline 隐含概率",
       "trend": "ESPN odds",
       "odds": [
@@ -5864,43 +5866,43 @@
           "book": "DraftKings",
           "source": "espn",
           "home": "3.15",
-          "draw": "3.10",
+          "draw": "3.20",
           "away": "2.40",
           "spread": "ENG +140"
         }
       ]
     },
     "760506": {
-      "home": 23.9,
-      "draw": 26.6,
-      "away": 49.5,
+      "home": 23.6,
+      "draw": 25.9,
+      "away": 50.5,
       "model": "ESPN / DraftKings moneyline 隐含概率",
       "trend": "ESPN odds",
       "odds": [
         {
           "book": "DraftKings",
           "source": "espn",
-          "home": "3.95",
-          "draw": "3.55",
-          "away": "1.91",
-          "spread": "ESP -110"
+          "home": "4.00",
+          "draw": "3.65",
+          "away": "1.87",
+          "spread": "ESP -115"
         }
       ]
     },
     "760507": {
-      "home": 38,
+      "home": 36.7,
       "draw": 28,
-      "away": 34,
+      "away": 35.3,
       "model": "ESPN / DraftKings moneyline 隐含概率",
       "trend": "ESPN odds",
       "odds": [
         {
           "book": "DraftKings",
           "source": "espn",
-          "home": "2.50",
+          "home": "2.60",
           "draw": "3.40",
-          "away": "2.80",
-          "spread": "USA +150"
+          "away": "2.70",
+          "spread": "USA +160"
         }
       ]
     },
@@ -5987,6 +5989,38 @@
   },
   "news": [
     {
+      "id": "49243543",
+      "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+      "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+      "imageAlt": "Jordan Bos",
+      "credit": "Molly Darlington/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+      "publishedAt": "2026-07-03T18:32:09Z",
+      "updatedAt": "2026-07-03T18:32:09Z",
+      "source": "ESPN news",
+      "matchId": "760499",
+      "matchLabel": "澳大利亚 vs 埃及",
+      "stage": "32强",
+      "status": "进行中"
+    },
+    {
+      "id": "49255647",
+      "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+      "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+      "imageAlt": "Speed woe Portugal",
+      "credit": "IShowSpeed/YouTube",
+      "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+      "publishedAt": "2026-07-03T18:25:57Z",
+      "updatedAt": "2026-07-03T18:25:57Z",
+      "source": "ESPN news",
+      "matchId": "760499",
+      "matchLabel": "澳大利亚 vs 埃及",
+      "stage": "32强",
+      "status": "进行中"
+    },
+    {
       "id": "49259618",
       "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
       "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -6000,7 +6034,7 @@
       "matchId": "760499",
       "matchLabel": "",
       "stage": "32强",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49259509",
@@ -6016,7 +6050,7 @@
       "matchId": "760499",
       "matchLabel": "",
       "stage": "32强",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "48352807",
@@ -6032,23 +6066,7 @@
       "matchId": "760499",
       "matchLabel": "澳大利亚 vs 埃及",
       "stage": "32强",
-      "status": "未开始"
-    },
-    {
-      "id": "49258702",
-      "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-      "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-      "publishedAt": "2026-07-03T14:15:13Z",
-      "updatedAt": "2026-07-03T14:15:13Z",
-      "source": "ESPN news",
-      "matchId": "760499",
-      "matchLabel": "",
-      "stage": "32强",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49229842",
@@ -6545,26 +6563,10 @@
       "matchLabel": "",
       "stage": "32强",
       "status": "已结束"
-    },
-    {
-      "id": "49232870",
-      "headline": "Amad Diallo 'proud' after historic World Cup campaign with Ivory Coast",
-      "description": "Amad Diallo 'proud' after historic World Cup campaign with Ivory Coast",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0630/dm_260630_COM_SOC_Interview_Amad_Diallo_proud_after_historic_World_Cup_campaign_with_Ivory_Coast_2026062/dm_260630_COM_SOC_Interview_Amad_Diallo_proud_after_historic_World_Cup_campaign_with_Ivory_Coast_2026062.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49232870/amad-diallo-proud-historic-world-cup-campaign-ivory-coast",
-      "publishedAt": "2026-07-01T03:35:31Z",
-      "updatedAt": "2026-07-01T03:35:31Z",
-      "source": "ESPN news",
-      "matchId": "760491",
-      "matchLabel": "",
-      "stage": "32强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-03T17:04:09.541Z",
+    "updatedAt": "2026-07-03T18:39:43.198Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6639,11 +6641,11 @@
       },
       {
         "label": "实况照片",
-        "value": "81 场"
+        "value": "80 场"
       },
       {
         "label": "视频",
-        "value": "72 场"
+        "value": "71 场"
       },
       {
         "label": "新闻",
@@ -106025,51 +106027,810 @@
     },
     "760499": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.324Z",
+      "fetchedAt": "2026-07-03T18:39:41.762Z",
       "source": "ESPN summary",
-      "status": "Scheduled",
+      "status": "First Half",
       "lineups": {
         "home": {
           "team": "628",
           "teamName": "澳大利亚",
-          "formation": "待公布",
-          "status": "pending",
-          "starters": [],
-          "substitutes": []
+          "formation": "3-4-2-1",
+          "status": "official",
+          "starters": [
+            {
+              "id": "335240",
+              "name": "Patrick Beach",
+              "shortName": "P. Beach",
+              "jersey": "18",
+              "position": "G",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "207461",
+              "name": "Harry Souttar",
+              "shortName": "H. Souttar",
+              "jersey": "19",
+              "position": "CD",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "392320",
+              "name": "Lucas Herrington",
+              "shortName": "L. Herrington",
+              "jersey": "25",
+              "position": "CD-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "332081",
+              "name": "Alessandro Circati",
+              "shortName": "A. Circati",
+              "jersey": "3",
+              "position": "CD-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "241031",
+              "name": "Aiden O'Neill",
+              "shortName": "A. O'Neill",
+              "jersey": "13",
+              "position": "CM-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "178071",
+              "name": "Jackson Irvine",
+              "shortName": "J. Irvine",
+              "jersey": "22",
+              "position": "CM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "200414",
+              "name": "Aziz Behich",
+              "shortName": "A. Behich",
+              "jersey": "16",
+              "position": "LM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "328541",
+              "name": "Jordan Bos",
+              "shortName": "J. Bos",
+              "jersey": "5",
+              "position": "RM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "328535",
+              "name": "Nestory Irankunda",
+              "shortName": "N. Irankunda",
+              "jersey": "17",
+              "position": "F",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "260643",
+              "name": "Connor Metcalfe",
+              "shortName": "C. Metcalfe",
+              "jersey": "8",
+              "position": "CF-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "330259",
+              "name": "Cristian Volpato",
+              "shortName": "C. Volpato",
+              "jersey": "20",
+              "position": "CF-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            }
+          ],
+          "substitutes": [
+            {
+              "id": "276917",
+              "name": "Cameron Devlin",
+              "shortName": "C. Devlin",
+              "jersey": "14",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "227289",
+              "name": "Ajdin Hrustic",
+              "shortName": "A. Hrustic",
+              "jersey": "10",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "207350",
+              "name": "Cameron Burgess",
+              "shortName": "C. Burgess",
+              "jersey": "21",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "318429",
+              "name": "Nishan Velupillay",
+              "shortName": "N. Velupillay",
+              "jersey": "23",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "291697",
+              "name": "Kai Trewin",
+              "shortName": "K. Trewin",
+              "jersey": "15",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "159502",
+              "name": "Milos Degenek",
+              "shortName": "M. Degenek",
+              "jersey": "2",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "181707",
+              "name": "Awer Mabil",
+              "shortName": "A. Mabil",
+              "jersey": "11",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "302688",
+              "name": "Mohamed Toure",
+              "shortName": "M. Toure",
+              "jersey": "9",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "312261",
+              "name": "Tete Yengi",
+              "shortName": "T. Yengi",
+              "jersey": "26",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "172137",
+              "name": "Jason Geria",
+              "shortName": "J. Geria",
+              "jersey": "6",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "141438",
+              "name": "Mathew Ryan",
+              "shortName": "M. Ryan",
+              "jersey": "1",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "403528",
+              "name": "Paul Okon-Engstler",
+              "shortName": "P. Okon-Engstler",
+              "jersey": "24",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "159494",
+              "name": "Paul Izzo",
+              "shortName": "P. Izzo",
+              "jersey": "12",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            }
+          ]
         },
         "away": {
           "team": "2620",
           "teamName": "埃及",
-          "formation": "待公布",
-          "status": "pending",
-          "starters": [],
-          "substitutes": []
+          "formation": "4-4-2",
+          "status": "official",
+          "starters": [
+            {
+              "id": "308915",
+              "name": "Mostafa Shoubir",
+              "shortName": "M. Shoubir",
+              "jersey": "23",
+              "position": "G",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "187571",
+              "name": "Ramy Rabia",
+              "shortName": "R. Rabia",
+              "jersey": "5",
+              "position": "CD-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "265417",
+              "name": "Yasser Ibrahim",
+              "shortName": "Y. Ibrahim",
+              "jersey": "2",
+              "position": "CD-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "216119",
+              "name": "Karim Hafez",
+              "shortName": "K. Hafez",
+              "jersey": "15",
+              "position": "LB",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "119993",
+              "name": "Mohamed Hany",
+              "shortName": "M. Hany",
+              "jersey": "3",
+              "position": "RB",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "357112",
+              "name": "Marawan Attia",
+              "shortName": "M. Attia",
+              "jersey": "19",
+              "position": "CM-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "285057",
+              "name": "Hamdy Fathy",
+              "shortName": "H. Fathy",
+              "jersey": "14",
+              "position": "CM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "303745",
+              "name": "Omar Marmoush",
+              "shortName": "O. Marmoush",
+              "jersey": "22",
+              "position": "LM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "299365",
+              "name": "Emam Ashour",
+              "shortName": "E. Ashour",
+              "jersey": "8",
+              "position": "RM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "1",
+              "shots": "2",
+              "passes": ""
+            },
+            {
+              "id": "378495",
+              "name": "Mostafa Zico",
+              "shortName": "M. Zico",
+              "jersey": "11",
+              "position": "CF-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "173896",
+              "name": "Mohamed Salah",
+              "shortName": "M. Salah",
+              "jersey": "10",
+              "position": "CF-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            }
+          ],
+          "substitutes": [
+            {
+              "id": "265426",
+              "name": "Mahdy Soliman",
+              "shortName": "M. Soliman",
+              "jersey": "16",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "195154",
+              "name": "Zizo",
+              "shortName": "Zizo",
+              "jersey": "25",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "299619",
+              "name": "Ibrahim Adel",
+              "shortName": "I. Adel",
+              "jersey": "20",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "420953",
+              "name": "Mohamed Alaa",
+              "shortName": "M. Alaa",
+              "jersey": "26",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "393565",
+              "name": "Tarek Alaa",
+              "shortName": "T. Alaa",
+              "jersey": "24",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "308926",
+              "name": "Hossam Abdelmaguid",
+              "shortName": "H. Abdelmaguid",
+              "jersey": "4",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "276440",
+              "name": "Haissem Hassan",
+              "shortName": "H. Hassan",
+              "jersey": "12",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "205212",
+              "name": "Mohamed El Shenawy",
+              "shortName": "M. El Shenawy",
+              "jersey": "1",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "399200",
+              "name": "Hamza Abdelkarim",
+              "shortName": "H. Abdelkarim",
+              "jersey": "9",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "314444",
+              "name": "Mahmoud Saber",
+              "shortName": "M. Saber",
+              "jersey": "21",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "287177",
+              "name": "Nabil Donga",
+              "shortName": "N. Donga",
+              "jersey": "18",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "157825",
+              "name": "Trézéguet",
+              "shortName": "Trézéguet",
+              "jersey": "7",
+              "position": "SUB",
+              "starter": false,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            }
+          ]
         }
       },
       "stats": [
         {
-          "key": "goalDifference",
-          "label": "净胜球",
+          "key": "foulsCommitted",
+          "label": "犯规",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "key": "yellowCards",
+          "label": "黄牌",
           "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "redCards",
+          "label": "红牌",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "offsides",
+          "label": "越位",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "wonCorners",
+          "label": "角球",
+          "home": "3",
+          "away": "0"
+        },
+        {
+          "key": "saves",
+          "label": "扑救",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "possessionPct",
+          "label": "控球率",
+          "home": "38.8",
+          "away": "61.2"
+        },
+        {
+          "key": "totalShots",
+          "label": "射门",
+          "home": "4",
+          "away": "3"
+        },
+        {
+          "key": "shotsOnTarget",
+          "label": "射正",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "key": "shotPct",
+          "label": "On Target %",
+          "home": "0.3",
+          "away": "0.3"
+        },
+        {
+          "key": "penaltyKickGoals",
+          "label": "Penalty Goals",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "penaltyKickShots",
+          "label": "Penalty Kicks Taken",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "accuratePasses",
+          "label": "成功传球",
+          "home": "109",
+          "away": "198"
+        },
+        {
+          "key": "totalPasses",
+          "label": "传球",
+          "home": "135",
+          "away": "225"
+        },
+        {
+          "key": "passPct",
+          "label": "传球成功率",
+          "home": "0.8",
+          "away": "0.9"
+        },
+        {
+          "key": "accurateCrosses",
+          "label": "Accurate Crosses",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "key": "totalCrosses",
+          "label": "Crosses",
+          "home": "7",
+          "away": "1"
+        },
+        {
+          "key": "crossPct",
+          "label": "Cross %",
+          "home": "0.4",
+          "away": "1.0"
+        },
+        {
+          "key": "totalLongBalls",
+          "label": "Long Balls",
+          "home": "12",
+          "away": "25"
+        },
+        {
+          "key": "accurateLongBalls",
+          "label": "Accurate Long Balls",
+          "home": "3",
+          "away": "12"
+        },
+        {
+          "key": "longballPct",
+          "label": "Long Balls %",
+          "home": "0.3",
+          "away": "0.5"
+        },
+        {
+          "key": "blockedShots",
+          "label": "Blocked Shots",
+          "home": "1",
           "away": "2"
         },
         {
-          "key": "totalGoals",
-          "label": "进球",
-          "home": "2",
-          "away": "5"
+          "key": "effectiveTackles",
+          "label": "Effective Tackles",
+          "home": "5",
+          "away": "4"
         },
         {
-          "key": "goalAssists",
-          "label": "助攻",
-          "home": "1",
-          "away": "5"
+          "key": "totalTackles",
+          "label": "Tackles",
+          "home": "6",
+          "away": "7"
         },
         {
-          "key": "goalsConceded",
-          "label": "失球",
+          "key": "tacklePct",
+          "label": "Tackle %",
+          "home": "0.8",
+          "away": "0.6"
+        },
+        {
+          "key": "interceptions",
+          "label": "Interceptions",
           "home": "2",
-          "away": "3"
+          "away": "1"
+        },
+        {
+          "key": "effectiveClearance",
+          "label": "Effective Clearances",
+          "home": "2",
+          "away": "7"
+        },
+        {
+          "key": "totalClearance",
+          "label": "Clearances",
+          "home": "2",
+          "away": "7"
         }
       ],
       "leaders": [
@@ -106078,38 +106839,31 @@
           "teamName": "澳大利亚",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Connor Metcalfe",
-              "value": "Matches: 3, Goals: 1",
-              "summary": "3 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Paul Okon-Engstler",
-              "value": "Matches: 3, Assists: 1",
-              "summary": "3 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Jordan Bos",
-              "value": "5",
-              "summary": ""
+              "player": "Cristian Volpato",
+              "value": "1",
+              "summary": "0 SOG, 0.02 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Harry Souttar",
-              "value": "122",
-              "summary": ""
+              "player": "Aiden O'Neill",
+              "value": "17",
+              "summary": "17 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Jordan Bos",
+              "value": "3",
+              "summary": "1 TKLW, 3 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Patrick Beach",
-              "value": "11",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -106119,39 +106873,32 @@
           "teamName": "埃及",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Mostafa Zico",
-              "value": "Matches: 3, Goals: 1",
-              "summary": "3 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Mohamed Salah",
-              "value": "Matches: 3, Assists: 2",
-              "summary": "3 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Omar Marmoush",
-              "value": "9",
-              "summary": ""
+              "player": "Emam Ashour",
+              "value": "2",
+              "summary": "1 SOG, 0.28 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Marawan Attia",
-              "value": "172",
-              "summary": ""
+              "value": "29",
+              "summary": "35 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Ramy Rabia",
+              "value": "4",
+              "summary": "1 TKLW, 2 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Mostafa Shoubir",
-              "value": "9",
-              "summary": ""
+              "value": "1",
+              "summary": "1 SOGA, 0.26 xGC"
             }
           ]
         }
@@ -106282,47 +107029,41 @@
           ]
         }
       ],
-      "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628.jpg",
-        "alt": "Socceroos attacker Connor Metcalfe believes his role in the side is be the first line of defence alongside his fellow creative forwards.",
-        "caption": "Metcalfe provides 'calmness and clarity'",
-        "credit": "",
-        "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49209435/metcalfe-provides-calmness-clarity"
-      },
-      "videos": [
-        {
-          "id": "49209435",
-          "headline": "Metcalfe provides 'calmness and clarity'",
-          "description": "Socceroos attacker Connor Metcalfe believes his role in the side is be the first line of defence alongside his fellow creative forwards.",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49209435/metcalfe-provides-calmness-clarity",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628/dm_260628_Soccer_PressConference_Metcalfe_provides_Calmness_and_Clarity_20260628_720p30_2896k.mp4",
-          "duration": 76,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49209789",
-          "headline": "Metcalfe: 'A lot of inner anger from the season'",
-          "description": "Socceroos attacker Connor Metcalfe is enjoying the moment and the release of playing at the world cup after limited minutes at FC St. Pauli",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0628/dm_260628_Soccer_PressConference_Metcalfe_A_lot_of_inner_anger_from_the_season_20260628/dm_260628_Soccer_PressConference_Metcalfe_A_lot_of_inner_anger_from_the_season_20260628.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49209789/lot-inner-anger-season",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0628/dm_260628_Soccer_PressConference_Metcalfe_A_lot_of_inner_anger_from_the_season_20260628/dm_260628_Soccer_PressConference_Metcalfe_A_lot_of_inner_anger_from_the_season_20260628_720p30_2896k.mp4",
-          "duration": 68,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49209984",
-          "headline": "Herrington focused on world cup amid Barcelona interest",
-          "description": "Socceroos defender Lucas Herrington is not focused on speculation linking him with a move to Spanish giants Barcelona, trying to stay 'present' at the World Cup.",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0628/dm_260628_Soccer_PressConference_Herrington_focused_on_world_cup_amid_Barcelona_interest_20260828/dm_260628_Soccer_PressConference_Herrington_focused_on_world_cup_amid_Barcelona_interest_20260828.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49209984/herrington-focused-world-cup-amid-barcelona-interest",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0628/dm_260628_Soccer_PressConference_Herrington_focused_on_world_cup_amid_Barcelona_interest_20260828/dm_260628_Soccer_PressConference_Herrington_focused_on_world_cup_amid_Barcelona_interest_20260828_720p30_2896k.mp4",
-          "duration": 59,
-          "source": "ESPN video"
-        }
-      ],
+      "media": null,
+      "videos": [],
       "news": [
+        {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "760499",
+          "matchLabel": "澳大利亚 vs 埃及",
+          "stage": "32强",
+          "status": "进行中"
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "760499",
+          "matchLabel": "澳大利亚 vs 埃及",
+          "stage": "32强",
+          "status": "进行中"
+        },
         {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -106385,50 +107126,18 @@
           "matchId": "760499",
           "matchLabel": "澳大利亚 vs 埃及",
           "stage": "32强",
-          "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "status": "进行中"
         }
       ],
       "gameInfo": {
         "attendance": "",
-        "referee": "",
+        "referee": "Gustavo Tejera",
         "venue": "AT&T Stadium"
       }
     },
     "760500": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.354Z",
+      "fetchedAt": "2026-07-03T18:39:41.800Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -106726,6 +107435,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -106788,38 +107529,6 @@
           "matchLabel": "阿根廷 vs 佛得角",
           "stage": "32强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "760500",
-          "matchLabel": "阿根廷 vs 佛得角",
-          "stage": "32强",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -106830,7 +107539,7 @@
     },
     "760501": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.398Z",
+      "fetchedAt": "2026-07-03T18:39:41.849Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -107098,6 +107807,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -107160,38 +107901,6 @@
           "matchLabel": "哥伦比亚 vs 加纳",
           "stage": "32强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -107202,7 +107911,7 @@
     },
     "760502": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.393Z",
+      "fetchedAt": "2026-07-03T18:39:41.894Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -107480,6 +108189,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -107542,38 +108283,6 @@
           "matchLabel": "加拿大 vs 摩洛哥",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -107584,7 +108293,7 @@
     },
     "760503": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.384Z",
+      "fetchedAt": "2026-07-03T18:39:41.932Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -107903,6 +108612,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -107965,38 +108706,6 @@
           "matchLabel": "巴拉圭 vs 法国",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -108007,7 +108716,7 @@
     },
     "760504": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.368Z",
+      "fetchedAt": "2026-07-03T18:39:41.916Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -108306,6 +109015,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -108368,38 +109109,6 @@
           "matchLabel": "巴西 vs 挪威",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -108410,7 +109119,7 @@
     },
     "760505": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.444Z",
+      "fetchedAt": "2026-07-03T18:39:41.879Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -108719,6 +109428,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -108781,38 +109522,6 @@
           "matchLabel": "墨西哥 vs 英格兰",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -108823,7 +109532,7 @@
     },
     "760506": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.616Z",
+      "fetchedAt": "2026-07-03T18:39:42.016Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -109142,6 +109851,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -109204,38 +109945,6 @@
           "matchLabel": "葡萄牙 vs 西班牙",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -109246,7 +109955,7 @@
     },
     "760507": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.473Z",
+      "fetchedAt": "2026-07-03T18:39:41.902Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -109595,6 +110304,38 @@
       ],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -109657,38 +110398,6 @@
           "matchLabel": "美国 vs 比利时",
           "stage": "16强",
           "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -109699,7 +110408,7 @@
     },
     "760508": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.629Z",
+      "fetchedAt": "2026-07-03T18:39:41.994Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -109862,6 +110571,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -109924,38 +110665,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -109966,7 +110675,7 @@
     },
     "760509": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.481Z",
+      "fetchedAt": "2026-07-03T18:39:42.088Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110006,6 +110715,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110068,38 +110809,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110110,7 +110819,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.659Z",
+      "fetchedAt": "2026-07-03T18:39:41.975Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110150,6 +110859,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110212,38 +110953,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110254,7 +110963,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.626Z",
+      "fetchedAt": "2026-07-03T18:39:42.216Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110294,6 +111003,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110356,38 +111097,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110398,7 +111107,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.705Z",
+      "fetchedAt": "2026-07-03T18:39:42.376Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110438,6 +111147,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110500,38 +111241,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110542,7 +111251,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.600Z",
+      "fetchedAt": "2026-07-03T18:39:42.053Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110582,6 +111291,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110644,38 +111385,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110686,7 +111395,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.752Z",
+      "fetchedAt": "2026-07-03T18:39:42.117Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110726,6 +111435,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110788,38 +111529,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110830,7 +111539,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.788Z",
+      "fetchedAt": "2026-07-03T18:39:42.109Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110870,6 +111579,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -110932,38 +111673,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110974,7 +111683,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.925Z",
+      "fetchedAt": "2026-07-03T18:39:42.235Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111014,6 +111723,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -111076,38 +111817,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -111118,7 +111827,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-03T17:04:06.735Z",
+      "fetchedAt": "2026-07-03T18:39:42.167Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111158,6 +111867,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49255647",
+          "headline": "World Cup Daily live: Travel chaos sees Speed miss Ronaldo game; Australia face Egypt",
+          "description": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683730_832x468_16-9.png",
+          "imageAlt": "Speed woe Portugal",
+          "credit": "IShowSpeed/YouTube",
+          "link": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+          "publishedAt": "2026-07-03T18:25:57Z",
+          "updatedAt": "2026-07-03T18:25:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49243543",
+          "headline": "Socceroos vs. Egypt live: Australia chasing after Ashour's early goal",
+          "description": "It's all on the line as the Socceroos take on Egypt in Dallas in the round of 32 at the 2026 FIFA World Cup. Follow the action with ESPN live from Dallas, Texas.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683935_1296x729_16-9.jpg",
+          "imageAlt": "Jordan Bos",
+          "credit": "Molly Darlington/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49243543/socceroos-vs-egypt-live-world-cup-history-beckons-australia",
+          "publishedAt": "2026-07-03T18:32:09Z",
+          "updatedAt": "2026-07-03T18:32:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49259618",
           "headline": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
           "description": "Hutchison: Messi will be thinking of the Golden Boot vs. Cape Verde",
@@ -111215,38 +111956,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/48352807/world-cup-2026-kit-ranking-canada-mexico-united-states-argentina-australia-brazil-england-france-germany-portugal-spain",
           "publishedAt": "2026-07-03T16:07:32Z",
           "updatedAt": "2026-07-03T16:07:32Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as they exit the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how their run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0624/r1678956_1296x729_16-9.jpg",
-          "imageAlt": "Bosnia-Herzegovina players celebrate after scoring a goal against Qatar at the World Cup.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-03T15:11:17Z",
-          "updatedAt": "2026-07-03T15:11:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49258702",
-          "headline": "Cape Verde head coach has 'belief' in a victory vs. Argentina",
-          "description": "Cape Verde head coach has 'belief' in a victory vs. Argentina.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0703/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina/dm_260703_Cape_Verde_head_coach_has_belief_in_a_victory_vs_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49258702/cape-verde-head-coach-belief-victory-vs-argentina",
-          "publishedAt": "2026-07-03T14:15:13Z",
-          "updatedAt": "2026-07-03T14:15:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
