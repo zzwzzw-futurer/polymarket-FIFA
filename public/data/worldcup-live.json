@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-04T14:50:42.775Z",
-    "startedAt": "2026-07-04T14:50:39.402Z",
+    "fetchedAt": "2026-07-04T16:02:56.115Z",
+    "startedAt": "2026-07-04T16:02:51.776Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5754,21 +5754,21 @@
       "odds": []
     },
     "760502": {
-      "home": 15.4,
-      "draw": 28.4,
-      "away": 56.2,
+      "home": 17.6,
+      "draw": 28.6,
+      "away": 53.8,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "15.5%",
+          "home": "17.5%",
           "draw": "28.5%",
-          "away": "56.5%",
-          "homeProbability": 0.155,
+          "away": "53.5%",
+          "homeProbability": 0.175,
           "drawProbability": 0.285,
-          "awayProbability": 0.565,
+          "awayProbability": 0.535,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-can-mar-2026-07-04",
           "eventUrl": "https://polymarket.com/event/fifwc-can-mar-2026-07-04",
@@ -5869,19 +5869,19 @@
       ]
     },
     "760507": {
-      "home": 33.3,
-      "draw": 29.4,
-      "away": 37.3,
+      "home": 34,
+      "draw": 29.1,
+      "away": 36.9,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "33.5%",
+          "home": "34.5%",
           "draw": "29.5%",
           "away": "37.5%",
-          "homeProbability": 0.335,
+          "homeProbability": 0.345,
           "drawProbability": 0.295,
           "awayProbability": 0.375,
           "spread": "全场赛果预测市场",
@@ -6011,11 +6011,27 @@
       "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
       "credit": "Illustration by ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-      "publishedAt": "2026-07-04T14:45:09Z",
-      "updatedAt": "2026-07-04T14:45:09Z",
+      "publishedAt": "2026-07-04T16:01:19Z",
+      "updatedAt": "2026-07-04T16:01:19Z",
       "source": "ESPN news",
       "matchId": "760502",
       "matchLabel": "",
+      "stage": "16强",
+      "status": "未开始"
+    },
+    {
+      "id": "49265379",
+      "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+      "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+      "imageAlt": "Cape Verde Taylor Swift",
+      "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+      "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+      "publishedAt": "2026-07-04T15:06:42Z",
+      "updatedAt": "2026-07-04T15:06:42Z",
+      "source": "ESPN news",
+      "matchId": "760502",
+      "matchLabel": "加拿大 vs 摩洛哥",
       "stage": "16强",
       "status": "未开始"
     },
@@ -6032,22 +6048,6 @@
       "source": "ESPN news",
       "matchId": "760502",
       "matchLabel": "",
-      "stage": "16强",
-      "status": "未开始"
-    },
-    {
-      "id": "49265379",
-      "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-      "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-      "imageAlt": "Cape Verde Taylor Swift",
-      "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-      "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-      "publishedAt": "2026-07-04T14:21:13Z",
-      "updatedAt": "2026-07-04T14:21:13Z",
-      "source": "ESPN news",
-      "matchId": "760502",
-      "matchLabel": "加拿大 vs 摩洛哥",
       "stage": "16强",
       "status": "未开始"
     },
@@ -6581,7 +6581,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-04T14:50:42.775Z",
+    "updatedAt": "2026-07-04T16:02:56.115Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -109424,7 +109424,7 @@
     },
     "760502": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.744Z",
+      "fetchedAt": "2026-07-04T16:02:52.336Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -109723,6 +109723,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "760502",
+          "matchLabel": "加拿大 vs 摩洛哥",
+          "stage": "16强",
+          "status": "未开始"
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -109739,22 +109755,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "760502",
-          "matchLabel": "加拿大 vs 摩洛哥",
-          "stage": "16强",
-          "status": "未开始"
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -109762,8 +109762,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -109827,7 +109827,7 @@
     },
     "760503": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.737Z",
+      "fetchedAt": "2026-07-04T16:02:52.289Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110146,6 +110146,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -110162,22 +110178,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -110185,8 +110185,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -110250,7 +110250,7 @@
     },
     "760504": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.767Z",
+      "fetchedAt": "2026-07-04T16:02:52.396Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110559,6 +110559,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -110575,22 +110591,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -110598,8 +110598,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T15:46:13Z",
+          "updatedAt": "2026-07-04T15:46:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -110663,7 +110663,7 @@
     },
     "760505": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.761Z",
+      "fetchedAt": "2026-07-04T16:02:52.356Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111002,6 +111002,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -111018,22 +111034,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -111041,8 +111041,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T15:46:13Z",
+          "updatedAt": "2026-07-04T15:46:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -111106,7 +111106,7 @@
     },
     "760506": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.777Z",
+      "fetchedAt": "2026-07-04T16:02:52.388Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111425,6 +111425,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -111441,22 +111457,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -111464,8 +111464,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T15:46:13Z",
+          "updatedAt": "2026-07-04T15:46:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -111529,7 +111529,7 @@
     },
     "760507": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.771Z",
+      "fetchedAt": "2026-07-04T16:02:52.462Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111878,6 +111878,22 @@
       ],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -111894,22 +111910,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -111917,8 +111917,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -111982,7 +111982,7 @@
     },
     "760508": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.785Z",
+      "fetchedAt": "2026-07-04T16:02:52.479Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112253,6 +112253,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -112269,22 +112285,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -112292,8 +112292,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T15:46:13Z",
+          "updatedAt": "2026-07-04T15:46:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -112357,7 +112357,7 @@
     },
     "760509": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.781Z",
+      "fetchedAt": "2026-07-04T16:02:52.373Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112618,6 +112618,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -112634,22 +112650,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -112657,8 +112657,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T15:46:13Z",
+          "updatedAt": "2026-07-04T15:46:13Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -112722,7 +112722,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.793Z",
+      "fetchedAt": "2026-07-04T16:02:52.429Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112762,6 +112762,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -112778,22 +112794,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -112801,8 +112801,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -112866,7 +112866,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.800Z",
+      "fetchedAt": "2026-07-04T16:02:52.456Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112906,6 +112906,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -112922,22 +112938,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -112945,8 +112945,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113010,7 +113010,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.815Z",
+      "fetchedAt": "2026-07-04T16:02:52.613Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113050,6 +113050,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113066,22 +113082,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113089,8 +113089,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113154,7 +113154,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.820Z",
+      "fetchedAt": "2026-07-04T16:02:52.495Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113194,6 +113194,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113210,22 +113226,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113233,8 +113233,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113298,7 +113298,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.819Z",
+      "fetchedAt": "2026-07-04T16:02:52.499Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113338,6 +113338,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113354,22 +113370,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113377,8 +113377,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113442,7 +113442,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.817Z",
+      "fetchedAt": "2026-07-04T16:02:52.620Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113482,6 +113482,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113498,22 +113514,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113521,8 +113521,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113586,7 +113586,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.829Z",
+      "fetchedAt": "2026-07-04T16:02:52.660Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113626,6 +113626,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113642,22 +113658,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113665,8 +113665,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -113730,7 +113730,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T14:50:39.835Z",
+      "fetchedAt": "2026-07-04T16:02:52.559Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113770,6 +113770,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49265379",
+          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
+          "imageAlt": "Cape Verde Taylor Swift",
+          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
+          "publishedAt": "2026-07-04T15:06:42Z",
+          "updatedAt": "2026-07-04T15:06:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49268221",
           "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
           "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
@@ -113786,22 +113802,6 @@
           "status": ""
         },
         {
-          "id": "49265379",
-          "headline": "World Cup Daily live: Cape Verde overshadow Taylor Swift-Travis Kelce wedding; Canada face Morocco in R16",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684268_2_1296x729_16-9.jpg",
-          "imageAlt": "Cape Verde Taylor Swift",
-          "credit": "CHARLY TRIBALLEAU, AFP via Getty Images/Leonardo Fernandez, FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france",
-          "publishedAt": "2026-07-04T14:21:13Z",
-          "updatedAt": "2026-07-04T14:21:13Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49251656",
           "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
           "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
@@ -113809,8 +113809,8 @@
           "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
           "credit": "Illustration by ESPN",
           "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T14:45:09Z",
-          "updatedAt": "2026-07-04T14:45:09Z",
+          "publishedAt": "2026-07-04T16:01:19Z",
+          "updatedAt": "2026-07-04T16:01:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
