@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-04T17:19:28.522Z",
-    "startedAt": "2026-07-04T17:19:24.508Z",
+    "fetchedAt": "2026-07-04T18:32:31.096Z",
+    "startedAt": "2026-07-04T18:32:26.632Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3059,16 +3059,18 @@
       "matchday": 13800,
       "home": "206",
       "away": "2869",
-      "score": "0 - 0",
+      "score": "0 - 1",
       "status": "进行中",
       "venue": "NRG Stadium",
       "city": "Houston, Texas",
       "weather": "天气数据待接入",
-      "timeElapsed": "18'",
+      "timeElapsed": "68'",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homeScorers": [],
-      "awayScorers": []
+      "awayScorers": [
+        "A. Ounahi"
+      ]
     },
     {
       "id": "760503",
@@ -5754,21 +5756,21 @@
       "odds": []
     },
     "760502": {
-      "home": 24.6,
-      "draw": 32.7,
-      "away": 42.7,
+      "home": 4.4,
+      "draw": 23.2,
+      "away": 72.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "24.5%",
-          "draw": "32.5%",
-          "away": "42.5%",
-          "homeProbability": 0.245,
-          "drawProbability": 0.325,
-          "awayProbability": 0.425,
+          "home": "4.50%",
+          "draw": "23.5%",
+          "away": "73.5%",
+          "homeProbability": 0.045,
+          "drawProbability": 0.235,
+          "awayProbability": 0.735,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-can-mar-2026-07-04",
           "eventUrl": "https://polymarket.com/event/fifwc-can-mar-2026-07-04",
@@ -6004,15 +6006,47 @@
   },
   "news": [
     {
-      "id": "49251656",
-      "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-      "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-      "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-      "credit": "Illustration by ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-      "publishedAt": "2026-07-04T16:50:18Z",
-      "updatedAt": "2026-07-04T16:50:18Z",
+      "id": "49270095",
+      "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+      "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+      "publishedAt": "2026-07-04T18:26:36Z",
+      "updatedAt": "2026-07-04T18:26:36Z",
+      "source": "ESPN news",
+      "matchId": "760502",
+      "matchLabel": "",
+      "stage": "16强",
+      "status": "进行中"
+    },
+    {
+      "id": "49269921",
+      "headline": "Ream: Pochettino has embraced American culture during World Cup",
+      "description": "Ream: Pochettino has embraced American culture during World Cup",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+      "publishedAt": "2026-07-04T18:09:32Z",
+      "updatedAt": "2026-07-04T18:09:32Z",
+      "source": "ESPN news",
+      "matchId": "760502",
+      "matchLabel": "",
+      "stage": "16强",
+      "status": "进行中"
+    },
+    {
+      "id": "49269592",
+      "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+      "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+      "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+      "credit": "Photo by Rich Graessle/Icon Sportswire",
+      "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+      "publishedAt": "2026-07-04T17:22:34Z",
+      "updatedAt": "2026-07-04T17:22:34Z",
       "source": "ESPN news",
       "matchId": "760502",
       "matchLabel": "",
@@ -6062,26 +6096,10 @@
       "publishedAt": "2026-07-04T14:37:00Z",
       "updatedAt": "2026-07-04T14:37:00Z",
       "source": "ESPN news",
-      "matchId": "760502",
+      "matchId": "760505",
       "matchLabel": "",
       "stage": "16强",
-      "status": "进行中"
-    },
-    {
-      "id": "49247972",
-      "headline": "2026 World Cup: Best bets for the round of 16",
-      "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-      "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-      "credit": "FIFA via Getty Images",
-      "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-      "publishedAt": "2026-07-04T14:13:09Z",
-      "updatedAt": "2026-07-04T14:13:09Z",
-      "source": "ESPN news",
-      "matchId": "760502",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "进行中"
+      "status": "未开始"
     },
     {
       "id": "49262035",
@@ -6562,26 +6580,10 @@
       "matchLabel": "",
       "stage": "32强",
       "status": "已结束"
-    },
-    {
-      "id": "49243140",
-      "headline": "Veteran Belgium rally to beat Senegal and show aging squad isn't finished",
-      "description": "Belgium showed incredible character in rallying from down 2-0 to defeat Senegal in extra time. Was their comeback a sign of things to come, or one last flourish from a golden generation of players?",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0702/r1683091_1296x729_16-9.jpg",
-      "imageAlt": "Tielemans celeb Belgium v Senegal 260701 [1296x729]",
-      "credit": "Nico Vereecken / Photo News via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49243140/belgium-defeat-senegal-world-cup-round-32-youri-tielemans-ismaila-sarr",
-      "publishedAt": "2026-07-02T01:48:46Z",
-      "updatedAt": "2026-07-02T01:48:46Z",
-      "source": "ESPN news",
-      "matchId": "760494",
-      "matchLabel": "",
-      "stage": "32强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-04T17:19:28.522Z",
+    "updatedAt": "2026-07-04T18:32:31.096Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6660,7 +6662,7 @@
       },
       {
         "label": "视频",
-        "value": "72 场"
+        "value": "73 场"
       },
       {
         "label": "新闻",
@@ -109424,9 +109426,9 @@
     },
     "760502": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.889Z",
+      "fetchedAt": "2026-07-04T18:32:27.150Z",
       "source": "ESPN summary",
-      "status": "First Half",
+      "status": "In Progress",
       "lineups": {
         "home": {
           "team": "206",
@@ -109457,7 +109459,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -109496,7 +109498,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -109559,7 +109561,7 @@
               "position": "CF-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "2",
               "passes": ""
@@ -109729,7 +109731,7 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -109843,8 +109845,8 @@
               "starter": true,
               "subbedIn": false,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "0",
+              "goals": "1",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -109868,7 +109870,7 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -109881,7 +109883,7 @@
               "position": "F",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -109894,7 +109896,7 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -109947,10 +109949,10 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -110038,7 +110040,7 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -110090,7 +110092,7 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -110116,14 +110118,14 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "6",
-          "away": "1"
+          "home": "19",
+          "away": "7"
         },
         {
           "key": "yellowCards",
           "label": "黄牌",
-          "home": "0",
-          "away": "0"
+          "home": "3",
+          "away": "4"
         },
         {
           "key": "redCards",
@@ -110134,44 +110136,44 @@
         {
           "key": "offsides",
           "label": "越位",
-          "home": "0",
-          "away": "1"
+          "home": "2",
+          "away": "3"
         },
         {
           "key": "wonCorners",
           "label": "角球",
-          "home": "3",
-          "away": "0"
+          "home": "7",
+          "away": "1"
         },
         {
           "key": "saves",
           "label": "扑救",
-          "home": "0",
+          "home": "1",
           "away": "2"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "27.2",
-          "away": "72.8"
+          "home": "37.6",
+          "away": "62.4"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "3",
-          "away": "0"
+          "home": "5",
+          "away": "2"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
           "home": "2",
-          "away": "0"
+          "away": "2"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.7",
-          "away": "0.0"
+          "home": "0.4",
+          "away": "1.0"
         },
         {
           "key": "penaltyKickGoals",
@@ -110188,98 +110190,98 @@
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "26",
-          "away": "116"
+          "home": "181",
+          "away": "360"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "42",
-          "away": "131"
+          "home": "241",
+          "away": "414"
         },
         {
           "key": "passPct",
           "label": "传球成功率",
-          "home": "0.6",
+          "home": "0.8",
           "away": "0.9"
         },
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "2",
+          "home": "6",
           "away": "0"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "7",
-          "away": "0"
+          "home": "12",
+          "away": "4"
         },
         {
           "key": "crossPct",
           "label": "Cross %",
-          "home": "0.3",
+          "home": "0.5",
           "away": "0.0"
         },
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "4",
-          "away": "6"
+          "home": "20",
+          "away": "32"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "1",
-          "away": "3"
+          "home": "8",
+          "away": "14"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
-          "home": "0.3",
-          "away": "0.5"
+          "home": "0.4",
+          "away": "0.4"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
-          "home": "0",
+          "home": "1",
           "away": "0"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "1",
-          "away": "1"
+          "home": "10",
+          "away": "6"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "1",
-          "away": "1"
+          "home": "18",
+          "away": "9"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
-          "home": "1.0",
-          "away": "1.0"
+          "home": "0.6",
+          "away": "0.7"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "2",
-          "away": "2"
+          "home": "3",
+          "away": "5"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "3",
-          "away": "11"
+          "home": "8",
+          "away": "28"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "3",
-          "away": "11"
+          "home": "8",
+          "away": "28"
         }
       ],
       "leaders": [
@@ -110297,23 +110299,23 @@
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Stephen Eustáquio",
-              "value": "7",
-              "summary": "9 PASS"
+              "player": "Luc de Fougerolles",
+              "value": "32",
+              "summary": "38 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
-              "player": "Moïse Bombito",
-              "value": "2",
-              "summary": "0 TKLW"
+              "player": "Luc de Fougerolles",
+              "value": "5",
+              "summary": "0 TKLW, 3 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Maxime Crépeau",
+              "value": "1",
+              "summary": "2 SOGA, 0.09 xGC"
             }
           ]
         },
@@ -110324,30 +110326,30 @@
             {
               "key": "totalShots",
               "label": "射门",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Azzedine Ounahi",
+              "value": "1",
+              "summary": "1 SOG, 0.07 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Redouane Halhal",
-              "value": "27",
-              "summary": "27 PASS"
+              "player": "Issa Diop",
+              "value": "67",
+              "summary": "72 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Redouane Halhal",
-              "value": "4",
-              "summary": "0 TKLW"
+              "value": "10",
+              "summary": "0 TKLW, 2 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Yassine Bounou",
               "value": "2",
-              "summary": "2 SOGA, 0.37 xGC"
+              "summary": "2 SOGA, 0.56 xGC"
             }
           ]
         }
@@ -110489,15 +110491,74 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684419_1296x729_16-9.jpg",
-        "alt": "Morocco fans v Canada 260704 [1296x729]",
-        "caption": "Morocco fans v Canada 260704 [1296x729]",
-        "credit": "David Buono/Icon Sportswire via Getty Images",
-        "source": "ESPN news",
-        "link": "https://www.espn.com/soccer/story/_/id/49265379/world-cup-daily-live-cape-verde-overshadow-taylor-swift-travis-kelce-wedding-round-16-begins-canada-morocco-paraguay-france"
+        "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+        "alt": "Ounahi's Morocco opener sparks scenes in Casablanca",
+        "caption": "Ounahi's Morocco opener sparks scenes in Casablanca",
+        "credit": "",
+        "source": "ESPN video",
+        "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca"
       },
-      "videos": [],
+      "videos": [
+        {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca_720p30_2896k.mp4",
+          "duration": 34,
+          "source": "ESPN video"
+        }
+      ],
       "news": [
+        {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
@@ -110545,54 +110606,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -110603,7 +110616,7 @@
     },
     "760503": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.940Z",
+      "fetchedAt": "2026-07-04T18:32:27.086Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -110922,6 +110935,54 @@
       ],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "760503",
+          "matchLabel": "巴拉圭 vs 法国",
+          "stage": "16强",
+          "status": "未开始"
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -110968,54 +111029,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -111026,7 +111039,7 @@
     },
     "760504": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.979Z",
+      "fetchedAt": "2026-07-04T18:32:27.162Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111335,6 +111348,54 @@
       ],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "760504",
+          "matchLabel": "巴西 vs 挪威",
+          "stage": "16强",
+          "status": "未开始"
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -111381,54 +111442,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -111439,7 +111452,7 @@
     },
     "760505": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.903Z",
+      "fetchedAt": "2026-07-04T18:32:27.214Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -111778,6 +111791,38 @@
       ],
       "news": [
         {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -111840,38 +111885,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -111882,7 +111895,7 @@
     },
     "760506": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.950Z",
+      "fetchedAt": "2026-07-04T18:32:27.137Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112201,6 +112214,38 @@
       ],
       "news": [
         {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -112263,38 +112308,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -112305,7 +112318,7 @@
     },
     "760507": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.956Z",
+      "fetchedAt": "2026-07-04T18:32:27.141Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -112640,9 +112653,51 @@
           "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0702/ss_20260702_120157835_3582152/ss_20260702_120157835_3582152_720p30_2896k.mp4",
           "duration": 95,
           "source": "ESPN video"
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01_720p30_2896k.mp4",
+          "duration": 61,
+          "source": "ESPN video"
         }
       ],
       "news": [
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
@@ -112706,38 +112761,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -112748,7 +112771,7 @@
     },
     "760508": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:24.975Z",
+      "fetchedAt": "2026-07-04T18:32:27.196Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113019,6 +113042,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -113065,54 +113136,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -113123,7 +113146,7 @@
     },
     "760509": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.026Z",
+      "fetchedAt": "2026-07-04T18:32:27.126Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113384,6 +113407,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -113446,38 +113501,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -113488,7 +113511,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.067Z",
+      "fetchedAt": "2026-07-04T18:32:27.209Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113528,6 +113551,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -113574,54 +113645,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -113632,7 +113655,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.036Z",
+      "fetchedAt": "2026-07-04T18:32:27.233Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113672,6 +113695,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -113718,54 +113789,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -113776,7 +113799,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.086Z",
+      "fetchedAt": "2026-07-04T18:32:27.232Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113816,6 +113839,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -113862,54 +113933,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -113920,7 +113943,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.124Z",
+      "fetchedAt": "2026-07-04T18:32:27.271Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -113960,6 +113983,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -114022,38 +114077,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -114064,7 +114087,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.219Z",
+      "fetchedAt": "2026-07-04T18:32:27.372Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -114104,6 +114127,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -114150,54 +114221,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -114208,7 +114231,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.097Z",
+      "fetchedAt": "2026-07-04T18:32:27.278Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -114248,6 +114271,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -114294,54 +114365,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -114352,7 +114375,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.138Z",
+      "fetchedAt": "2026-07-04T18:32:27.309Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -114392,6 +114415,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -114438,54 +114509,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -114496,7 +114519,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-04T17:19:25.161Z",
+      "fetchedAt": "2026-07-04T18:32:27.411Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -114536,6 +114559,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49270095",
+          "headline": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "description": "Ounahi's Morocco opener sparks scenes in Casablanca",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca/dm_260704_Ounahis_Morocco_opener_sparks_scenes_in_Casablanca.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49270095/ounahi-morocco-opener-sparks-scenes-casablanca",
+          "publishedAt": "2026-07-04T18:26:36Z",
+          "updatedAt": "2026-07-04T18:26:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269921",
+          "headline": "Ream: Pochettino has embraced American culture during World Cup",
+          "description": "Ream: Pochettino has embraced American culture during World Cup",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01/dm_260704_COM_SOC_Analysis_Ream3A_Pochettino_has_embraced_American_culture_during_World_Cup_GLOBAL_2026-07-01.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49269921/pochettino-embraced-american-culture-world-cup",
+          "publishedAt": "2026-07-04T18:09:32Z",
+          "updatedAt": "2026-07-04T18:09:32Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49269592",
+          "headline": "France's Aurélien Tchouaméni (groin injury) out vs. Paraguay, could miss quarterfinals - sources",
+          "description": "Aurélien Tchouaméni, who left Friday's training with adductor pain, will miss France's World Cup round-of-16 match Saturday vs. Paraguay in Philadelphia, and he could also miss a potential quarterfinal on July 9 should France advance, sources told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0625/r1679610_1296x729_16-9.jpg",
+          "imageAlt": "Aurélien Tchouaméni and France will look to maintain top spot in Group I when they face Norway.",
+          "credit": "Photo by Rich Graessle/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources",
+          "publishedAt": "2026-07-04T17:22:34Z",
+          "updatedAt": "2026-07-04T17:22:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49265379",
           "headline": "World Cup Daily live: Canada vs. Morocco updates, Cape Verde overshadow Taylor Swift-Travis Kelce wedding",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as the Round of 16 begins.",
@@ -114577,54 +114648,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49269137/fifpro-world-cup-players-need-protection-racist-abuse",
           "publishedAt": "2026-07-04T16:27:42Z",
           "updatedAt": "2026-07-04T16:27:42Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49268221",
-          "headline": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "description": "Sutcliffe: An earlier kick-off would have disadvantaged England",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0704/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England/dm_260704_Sutcliffe_An_earlier_kick_off_would_have_disadvantaged_England.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49268221/earlier-kick-disadvantaged-england",
-          "publishedAt": "2026-07-04T14:37:00Z",
-          "updatedAt": "2026-07-04T14:37:00Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49251656",
-          "headline": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-          "description": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0618/soc_wc_power-rankings_16x9.jpg",
-          "imageAlt": "Lionel Messi, Christian Pulisic, Kylian Mbappe, Pedri,  Vinicius Junior, Harry Kane,  Raúl Jiménez",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-          "publishedAt": "2026-07-04T16:50:18Z",
-          "updatedAt": "2026-07-04T16:50:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49247972",
-          "headline": "2026 World Cup: Best bets for the round of 16",
-          "description": "Looking to place some World Cup bets? Take a look at what our experts are considering ahead of the round of 16.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0703/r1683770_576x324_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates scoring his team's third goal with teammate Michael Olise during the FIFA World Cup 2026 Round Of 32 match.",
-          "credit": "FIFA via Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026",
-          "publishedAt": "2026-07-04T14:13:09Z",
-          "updatedAt": "2026-07-04T14:13:09Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
