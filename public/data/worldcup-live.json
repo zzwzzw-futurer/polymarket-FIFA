@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-08T21:41:47.767Z",
-    "startedAt": "2026-07-08T21:41:45.024Z",
+    "fetchedAt": "2026-07-08T22:44:52.228Z",
+    "startedAt": "2026-07-08T22:44:49.774Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5915,6 +5915,38 @@
   },
   "news": [
     {
+      "id": "49309364",
+      "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+      "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+      "imageAlt": "Rafa Marquez [1296x729]",
+      "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+      "publishedAt": "2026-07-08T22:42:06Z",
+      "updatedAt": "2026-07-08T22:42:06Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49309417",
+      "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+      "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+      "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+      "credit": "Rob Newell - CameraSport via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+      "publishedAt": "2026-07-08T22:28:08Z",
+      "updatedAt": "2026-07-08T22:28:08Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "法国 vs 摩洛哥",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49309137",
       "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
       "description": "",
@@ -5956,38 +5988,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49309084/know-haaland-threat-quality-norway-possess",
       "publishedAt": "2026-07-08T21:00:38Z",
       "updatedAt": "2026-07-08T21:00:38Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49308965",
-      "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-      "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-      "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-      "credit": "Getty",
-      "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-      "publishedAt": "2026-07-08T20:46:45Z",
-      "updatedAt": "2026-07-08T20:46:45Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49306669",
-      "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-      "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-      "imageAlt": "Henderson [1296x729]",
-      "credit": "Getty",
-      "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-      "publishedAt": "2026-07-08T20:44:47Z",
-      "updatedAt": "2026-07-08T20:44:47Z",
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "",
@@ -6492,7 +6492,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-08T21:41:47.767Z",
+    "updatedAt": "2026-07-08T22:44:52.228Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -118773,7 +118773,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.466Z",
+      "fetchedAt": "2026-07-08T22:44:50.056Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119062,6 +119062,38 @@
       ],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "760510",
+          "matchLabel": "法国 vs 摩洛哥",
+          "stage": "四分之一决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -119124,38 +119156,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119166,7 +119166,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.457Z",
+      "fetchedAt": "2026-07-08T22:44:50.064Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119467,6 +119467,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -119529,38 +119561,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119571,7 +119571,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.483Z",
+      "fetchedAt": "2026-07-08T22:44:50.075Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119890,6 +119890,38 @@
       ],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -119952,38 +119984,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0707/dm_260707_Gundogan_England_are_clear_favourites_vs_Norway/dm_260707_Gundogan_England_are_clear_favourites_vs_Norway.jpg",
-          "imageAlt": "Gündoğan: England are clear favourites vs. Norway",
-          "credit": "",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "760512",
-          "matchLabel": "挪威 vs 英格兰",
-          "stage": "四分之一决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "760512",
-          "matchLabel": "挪威 vs 英格兰",
-          "stage": "四分之一决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -119994,7 +119994,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.479Z",
+      "fetchedAt": "2026-07-08T22:44:50.078Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120285,6 +120285,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -120347,38 +120379,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120389,7 +120389,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.477Z",
+      "fetchedAt": "2026-07-08T22:44:50.097Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120429,6 +120429,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -120491,38 +120523,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120533,7 +120533,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.477Z",
+      "fetchedAt": "2026-07-08T22:44:50.095Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120573,6 +120573,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -120635,38 +120667,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120677,7 +120677,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.503Z",
+      "fetchedAt": "2026-07-08T22:44:50.087Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120717,6 +120717,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -120779,38 +120811,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120821,7 +120821,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T21:41:45.535Z",
+      "fetchedAt": "2026-07-08T22:44:50.090Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120861,6 +120861,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49309417",
+          "headline": "Didier Deschamps unconcerned by Argentinian officials in France-Morocco World Cup clash",
+          "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678333_1296x729_16-9.jpg",
+          "imageAlt": "France's Coach Didier Deschamps during the FIFA World Cup 2026 Group I match between France and Senegal at New York New Jersey Stadium on June 16, 2026 in East Rutherford, United States.",
+          "credit": "Rob Newell - CameraSport via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309417/didier-deschamps-unconcerned-argentinian-officials-france-morocco-world-cup-clash",
+          "publishedAt": "2026-07-08T22:28:08Z",
+          "updatedAt": "2026-07-08T22:28:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309364",
+          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
+          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
+          "imageAlt": "Rafa Marquez [1296x729]",
+          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
+          "publishedAt": "2026-07-08T22:42:06Z",
+          "updatedAt": "2026-07-08T22:42:06Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309137",
           "headline": "Morgan Rogers: Has anyone ever stopped Norway's Erling Haaland?",
           "description": "",
@@ -120918,38 +120950,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49308990/england-showed-grit-determination-mexico-victory",
           "publishedAt": "2026-07-08T20:38:42Z",
           "updatedAt": "2026-07-08T20:38:42Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49306669",
-          "headline": "England's Jordan Henderson has surgery, eyes return at World Cup",
-          "description": "Jordan Henderson has undergone surgery on his arm in Kansas City after breaking it in the celebrations following England's 3-2 win over Mexico on Sunday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686135_1296x729_16-9.jpg",
-          "imageAlt": "Henderson [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
-          "publishedAt": "2026-07-08T20:44:47Z",
-          "updatedAt": "2026-07-08T20:44:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49308965",
-          "headline": "Norway's Martin Ødegaard on facing England in World Cup: 'We were underdogs against Brazil too'",
-          "description": "Martin Ødegaard has said that \"underdogs\" Norway are ready for their \"big test\" against England in Saturday's World Cup quarterfinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686565_594x334_16-9.jpg",
-          "imageAlt": "Martin Ødegaard has provided three assists in four games for Norway at the World Cup. ",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49308965/martin-odegaard-facing-england-world-cup-were-underdogs-brazil-too",
-          "publishedAt": "2026-07-08T20:46:45Z",
-          "updatedAt": "2026-07-08T20:46:45Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
