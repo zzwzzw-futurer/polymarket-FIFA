@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-08T03:45:49.217Z",
-    "startedAt": "2026-07-08T03:45:46.872Z",
+    "fetchedAt": "2026-07-08T06:28:56.266Z",
+    "startedAt": "2026-07-08T06:28:54.306Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5789,19 +5789,19 @@
       "odds": []
     },
     "760510": {
-      "home": 61.6,
-      "draw": 24.1,
-      "away": 14.3,
+      "home": 61.2,
+      "draw": 24.4,
+      "away": 14.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "62.5%",
+          "home": "61.5%",
           "draw": "24.5%",
           "away": "14.5%",
-          "homeProbability": 0.625,
+          "homeProbability": 0.615,
           "drawProbability": 0.245,
           "awayProbability": 0.145,
           "spread": "全场赛果预测市场",
@@ -5909,6 +5909,22 @@
   },
   "news": [
     {
+      "id": "49302913",
+      "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+      "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+      "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+      "credit": "Catherine Ivill - AMA/Getty Images",
+      "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+      "publishedAt": "2026-07-08T04:10:14Z",
+      "updatedAt": "2026-07-08T04:10:14Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
       "id": "47978642",
       "headline": "Messi tracker: Goals, assists, key moments in 2026",
       "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -5918,22 +5934,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats",
       "publishedAt": "2026-07-08T03:23:25Z",
       "updatedAt": "2026-07-08T03:23:25Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49301503",
-      "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-      "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-      "imageAlt": "Swiss [1296x729]",
-      "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-      "publishedAt": "2026-07-08T03:20:14Z",
-      "updatedAt": "2026-07-08T03:20:14Z",
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "",
@@ -6486,7 +6486,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-08T03:45:49.217Z",
+    "updatedAt": "2026-07-08T06:28:56.266Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -118767,7 +118767,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.266Z",
+      "fetchedAt": "2026-07-08T06:28:54.614Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119038,6 +119038,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -119116,22 +119132,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119142,7 +119142,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.251Z",
+      "fetchedAt": "2026-07-08T06:28:54.670Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119443,6 +119443,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -119521,22 +119537,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119547,7 +119547,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.303Z",
+      "fetchedAt": "2026-07-08T06:28:54.666Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119836,6 +119836,22 @@
       ],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -119914,22 +119930,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119940,7 +119940,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.293Z",
+      "fetchedAt": "2026-07-08T06:28:54.663Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120228,15 +120228,31 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0707/dm_260707_COM_SOC_Analysis_Laurens3A_Switzerland_deserve_to_beat_Colombia_GLOBAL_2026-07-08/dm_260707_COM_SOC_Analysis_Laurens3A_Switzerland_deserve_to_beat_Colombia_GLOBAL_2026-07-08.jpg",
-        "alt": "Laurens: Switzerland deserved to beat Colombia ",
-        "caption": "Laurens: Switzerland deserved to beat Colombia ",
-        "credit": "",
+        "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+        "alt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+        "caption": "Mohamed Salah, Lionel Messi, Argentina vs Egypt, 2026 FIFA World Cup [1296x729]",
+        "credit": "Catherine Ivill - AMA/Getty Images",
         "source": "ESPN news",
-        "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup"
+        "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt"
       },
       "videos": [],
       "news": [
+        {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "760513",
+          "matchLabel": "阿根廷 vs 瑞士",
+          "stage": "四分之一决赛",
+          "status": "未开始"
+        },
         {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
@@ -120316,22 +120332,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0707/dm_260707_COM_SOC_Analysis_Laurens3A_Switzerland_deserve_to_beat_Colombia_GLOBAL_2026-07-08/dm_260707_COM_SOC_Analysis_Laurens3A_Switzerland_deserve_to_beat_Colombia_GLOBAL_2026-07-08.jpg",
-          "imageAlt": "Laurens: Switzerland deserved to beat Colombia ",
-          "credit": "",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "760513",
-          "matchLabel": "阿根廷 vs 瑞士",
-          "stage": "四分之一决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -120342,7 +120342,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.299Z",
+      "fetchedAt": "2026-07-08T06:28:54.702Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120382,6 +120382,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -120460,22 +120476,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120486,7 +120486,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.300Z",
+      "fetchedAt": "2026-07-08T06:28:54.652Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120526,6 +120526,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -120604,22 +120620,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120630,7 +120630,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.291Z",
+      "fetchedAt": "2026-07-08T06:28:54.661Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120670,6 +120670,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -120748,22 +120764,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120774,7 +120774,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-08T03:45:47.345Z",
+      "fetchedAt": "2026-07-08T06:28:54.692Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120814,6 +120814,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49302913",
+          "headline": "Salah bids goodbye to the World Cup, with Messi fittingly drawing the curtain",
+          "description": "Where other 'new Messi's failed, Salah departs the World Cup, a legend in his own right.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686278_1296x729_16-9.jpg",
+          "imageAlt": "Lionel Messi of Argentina looks on at Mohamed Salah of Egypt during the FIFA World Cup 2026 Round of 16 match between Argentina and Egypt at Atlanta Stadium on July 07, 2026 in Atlanta, Georgia.",
+          "credit": "Catherine Ivill - AMA/Getty Images",
+          "link": "https://www.espn.com/espn/story/_/id/49302913/mohamed-salah-bids-goodbye-2026-fifa-world-cup-lionel-messi-fittingly-drawing-curtain-argentina-egypt",
+          "publishedAt": "2026-07-08T04:10:14Z",
+          "updatedAt": "2026-07-08T04:10:14Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "47978642",
           "headline": "Messi tracker: Goals, assists, key moments in 2026",
           "description": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -120887,22 +120903,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49301582/us-men-women-get-equal-split-16m-world-cup-prize",
           "publishedAt": "2026-07-08T01:55:49Z",
           "updatedAt": "2026-07-08T01:55:49Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49301503",
-          "headline": "Switzerland will look to continue UEFA's party at the World Cup",
-          "description": "Switzerland continue to write World Cup history after eliminating Colombia and will aim for another memorable achievement against Argentina in the quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686207_1296x729_16-9.jpg",
-          "imageAlt": "Swiss [1296x729]",
-          "credit": "(Photo by Ercin Erturk/Anadolu via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
-          "publishedAt": "2026-07-08T03:20:14Z",
-          "updatedAt": "2026-07-08T03:20:14Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
