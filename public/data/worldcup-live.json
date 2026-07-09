@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-09T03:22:45.653Z",
-    "startedAt": "2026-07-09T03:22:43.526Z",
+    "fetchedAt": "2026-07-09T07:01:52.784Z",
+    "startedAt": "2026-07-09T07:01:50.258Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5789,19 +5789,19 @@
       "odds": []
     },
     "760510": {
-      "home": 62.2,
-      "draw": 24.4,
-      "away": 13.4,
+      "home": 61.8,
+      "draw": 24.6,
+      "away": 13.6,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "62.5%",
+          "home": "61.5%",
           "draw": "24.5%",
           "away": "13.5%",
-          "homeProbability": 0.625,
+          "homeProbability": 0.615,
           "drawProbability": 0.245,
           "awayProbability": 0.135,
           "spread": "全场赛果预测市场",
@@ -5915,6 +5915,38 @@
   },
   "news": [
     {
+      "id": "49312108",
+      "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+      "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+      "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+      "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+      "publishedAt": "2026-07-09T05:58:39Z",
+      "updatedAt": "2026-07-09T05:58:39Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "法国 vs 摩洛哥",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49311500",
+      "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+      "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+      "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+      "credit": "AP Photo/Abbie Parr",
+      "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+      "publishedAt": "2026-07-09T04:54:44Z",
+      "updatedAt": "2026-07-09T04:54:44Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49309417",
       "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
       "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -5975,38 +6007,6 @@
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "法国 vs 摩洛哥",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49309664",
-      "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-      "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-      "publishedAt": "2026-07-08T22:52:51Z",
-      "updatedAt": "2026-07-08T22:52:51Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49309364",
-      "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-      "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-      "imageAlt": "Rafa Marquez [1296x729]",
-      "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-      "publishedAt": "2026-07-08T22:42:06Z",
-      "updatedAt": "2026-07-08T22:42:06Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
       "stage": "四分之一决赛",
       "status": "未开始"
     },
@@ -6492,7 +6492,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-09T03:22:45.653Z",
+    "updatedAt": "2026-07-09T07:01:52.784Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6567,7 +6567,7 @@
       },
       {
         "label": "实况照片",
-        "value": "83 场"
+        "value": "84 场"
       },
       {
         "label": "视频",
@@ -118773,7 +118773,7 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:43.904Z",
+      "fetchedAt": "2026-07-09T07:01:50.652Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119072,6 +119072,38 @@
       ],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "760510",
+          "matchLabel": "法国 vs 摩洛哥",
+          "stage": "四分之一决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -119134,38 +119166,6 @@
           "matchLabel": "法国 vs 摩洛哥",
           "stage": "四分之一决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119176,7 +119176,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:43.936Z",
+      "fetchedAt": "2026-07-09T07:01:50.674Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119473,9 +119473,48 @@
           ]
         }
       ],
-      "media": null,
+      "media": {
+        "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+        "alt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+        "caption": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+        "credit": "AP Photo/Abbie Parr",
+        "source": "ESPN news",
+        "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals"
+      },
       "videos": [],
       "news": [
+        {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "760511",
+          "matchLabel": "西班牙 vs 比利时",
+          "stage": "四分之一决赛",
+          "status": "未开始"
+        },
         {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
@@ -119539,38 +119578,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119581,7 +119588,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.051Z",
+      "fetchedAt": "2026-07-09T07:01:50.686Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -119900,6 +119907,38 @@
       ],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -119962,38 +120001,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120004,7 +120011,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.062Z",
+      "fetchedAt": "2026-07-09T07:01:50.695Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120295,6 +120302,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -120357,38 +120396,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120399,7 +120406,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.082Z",
+      "fetchedAt": "2026-07-09T07:01:50.684Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120439,6 +120446,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -120501,38 +120540,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120543,7 +120550,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.055Z",
+      "fetchedAt": "2026-07-09T07:01:50.683Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120583,6 +120590,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -120645,38 +120684,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120687,7 +120694,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.020Z",
+      "fetchedAt": "2026-07-09T07:01:50.715Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120727,6 +120734,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -120789,38 +120828,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120831,7 +120838,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T03:22:44.009Z",
+      "fetchedAt": "2026-07-09T07:01:50.721Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120871,6 +120878,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49312108",
+          "headline": "Could AFCON final villain Brahim Diaz complete redemption arc for Morocco against Kylian Mbappe's France?",
+          "description": "Has there ever been a player whose entire international career has been in danger of being defined by one kick as Brahim Diaz?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684530_608x342_16-9.jpg",
+          "imageAlt": "Morocco celebrate v Canada 260704 [608x342]",
+          "credit": "Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
+          "publishedAt": "2026-07-09T05:58:39Z",
+          "updatedAt": "2026-07-09T05:58:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49311500",
+          "headline": "Courtois backs underdog Belgium to upset Spain in World Cup quarterfinals",
+          "description": "Belgium goalkeeper Thibaut Courtois is looking forward to facing Spain for the first time in his career in an official match during Friday's World Cup quarterfinal at SoFi Stadium.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686719_1296x729_16-9.jpg",
+          "imageAlt": "Thibaut Courtois and Belgium will face one of the tournament favorites Spain with a spot in the World Cup semifinals on the line.",
+          "credit": "AP Photo/Abbie Parr",
+          "link": "https://www.espn.com/soccer/story/_/id/49311500/courtois-backs-underdog-belgium-upset-spain-world-cup-quarterfinals",
+          "publishedAt": "2026-07-09T04:54:44Z",
+          "updatedAt": "2026-07-09T04:54:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49309417",
           "headline": "Didier Deschamps unconcerned by Argentine officials in France-Morocco World Cup clash",
           "description": "France head coach Didier Deschamps has played down the appointment of Argentinian officials for their World Cup quarterfinal against Morocco on Thursday.",
@@ -120928,38 +120967,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49309690/france-respect-morocco",
           "publishedAt": "2026-07-08T23:00:23Z",
           "updatedAt": "2026-07-08T23:00:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309664",
-          "headline": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "description": "Moreno: USMNT 'lacked fight' vs. Belgium",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0708/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium/dm_260708_Moreno_USMNT_lacked_fight_vs_Belgium.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49309664/usmnt-lacked-fight-vs-belgium",
-          "publishedAt": "2026-07-08T22:52:51Z",
-          "updatedAt": "2026-07-08T22:52:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309364",
-          "headline": "Mexico start Márquez era on 'strong foundation' after Aguirre",
-          "description": "The Mexican Football Federation announced Wednesday that Rafael Márquez is taking the reins as Javier Aguirre's successor to lead the team up to the 2030 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686596_1296x729_16-9.jpg",
-          "imageAlt": "Rafa Marquez [1296x729]",
-          "credit": "Photo by Luis Cano/Jam Media/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309364/mexico-start-rafa-marquez-strong-foundation-javier-aguirre-world-cup",
-          "publishedAt": "2026-07-08T22:42:06Z",
-          "updatedAt": "2026-07-08T22:42:06Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
