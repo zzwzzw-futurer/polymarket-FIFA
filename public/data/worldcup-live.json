@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-09T20:19:53.940Z",
-    "startedAt": "2026-07-09T20:19:51.078Z",
+    "fetchedAt": "2026-07-09T21:58:00.106Z",
+    "startedAt": "2026-07-09T21:57:57.830Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3214,15 +3214,18 @@
       "matchday": 13799,
       "home": "478",
       "away": "2869",
-      "score": "0 - 0",
+      "score": "2 - 0",
       "status": "进行中",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
       "weather": "天气数据待接入",
-      "timeElapsed": "18'",
-      "homeScore": 0,
+      "timeElapsed": "90'+3'",
+      "homeScore": 2,
       "awayScore": 0,
-      "homeScorers": [],
+      "homeScorers": [
+        "K. Mbappé",
+        "O. Dembélé"
+      ],
       "awayScorers": []
     },
     {
@@ -4039,6 +4042,15 @@
   },
   "players": [
     {
+      "name": "K. Mbappé",
+      "country": "478",
+      "team": "法国",
+      "goals": 8,
+      "assists": 0,
+      "rating": 10.2,
+      "shots": 16
+    },
+    {
       "name": "L. Messi",
       "country": "202",
       "team": "阿根廷",
@@ -4057,15 +4069,6 @@
       "shots": 14
     },
     {
-      "name": "K. Mbappé",
-      "country": "478",
-      "team": "法国",
-      "goals": 7,
-      "assists": 0,
-      "rating": 9.8,
-      "shots": 14
-    },
-    {
       "name": "H. Kane",
       "country": "448",
       "team": "英格兰",
@@ -4073,6 +4076,15 @@
       "assists": 0,
       "rating": 9.4,
       "shots": 12
+    },
+    {
+      "name": "O. Dembélé",
+      "country": "478",
+      "team": "法国",
+      "goals": 5,
+      "assists": 0,
+      "rating": 9,
+      "shots": 10
     },
     {
       "name": "I. Saibari",
@@ -4114,15 +4126,6 @@
       "name": "M. Oyarzabal",
       "country": "164",
       "team": "西班牙",
-      "goals": 4,
-      "assists": 0,
-      "rating": 8.6,
-      "shots": 8
-    },
-    {
-      "name": "O. Dembélé",
-      "country": "478",
-      "team": "法国",
       "goals": 4,
       "assists": 0,
       "rating": 8.6,
@@ -5789,21 +5792,21 @@
       "odds": []
     },
     "760510": {
-      "home": 63,
-      "draw": 24.9,
-      "away": 12.1,
+      "home": 99.5,
+      "draw": 0.4,
+      "away": 0.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "62.9%",
-          "draw": "24.9%",
-          "away": "12.1%",
-          "homeProbability": 0.62875,
-          "drawProbability": 0.24875,
-          "awayProbability": 0.12125,
+          "home": "99.6%",
+          "draw": "0.38%",
+          "away": "0.13%",
+          "homeProbability": 0.99625,
+          "drawProbability": 0.00375,
+          "awayProbability": 0.00125,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-mar-2026-07-09",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-mar-2026-07-09",
@@ -5858,9 +5861,9 @@
       ]
     },
     "760513": {
-      "home": 56.7,
+      "home": 56.8,
       "draw": 26.8,
-      "away": 16.6,
+      "away": 16.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5869,10 +5872,10 @@
           "source": "polymarket",
           "home": "56.9%",
           "draw": "26.9%",
-          "away": "16.6%",
+          "away": "16.4%",
           "homeProbability": 0.56875,
           "drawProbability": 0.26875,
-          "awayProbability": 0.16625,
+          "awayProbability": 0.16375,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-arg-che-2026-07-11",
           "eventUrl": "https://polymarket.com/event/fifwc-arg-che-2026-07-11",
@@ -5916,17 +5919,65 @@
   "news": [
     {
       "id": "49309361",
-      "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+      "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
       "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
       "imageAlt": "Mbappe [1296x729]",
-      "credit": "(Photo by Lars Baron/Getty Images)",
+      "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
       "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-      "publishedAt": "2026-07-09T20:09:04Z",
-      "updatedAt": "2026-07-09T20:09:04Z",
+      "publishedAt": "2026-07-09T21:43:08Z",
+      "updatedAt": "2026-07-09T21:43:08Z",
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "法国 vs 摩洛哥",
+      "stage": "四分之一决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49309123",
+      "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+      "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+      "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+      "credit": "Carl Recine/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+      "publishedAt": "2026-07-09T21:28:46Z",
+      "updatedAt": "2026-07-09T21:28:46Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49317664",
+      "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+      "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+      "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+      "credit": "Michael Steele/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+      "publishedAt": "2026-07-09T21:03:02Z",
+      "updatedAt": "2026-07-09T21:03:02Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49318102",
+      "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+      "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+      "publishedAt": "2026-07-09T20:54:46Z",
+      "updatedAt": "2026-07-09T20:54:46Z",
+      "source": "ESPN news",
+      "matchId": "760510",
+      "matchLabel": "",
       "stage": "四分之一决赛",
       "status": "进行中"
     },
@@ -5938,43 +5989,11 @@
       "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
       "credit": "Photo by Image Photo Agency/Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-      "publishedAt": "2026-07-09T19:40:04Z",
-      "updatedAt": "2026-07-09T19:40:04Z",
+      "publishedAt": "2026-07-09T20:46:53Z",
+      "updatedAt": "2026-07-09T20:46:53Z",
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49315827",
-      "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-      "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-      "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-      "credit": "Yuri CORTEZ / AFP via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-      "publishedAt": "2026-07-09T19:35:52Z",
-      "updatedAt": "2026-07-09T19:35:52Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49309123",
-      "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-      "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686580_1296x729_16-9.jpg",
-      "imageAlt": "France [1296x729]",
-      "credit": "(Photo by Elsa/Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-      "publishedAt": "2026-07-09T19:06:10Z",
-      "updatedAt": "2026-07-09T19:06:10Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "法国 vs 摩洛哥",
       "stage": "四分之一决赛",
       "status": "进行中"
     },
@@ -5988,22 +6007,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49317036/all-pressure-england-quarterfinal",
       "publishedAt": "2026-07-09T18:38:17Z",
       "updatedAt": "2026-07-09T18:38:17Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49316584",
-      "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-      "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-      "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-      "credit": "Photo by Alishia Abodunde/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-      "publishedAt": "2026-07-09T18:09:23Z",
-      "updatedAt": "2026-07-09T18:09:23Z",
       "source": "ESPN news",
       "matchId": "760510",
       "matchLabel": "",
@@ -6492,7 +6495,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-09T20:19:53.940Z",
+    "updatedAt": "2026-07-09T21:58:00.106Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6567,11 +6570,11 @@
       },
       {
         "label": "实况照片",
-        "value": "83 场"
+        "value": "84 场"
       },
       {
         "label": "视频",
-        "value": "72 场"
+        "value": "73 场"
       },
       {
         "label": "新闻",
@@ -118773,9 +118776,9 @@
     },
     "760510": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.570Z",
+      "fetchedAt": "2026-07-09T21:57:58.165Z",
       "source": "ESPN summary",
-      "status": "First Half",
+      "status": "Second Half",
       "lineups": {
         "home": {
           "team": "478",
@@ -118832,7 +118835,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -118843,9 +118846,9 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -118858,7 +118861,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -118871,7 +118874,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -118882,9 +118885,9 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -118895,9 +118898,9 @@
               "position": "F",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
-              "goals": "0",
-              "shots": "1",
+              "subbedOut": true,
+              "goals": "1",
+              "shots": "4",
               "passes": ""
             },
             {
@@ -118908,9 +118911,9 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "1",
+              "shots": "3",
               "passes": ""
             },
             {
@@ -118922,8 +118925,8 @@
               "starter": true,
               "subbedIn": false,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "1",
+              "goals": "1",
+              "shots": "4",
               "passes": ""
             }
           ],
@@ -119013,10 +119016,10 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -119091,7 +119094,7 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119104,10 +119107,10 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -119117,7 +119120,7 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119178,7 +119181,7 @@
               "position": "LB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -119193,7 +119196,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -119206,7 +119209,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -119219,7 +119222,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -119230,7 +119233,7 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -119243,7 +119246,7 @@
               "position": "F",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -119256,7 +119259,7 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -119269,9 +119272,9 @@
               "position": "AM-R",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             }
           ],
@@ -119335,7 +119338,7 @@
               "jersey": "16",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119374,7 +119377,7 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119400,7 +119403,7 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119413,7 +119416,7 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119452,7 +119455,7 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -119478,14 +119481,14 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "2",
-          "away": "2"
+          "home": "10",
+          "away": "10"
         },
         {
           "key": "yellowCards",
           "label": "黄牌",
           "home": "0",
-          "away": "0"
+          "away": "1"
         },
         {
           "key": "redCards",
@@ -119502,38 +119505,38 @@
         {
           "key": "wonCorners",
           "label": "角球",
-          "home": "1",
-          "away": "0"
+          "home": "5",
+          "away": "5"
         },
         {
           "key": "saves",
           "label": "扑救",
-          "home": "0",
-          "away": "1"
+          "home": "1",
+          "away": "5"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "59.7",
-          "away": "40.3"
+          "home": "47.9",
+          "away": "52.1"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "4",
-          "away": "0"
+          "home": "20",
+          "away": "4"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
-          "home": "1",
-          "away": "0"
+          "home": "7",
+          "away": "1"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.3",
-          "away": "0.0"
+          "home": "0.4",
+          "away": "0.3"
         },
         {
           "key": "penaltyKickGoals",
@@ -119544,104 +119547,104 @@
         {
           "key": "penaltyKickShots",
           "label": "Penalty Kicks Taken",
-          "home": "0",
+          "home": "1",
           "away": "0"
         },
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "123",
-          "away": "77"
+          "home": "413",
+          "away": "434"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "138",
-          "away": "94"
+          "home": "464",
+          "away": "506"
         },
         {
           "key": "passPct",
           "label": "传球成功率",
           "home": "0.9",
-          "away": "0.8"
+          "away": "0.9"
         },
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "2",
-          "away": "0"
+          "home": "5",
+          "away": "2"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "3",
-          "away": "1"
+          "home": "12",
+          "away": "13"
         },
         {
           "key": "crossPct",
           "label": "Cross %",
-          "home": "0.7",
-          "away": "0.0"
+          "home": "0.4",
+          "away": "0.2"
         },
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "6",
-          "away": "14"
+          "home": "28",
+          "away": "37"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "3",
-          "away": "5"
+          "home": "13",
+          "away": "10"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
           "home": "0.5",
-          "away": "0.4"
+          "away": "0.3"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
-          "home": "1",
-          "away": "0"
+          "home": "5",
+          "away": "1"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "0",
-          "away": "1"
+          "home": "8",
+          "away": "6"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "0",
-          "away": "2"
+          "home": "10",
+          "away": "16"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
-          "home": "0.0",
-          "away": "0.5"
+          "home": "0.8",
+          "away": "0.4"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "1",
-          "away": "4"
+          "home": "11",
+          "away": "6"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "1",
-          "away": "4"
+          "home": "21",
+          "away": "12"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "1",
-          "away": "4"
+          "home": "21",
+          "away": "12"
         }
       ],
       "leaders": [
@@ -119652,30 +119655,30 @@
             {
               "key": "totalShots",
               "label": "射门",
-              "player": "Désiré Doué",
-              "value": "1",
-              "summary": "0 SOG, 0.03 xG"
+              "player": "Kylian Mbappé",
+              "value": "4",
+              "summary": "2 SOG, 1.30 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "William Saliba",
-              "value": "19",
-              "summary": "22 PASS"
+              "player": "Dayot Upamecano",
+              "value": "58",
+              "summary": "61 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Jules Koundé",
-              "value": "2",
-              "summary": "0 TKLW"
+              "value": "8",
+              "summary": "0 TKLW, 3 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Mike Maignan",
+              "value": "1",
+              "summary": "1 SOGA, 0.12 xGC"
             }
           ]
         },
@@ -119686,30 +119689,30 @@
             {
               "key": "totalShots",
               "label": "射门",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Neil El Aynaoui",
+              "value": "1",
+              "summary": "0 SOG, 0.02 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Ayyoub Bouaddi",
-              "value": "12",
-              "summary": "15 PASS"
+              "player": "Azzedine Ounahi",
+              "value": "58",
+              "summary": "68 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
-              "player": "Brahim Díaz",
-              "value": "4",
-              "summary": "0 TKLW, 3 DUELW"
+              "player": "Issa Diop",
+              "value": "10",
+              "summary": "1 TKLW, 1 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Yassine Bounou",
-              "value": "1",
-              "summary": "1 SOGA, 0.52 xGC"
+              "value": "5",
+              "summary": "7 SOGA, 2.96 xGC"
             }
           ]
         }
@@ -119850,24 +119853,90 @@
           ]
         }
       ],
-      "media": null,
-      "videos": [],
+      "media": {
+        "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+        "alt": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+        "caption": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+        "credit": "",
+        "source": "ESPN video",
+        "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss"
+      },
+      "videos": [
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9_720p30_2896k.mp4",
+          "duration": 65,
+          "source": "ESPN video"
+        }
+      ],
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
           "source": "ESPN news",
           "matchId": "760510",
           "matchLabel": "法国 vs 摩洛哥",
           "stage": "四分之一决赛",
           "status": "进行中"
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
         },
         {
           "id": "49317174",
@@ -119877,29 +119946,13 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0708/r1686580_1296x729_16-9.jpg",
-          "imageAlt": "France [1296x729]",
-          "credit": "(Photo by Elsa/Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
-          "source": "ESPN news",
-          "matchId": "760510",
-          "matchLabel": "法国 vs 摩洛哥",
-          "stage": "四分之一决赛",
-          "status": "进行中"
         },
         {
           "id": "49317036",
@@ -119916,38 +119969,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -119958,7 +119979,7 @@
     },
     "760511": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.594Z",
+      "fetchedAt": "2026-07-09T21:57:58.178Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120288,14 +120309,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -120310,24 +120379,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -120349,38 +120402,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120391,7 +120412,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.677Z",
+      "fetchedAt": "2026-07-09T21:57:58.200Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -120721,14 +120742,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -120743,29 +120812,13 @@
           "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
           "credit": "",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "760512",
           "matchLabel": "挪威 vs 英格兰",
           "stage": "四分之一决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         },
         {
           "id": "49317036",
@@ -120782,38 +120835,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -120824,7 +120845,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.641Z",
+      "fetchedAt": "2026-07-09T21:57:58.191Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121116,14 +121137,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121138,24 +121207,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121177,38 +121230,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121219,7 +121240,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.612Z",
+      "fetchedAt": "2026-07-09T21:57:58.181Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121260,14 +121281,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121282,24 +121351,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121321,38 +121374,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121363,7 +121384,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.604Z",
+      "fetchedAt": "2026-07-09T21:57:58.198Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121404,14 +121425,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121426,24 +121495,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121465,38 +121518,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121507,7 +121528,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.635Z",
+      "fetchedAt": "2026-07-09T21:57:58.197Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121548,14 +121569,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121570,24 +121639,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121609,38 +121662,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121651,7 +121672,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-09T20:19:51.639Z",
+      "fetchedAt": "2026-07-09T21:57:58.265Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121692,14 +121713,62 @@
       "news": [
         {
           "id": "49309361",
-          "headline": "World Cup updates: France take on Morocco in first quarterfinal showdown",
+          "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
           "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687000_1296x729_16-9.jpg",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
           "imageAlt": "Mbappe [1296x729]",
-          "credit": "(Photo by Lars Baron/Getty Images)",
+          "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-          "publishedAt": "2026-07-09T20:09:04Z",
-          "updatedAt": "2026-07-09T20:09:04Z",
+          "publishedAt": "2026-07-09T21:43:08Z",
+          "updatedAt": "2026-07-09T21:43:08Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49309123",
+          "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
+          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+          "publishedAt": "2026-07-09T21:28:46Z",
+          "updatedAt": "2026-07-09T21:28:46Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49317664",
+          "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
+          "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
+          "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
+          "credit": "Michael Steele/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
+          "publishedAt": "2026-07-09T21:03:02Z",
+          "updatedAt": "2026-07-09T21:03:02Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49318102",
+          "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
+          "publishedAt": "2026-07-09T20:54:46Z",
+          "updatedAt": "2026-07-09T20:54:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121714,24 +121783,8 @@
           "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
           "credit": "Photo by Image Photo Agency/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-          "publishedAt": "2026-07-09T19:40:04Z",
-          "updatedAt": "2026-07-09T19:40:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49309123",
-          "headline": "World Cup Daily live: Mexico star Mora's high school graduation, France-Morocco kicks off quarterfinals",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-          "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-          "credit": "Carl Recine/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-          "publishedAt": "2026-07-09T19:06:10Z",
-          "updatedAt": "2026-07-09T19:06:10Z",
+          "publishedAt": "2026-07-09T20:46:53Z",
+          "updatedAt": "2026-07-09T20:46:53Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121748,38 +121801,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49317036/all-pressure-england-quarterfinal",
           "publishedAt": "2026-07-09T18:38:17Z",
           "updatedAt": "2026-07-09T18:38:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49316584",
-          "headline": "Keir Starmer's England intervention 'more egregious' than Balogun reversal - U.S. official",
-          "description": "Sir Keir Starmer's intervention on the Mexico v England kick-off time was \"far more egregious\" than United States President Donald Trump lobbying FIFA over Folarin Balogun's red card, the White House's top World Cup executive has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686934_1296x729_16-9.jpg",
-          "imageAlt": "British Prime Minister Sir Keir Starmer is understood to have supported the FA's wish not to bring kick-off forward.",
-          "credit": "Photo by Alishia Abodunde/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49316584/keir-starmer-england-mexico-intervention-world-cup-egregious-balogun-white-house",
-          "publishedAt": "2026-07-09T18:09:23Z",
-          "updatedAt": "2026-07-09T18:09:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49315827",
-          "headline": "England's Jarell Quansah suspended for two World Cup matches after Mexico red card",
-          "description": "England fullback Jarell Quansah has been suspended for two matches after receiving a red card in his side's World Cup round-of-16 win over Mexico.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685486_1296x729_16-9.jpg",
-          "imageAlt": "FBL-WC-2026-MATCH92-MEX-ENG Australian referee Alireza Faghani shows a red card to England's defender #26 Jarell Quansah during the 2026 World Cup round of 16 football match between Mexico and England",
-          "credit": "Yuri CORTEZ / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-          "publishedAt": "2026-07-09T19:35:52Z",
-          "updatedAt": "2026-07-09T19:35:52Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
