@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-11T17:29:57.263Z",
-    "startedAt": "2026-07-11T17:29:55.807Z",
+    "fetchedAt": "2026-07-11T18:29:58.147Z",
+    "startedAt": "2026-07-11T18:29:57.021Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5818,19 +5818,19 @@
       ]
     },
     "760513": {
-      "home": 57.4,
-      "draw": 26.6,
-      "away": 16,
+      "home": 57.2,
+      "draw": 26.8,
+      "away": 16.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "57.9%",
+          "home": "57.4%",
           "draw": "26.9%",
           "away": "16.1%",
-          "homeProbability": 0.57875,
+          "homeProbability": 0.57375,
           "drawProbability": 0.26875,
           "awayProbability": 0.16125,
           "spread": "全场赛果预测市场",
@@ -6467,7 +6467,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-11T17:29:57.263Z",
+    "updatedAt": "2026-07-11T18:29:58.147Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -121127,7 +121127,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.137Z",
+      "fetchedAt": "2026-07-11T18:29:57.413Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121570,7 +121570,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.115Z",
+      "fetchedAt": "2026-07-11T18:29:57.396Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121993,7 +121993,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.172Z",
+      "fetchedAt": "2026-07-11T18:29:57.440Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122416,7 +122416,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.259Z",
+      "fetchedAt": "2026-07-11T18:29:57.451Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122560,7 +122560,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.168Z",
+      "fetchedAt": "2026-07-11T18:29:57.449Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122704,7 +122704,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T17:29:56.163Z",
+      "fetchedAt": "2026-07-11T18:29:57.434Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
