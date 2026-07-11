@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-11T18:29:58.147Z",
-    "startedAt": "2026-07-11T18:29:57.021Z",
+    "fetchedAt": "2026-07-11T19:45:54.212Z",
+    "startedAt": "2026-07-11T19:45:51.787Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5795,21 +5795,21 @@
       "odds": []
     },
     "760512": {
-      "home": 25,
-      "draw": 25.2,
-      "away": 49.8,
+      "home": 23,
+      "draw": 24.7,
+      "away": 52.3,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "25.1%",
-          "draw": "25.4%",
-          "away": "50.1%",
-          "homeProbability": 0.25125,
-          "drawProbability": 0.25375,
-          "awayProbability": 0.50125,
+          "home": "22.9%",
+          "draw": "24.6%",
+          "away": "52.1%",
+          "homeProbability": 0.22875,
+          "drawProbability": 0.24625,
+          "awayProbability": 0.52125,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-nor-eng-2026-07-11",
           "eventUrl": "https://polymarket.com/event/fifwc-nor-eng-2026-07-11",
@@ -5818,8 +5818,8 @@
       ]
     },
     "760513": {
-      "home": 57.2,
-      "draw": 26.8,
+      "home": 56.9,
+      "draw": 26.9,
       "away": 16.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
@@ -5827,10 +5827,10 @@
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "57.4%",
+          "home": "56.9%",
           "draw": "26.9%",
           "away": "16.1%",
-          "homeProbability": 0.57375,
+          "homeProbability": 0.56875,
           "drawProbability": 0.26875,
           "awayProbability": 0.16125,
           "spread": "全场赛果预测市场",
@@ -5890,6 +5890,22 @@
   },
   "news": [
     {
+      "id": "49335655",
+      "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+      "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Thomas_Tuchel_be_sacked_if_England_lose_to_Norway__20260711_GLOBAL_FIFA_W/dm_260711_COM_SOC_Analysis_Will_Thomas_Tuchel_be_sacked_if_England_lose_to_Norway__20260711_GLOBAL_FIFA_W.jpg",
+      "imageAlt": "Will Thomas Tuchel be sacked if England lose to Norway?",
+      "credit": "",
+      "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+      "publishedAt": "2026-07-11T19:28:44Z",
+      "updatedAt": "2026-07-11T19:28:44Z",
+      "source": "ESPN news",
+      "matchId": "760512",
+      "matchLabel": "挪威 vs 英格兰",
+      "stage": "四分之一决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49329226",
       "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
       "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -5897,8 +5913,8 @@
       "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
       "credit": "",
       "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-      "publishedAt": "2026-07-11T17:00:52Z",
-      "updatedAt": "2026-07-11T17:00:52Z",
+      "publishedAt": "2026-07-11T19:00:19Z",
+      "updatedAt": "2026-07-11T19:00:19Z",
       "source": "ESPN news",
       "matchId": "760512",
       "matchLabel": "挪威 vs 英格兰",
@@ -5947,22 +5963,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49334380/messi-take-penalties-wants",
       "publishedAt": "2026-07-11T15:34:57Z",
       "updatedAt": "2026-07-11T15:34:57Z",
-      "source": "ESPN news",
-      "matchId": "760512",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49333770",
-      "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-      "description": "Will Cristiano Ronaldo play at the next World Cup?",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-      "publishedAt": "2026-07-11T14:04:04Z",
-      "updatedAt": "2026-07-11T14:04:04Z",
       "source": "ESPN news",
       "matchId": "760512",
       "matchLabel": "",
@@ -6467,7 +6467,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-11T18:29:58.147Z",
+    "updatedAt": "2026-07-11T19:45:54.212Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -121127,7 +121127,7 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.413Z",
+      "fetchedAt": "2026-07-11T19:45:52.234Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121466,6 +121466,22 @@
       ],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Thomas_Tuchel_be_sacked_if_England_lose_to_Norway__20260711_GLOBAL_FIFA_W/dm_260711_COM_SOC_Analysis_Will_Thomas_Tuchel_be_sacked_if_England_lose_to_Norway__20260711_GLOBAL_FIFA_W.jpg",
+          "imageAlt": "Will Thomas Tuchel be sacked if England lose to Norway?",
+          "credit": "",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "760512",
+          "matchLabel": "挪威 vs 英格兰",
+          "stage": "四分之一决赛",
+          "status": "未开始"
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -121473,8 +121489,8 @@
           "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
           "credit": "",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "760512",
           "matchLabel": "挪威 vs 英格兰",
@@ -121544,22 +121560,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121570,7 +121570,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.396Z",
+      "fetchedAt": "2026-07-11T19:45:52.248Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -121889,6 +121889,22 @@
       ],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687854_2_1296x729_16-9.jpg",
+          "imageAlt": "Noni Madueke [1296x729]",
+          "credit": "Photo by Visionhaus/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -121896,8 +121912,8 @@
           "imageAlt": "Erling Haaland [1296x729]",
           "credit": "ANP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -121967,22 +121983,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -121993,7 +121993,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.440Z",
+      "fetchedAt": "2026-07-11T19:45:52.323Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122312,6 +122312,22 @@
       ],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687854_2_1296x729_16-9.jpg",
+          "imageAlt": "Noni Madueke [1296x729]",
+          "credit": "Photo by Visionhaus/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -122319,8 +122335,8 @@
           "imageAlt": "Erling Haaland [1296x729]",
           "credit": "ANP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122390,22 +122406,6 @@
           "matchLabel": "法国 vs 西班牙",
           "stage": "半决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -122416,7 +122416,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.451Z",
+      "fetchedAt": "2026-07-11T19:45:52.380Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122456,6 +122456,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687854_2_1296x729_16-9.jpg",
+          "imageAlt": "Noni Madueke [1296x729]",
+          "credit": "Photo by Visionhaus/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -122463,8 +122479,8 @@
           "imageAlt": "Erling Haaland [1296x729]",
           "credit": "ANP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122534,22 +122550,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -122560,7 +122560,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.449Z",
+      "fetchedAt": "2026-07-11T19:45:52.487Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122600,6 +122600,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687854_2_1296x729_16-9.jpg",
+          "imageAlt": "Noni Madueke [1296x729]",
+          "credit": "Photo by Visionhaus/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -122607,8 +122623,8 @@
           "imageAlt": "Erling Haaland [1296x729]",
           "credit": "ANP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122678,22 +122694,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -122704,7 +122704,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T18:29:57.434Z",
+      "fetchedAt": "2026-07-11T19:45:52.470Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122744,6 +122744,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49335655",
+          "headline": "Noni Madueke set to start for England over Bukayo Saka in World Cup quarterfinal against Norway - sources",
+          "description": "Noni Madueke is set to start for England in the World Cup quarterfinal against Norway in place of Bukayo Saka, sources have told ESPN.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687854_2_1296x729_16-9.jpg",
+          "imageAlt": "Noni Madueke [1296x729]",
+          "credit": "Photo by Visionhaus/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
+          "publishedAt": "2026-07-11T19:28:44Z",
+          "updatedAt": "2026-07-11T19:28:44Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49329226",
           "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
           "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
@@ -122751,8 +122767,8 @@
           "imageAlt": "Erling Haaland [1296x729]",
           "credit": "ANP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T17:00:52Z",
-          "updatedAt": "2026-07-11T17:00:52Z",
+          "publishedAt": "2026-07-11T19:00:19Z",
+          "updatedAt": "2026-07-11T19:00:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122817,22 +122833,6 @@
           "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
           "publishedAt": "2026-07-11T14:37:57Z",
           "updatedAt": "2026-07-11T14:37:57Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49333770",
-          "headline": "Will Cristiano Ronaldo play at the next World Cup?",
-          "description": "Will Cristiano Ronaldo play at the next World Cup?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C/dm_260711_COM_SOC_Analysis_Will_Cristiano_Ronaldo_play_at_the_next_World_Cup_20260711_GLOBAL_FIFA_WORLD_C.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49333770/will-cristiano-ronaldo-play-next-world-cup",
-          "publishedAt": "2026-07-11T14:04:04Z",
-          "updatedAt": "2026-07-11T14:04:04Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
