@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-11T21:50:39.529Z",
-    "startedAt": "2026-07-11T21:50:38.322Z",
+    "fetchedAt": "2026-07-11T22:49:46.327Z",
+    "startedAt": "2026-07-11T22:49:44.847Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3255,7 +3255,7 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "weather": "天气数据待接入",
-      "timeElapsed": "45'+4'",
+      "timeElapsed": "87'",
       "homeScore": 1,
       "awayScore": 1,
       "homeScorers": [
@@ -5799,21 +5799,21 @@
       "odds": []
     },
     "760512": {
-      "home": 19.2,
-      "draw": 31.6,
-      "away": 49.2,
+      "home": 16.1,
+      "draw": 61.8,
+      "away": 22.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "19.4%",
-          "draw": "31.9%",
-          "away": "49.6%",
-          "homeProbability": 0.19375,
-          "drawProbability": 0.31875,
-          "awayProbability": 0.49625,
+          "home": "16.1%",
+          "draw": "61.9%",
+          "away": "22.1%",
+          "homeProbability": 0.16125,
+          "drawProbability": 0.61875,
+          "awayProbability": 0.22125,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-nor-eng-2026-07-11",
           "eventUrl": "https://polymarket.com/event/fifwc-nor-eng-2026-07-11",
@@ -5822,9 +5822,9 @@
       ]
     },
     "760513": {
-      "home": 56.9,
-      "draw": 26.9,
-      "away": 16.1,
+      "home": 57.1,
+      "draw": 27,
+      "away": 15.9,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5833,10 +5833,10 @@
           "source": "polymarket",
           "home": "56.9%",
           "draw": "26.9%",
-          "away": "16.1%",
+          "away": "15.9%",
           "homeProbability": 0.56875,
           "drawProbability": 0.26875,
-          "awayProbability": 0.16125,
+          "awayProbability": 0.15875,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-arg-che-2026-07-11",
           "eventUrl": "https://polymarket.com/event/fifwc-arg-che-2026-07-11",
@@ -5895,14 +5895,14 @@
   "news": [
     {
       "id": "49329265",
-      "headline": "World Cup live updates: England levels it at halftime against Norway",
+      "headline": "World Cup live updates: Second half underway as England and Norway are level",
       "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
       "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
       "imageAlt": "England [1296x729]",
       "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
       "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-      "publishedAt": "2026-07-11T21:49:27Z",
-      "updatedAt": "2026-07-11T21:49:27Z",
+      "publishedAt": "2026-07-11T22:38:48Z",
+      "updatedAt": "2026-07-11T22:38:48Z",
       "source": "ESPN news",
       "matchId": "760512",
       "matchLabel": "挪威 vs 英格兰",
@@ -5910,15 +5910,47 @@
       "status": "进行中"
     },
     {
+      "id": "49329226",
+      "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+      "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9.jpg",
+      "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
+      "credit": "",
+      "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+      "publishedAt": "2026-07-11T22:38:40Z",
+      "updatedAt": "2026-07-11T22:38:40Z",
+      "source": "ESPN news",
+      "matchId": "760512",
+      "matchLabel": "挪威 vs 英格兰",
+      "stage": "四分之一决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49337390",
+      "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+      "description": "Fans in London go wild as Jude Bellingham equalises for England",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+      "publishedAt": "2026-07-11T22:01:21Z",
+      "updatedAt": "2026-07-11T22:01:21Z",
+      "source": "ESPN news",
+      "matchId": "760512",
+      "matchLabel": "",
+      "stage": "四分之一决赛",
+      "status": "进行中"
+    },
+    {
       "id": "49337310",
-      "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-      "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+      "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+      "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
       "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
       "imageAlt": "",
       "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-      "publishedAt": "2026-07-11T21:48:23Z",
-      "updatedAt": "2026-07-11T21:48:23Z",
+      "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+      "publishedAt": "2026-07-11T21:51:16Z",
+      "updatedAt": "2026-07-11T21:51:16Z",
       "source": "ESPN news",
       "matchId": "760512",
       "matchLabel": "挪威 vs 英格兰",
@@ -5951,38 +5983,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
       "publishedAt": "2026-07-11T21:14:15Z",
       "updatedAt": "2026-07-11T21:14:15Z",
-      "source": "ESPN news",
-      "matchId": "760512",
-      "matchLabel": "挪威 vs 英格兰",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49329226",
-      "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-      "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9.jpg",
-      "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
-      "credit": "",
-      "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-      "publishedAt": "2026-07-11T21:00:10Z",
-      "updatedAt": "2026-07-11T21:00:10Z",
-      "source": "ESPN news",
-      "matchId": "760512",
-      "matchLabel": "挪威 vs 英格兰",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49335655",
-      "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-      "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-      "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-      "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-      "publishedAt": "2026-07-11T19:58:34Z",
-      "updatedAt": "2026-07-11T19:58:34Z",
       "source": "ESPN news",
       "matchId": "760512",
       "matchLabel": "挪威 vs 英格兰",
@@ -6471,7 +6471,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-11T21:50:39.529Z",
+    "updatedAt": "2026-07-11T22:49:46.327Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -121131,9 +121131,9 @@
     },
     "760512": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.627Z",
+      "fetchedAt": "2026-07-11T22:49:45.311Z",
       "source": "ESPN summary",
-      "status": "First Half",
+      "status": "Second Half",
       "lineups": {
         "home": {
           "team": "464",
@@ -121177,7 +121177,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -121201,7 +121201,7 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -121255,7 +121255,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "1",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -121266,7 +121266,7 @@
               "position": "LF",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "1",
               "shots": "1",
               "passes": ""
@@ -121279,7 +121279,7 @@
               "position": "RF",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "2",
               "passes": ""
@@ -121319,10 +121319,10 @@
               "jersey": "14",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -121332,10 +121332,10 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -121397,7 +121397,7 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -121536,7 +121536,7 @@
               "position": "LB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -121588,7 +121588,7 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -121603,7 +121603,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "1",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -121614,7 +121614,7 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -121627,7 +121627,7 @@
               "position": "AM-R",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -121680,10 +121680,10 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -121758,7 +121758,7 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -121797,10 +121797,10 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -121810,7 +121810,7 @@
               "jersey": "24",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -121823,7 +121823,7 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "5",
+          "home": "7",
           "away": "3"
         },
         {
@@ -121841,43 +121841,43 @@
         {
           "key": "offsides",
           "label": "越位",
-          "home": "0",
-          "away": "2"
+          "home": "1",
+          "away": "3"
         },
         {
           "key": "wonCorners",
           "label": "角球",
-          "home": "0",
+          "home": "5",
           "away": "2"
         },
         {
           "key": "saves",
           "label": "扑救",
-          "home": "0",
-          "away": "2"
+          "home": "1",
+          "away": "3"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "32.5",
-          "away": "67.5"
+          "home": "42.2",
+          "away": "57.8"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "5",
-          "away": "3"
+          "home": "9",
+          "away": "6"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
-          "home": "3",
-          "away": "1"
+          "home": "4",
+          "away": "2"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.6",
+          "home": "0.4",
           "away": "0.3"
         },
         {
@@ -121895,98 +121895,98 @@
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "146",
-          "away": "332"
+          "home": "304",
+          "away": "450"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "173",
-          "away": "349"
+          "home": "356",
+          "away": "484"
         },
         {
           "key": "passPct",
           "label": "传球成功率",
-          "home": "0.8",
-          "away": "1.0"
+          "home": "0.9",
+          "away": "0.9"
         },
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "1",
-          "away": "3"
+          "home": "3",
+          "away": "4"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "1",
-          "away": "9"
+          "home": "12",
+          "away": "14"
         },
         {
           "key": "crossPct",
           "label": "Cross %",
-          "home": "1.0",
+          "home": "0.3",
           "away": "0.3"
         },
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "16",
-          "away": "20"
+          "home": "28",
+          "away": "30"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "7",
-          "away": "15"
+          "home": "13",
+          "away": "19"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
-          "home": "0.4",
-          "away": "0.8"
+          "home": "0.5",
+          "away": "0.6"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
           "home": "1",
-          "away": "1"
+          "away": "3"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "6",
-          "away": "2"
+          "home": "9",
+          "away": "7"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "11",
-          "away": "2"
+          "home": "19",
+          "away": "8"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
           "home": "0.5",
-          "away": "1.0"
+          "away": "0.9"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "2",
-          "away": "1"
+          "home": "4",
+          "away": "5"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "9",
-          "away": "2"
+          "home": "13",
+          "away": "17"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "9",
-          "away": "2"
+          "home": "13",
+          "away": "17"
         }
       ],
       "leaders": [
@@ -121997,30 +121997,30 @@
             {
               "key": "totalShots",
               "label": "射门",
-              "player": "Alexander Sørloth",
+              "player": "Erling Haaland",
               "value": "2",
-              "summary": "0 SOG, 0.21 xG"
+              "summary": "1 SOG, 0.11 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Sander Berge",
-              "value": "27",
-              "summary": "29 PASS"
+              "value": "56",
+              "summary": "60 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Julian Ryerson",
-              "value": "5",
-              "summary": "2 TKLW, 4 DUELW"
+              "value": "7",
+              "summary": "3 TKLW, 5 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Ørjan Nyland",
+              "value": "1",
+              "summary": "2 SOGA, 0.28 xGC"
             }
           ]
         },
@@ -122038,23 +122038,23 @@
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Marc Guéhi",
-              "value": "51",
-              "summary": "55 PASS"
+              "player": "John Stones",
+              "value": "69",
+              "summary": "69 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Elliot Anderson",
-              "value": "3",
-              "summary": "0 TKLW"
+              "value": "6",
+              "summary": "2 TKLW, 2 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Jordan Pickford",
-              "value": "2",
-              "summary": "3 SOGA, 0.34 xGC"
+              "value": "3",
+              "summary": "4 SOGA, 0.52 xGC"
             }
           ]
         }
@@ -122197,35 +122197,45 @@
       ],
       "media": {
         "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
-        "alt": "Crazy scenes in Olso has Norway take the lead vs. England",
-        "caption": "Crazy scenes in Olso has Norway take the lead vs. England",
+        "alt": "Crazy scenes in Oslo has Norway take the lead vs. England",
+        "caption": "Crazy scenes in Oslo has Norway take the lead vs. England",
         "credit": "",
         "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england"
+        "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england"
       },
       "videos": [
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "thumbnail": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
           "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11_720p30_2896k.mp4",
           "duration": 30,
+          "source": "ESPN video"
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England_720p30_2896k.mp4",
+          "duration": 42,
           "source": "ESPN video"
         }
       ],
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
           "source": "ESPN news",
           "matchId": "760512",
           "matchLabel": "挪威 vs 英格兰",
@@ -122233,15 +122243,47 @@
           "status": "进行中"
         },
         {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9.jpg",
+          "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
+          "credit": "",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "760512",
+          "matchLabel": "挪威 vs 英格兰",
+          "stage": "四分之一决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "760512",
           "matchLabel": "挪威 vs 英格兰",
@@ -122265,22 +122307,6 @@
           "status": "进行中"
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9.jpg",
-          "imageAlt": "Haaland: All the pressure is on England in quarterfinal",
-          "credit": "",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "760512",
-          "matchLabel": "挪威 vs 英格兰",
-          "stage": "四分之一决赛",
-          "status": "进行中"
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -122290,22 +122316,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "760512",
-          "matchLabel": "挪威 vs 英格兰",
-          "stage": "四分之一决赛",
-          "status": "进行中"
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "760512",
           "matchLabel": "挪威 vs 英格兰",
@@ -122321,7 +122331,7 @@
     },
     "760513": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.618Z",
+      "fetchedAt": "2026-07-11T22:49:45.301Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -122641,14 +122651,46 @@
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122657,14 +122699,14 @@
         },
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122688,22 +122730,6 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "ANP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -122713,22 +122739,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -122744,7 +122754,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.665Z",
+      "fetchedAt": "2026-07-11T22:49:45.329Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123064,14 +123074,46 @@
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123080,14 +123122,14 @@
         },
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123111,22 +123153,6 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "ANP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -123136,22 +123162,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123167,7 +123177,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.637Z",
+      "fetchedAt": "2026-07-11T22:49:45.327Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123208,14 +123218,46 @@
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123224,14 +123266,14 @@
         },
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123255,22 +123297,6 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "ANP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -123280,22 +123306,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123311,7 +123321,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.651Z",
+      "fetchedAt": "2026-07-11T22:49:45.322Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123352,14 +123362,46 @@
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123368,14 +123410,14 @@
         },
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123399,22 +123441,6 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "ANP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -123424,22 +123450,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123455,7 +123465,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-11T21:50:38.637Z",
+      "fetchedAt": "2026-07-11T22:49:45.333Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123496,14 +123506,46 @@
       "news": [
         {
           "id": "49329265",
-          "headline": "World Cup live updates: England levels it at halftime against Norway",
+          "headline": "World Cup live updates: Second half underway as England and Norway are level",
           "description": "Enjoy all the updates from Saturday's match as Norway take on England in Miami Gardens in 2026 FIFA World Cup quarterfinal action.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687924_1296x729_16-9.jpg",
           "imageAlt": "England [1296x729]",
           "credit": "(Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49329265/world-cup-live-updates-norway-take-england-quarterfinal-clash",
-          "publishedAt": "2026-07-11T21:49:27Z",
-          "updatedAt": "2026-07-11T21:49:27Z",
+          "publishedAt": "2026-07-11T22:38:48Z",
+          "updatedAt": "2026-07-11T22:38:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49329226",
+          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+          "publishedAt": "2026-07-11T22:38:40Z",
+          "updatedAt": "2026-07-11T22:38:40Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49337390",
+          "headline": "Fans in London go wild as Jude Bellingham equalises for England",
+          "description": "Fans in London go wild as Jude Bellingham equalises for England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England/dm_260711_Fans_in_London_go_wild_as_Jude_Bellingham_equalises_for_England.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49337390/fans-london-go-wild-jude-bellingham-equalises-england",
+          "publishedAt": "2026-07-11T22:01:21Z",
+          "updatedAt": "2026-07-11T22:01:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123512,14 +123554,14 @@
         },
         {
           "id": "49337310",
-          "headline": "Crazy scenes in Olso has Norway take the lead vs. England",
-          "description": "Crazy scenes in Olso has Norway take the lead vs. England",
+          "headline": "Crazy scenes in Oslo has Norway take the lead vs. England",
+          "description": "Crazy scenes in Oslo has Norway take the lead vs. England",
           "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11/dm_260711_COM_SOC_Fans_Crazy_scenes_in_Olso_has_Norway_take_the_lead_vs_England_GLOBAL_2026-07-11.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-olso-norway-take-lead-vs-england",
-          "publishedAt": "2026-07-11T21:48:23Z",
-          "updatedAt": "2026-07-11T21:48:23Z",
+          "link": "https://www.espn.com/video/clip/_/id/49337310/crazy-scenes-oslo-norway-take-lead-vs-england",
+          "publishedAt": "2026-07-11T21:51:16Z",
+          "updatedAt": "2026-07-11T21:51:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123543,22 +123585,6 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Free England-Norway ticket in Haaland look-alike contest",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687666_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "ANP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-11T21:00:10Z",
-          "updatedAt": "2026-07-11T21:00:10Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49336872",
           "headline": "Jordan Henderson: Breaking arm in England celebrations 'was not my finest hour'",
           "description": "England midfielder Jordan Henderson joked it was \"not my finest hour\" after he suffered a broken arm while celebrating the World Cup round of 16 win over Mexico last weekend.",
@@ -123568,22 +123594,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49336872/jordan-henderson-england-world-cup-2026",
           "publishedAt": "2026-07-11T21:14:15Z",
           "updatedAt": "2026-07-11T21:14:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49335655",
-          "headline": "Ezri Konsa starts for England at right-back against Norway as John Stones, Noni Madueke come into team",
-          "description": "England have made two changes and a further positional switch for their World Cup quarterfinal with Norway in Miami on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1687880_2_1296x729_16-9.jpg",
-          "imageAlt": "Noni Madueke starts for England ahead of Bukayo Saka on the right.",
-          "credit": "Photo by Steph Chambers - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49335655/england-world-cup-norway-team-news-sources-noni-madueke-marc-guehi-quarterfinal",
-          "publishedAt": "2026-07-11T19:58:34Z",
-          "updatedAt": "2026-07-11T19:58:34Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
