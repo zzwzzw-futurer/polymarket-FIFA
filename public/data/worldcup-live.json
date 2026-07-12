@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-12T02:57:34.771Z",
-    "startedAt": "2026-07-12T02:57:31.189Z",
+    "fetchedAt": "2026-07-12T06:09:37.194Z",
+    "startedAt": "2026-07-12T06:09:36.051Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -15,23 +15,23 @@
     "odds": {
       "status": "polymarket_live",
       "matches": 2,
-      "polymarketMatches": 2,
-      "espnMatches": 0,
+      "polymarketMatches": 1,
+      "espnMatches": 1,
       "polymarket": {
         "status": "fallback_search",
         "strategy": "public-search",
         "primaryError": "stdout maxBuffer length exceeded",
         "requestedUrl": "https://gamma-api.polymarket.com/public-search",
-        "events": 2,
-        "searchedMatches": 5,
+        "events": 1,
+        "searchedMatches": 4,
         "failedSearches": 0,
         "searchLimit": 8,
-        "scannedMatches": 5,
-        "matches": 2
+        "scannedMatches": 4,
+        "matches": 1
       }
     },
     "details": {
-      "requested": 5,
+      "requested": 4,
       "total": 104,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
     },
@@ -236,7 +236,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "group": "B组",
-      "form": "WWWWD",
+      "form": "LWWWW",
       "sourceName": "Switzerland"
     },
     "477": {
@@ -508,15 +508,6 @@
       "group": "E组",
       "form": "LDLWL",
       "sourceName": "Curaçao"
-    },
-    "17632": {
-      "name": "四分之一决赛第4场胜者",
-      "code": "QW4",
-      "flag": "",
-      "flagUrl": "",
-      "group": "",
-      "form": "待更新",
-      "sourceName": "Quarterfinal 4 Winner"
     }
   },
   "matches": [
@@ -3269,16 +3260,18 @@
       "matchday": 13799,
       "home": "202",
       "away": "475",
-      "score": "1 - 1",
-      "status": "进行中",
+      "score": "3 - 1",
+      "status": "已结束",
       "venue": "GEHA Field at Arrowhead Stadium",
       "city": "Kansas City, Missouri",
       "weather": "天气数据待接入",
-      "timeElapsed": "90'+6'",
-      "homeScore": 1,
+      "timeElapsed": "AET",
+      "homeScore": 3,
       "awayScore": 1,
       "homeScorers": [
-        "A. Mac Allister"
+        "A. Mac Allister",
+        "J. Álvarez",
+        "L. Martínez"
       ],
       "awayScorers": [
         "D. Ndoye"
@@ -3318,7 +3311,7 @@
       "group": "半决赛",
       "matchday": 13798,
       "home": "448",
-      "away": "17632",
+      "away": "202",
       "score": "-",
       "status": "未开始",
       "venue": "Mercedes-Benz Stadium",
@@ -4218,6 +4211,15 @@
       "shots": 6
     },
     {
+      "name": "L. Martínez",
+      "country": "202",
+      "team": "阿根廷",
+      "goals": 3,
+      "assists": 0,
+      "rating": 8.2,
+      "shots": 6
+    },
+    {
       "name": "M. Cunha",
       "country": "205",
       "team": "巴西",
@@ -4434,15 +4436,6 @@
       "shots": 4
     },
     {
-      "name": "L. Martínez",
-      "country": "202",
-      "team": "阿根廷",
-      "goals": 2,
-      "assists": 0,
-      "rating": 7.8,
-      "shots": 4
-    },
-    {
       "name": "L. Trossard",
       "country": "459",
       "team": "比利时",
@@ -4554,7 +4547,7 @@
       "goalsAgainst": 3,
       "goalDifference": "+4",
       "points": 7,
-      "form": "WWWWD",
+      "form": "LWWWW",
       "name": "瑞士"
     },
     {
@@ -5803,32 +5796,17 @@
       "odds": []
     },
     "760513": {
-      "home": 21.2,
-      "draw": 76.6,
-      "away": 2.2,
-      "model": "Polymarket 即时市场价格隐含概率",
-      "trend": "Polymarket live",
-      "odds": [
-        {
-          "book": "Polymarket",
-          "source": "polymarket",
-          "home": "21.3%",
-          "draw": "76.8%",
-          "away": "2.25%",
-          "homeProbability": 0.2125,
-          "drawProbability": 0.7675,
-          "awayProbability": 0.0225,
-          "spread": "全场赛果预测市场",
-          "eventSlug": "fifwc-arg-che-2026-07-11",
-          "eventUrl": "https://polymarket.com/event/fifwc-arg-che-2026-07-11",
-          "marketTitle": "Argentina vs. Switzerland"
-        }
-      ]
+      "home": 100,
+      "draw": 0,
+      "away": 0,
+      "model": "无赔率时的结果/均衡展示",
+      "trend": "无实时赔率",
+      "odds": []
     },
     "760514": {
-      "home": 41.9,
-      "draw": 29.1,
-      "away": 29.1,
+      "home": 42.3,
+      "draw": 29.4,
+      "away": 28.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5837,10 +5815,10 @@
           "source": "polymarket",
           "home": "42.5%",
           "draw": "29.5%",
-          "away": "29.5%",
+          "away": "28.5%",
           "homeProbability": 0.425,
           "drawProbability": 0.295,
-          "awayProbability": 0.295,
+          "awayProbability": 0.285,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-esp-2026-07-14",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-esp-2026-07-14",
@@ -5849,12 +5827,21 @@
       ]
     },
     "760515": {
-      "home": 37.5,
-      "draw": 25,
-      "away": 37.5,
-      "model": "无赔率时的结果/均衡展示",
-      "trend": "无实时赔率",
-      "odds": []
+      "home": 37.2,
+      "draw": 31.6,
+      "away": 31.1,
+      "model": "ESPN / DraftKings moneyline 隐含概率",
+      "trend": "ESPN odds",
+      "odds": [
+        {
+          "book": "DraftKings",
+          "source": "espn",
+          "home": "2.55",
+          "draw": "3.00",
+          "away": "3.05",
+          "spread": "ENG +155"
+        }
+      ]
     },
     "760516": {
       "home": 37.5,
@@ -5875,6 +5862,86 @@
   },
   "news": [
     {
+      "id": "49340795",
+      "headline": "Julián Álvarez extra time screamer fires Argentina into semifinals",
+      "description": "Julián Álvarez said he felt a 'huge release of emotions' after he scored his first World Cup goal for Argentina to propel his team into the semifinals against England.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688183_1296x729_16-9.jpg",
+      "imageAlt": "Julian Alvarez [1296x729]",
+      "credit": "AP Photo/Ashley Landis",
+      "link": "https://www.espn.com/soccer/story/_/id/49340795/julian-alvarez-extra-screamer-fires-argentina-semifinals-world-cup",
+      "publishedAt": "2026-07-12T06:06:52Z",
+      "updatedAt": "2026-07-12T06:06:52Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49340812",
+      "headline": "Do Spain pose the greatest threat to France?",
+      "description": "Do Spain pose the greatest threat to France?",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49340812/do-spain-pose-greatest-threat-france",
+      "publishedAt": "2026-07-12T05:39:16Z",
+      "updatedAt": "2026-07-12T05:39:16Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "法国 vs 西班牙",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49339784",
+      "headline": "Jude Bellingham is dragging England towards history. This is his World Cup",
+      "description": "ESPN's Tom Hamilton explains how Jude Bellingham has become the driving force behind England's World Cup run after answering Thomas Tuchel's challenge.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1688001_2_1296x729_16-9.jpg",
+      "imageAlt": "Jude Bellingham scored twice as England beat Norway 2-1 on Saturday.",
+      "credit": "Richard Pelham/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49339784/jude-bellingham-dragging-england-towards-history-world-cup-2026-norway-argentina",
+      "publishedAt": "2026-07-12T05:25:48Z",
+      "updatedAt": "2026-07-12T05:25:48Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49339724",
+      "headline": "Switzerland furious as Embolo gets red card for diving after VAR review",
+      "description": "Switzerland forward Breel Embolo was sent off in the second half of a World Cup quarterfinal match with Argentina on Saturday night after a video review showed he was guilty of simulation.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688116_1296x729_16-9.jpg",
+      "imageAlt": "Breel Embolo (7) of Switzerland protests to referee after receiving red card during the 2026 FIFA World Cup quarter-final match between Argentina and Switzerland at Arrowhead Stadium in Kansas City, Missouri, US, on July 11, 2026",
+      "credit": "Ercin Erturk/Anadolu via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+      "publishedAt": "2026-07-12T05:22:10Z",
+      "updatedAt": "2026-07-12T05:22:10Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49338924",
+      "headline": "FIFA World Cup 2026 stats: Messi sets new record, overtakes Mbappe; Alvarez ties Maradona; Bellingham second after Pele",
+      "description": "ESPN's By The Numbers brings you best stats from the World Cup action on July 11",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688176_608x342_16-9.jpg",
+      "imageAlt": "Messi celebrations post-match Switzerland [608x342]",
+      "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49338924/fifa-world-cup-2026-stats-lionel-messi-new-record-kylian-mbappe-julian-alvarez-tie-diego-maradona-jude-bellingham-second-pele",
+      "publishedAt": "2026-07-12T05:17:12Z",
+      "updatedAt": "2026-07-12T05:17:12Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49338957",
       "headline": "Jude Bellingham backs England stars after Thomas Tuchel criticism",
       "description": "Jude Bellingham praised England's fighting spirit and ability to \"win dirty\" after coach Thomas Tuchel criticized their performance in beating Norway on Saturday.",
@@ -5888,7 +5955,7 @@
       "matchId": "760513",
       "matchLabel": "",
       "stage": "四分之一决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49339250",
@@ -5904,7 +5971,7 @@
       "matchId": "760513",
       "matchLabel": "",
       "stage": "四分之一决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49339629",
@@ -5936,7 +6003,7 @@
       "matchId": "760513",
       "matchLabel": "",
       "stage": "四分之一决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49339306",
@@ -5952,7 +6019,7 @@
       "matchId": "760513",
       "matchLabel": "",
       "stage": "四分之一决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49329265",
@@ -6369,90 +6436,10 @@
       "matchLabel": "",
       "stage": "16强",
       "status": "已结束"
-    },
-    {
-      "id": "49295791",
-      "headline": "Nicol: Why would Pochettino want to stay on with USMNT?",
-      "description": "Nicol: Why would Pochettino want to stay on with USMNT?",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0707/dm_260707_Why_would_Pochettino_want_to_stay_on_with_USMNT/dm_260707_Why_would_Pochettino_want_to_stay_on_with_USMNT.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49295791/why-pochettino-want-stay-usmnt",
-      "publishedAt": "2026-07-07T14:26:56Z",
-      "updatedAt": "2026-07-07T14:26:56Z",
-      "source": "ESPN news",
-      "matchId": "760509",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
-    },
-    {
-      "id": "49282960",
-      "headline": "World Cup live updates: De Ketelaere gives Belgium early lead over U.S.",
-      "description": "Enjoy all the updates from Monday's 2026 World Cup round-of-16 match between the United States and Belgium.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685620_1296x729_16-9.jpg",
-      "imageAlt": "belgium [1296x729]",
-      "credit": "(Photo by Jared C. Tilton - FIFA/FIFA via Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49282960/world-cup-live-updates-united-states-takes-belgium-last-16",
-      "publishedAt": "2026-07-07T00:16:30Z",
-      "updatedAt": "2026-07-07T00:16:30Z",
-      "source": "ESPN news",
-      "matchId": "760507",
-      "matchLabel": "美国 vs 比利时",
-      "stage": "16强",
-      "status": "进行中"
-    },
-    {
-      "id": "49289909",
-      "headline": "Ronaldo's World Cup career ends with a whimper as Spain's subs win it late",
-      "description": "Spain's late winner knocked out Portugal and closed the book on Cristiano Ronaldo's time on the world's biggest stage.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685545_1296x729_16-9.jpg",
-      "imageAlt": "Cristiano Ronaldo sad [1296x729]",
-      "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49289909/cristiano-ronaldo-portugal-world-cup-career-ends-whimper-spain-subs-win-late",
-      "publishedAt": "2026-07-07T00:16:09Z",
-      "updatedAt": "2026-07-07T00:16:09Z",
-      "source": "ESPN news",
-      "matchId": "760507",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
-    },
-    {
-      "id": "49290967",
-      "headline": "Switzerland fear 'huge issue' as Manzambi, 2 others leave training",
-      "description": "Johan Manzambi, the breakout star for Switzerland at the World Cup, left training early on Monday ahead of Tuesday's round of 16 match against Colombia.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685611_1296x729_16-9.jpg",
-      "imageAlt": "Manzambi Johan #9 of Switzerland stretches during the training session one da y ahead of the FIFA World Cup 2026 Round of 16 match between Switzerland and Colombia at the National Soccer Development Centre on July 6, 2026 in Vancouver, British Colombia, C",
-      "credit": "Verity Griffin/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49290967/switzerland-johan-manzambi-injury-colombia-2006-world-cup",
-      "publishedAt": "2026-07-07T00:11:12Z",
-      "updatedAt": "2026-07-07T00:11:12Z",
-      "source": "ESPN news",
-      "matchId": "760507",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
-    },
-    {
-      "id": "49290017",
-      "headline": "Cristiano Ronaldo exits final World Cup with 'clear conscience'",
-      "description": "An emotional Cristiano Ronaldo said he had a \"clear conscience\" as he exited his final World Cup as Portugal were eliminated 1-0 by Spain in the round of 16 in Arlington, Texas, on Monday.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685550_1296x729_16-9.jpg",
-      "imageAlt": "Cristiano Ronaldo of Portugal reacts at the end of the FIFA World Cup 2026 Round of 16 match between Portugal and Spain at Dallas Stadium on July 6, 2026 in Arlington, United States",
-      "credit": "Chris Brunskill/Fantasista/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49290017/cristiano-ronaldo-portugal-spain-last-world-cup-2026",
-      "publishedAt": "2026-07-06T23:45:09Z",
-      "updatedAt": "2026-07-06T23:45:09Z",
-      "source": "ESPN news",
-      "matchId": "760507",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-12T02:57:34.771Z",
+    "updatedAt": "2026-07-12T06:09:37.194Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6539,7 +6526,7 @@
       },
       {
         "label": "Polymarket",
-        "value": "2 场"
+        "value": "1 场"
       }
     ],
     "updatePolicy": [
@@ -123542,7 +123529,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T02:57:32.606Z",
+      "fetchedAt": "2026-07-12T06:09:36.358Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123861,15 +123848,31 @@
       ],
       "news": [
         {
-          "id": "49339629",
-          "headline": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "description": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12.jpg",
+          "id": "49340812",
+          "headline": "Do Spain pose the greatest threat to France?",
+          "description": "Do Spain pose the greatest threat to France?",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49339629/switzerland-fans-go-crazy-equalise-vs-argentina",
-          "publishedAt": "2026-07-12T02:43:55Z",
-          "updatedAt": "2026-07-12T02:43:55Z",
+          "link": "https://www.espn.com/video/clip/_/id/49340812/do-spain-pose-greatest-threat-france",
+          "publishedAt": "2026-07-12T05:39:16Z",
+          "updatedAt": "2026-07-12T05:39:16Z",
+          "source": "ESPN news",
+          "matchId": "760514",
+          "matchLabel": "法国 vs 西班牙",
+          "stage": "半决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49340795",
+          "headline": "Julián Álvarez extra time screamer fires Argentina into semifinals",
+          "description": "Julián Álvarez said he felt a 'huge release of emotions' after he scored his first World Cup goal for Argentina to propel his team into the semifinals against England.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688183_1296x729_16-9.jpg",
+          "imageAlt": "Julian Alvarez [1296x729]",
+          "credit": "AP Photo/Ashley Landis",
+          "link": "https://www.espn.com/soccer/story/_/id/49340795/julian-alvarez-extra-screamer-fires-argentina-semifinals-world-cup",
+          "publishedAt": "2026-07-12T06:06:52Z",
+          "updatedAt": "2026-07-12T06:06:52Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123877,15 +123880,15 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Switzerland levels it against Argentina in the second half",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688101_1296x729_16-9.jpg",
-          "imageAlt": "Messi [1296x729]",
-          "credit": "(Photo by Tom Weller/picture alliance via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-12T02:34:53Z",
-          "updatedAt": "2026-07-12T02:34:53Z",
+          "id": "49339784",
+          "headline": "Jude Bellingham is dragging England towards history. This is his World Cup",
+          "description": "ESPN's Tom Hamilton explains how Jude Bellingham has become the driving force behind England's World Cup run after answering Thomas Tuchel's challenge.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1688001_2_1296x729_16-9.jpg",
+          "imageAlt": "Jude Bellingham scored twice as England beat Norway 2-1 on Saturday.",
+          "credit": "Richard Pelham/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339784/jude-bellingham-dragging-england-towards-history-world-cup-2026-norway-argentina",
+          "publishedAt": "2026-07-12T05:25:48Z",
+          "updatedAt": "2026-07-12T05:25:48Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123893,15 +123896,15 @@
           "status": ""
         },
         {
-          "id": "49338957",
-          "headline": "Jude Bellingham backs England stars after Thomas Tuchel criticism",
-          "description": "Jude Bellingham praised England's fighting spirit and ability to \"win dirty\" after coach Thomas Tuchel criticized their performance in beating Norway on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688058_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham #10 of England holds his shoulder as he speaks with Thomas Tuchel, Manager of England, during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49338957/jude-bellingham-england-thomas-tuchel-criticism",
-          "publishedAt": "2026-07-12T02:55:24Z",
-          "updatedAt": "2026-07-12T02:55:24Z",
+          "id": "49339724",
+          "headline": "Switzerland furious as Embolo gets red card for diving after VAR review",
+          "description": "Switzerland forward Breel Embolo was sent off in the second half of a World Cup quarterfinal match with Argentina on Saturday night after a video review showed he was guilty of simulation.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688116_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo (7) of Switzerland protests to referee after receiving red card during the 2026 FIFA World Cup quarter-final match between Argentina and Switzerland at Arrowhead Stadium in Kansas City, Missouri, US, on July 11, 2026",
+          "credit": "Ercin Erturk/Anadolu via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+          "publishedAt": "2026-07-12T05:22:10Z",
+          "updatedAt": "2026-07-12T05:22:10Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123909,15 +123912,15 @@
           "status": ""
         },
         {
-          "id": "49339306",
-          "headline": "Jude Bellingham: Mum's pep talk helped avoid yellow card during World Cup win over Norway",
-          "description": "Jude Bellingham has revealed a pep talk from his mother was key in avoiding a yellow card in England's 2-1 win over Norway which would have resulted in him missing the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688083_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham would have found himself out of Wednesday's semifinal had he got booked against Norway.",
-          "credit": "Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339306/jude-bellingham-mother-pep-talk-yellow-card-england-norway-fifa-world-cup-quarterfinal",
-          "publishedAt": "2026-07-12T02:10:17Z",
-          "updatedAt": "2026-07-12T02:10:17Z",
+          "id": "49338924",
+          "headline": "FIFA World Cup 2026 stats: Messi sets new record, overtakes Mbappe; Alvarez ties Maradona; Bellingham second after Pele",
+          "description": "ESPN's By The Numbers brings you best stats from the World Cup action on July 11",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688176_608x342_16-9.jpg",
+          "imageAlt": "Messi celebrations post-match Switzerland [608x342]",
+          "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49338924/fifa-world-cup-2026-stats-lionel-messi-new-record-kylian-mbappe-julian-alvarez-tie-diego-maradona-jude-bellingham-second-pele",
+          "publishedAt": "2026-07-12T05:17:12Z",
+          "updatedAt": "2026-07-12T05:17:12Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123925,31 +123928,15 @@
           "status": ""
         },
         {
-          "id": "49339438",
-          "headline": "Prince William, David Beckham lead England celebrations after World Cup quarterfinal triumph",
-          "description": "Prince William, Sir Keir Starmer and Sir David Beckham were among those celebrating England's dramatic World Cup quarterfinal victory over Norway.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688087_1296x729_16-9.jpg",
-          "imageAlt": "David Beckham celebrates after the 2-1 victory during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium",
-          "credit": "Ira L. Black - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339438/prince-william-david-beckham-lead-england-celebrations-world-cup-quarterfinal-triumph",
-          "publishedAt": "2026-07-12T02:11:59Z",
-          "updatedAt": "2026-07-12T02:11:59Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49339250",
-          "headline": "Haaland silenced by England as World Cup 'insane journey' ends for Norway",
-          "description": "Erling Haaland was subbed off late in extra time as Norway's World Cup run ended in a -2-1 quarterfinal loss to England.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688088_1296x729_16-9.jpg",
-          "imageAlt": "Haaland [1296x729]",
-          "credit": "Photo by Peter Joneleit/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49339250/erling-haaland-england-subbed-late-norway-world-cup",
-          "publishedAt": "2026-07-12T02:47:24Z",
-          "updatedAt": "2026-07-12T02:47:24Z",
+          "id": "49027532",
+          "headline": "World Cup VAR review: Embolo sent off as Ream's 'mistaken identity' loophole appears again",
+          "description": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688150_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo was distraught as he left the pitch following his second yellow card.",
+          "credit": "Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+          "publishedAt": "2026-07-12T05:59:22Z",
+          "updatedAt": "2026-07-12T05:59:22Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -123965,7 +123952,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T02:57:32.699Z",
+      "fetchedAt": "2026-07-12T06:09:36.347Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123978,8 +123965,8 @@
           "substitutes": []
         },
         "away": {
-          "team": "17632",
-          "teamName": "四分之一决赛第4场胜者",
+          "team": "202",
+          "teamName": "阿根廷",
           "formation": "待公布",
           "status": "pending",
           "starters": [],
@@ -123991,25 +123978,25 @@
           "key": "goalDifference",
           "label": "净胜球",
           "home": "6",
-          "away": "-"
+          "away": "9"
         },
         {
           "key": "totalGoals",
           "label": "进球",
           "home": "11",
-          "away": "-"
+          "away": "14"
         },
         {
           "key": "goalAssists",
           "label": "助攻",
           "home": "9",
-          "away": "-"
+          "away": "8"
         },
         {
           "key": "goalsConceded",
           "label": "失球",
           "home": "5",
-          "away": "-"
+          "away": "5"
         }
       ],
       "leaders": [
@@ -124055,12 +124042,99 @@
           ]
         },
         {
-          "teamId": "17632",
-          "teamName": "四分之一决赛第4场胜者",
-          "leaders": []
+          "teamId": "202",
+          "teamName": "阿根廷",
+          "leaders": [
+            {
+              "key": "goalsLeaders",
+              "label": "Goals",
+              "player": "Lionel Messi",
+              "value": "Matches: 5, Goals: 8",
+              "summary": "5 APP"
+            },
+            {
+              "key": "assistsLeaders",
+              "label": "Assists",
+              "player": "Alexis Mac Allister",
+              "value": "Matches: 5, Assists: 1",
+              "summary": "5 APP"
+            },
+            {
+              "key": "totalShots",
+              "label": "射门",
+              "player": "Lionel Messi",
+              "value": "29",
+              "summary": ""
+            },
+            {
+              "key": "accuratePasses",
+              "label": "成功传球",
+              "player": "Leandro Paredes",
+              "value": "315",
+              "summary": ""
+            },
+            {
+              "key": "saves",
+              "label": "扑救",
+              "player": "Emiliano Martínez",
+              "value": "4",
+              "summary": ""
+            }
+          ]
         }
       ],
-      "headToHead": [],
+      "headToHead": [
+        {
+          "id": "190005",
+          "date": "11-13 00:45",
+          "sourceTeam": "英格兰",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "3-2",
+          "result": "胜",
+          "competition": "国际友谊赛"
+        },
+        {
+          "id": "48830",
+          "date": "06-07 19:30",
+          "sourceTeam": "英格兰",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "1-0",
+          "result": "胜",
+          "competition": "2002 FIFA 世界杯"
+        },
+        {
+          "id": "198146",
+          "date": "06-30 15:00",
+          "sourceTeam": "英格兰",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "2-2",
+          "result": "平",
+          "competition": "1998 FIFA 世界杯"
+        },
+        {
+          "id": "197969",
+          "date": "06-22 16:00",
+          "sourceTeam": "英格兰",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "2-1",
+          "result": "负",
+          "competition": "1986 墨西哥世界杯"
+        },
+        {
+          "id": "197754",
+          "date": "07-23 15:00",
+          "sourceTeam": "英格兰",
+          "opponent": "阿根廷",
+          "atVs": "vs",
+          "score": "1-0",
+          "result": "胜",
+          "competition": "1966 英格兰世界杯"
+        }
+      ],
       "recentForm": [
         {
           "teamId": "448",
@@ -124119,24 +124193,75 @@
           ]
         },
         {
-          "teamId": "17632",
-          "teamName": "四分之一决赛第4场胜者",
-          "events": []
+          "teamId": "202",
+          "teamName": "阿根廷",
+          "events": [
+            {
+              "id": "760456",
+              "date": "06-23 01:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "奥地利",
+              "atVs": "vs",
+              "score": "2-0",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760483",
+              "date": "06-28 10:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "约旦",
+              "atVs": "@",
+              "score": "3-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760500",
+              "date": "07-04 06:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "佛得角",
+              "atVs": "vs",
+              "score": "3-2",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760509",
+              "date": "07-08 00:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "埃及",
+              "atVs": "vs",
+              "score": "3-2",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760513",
+              "date": "07-12 09:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "瑞士",
+              "atVs": "vs",
+              "score": "3-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            }
+          ]
         }
       ],
       "media": null,
       "videos": [],
       "news": [
         {
-          "id": "49339629",
-          "headline": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "description": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12.jpg",
+          "id": "49340812",
+          "headline": "Do Spain pose the greatest threat to France?",
+          "description": "Do Spain pose the greatest threat to France?",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49339629/switzerland-fans-go-crazy-equalise-vs-argentina",
-          "publishedAt": "2026-07-12T02:43:55Z",
-          "updatedAt": "2026-07-12T02:43:55Z",
+          "link": "https://www.espn.com/video/clip/_/id/49340812/do-spain-pose-greatest-threat-france",
+          "publishedAt": "2026-07-12T05:39:16Z",
+          "updatedAt": "2026-07-12T05:39:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124144,15 +124269,31 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Switzerland levels it against Argentina in the second half",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688101_1296x729_16-9.jpg",
-          "imageAlt": "Messi [1296x729]",
-          "credit": "(Photo by Tom Weller/picture alliance via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-12T02:34:53Z",
-          "updatedAt": "2026-07-12T02:34:53Z",
+          "id": "49340795",
+          "headline": "Julián Álvarez extra time screamer fires Argentina into semifinals",
+          "description": "Julián Álvarez said he felt a 'huge release of emotions' after he scored his first World Cup goal for Argentina to propel his team into the semifinals against England.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688183_1296x729_16-9.jpg",
+          "imageAlt": "Julian Alvarez [1296x729]",
+          "credit": "AP Photo/Ashley Landis",
+          "link": "https://www.espn.com/soccer/story/_/id/49340795/julian-alvarez-extra-screamer-fires-argentina-semifinals-world-cup",
+          "publishedAt": "2026-07-12T06:06:52Z",
+          "updatedAt": "2026-07-12T06:06:52Z",
+          "source": "ESPN news",
+          "matchId": "760515",
+          "matchLabel": "英格兰 vs 阿根廷",
+          "stage": "半决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49339784",
+          "headline": "Jude Bellingham is dragging England towards history. This is his World Cup",
+          "description": "ESPN's Tom Hamilton explains how Jude Bellingham has become the driving force behind England's World Cup run after answering Thomas Tuchel's challenge.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1688001_2_1296x729_16-9.jpg",
+          "imageAlt": "Jude Bellingham scored twice as England beat Norway 2-1 on Saturday.",
+          "credit": "Richard Pelham/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339784/jude-bellingham-dragging-england-towards-history-world-cup-2026-norway-argentina",
+          "publishedAt": "2026-07-12T05:25:48Z",
+          "updatedAt": "2026-07-12T05:25:48Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124160,15 +124301,15 @@
           "status": ""
         },
         {
-          "id": "49338957",
-          "headline": "Jude Bellingham backs England stars after Thomas Tuchel criticism",
-          "description": "Jude Bellingham praised England's fighting spirit and ability to \"win dirty\" after coach Thomas Tuchel criticized their performance in beating Norway on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688058_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham #10 of England holds his shoulder as he speaks with Thomas Tuchel, Manager of England, during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49338957/jude-bellingham-england-thomas-tuchel-criticism",
-          "publishedAt": "2026-07-12T02:55:24Z",
-          "updatedAt": "2026-07-12T02:55:24Z",
+          "id": "49339724",
+          "headline": "Switzerland furious as Embolo gets red card for diving after VAR review",
+          "description": "Switzerland forward Breel Embolo was sent off in the second half of a World Cup quarterfinal match with Argentina on Saturday night after a video review showed he was guilty of simulation.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688116_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo (7) of Switzerland protests to referee after receiving red card during the 2026 FIFA World Cup quarter-final match between Argentina and Switzerland at Arrowhead Stadium in Kansas City, Missouri, US, on July 11, 2026",
+          "credit": "Ercin Erturk/Anadolu via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+          "publishedAt": "2026-07-12T05:22:10Z",
+          "updatedAt": "2026-07-12T05:22:10Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124176,15 +124317,15 @@
           "status": ""
         },
         {
-          "id": "49339306",
-          "headline": "Jude Bellingham: Mum's pep talk helped avoid yellow card during World Cup win over Norway",
-          "description": "Jude Bellingham has revealed a pep talk from his mother was key in avoiding a yellow card in England's 2-1 win over Norway which would have resulted in him missing the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688083_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham would have found himself out of Wednesday's semifinal had he got booked against Norway.",
-          "credit": "Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339306/jude-bellingham-mother-pep-talk-yellow-card-england-norway-fifa-world-cup-quarterfinal",
-          "publishedAt": "2026-07-12T02:10:17Z",
-          "updatedAt": "2026-07-12T02:10:17Z",
+          "id": "49338924",
+          "headline": "FIFA World Cup 2026 stats: Messi sets new record, overtakes Mbappe; Alvarez ties Maradona; Bellingham second after Pele",
+          "description": "ESPN's By The Numbers brings you best stats from the World Cup action on July 11",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688176_608x342_16-9.jpg",
+          "imageAlt": "Messi celebrations post-match Switzerland [608x342]",
+          "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49338924/fifa-world-cup-2026-stats-lionel-messi-new-record-kylian-mbappe-julian-alvarez-tie-diego-maradona-jude-bellingham-second-pele",
+          "publishedAt": "2026-07-12T05:17:12Z",
+          "updatedAt": "2026-07-12T05:17:12Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124192,31 +124333,15 @@
           "status": ""
         },
         {
-          "id": "49339438",
-          "headline": "Prince William, David Beckham lead England celebrations after World Cup quarterfinal triumph",
-          "description": "Prince William, Sir Keir Starmer and Sir David Beckham were among those celebrating England's dramatic World Cup quarterfinal victory over Norway.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688087_1296x729_16-9.jpg",
-          "imageAlt": "David Beckham celebrates after the 2-1 victory during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium",
-          "credit": "Ira L. Black - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339438/prince-william-david-beckham-lead-england-celebrations-world-cup-quarterfinal-triumph",
-          "publishedAt": "2026-07-12T02:11:59Z",
-          "updatedAt": "2026-07-12T02:11:59Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49339250",
-          "headline": "Haaland silenced by England as World Cup 'insane journey' ends for Norway",
-          "description": "Erling Haaland was subbed off late in extra time as Norway's World Cup run ended in a -2-1 quarterfinal loss to England.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688088_1296x729_16-9.jpg",
-          "imageAlt": "Haaland [1296x729]",
-          "credit": "Photo by Peter Joneleit/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49339250/erling-haaland-england-subbed-late-norway-world-cup",
-          "publishedAt": "2026-07-12T02:47:24Z",
-          "updatedAt": "2026-07-12T02:47:24Z",
+          "id": "49027532",
+          "headline": "World Cup VAR review: Embolo sent off as Ream's 'mistaken identity' loophole appears again",
+          "description": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688150_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo was distraught as he left the pitch following his second yellow card.",
+          "credit": "Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+          "publishedAt": "2026-07-12T05:59:22Z",
+          "updatedAt": "2026-07-12T05:59:22Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124232,7 +124357,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T02:57:32.683Z",
+      "fetchedAt": "2026-07-12T06:09:36.367Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124272,15 +124397,15 @@
       "videos": [],
       "news": [
         {
-          "id": "49339629",
-          "headline": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "description": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12.jpg",
+          "id": "49340812",
+          "headline": "Do Spain pose the greatest threat to France?",
+          "description": "Do Spain pose the greatest threat to France?",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49339629/switzerland-fans-go-crazy-equalise-vs-argentina",
-          "publishedAt": "2026-07-12T02:43:55Z",
-          "updatedAt": "2026-07-12T02:43:55Z",
+          "link": "https://www.espn.com/video/clip/_/id/49340812/do-spain-pose-greatest-threat-france",
+          "publishedAt": "2026-07-12T05:39:16Z",
+          "updatedAt": "2026-07-12T05:39:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124288,15 +124413,15 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Switzerland levels it against Argentina in the second half",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688101_1296x729_16-9.jpg",
-          "imageAlt": "Messi [1296x729]",
-          "credit": "(Photo by Tom Weller/picture alliance via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-12T02:34:53Z",
-          "updatedAt": "2026-07-12T02:34:53Z",
+          "id": "49340795",
+          "headline": "Julián Álvarez extra time screamer fires Argentina into semifinals",
+          "description": "Julián Álvarez said he felt a 'huge release of emotions' after he scored his first World Cup goal for Argentina to propel his team into the semifinals against England.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688183_1296x729_16-9.jpg",
+          "imageAlt": "Julian Alvarez [1296x729]",
+          "credit": "AP Photo/Ashley Landis",
+          "link": "https://www.espn.com/soccer/story/_/id/49340795/julian-alvarez-extra-screamer-fires-argentina-semifinals-world-cup",
+          "publishedAt": "2026-07-12T06:06:52Z",
+          "updatedAt": "2026-07-12T06:06:52Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124304,15 +124429,15 @@
           "status": ""
         },
         {
-          "id": "49338957",
-          "headline": "Jude Bellingham backs England stars after Thomas Tuchel criticism",
-          "description": "Jude Bellingham praised England's fighting spirit and ability to \"win dirty\" after coach Thomas Tuchel criticized their performance in beating Norway on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688058_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham #10 of England holds his shoulder as he speaks with Thomas Tuchel, Manager of England, during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49338957/jude-bellingham-england-thomas-tuchel-criticism",
-          "publishedAt": "2026-07-12T02:55:24Z",
-          "updatedAt": "2026-07-12T02:55:24Z",
+          "id": "49339784",
+          "headline": "Jude Bellingham is dragging England towards history. This is his World Cup",
+          "description": "ESPN's Tom Hamilton explains how Jude Bellingham has become the driving force behind England's World Cup run after answering Thomas Tuchel's challenge.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1688001_2_1296x729_16-9.jpg",
+          "imageAlt": "Jude Bellingham scored twice as England beat Norway 2-1 on Saturday.",
+          "credit": "Richard Pelham/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339784/jude-bellingham-dragging-england-towards-history-world-cup-2026-norway-argentina",
+          "publishedAt": "2026-07-12T05:25:48Z",
+          "updatedAt": "2026-07-12T05:25:48Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124320,15 +124445,15 @@
           "status": ""
         },
         {
-          "id": "49339306",
-          "headline": "Jude Bellingham: Mum's pep talk helped avoid yellow card during World Cup win over Norway",
-          "description": "Jude Bellingham has revealed a pep talk from his mother was key in avoiding a yellow card in England's 2-1 win over Norway which would have resulted in him missing the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688083_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham would have found himself out of Wednesday's semifinal had he got booked against Norway.",
-          "credit": "Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339306/jude-bellingham-mother-pep-talk-yellow-card-england-norway-fifa-world-cup-quarterfinal",
-          "publishedAt": "2026-07-12T02:10:17Z",
-          "updatedAt": "2026-07-12T02:10:17Z",
+          "id": "49339724",
+          "headline": "Switzerland furious as Embolo gets red card for diving after VAR review",
+          "description": "Switzerland forward Breel Embolo was sent off in the second half of a World Cup quarterfinal match with Argentina on Saturday night after a video review showed he was guilty of simulation.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688116_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo (7) of Switzerland protests to referee after receiving red card during the 2026 FIFA World Cup quarter-final match between Argentina and Switzerland at Arrowhead Stadium in Kansas City, Missouri, US, on July 11, 2026",
+          "credit": "Ercin Erturk/Anadolu via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+          "publishedAt": "2026-07-12T05:22:10Z",
+          "updatedAt": "2026-07-12T05:22:10Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124336,15 +124461,15 @@
           "status": ""
         },
         {
-          "id": "49339438",
-          "headline": "Prince William, David Beckham lead England celebrations after World Cup quarterfinal triumph",
-          "description": "Prince William, Sir Keir Starmer and Sir David Beckham were among those celebrating England's dramatic World Cup quarterfinal victory over Norway.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688087_1296x729_16-9.jpg",
-          "imageAlt": "David Beckham celebrates after the 2-1 victory during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium",
-          "credit": "Ira L. Black - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339438/prince-william-david-beckham-lead-england-celebrations-world-cup-quarterfinal-triumph",
-          "publishedAt": "2026-07-12T02:11:59Z",
-          "updatedAt": "2026-07-12T02:11:59Z",
+          "id": "49338924",
+          "headline": "FIFA World Cup 2026 stats: Messi sets new record, overtakes Mbappe; Alvarez ties Maradona; Bellingham second after Pele",
+          "description": "ESPN's By The Numbers brings you best stats from the World Cup action on July 11",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688176_608x342_16-9.jpg",
+          "imageAlt": "Messi celebrations post-match Switzerland [608x342]",
+          "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49338924/fifa-world-cup-2026-stats-lionel-messi-new-record-kylian-mbappe-julian-alvarez-tie-diego-maradona-jude-bellingham-second-pele",
+          "publishedAt": "2026-07-12T05:17:12Z",
+          "updatedAt": "2026-07-12T05:17:12Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124352,15 +124477,15 @@
           "status": ""
         },
         {
-          "id": "49339250",
-          "headline": "Haaland silenced by England as World Cup 'insane journey' ends for Norway",
-          "description": "Erling Haaland was subbed off late in extra time as Norway's World Cup run ended in a -2-1 quarterfinal loss to England.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688088_1296x729_16-9.jpg",
-          "imageAlt": "Haaland [1296x729]",
-          "credit": "Photo by Peter Joneleit/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49339250/erling-haaland-england-subbed-late-norway-world-cup",
-          "publishedAt": "2026-07-12T02:47:24Z",
-          "updatedAt": "2026-07-12T02:47:24Z",
+          "id": "49027532",
+          "headline": "World Cup VAR review: Embolo sent off as Ream's 'mistaken identity' loophole appears again",
+          "description": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688150_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo was distraught as he left the pitch following his second yellow card.",
+          "credit": "Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+          "publishedAt": "2026-07-12T05:59:22Z",
+          "updatedAt": "2026-07-12T05:59:22Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124376,7 +124501,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T02:57:32.713Z",
+      "fetchedAt": "2026-07-12T06:09:36.373Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124416,15 +124541,15 @@
       "videos": [],
       "news": [
         {
-          "id": "49339629",
-          "headline": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "description": "Switzerland fans go crazy as they equalise vs. Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0711/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12/dm_260711_COM_SOC_Fans_Switzerland_fans_go_crazy_as_they_equalise_vs_Argentina__GLOBAL_2026-07-12.jpg",
+          "id": "49340812",
+          "headline": "Do Spain pose the greatest threat to France?",
+          "description": "Do Spain pose the greatest threat to France?",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12/dm_260712_COM_SOC_ANALYSIS_Do_Spain_pose_the_greatest_threat_to_France_2026_7_12.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49339629/switzerland-fans-go-crazy-equalise-vs-argentina",
-          "publishedAt": "2026-07-12T02:43:55Z",
-          "updatedAt": "2026-07-12T02:43:55Z",
+          "link": "https://www.espn.com/video/clip/_/id/49340812/do-spain-pose-greatest-threat-france",
+          "publishedAt": "2026-07-12T05:39:16Z",
+          "updatedAt": "2026-07-12T05:39:16Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124432,15 +124557,15 @@
           "status": ""
         },
         {
-          "id": "49329226",
-          "headline": "World Cup daily: Switzerland levels it against Argentina in the second half",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688101_1296x729_16-9.jpg",
-          "imageAlt": "Messi [1296x729]",
-          "credit": "(Photo by Tom Weller/picture alliance via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-          "publishedAt": "2026-07-12T02:34:53Z",
-          "updatedAt": "2026-07-12T02:34:53Z",
+          "id": "49340795",
+          "headline": "Julián Álvarez extra time screamer fires Argentina into semifinals",
+          "description": "Julián Álvarez said he felt a 'huge release of emotions' after he scored his first World Cup goal for Argentina to propel his team into the semifinals against England.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688183_1296x729_16-9.jpg",
+          "imageAlt": "Julian Alvarez [1296x729]",
+          "credit": "AP Photo/Ashley Landis",
+          "link": "https://www.espn.com/soccer/story/_/id/49340795/julian-alvarez-extra-screamer-fires-argentina-semifinals-world-cup",
+          "publishedAt": "2026-07-12T06:06:52Z",
+          "updatedAt": "2026-07-12T06:06:52Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124448,15 +124573,15 @@
           "status": ""
         },
         {
-          "id": "49338957",
-          "headline": "Jude Bellingham backs England stars after Thomas Tuchel criticism",
-          "description": "Jude Bellingham praised England's fighting spirit and ability to \"win dirty\" after coach Thomas Tuchel criticized their performance in beating Norway on Saturday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688058_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham #10 of England holds his shoulder as he speaks with Thomas Tuchel, Manager of England, during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49338957/jude-bellingham-england-thomas-tuchel-criticism",
-          "publishedAt": "2026-07-12T02:55:24Z",
-          "updatedAt": "2026-07-12T02:55:24Z",
+          "id": "49339784",
+          "headline": "Jude Bellingham is dragging England towards history. This is his World Cup",
+          "description": "ESPN's Tom Hamilton explains how Jude Bellingham has become the driving force behind England's World Cup run after answering Thomas Tuchel's challenge.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0711/r1688001_2_1296x729_16-9.jpg",
+          "imageAlt": "Jude Bellingham scored twice as England beat Norway 2-1 on Saturday.",
+          "credit": "Richard Pelham/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339784/jude-bellingham-dragging-england-towards-history-world-cup-2026-norway-argentina",
+          "publishedAt": "2026-07-12T05:25:48Z",
+          "updatedAt": "2026-07-12T05:25:48Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124464,15 +124589,15 @@
           "status": ""
         },
         {
-          "id": "49339306",
-          "headline": "Jude Bellingham: Mum's pep talk helped avoid yellow card during World Cup win over Norway",
-          "description": "Jude Bellingham has revealed a pep talk from his mother was key in avoiding a yellow card in England's 2-1 win over Norway which would have resulted in him missing the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688083_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham would have found himself out of Wednesday's semifinal had he got booked against Norway.",
-          "credit": "Photo by PATRICIA DE MELO MOREIRA / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339306/jude-bellingham-mother-pep-talk-yellow-card-england-norway-fifa-world-cup-quarterfinal",
-          "publishedAt": "2026-07-12T02:10:17Z",
-          "updatedAt": "2026-07-12T02:10:17Z",
+          "id": "49339724",
+          "headline": "Switzerland furious as Embolo gets red card for diving after VAR review",
+          "description": "Switzerland forward Breel Embolo was sent off in the second half of a World Cup quarterfinal match with Argentina on Saturday night after a video review showed he was guilty of simulation.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688116_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo (7) of Switzerland protests to referee after receiving red card during the 2026 FIFA World Cup quarter-final match between Argentina and Switzerland at Arrowhead Stadium in Kansas City, Missouri, US, on July 11, 2026",
+          "credit": "Ercin Erturk/Anadolu via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+          "publishedAt": "2026-07-12T05:22:10Z",
+          "updatedAt": "2026-07-12T05:22:10Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124480,15 +124605,15 @@
           "status": ""
         },
         {
-          "id": "49339438",
-          "headline": "Prince William, David Beckham lead England celebrations after World Cup quarterfinal triumph",
-          "description": "Prince William, Sir Keir Starmer and Sir David Beckham were among those celebrating England's dramatic World Cup quarterfinal victory over Norway.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688087_1296x729_16-9.jpg",
-          "imageAlt": "David Beckham celebrates after the 2-1 victory during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium",
-          "credit": "Ira L. Black - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49339438/prince-william-david-beckham-lead-england-celebrations-world-cup-quarterfinal-triumph",
-          "publishedAt": "2026-07-12T02:11:59Z",
-          "updatedAt": "2026-07-12T02:11:59Z",
+          "id": "49338924",
+          "headline": "FIFA World Cup 2026 stats: Messi sets new record, overtakes Mbappe; Alvarez ties Maradona; Bellingham second after Pele",
+          "description": "ESPN's By The Numbers brings you best stats from the World Cup action on July 11",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688176_608x342_16-9.jpg",
+          "imageAlt": "Messi celebrations post-match Switzerland [608x342]",
+          "credit": "Ryan Pierse - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49338924/fifa-world-cup-2026-stats-lionel-messi-new-record-kylian-mbappe-julian-alvarez-tie-diego-maradona-jude-bellingham-second-pele",
+          "publishedAt": "2026-07-12T05:17:12Z",
+          "updatedAt": "2026-07-12T05:17:12Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124496,15 +124621,15 @@
           "status": ""
         },
         {
-          "id": "49339250",
-          "headline": "Haaland silenced by England as World Cup 'insane journey' ends for Norway",
-          "description": "Erling Haaland was subbed off late in extra time as Norway's World Cup run ended in a -2-1 quarterfinal loss to England.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688088_1296x729_16-9.jpg",
-          "imageAlt": "Haaland [1296x729]",
-          "credit": "Photo by Peter Joneleit/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49339250/erling-haaland-england-subbed-late-norway-world-cup",
-          "publishedAt": "2026-07-12T02:47:24Z",
-          "updatedAt": "2026-07-12T02:47:24Z",
+          "id": "49027532",
+          "headline": "World Cup VAR review: Embolo sent off as Ream's 'mistaken identity' loophole appears again",
+          "description": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688150_1296x729_16-9.jpg",
+          "imageAlt": "Breel Embolo was distraught as he left the pitch following his second yellow card.",
+          "credit": "Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+          "publishedAt": "2026-07-12T05:59:22Z",
+          "updatedAt": "2026-07-12T05:59:22Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
