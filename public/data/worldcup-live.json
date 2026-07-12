@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-12T17:35:54.163Z",
-    "startedAt": "2026-07-12T17:35:51.887Z",
+    "fetchedAt": "2026-07-12T18:38:38.591Z",
+    "startedAt": "2026-07-12T18:38:36.909Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5827,9 +5827,9 @@
       ]
     },
     "760515": {
-      "home": 37.3,
-      "draw": 32.3,
-      "away": 30.3,
+      "home": 37.7,
+      "draw": 31.7,
+      "away": 30.7,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5837,10 +5837,10 @@
           "book": "Polymarket",
           "source": "polymarket",
           "home": "37.5%",
-          "draw": "32.5%",
+          "draw": "31.5%",
           "away": "30.5%",
           "homeProbability": 0.375,
-          "drawProbability": 0.325,
+          "drawProbability": 0.315,
           "awayProbability": 0.305,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-eng-arg-2026-07-15",
@@ -5867,6 +5867,22 @@
     }
   },
   "news": [
+    {
+      "id": "49344483",
+      "headline": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+      "description": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49344483/switzerland-red-card-vs-argentina-killed-game",
+      "publishedAt": "2026-07-12T17:40:12Z",
+      "updatedAt": "2026-07-12T17:40:12Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
     {
       "id": "49340531",
       "headline": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
@@ -6426,26 +6442,10 @@
       "matchLabel": "",
       "stage": "16强",
       "status": "已结束"
-    },
-    {
-      "id": "49295791",
-      "headline": "Nicol: Why would Pochettino want to stay on with USMNT?",
-      "description": "Nicol: Why would Pochettino want to stay on with USMNT?",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0707/dm_260707_Why_would_Pochettino_want_to_stay_on_with_USMNT/dm_260707_Why_would_Pochettino_want_to_stay_on_with_USMNT.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49295791/why-pochettino-want-stay-usmnt",
-      "publishedAt": "2026-07-07T14:26:56Z",
-      "updatedAt": "2026-07-07T14:26:56Z",
-      "source": "ESPN news",
-      "matchId": "760509",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-12T17:35:54.163Z",
+    "updatedAt": "2026-07-12T18:38:38.591Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -123535,7 +123535,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T17:35:52.185Z",
+      "fetchedAt": "2026-07-12T18:38:37.301Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123854,6 +123854,22 @@
       ],
       "news": [
         {
+          "id": "49344483",
+          "headline": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "description": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49344483/switzerland-red-card-vs-argentina-killed-game",
+          "publishedAt": "2026-07-12T17:40:12Z",
+          "updatedAt": "2026-07-12T17:40:12Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49340531",
           "headline": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
           "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
@@ -123932,22 +123948,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "48386952",
-          "headline": "Every team's championship odds for the 2026 World Cup: Favorites France, Spain to meet in semis",
-          "description": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687332_1296x729_16-9.jpg",
-          "imageAlt": "Kylian Mbappe #10 of France celebrates after winning the FIFA World Cup 2026 Quarter Final match between France and Morocco at Boston Stadium on July 09, 2026 in Foxborough, Massachusetts.",
-          "credit": "Lars Baron/Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-          "publishedAt": "2026-07-12T14:20:21Z",
-          "updatedAt": "2026-07-12T14:20:21Z",
-          "source": "ESPN news",
-          "matchId": "760514",
-          "matchLabel": "法国 vs 西班牙",
-          "stage": "半决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -123958,7 +123958,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T17:35:52.208Z",
+      "fetchedAt": "2026-07-12T18:38:37.310Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124266,6 +124266,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49344483",
+          "headline": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "description": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49344483/switzerland-red-card-vs-argentina-killed-game",
+          "publishedAt": "2026-07-12T17:40:12Z",
+          "updatedAt": "2026-07-12T17:40:12Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49340531",
           "headline": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
           "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
@@ -124344,22 +124360,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "48386952",
-          "headline": "Every team's championship odds for the 2026 World Cup: Favorites France, Spain to meet in semis",
-          "description": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688292_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham of England is seen after his team defeat Norway 1-2 AET during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Ian MacNicol/Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-          "publishedAt": "2026-07-12T14:20:21Z",
-          "updatedAt": "2026-07-12T14:20:21Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -124370,7 +124370,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T17:35:52.213Z",
+      "fetchedAt": "2026-07-12T18:38:37.351Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124410,6 +124410,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49344483",
+          "headline": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "description": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49344483/switzerland-red-card-vs-argentina-killed-game",
+          "publishedAt": "2026-07-12T17:40:12Z",
+          "updatedAt": "2026-07-12T17:40:12Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49340531",
           "headline": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
           "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
@@ -124488,22 +124504,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "48386952",
-          "headline": "Every team's championship odds for the 2026 World Cup: Favorites France, Spain to meet in semis",
-          "description": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688292_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham of England is seen after his team defeat Norway 1-2 AET during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Ian MacNicol/Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-          "publishedAt": "2026-07-12T14:20:21Z",
-          "updatedAt": "2026-07-12T14:20:21Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -124514,7 +124514,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-12T17:35:52.214Z",
+      "fetchedAt": "2026-07-12T18:38:37.350Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124554,6 +124554,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49344483",
+          "headline": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "description": "Xhaka: Switzerland red card vs. Argentina 'killed the game'",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game/dm_260712_Xhaka_Switzerland_red_card_vs_Argentina_killed_the_game.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49344483/switzerland-red-card-vs-argentina-killed-game",
+          "publishedAt": "2026-07-12T17:40:12Z",
+          "updatedAt": "2026-07-12T17:40:12Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49340531",
           "headline": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
           "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
@@ -124627,22 +124643,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
           "publishedAt": "2026-07-12T14:36:29Z",
           "updatedAt": "2026-07-12T14:36:29Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "48386952",
-          "headline": "Every team's championship odds for the 2026 World Cup: Favorites France, Spain to meet in semis",
-          "description": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0712/r1688292_1296x729_16-9.jpg",
-          "imageAlt": "Jude Bellingham of England is seen after his team defeat Norway 1-2 AET during the FIFA World Cup 2026 Quarter Final match between Norway and England at Miami Stadium on July 11, 2026 in Miami Gardens, Florida.",
-          "credit": "Ian MacNicol/Getty Images",
-          "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-          "publishedAt": "2026-07-12T14:20:21Z",
-          "updatedAt": "2026-07-12T14:20:21Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
