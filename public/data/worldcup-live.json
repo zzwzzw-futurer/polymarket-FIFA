@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-13T17:38:01.972Z",
-    "startedAt": "2026-07-13T17:38:01.077Z",
+    "fetchedAt": "2026-07-13T19:04:48.226Z",
+    "startedAt": "2026-07-13T19:04:45.375Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5804,9 +5804,9 @@
       "odds": []
     },
     "760514": {
-      "home": 40.9,
-      "draw": 29.7,
-      "away": 29.4,
+      "home": 40.8,
+      "draw": 29.6,
+      "away": 29.6,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5815,10 +5815,10 @@
           "source": "polymarket",
           "home": "41.1%",
           "draw": "29.9%",
-          "away": "29.6%",
+          "away": "29.9%",
           "homeProbability": 0.41125,
           "drawProbability": 0.29875,
-          "awayProbability": 0.29625,
+          "awayProbability": 0.29875,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-esp-2026-07-14",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-esp-2026-07-14",
@@ -5868,6 +5868,38 @@
   },
   "news": [
     {
+      "id": "49351324",
+      "headline": "England vs. Argentina - who are Argentina's key players to look out for aside from Messi? Which familiar Premier League faces could pose a threat?",
+      "description": "Messi won't be the only Argentina player for England to fear in the World Cup semifinal clash between the two.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688643_1296x729_16-9.jpg",
+      "imageAlt": "Julián Álvarez scored a stunning goal in extra-time against Switzerland in the quarterfinal to send Argentina through to the semis.",
+      "credit": "Carl Recine/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49351324/england-argentina-world-cup-2026-semifinal-premier-league-players-lionel-messi-enzo-fernandes-julian-alvarez-emi-martinez",
+      "publishedAt": "2026-07-13T18:48:42Z",
+      "updatedAt": "2026-07-13T18:48:42Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49350803",
+      "headline": "Who is Iván Barton? The South American referee set to take charge of Spain vs. France in the World Cup semifinal",
+      "description": "France and Spain are set to face each other in a blockbuster semifinal of the World Cup as stars Lamine Yamal and Kylian Mbappé fight to earn a place in the final.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688667_1296x729_16-9.jpg",
+      "imageAlt": "Referee Ivan Barton [1296x729]",
+      "credit": "Photo by Stu Forster/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49350803/who-ivan-barton-referee-spain-france-world-cup-semifinal",
+      "publishedAt": "2026-07-13T18:47:19Z",
+      "updatedAt": "2026-07-13T18:47:19Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "法国 vs 西班牙",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49351350",
       "headline": "Why McAfee is comparing Christian Pulisic to Paul George",
       "description": "Why McAfee is comparing Christian Pulisic to Paul George",
@@ -5900,22 +5932,6 @@
       "status": "未开始"
     },
     {
-      "id": "49348483",
-      "headline": "World Cup Daily live: Happy Birthday to Lamine Yamal, and the World Cup itself",
-      "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688573_1296x729_16-9.jpg",
-      "imageAlt": "Lamine Yamal #19 of Spain prays as he prepares for kick off before the FIFA World Cup 2026 Quarter Final match between Spain and Belgium",
-      "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-      "publishedAt": "2026-07-13T16:01:30Z",
-      "updatedAt": "2026-07-13T16:01:30Z",
-      "source": "ESPN news",
-      "matchId": "760514",
-      "matchLabel": "法国 vs 西班牙",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
       "id": "48352807",
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
       "description": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
@@ -5944,22 +5960,6 @@
       "source": "ESPN news",
       "matchId": "760514",
       "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49349440",
-      "headline": "France counterattack, Argentina set pieces: How World Cup semifinalists score goals",
-      "description": "We're down to the final four of the World Cup, with the four top-ranked teams set to square off. Yet all of them use very different attacking styles in order to score goals; let's break it down.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688629_1296x729_16-9.jpg",
-      "imageAlt": "France celeb 260713 [1296x729]",
-      "credit": "Masashi Hara/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49349440/world-cup-semifinalists-score-goals-france-olise-spain-yamal-england-argentina-messi",
-      "publishedAt": "2026-07-13T15:00:38Z",
-      "updatedAt": "2026-07-13T15:00:38Z",
-      "source": "ESPN news",
-      "matchId": "760514",
-      "matchLabel": "法国 vs 西班牙",
       "stage": "半决赛",
       "status": "未开始"
     },
@@ -6445,7 +6445,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-13T17:38:01.972Z",
+    "updatedAt": "2026-07-13T19:04:48.226Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -123535,7 +123535,7 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-13T17:38:01.378Z",
+      "fetchedAt": "2026-07-13T19:04:45.829Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -123874,6 +123874,38 @@
       ],
       "news": [
         {
+          "id": "49350803",
+          "headline": "Who is Iván Barton? The South American referee set to take charge of Spain vs. France in the World Cup semifinal",
+          "description": "France and Spain are set to face each other in a blockbuster semifinal of the World Cup as stars Lamine Yamal and Kylian Mbappé fight to earn a place in the final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688667_1296x729_16-9.jpg",
+          "imageAlt": "Referee Ivan Barton [1296x729]",
+          "credit": "Photo by Stu Forster/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49350803/who-ivan-barton-referee-spain-france-world-cup-semifinal",
+          "publishedAt": "2026-07-13T18:47:19Z",
+          "updatedAt": "2026-07-13T18:47:19Z",
+          "source": "ESPN news",
+          "matchId": "760514",
+          "matchLabel": "法国 vs 西班牙",
+          "stage": "半决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49351324",
+          "headline": "England vs. Argentina - who are Argentina's key players to look out for aside from Messi? Which familiar Premier League faces could pose a threat?",
+          "description": "Messi won't be the only Argentina player for England to fear in the World Cup semifinal clash between the two.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688643_1296x729_16-9.jpg",
+          "imageAlt": "Julián Álvarez scored a stunning goal in extra-time against Switzerland in the quarterfinal to send Argentina through to the semis.",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49351324/england-argentina-world-cup-2026-semifinal-premier-league-players-lionel-messi-enzo-fernandes-julian-alvarez-emi-martinez",
+          "publishedAt": "2026-07-13T18:48:42Z",
+          "updatedAt": "2026-07-13T18:48:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49351350",
           "headline": "Why McAfee is comparing Christian Pulisic to Paul George",
           "description": "Why McAfee is comparing Christian Pulisic to Paul George",
@@ -123888,22 +123920,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49348483",
-          "headline": "World Cup Daily live: Happy Birthday to Lamine Yamal, and the World Cup itself",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688573_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal #19 of Spain prays as he prepares for kick off before the FIFA World Cup 2026 Quarter Final match between Spain and Belgium",
-          "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-          "publishedAt": "2026-07-13T16:01:30Z",
-          "updatedAt": "2026-07-13T16:01:30Z",
-          "source": "ESPN news",
-          "matchId": "760514",
-          "matchLabel": "法国 vs 西班牙",
-          "stage": "半决赛",
-          "status": "未开始"
         },
         {
           "id": "48352807",
@@ -123952,22 +123968,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49349440",
-          "headline": "France counterattack, Argentina set pieces: How World Cup semifinalists score goals",
-          "description": "We're down to the final four of the World Cup, with the four top-ranked teams set to square off. Yet all of them use very different attacking styles in order to score goals; let's break it down.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688629_1296x729_16-9.jpg",
-          "imageAlt": "France celeb 260713 [1296x729]",
-          "credit": "Masashi Hara/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49349440/world-cup-semifinalists-score-goals-france-olise-spain-yamal-england-argentina-messi",
-          "publishedAt": "2026-07-13T15:00:38Z",
-          "updatedAt": "2026-07-13T15:00:38Z",
-          "source": "ESPN news",
-          "matchId": "760514",
-          "matchLabel": "法国 vs 西班牙",
-          "stage": "半决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -123978,7 +123978,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-13T17:38:01.363Z",
+      "fetchedAt": "2026-07-13T19:04:45.814Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124307,6 +124307,38 @@
       ],
       "news": [
         {
+          "id": "49350803",
+          "headline": "Who is Iván Barton? The South American referee set to take charge of Spain vs. France in the World Cup semifinal",
+          "description": "France and Spain are set to face each other in a blockbuster semifinal of the World Cup as stars Lamine Yamal and Kylian Mbappé fight to earn a place in the final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688667_1296x729_16-9.jpg",
+          "imageAlt": "Referee Ivan Barton [1296x729]",
+          "credit": "Photo by Stu Forster/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49350803/who-ivan-barton-referee-spain-france-world-cup-semifinal",
+          "publishedAt": "2026-07-13T18:47:19Z",
+          "updatedAt": "2026-07-13T18:47:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49351324",
+          "headline": "England vs. Argentina - who are Argentina's key players to look out for aside from Messi? Which familiar Premier League faces could pose a threat?",
+          "description": "Messi won't be the only Argentina player for England to fear in the World Cup semifinal clash between the two.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688643_1296x729_16-9.jpg",
+          "imageAlt": "Julián Álvarez scored a stunning goal in extra-time against Switzerland in the quarterfinal to send Argentina through to the semis.",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49351324/england-argentina-world-cup-2026-semifinal-premier-league-players-lionel-messi-enzo-fernandes-julian-alvarez-emi-martinez",
+          "publishedAt": "2026-07-13T18:48:42Z",
+          "updatedAt": "2026-07-13T18:48:42Z",
+          "source": "ESPN news",
+          "matchId": "760515",
+          "matchLabel": "英格兰 vs 阿根廷",
+          "stage": "半决赛",
+          "status": "未开始"
+        },
+        {
           "id": "49351350",
           "headline": "Why McAfee is comparing Christian Pulisic to Paul George",
           "description": "Why McAfee is comparing Christian Pulisic to Paul George",
@@ -124316,22 +124348,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49351350/why-mcafee-comparing-christian-pulisic-paul-george",
           "publishedAt": "2026-07-13T17:12:30Z",
           "updatedAt": "2026-07-13T17:12:30Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49348483",
-          "headline": "World Cup Daily live: Happy Birthday to Lamine Yamal, and the World Cup itself",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688573_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal #19 of Spain prays as he prepares for kick off before the FIFA World Cup 2026 Quarter Final match between Spain and Belgium",
-          "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-          "publishedAt": "2026-07-13T16:01:30Z",
-          "updatedAt": "2026-07-13T16:01:30Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124385,22 +124401,6 @@
           "matchLabel": "英格兰 vs 阿根廷",
           "stage": "半决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49349440",
-          "headline": "France counterattack, Argentina set pieces: How World Cup semifinalists score goals",
-          "description": "We're down to the final four of the World Cup, with the four top-ranked teams set to square off. Yet all of them use very different attacking styles in order to score goals; let's break it down.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688629_1296x729_16-9.jpg",
-          "imageAlt": "France celeb 260713 [1296x729]",
-          "credit": "Masashi Hara/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49349440/world-cup-semifinalists-score-goals-france-olise-spain-yamal-england-argentina-messi",
-          "publishedAt": "2026-07-13T15:00:38Z",
-          "updatedAt": "2026-07-13T15:00:38Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -124411,7 +124411,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-13T17:38:01.381Z",
+      "fetchedAt": "2026-07-13T19:04:45.847Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124451,6 +124451,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49350803",
+          "headline": "Who is Iván Barton? The South American referee set to take charge of Spain vs. France in the World Cup semifinal",
+          "description": "France and Spain are set to face each other in a blockbuster semifinal of the World Cup as stars Lamine Yamal and Kylian Mbappé fight to earn a place in the final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688667_1296x729_16-9.jpg",
+          "imageAlt": "Referee Ivan Barton [1296x729]",
+          "credit": "Photo by Stu Forster/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49350803/who-ivan-barton-referee-spain-france-world-cup-semifinal",
+          "publishedAt": "2026-07-13T18:47:19Z",
+          "updatedAt": "2026-07-13T18:47:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49351324",
+          "headline": "England vs. Argentina - who are Argentina's key players to look out for aside from Messi? Which familiar Premier League faces could pose a threat?",
+          "description": "Messi won't be the only Argentina player for England to fear in the World Cup semifinal clash between the two.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688643_1296x729_16-9.jpg",
+          "imageAlt": "Julián Álvarez scored a stunning goal in extra-time against Switzerland in the quarterfinal to send Argentina through to the semis.",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49351324/england-argentina-world-cup-2026-semifinal-premier-league-players-lionel-messi-enzo-fernandes-julian-alvarez-emi-martinez",
+          "publishedAt": "2026-07-13T18:48:42Z",
+          "updatedAt": "2026-07-13T18:48:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49351350",
           "headline": "Why McAfee is comparing Christian Pulisic to Paul George",
           "description": "Why McAfee is comparing Christian Pulisic to Paul George",
@@ -124460,22 +124492,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49351350/why-mcafee-comparing-christian-pulisic-paul-george",
           "publishedAt": "2026-07-13T17:12:30Z",
           "updatedAt": "2026-07-13T17:12:30Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49348483",
-          "headline": "World Cup Daily live: Happy Birthday to Lamine Yamal, and the World Cup itself",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688573_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal #19 of Spain prays as he prepares for kick off before the FIFA World Cup 2026 Quarter Final match between Spain and Belgium",
-          "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-          "publishedAt": "2026-07-13T16:01:30Z",
-          "updatedAt": "2026-07-13T16:01:30Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124529,22 +124545,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49349440",
-          "headline": "France counterattack, Argentina set pieces: How World Cup semifinalists score goals",
-          "description": "We're down to the final four of the World Cup, with the four top-ranked teams set to square off. Yet all of them use very different attacking styles in order to score goals; let's break it down.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688629_1296x729_16-9.jpg",
-          "imageAlt": "France celeb 260713 [1296x729]",
-          "credit": "Masashi Hara/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49349440/world-cup-semifinalists-score-goals-france-olise-spain-yamal-england-argentina-messi",
-          "publishedAt": "2026-07-13T15:00:38Z",
-          "updatedAt": "2026-07-13T15:00:38Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -124555,7 +124555,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-13T17:38:01.375Z",
+      "fetchedAt": "2026-07-13T19:04:45.845Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -124595,6 +124595,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49350803",
+          "headline": "Who is Iván Barton? The South American referee set to take charge of Spain vs. France in the World Cup semifinal",
+          "description": "France and Spain are set to face each other in a blockbuster semifinal of the World Cup as stars Lamine Yamal and Kylian Mbappé fight to earn a place in the final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688667_1296x729_16-9.jpg",
+          "imageAlt": "Referee Ivan Barton [1296x729]",
+          "credit": "Photo by Stu Forster/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49350803/who-ivan-barton-referee-spain-france-world-cup-semifinal",
+          "publishedAt": "2026-07-13T18:47:19Z",
+          "updatedAt": "2026-07-13T18:47:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49351324",
+          "headline": "England vs. Argentina - who are Argentina's key players to look out for aside from Messi? Which familiar Premier League faces could pose a threat?",
+          "description": "Messi won't be the only Argentina player for England to fear in the World Cup semifinal clash between the two.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688643_1296x729_16-9.jpg",
+          "imageAlt": "Julián Álvarez scored a stunning goal in extra-time against Switzerland in the quarterfinal to send Argentina through to the semis.",
+          "credit": "Carl Recine/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49351324/england-argentina-world-cup-2026-semifinal-premier-league-players-lionel-messi-enzo-fernandes-julian-alvarez-emi-martinez",
+          "publishedAt": "2026-07-13T18:48:42Z",
+          "updatedAt": "2026-07-13T18:48:42Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49351350",
           "headline": "Why McAfee is comparing Christian Pulisic to Paul George",
           "description": "Why McAfee is comparing Christian Pulisic to Paul George",
@@ -124604,22 +124636,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49351350/why-mcafee-comparing-christian-pulisic-paul-george",
           "publishedAt": "2026-07-13T17:12:30Z",
           "updatedAt": "2026-07-13T17:12:30Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49348483",
-          "headline": "World Cup Daily live: Happy Birthday to Lamine Yamal, and the World Cup itself",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688573_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal #19 of Spain prays as he prepares for kick off before the FIFA World Cup 2026 Quarter Final match between Spain and Belgium",
-          "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-          "publishedAt": "2026-07-13T16:01:30Z",
-          "updatedAt": "2026-07-13T16:01:30Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124668,22 +124684,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49350274/penalties-world-cup-england-spain-france-argentina-shootout-stats-psychology",
           "publishedAt": "2026-07-13T16:24:04Z",
           "updatedAt": "2026-07-13T16:24:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49349440",
-          "headline": "France counterattack, Argentina set pieces: How World Cup semifinalists score goals",
-          "description": "We're down to the final four of the World Cup, with the four top-ranked teams set to square off. Yet all of them use very different attacking styles in order to score goals; let's break it down.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0713/r1688629_1296x729_16-9.jpg",
-          "imageAlt": "France celeb 260713 [1296x729]",
-          "credit": "Masashi Hara/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49349440/world-cup-semifinalists-score-goals-france-olise-spain-yamal-england-argentina-messi",
-          "publishedAt": "2026-07-13T15:00:38Z",
-          "updatedAt": "2026-07-13T15:00:38Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
