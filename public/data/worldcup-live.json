@@ -6,32 +6,32 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-14T19:55:33.194Z",
-    "startedAt": "2026-07-14T19:55:31.437Z",
+    "fetchedAt": "2026-07-14T21:02:00.679Z",
+    "startedAt": "2026-07-14T21:01:57.940Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
     "totalTeams": 48,
     "odds": {
       "status": "polymarket_live",
-      "matches": 2,
-      "polymarketMatches": 2,
+      "matches": 1,
+      "polymarketMatches": 1,
       "espnMatches": 0,
       "polymarket": {
         "status": "fallback_search",
         "strategy": "public-search",
         "primaryError": "stdout maxBuffer length exceeded",
         "requestedUrl": "https://gamma-api.polymarket.com/public-search",
-        "events": 2,
-        "searchedMatches": 4,
+        "events": 1,
+        "searchedMatches": 3,
         "failedSearches": 0,
         "searchLimit": 8,
-        "scannedMatches": 4,
-        "matches": 2
+        "scannedMatches": 3,
+        "matches": 1
       }
     },
     "details": {
-      "requested": 4,
+      "requested": 3,
       "total": 104,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
     },
@@ -254,7 +254,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "group": "I组",
-      "form": "WWWWW",
+      "form": "LWWWW",
       "sourceName": "France"
     },
     "481": {
@@ -3289,17 +3289,18 @@
       "matchday": 13798,
       "home": "478",
       "away": "164",
-      "score": "0 - 1",
-      "status": "进行中",
+      "score": "0 - 2",
+      "status": "已结束",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
       "weather": "天气数据待接入",
-      "timeElapsed": "HT",
+      "timeElapsed": "FT",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "homeScorers": [],
       "awayScorers": [
-        "M. Oyarzabal"
+        "M. Oyarzabal",
+        "P. Porro"
       ]
     },
     {
@@ -4483,7 +4484,7 @@
       "goalsAgainst": 2,
       "goalDifference": "+8",
       "points": 9,
-      "form": "WWWWW",
+      "form": "LWWWW",
       "name": "法国"
     },
     {
@@ -5806,27 +5807,12 @@
       "odds": []
     },
     "760514": {
-      "home": 17.6,
-      "draw": 28,
-      "away": 54.4,
-      "model": "Polymarket 即时市场价格隐含概率",
-      "trend": "Polymarket live",
-      "odds": [
-        {
-          "book": "Polymarket",
-          "source": "polymarket",
-          "home": "17.6%",
-          "draw": "28.1%",
-          "away": "54.6%",
-          "homeProbability": 0.17625,
-          "drawProbability": 0.28125,
-          "awayProbability": 0.54625,
-          "spread": "全场赛果预测市场",
-          "eventSlug": "fifwc-fra-esp-2026-07-14",
-          "eventUrl": "https://polymarket.com/event/fifwc-fra-esp-2026-07-14",
-          "marketTitle": "France vs. Spain"
-        }
-      ]
+      "home": 0,
+      "draw": 0,
+      "away": 100,
+      "model": "无赔率时的结果/均衡展示",
+      "trend": "无实时赔率",
+      "odds": []
     },
     "760515": {
       "home": 35,
@@ -5870,6 +5856,38 @@
   },
   "news": [
     {
+      "id": "49361129",
+      "headline": "Spain shut down France to advance to World Cup final",
+      "description": "Spain beat France 2-0 in their FIFA World Cup semifinal in Arlington, Texas, on Tuesday to make it three wins in a row against their European heavyweight rival.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689254_1296x729_16-9.jpg",
+      "imageAlt": "Spain players celebrate after scoring a goal against France in the semifinals of the World Cup.",
+      "credit": "Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49361129/spain-shut-france-advance-world-cup-final",
+      "publishedAt": "2026-07-14T21:01:04Z",
+      "updatedAt": "2026-07-14T21:01:04Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49361407",
+      "headline": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+      "description": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49361407/fans-madrid-go-wild-pedro-porro-doubles-spain-lead",
+      "publishedAt": "2026-07-14T20:30:29Z",
+      "updatedAt": "2026-07-14T20:30:29Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49356289",
       "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
       "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
@@ -5899,7 +5917,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49353881",
@@ -5915,7 +5933,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49359198",
@@ -5931,7 +5949,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49360330",
@@ -5947,7 +5965,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49338957",
@@ -6412,42 +6430,10 @@
       "matchLabel": "",
       "stage": "16强",
       "status": "已结束"
-    },
-    {
-      "id": "49295718",
-      "headline": "Paraguayan senator demands apology from Kylian Mbappé, threatens legal action",
-      "description": "The Paraguayan senator embroiled in a racism row with Kylian Mbappé has demanded an apology from the France forward and threatened legal action against him for \"gender-based violence.\"",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0704/r1684508_1296x729_16-9.jpg",
-      "imageAlt": "Kylian Mbappe steps off the France team bus.",
-      "credit": "(Photo by MAURO PIMENTEL / AFP via Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49295718/paraguayan-senator-demands-apology-kylian-mbappe-threatens-legal-action",
-      "publishedAt": "2026-07-07T16:05:31Z",
-      "updatedAt": "2026-07-07T16:05:31Z",
-      "source": "ESPN news",
-      "matchId": "760509",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
-    },
-    {
-      "id": "49295929",
-      "headline": "Gary Lineker: USA should have left Folarin Balogun out of Belgium game",
-      "description": "Gary Lineker believes the United States should have left Folarin Balogun out of their team to face Belgium in the World Cup last 16 even after the controversial decision to suspend his one-match ban.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685624_1296x729_16-9.jpg",
-      "imageAlt": "Folarin Balogun",
-      "credit": "AP Photo/Lindsey Wasson",
-      "link": "https://www.espn.com/soccer/story/_/id/49295929/gary-lineker-usa-left-folarin-balogun-belgium-game",
-      "publishedAt": "2026-07-07T14:53:14Z",
-      "updatedAt": "2026-07-07T14:53:14Z",
-      "source": "ESPN news",
-      "matchId": "760509",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-14T19:55:33.194Z",
+    "updatedAt": "2026-07-14T21:02:00.679Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6534,7 +6520,7 @@
       },
       {
         "label": "Polymarket",
-        "value": "2 场"
+        "value": "1 场"
       }
     ],
     "updatePolicy": [
@@ -124770,7 +124756,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T19:55:31.852Z",
+      "fetchedAt": "2026-07-14T21:01:58.300Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125139,15 +125125,47 @@
       ],
       "news": [
         {
+          "id": "49361129",
+          "headline": "Spain shut down France to advance to World Cup final",
+          "description": "Spain beat France 2-0 in their FIFA World Cup semifinal in Arlington, Texas, on Tuesday to make it three wins in a row against their European heavyweight rival.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689254_1296x729_16-9.jpg",
+          "imageAlt": "Spain players celebrate after scoring a goal against France in the semifinals of the World Cup.",
+          "credit": "Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49361129/spain-shut-france-advance-world-cup-final",
+          "publishedAt": "2026-07-14T21:01:04Z",
+          "updatedAt": "2026-07-14T21:01:04Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49356289",
-          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
+          "headline": "World Cup Daily live: Spain score twice to defeat France, become first finalist",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we saw Spain defeat France to become the tournament's first finalist.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689221_1296x729_16-9.jpg",
+          "imageAlt": "Spain [1296x729]",
+          "credit": "(Photo by Omar Vega/Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T19:43:28Z",
-          "updatedAt": "2026-07-14T19:43:28Z",
+          "publishedAt": "2026-07-14T20:59:37Z",
+          "updatedAt": "2026-07-14T20:59:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361407",
+          "headline": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "description": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361407/fans-madrid-go-wild-pedro-porro-doubles-spain-lead",
+          "publishedAt": "2026-07-14T20:30:29Z",
+          "updatedAt": "2026-07-14T20:30:29Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125194,45 +125212,13 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T19:12:08Z",
-          "updatedAt": "2026-07-14T19:12:08Z",
+          "publishedAt": "2026-07-14T19:55:06Z",
+          "updatedAt": "2026-07-14T19:55:06Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49360330",
-          "headline": "Experience facing England's Premier League stars may help in World Cup semifinal - Alexis Mac Allister",
-          "description": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689147_1296x729_16-9.jpg",
-          "imageAlt": "Alexis Mac Allister #20 of Argentina attends a training session one day ahead of the FIFA World Cup",
-          "credit": "Buda Mendes/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
-          "publishedAt": "2026-07-14T17:58:11Z",
-          "updatedAt": "2026-07-14T17:58:11Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49359198",
-          "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
-          "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0617/r1675059_1296x729_16-9.jpg",
-          "imageAlt": "Kane has scored two penalties for England at this World Cup so far -- one against Croatia and the other against Mexico.",
-          "credit": "Richard Pelham/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49359198/lionel-messi-harry-kane-argentina-england-world-cup-2026",
-          "publishedAt": "2026-07-14T18:01:07Z",
-          "updatedAt": "2026-07-14T18:01:07Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "未开始"
         }
       ],
       "gameInfo": {
@@ -125243,7 +125229,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T19:55:31.878Z",
+      "fetchedAt": "2026-07-14T21:01:58.333Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125283,15 +125269,47 @@
       "videos": [],
       "news": [
         {
+          "id": "49361129",
+          "headline": "Spain shut down France to advance to World Cup final",
+          "description": "Spain beat France 2-0 in their FIFA World Cup semifinal in Arlington, Texas, on Tuesday to make it three wins in a row against their European heavyweight rival.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689254_1296x729_16-9.jpg",
+          "imageAlt": "Spain players celebrate after scoring a goal against France in the semifinals of the World Cup.",
+          "credit": "Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49361129/spain-shut-france-advance-world-cup-final",
+          "publishedAt": "2026-07-14T21:01:04Z",
+          "updatedAt": "2026-07-14T21:01:04Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49356289",
-          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
+          "headline": "World Cup Daily live: Spain score twice to defeat France, become first finalist",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we saw Spain defeat France to become the tournament's first finalist.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689221_1296x729_16-9.jpg",
+          "imageAlt": "Spain [1296x729]",
+          "credit": "(Photo by Omar Vega/Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T19:43:28Z",
-          "updatedAt": "2026-07-14T19:43:28Z",
+          "publishedAt": "2026-07-14T20:59:37Z",
+          "updatedAt": "2026-07-14T20:59:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361407",
+          "headline": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "description": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361407/fans-madrid-go-wild-pedro-porro-doubles-spain-lead",
+          "publishedAt": "2026-07-14T20:30:29Z",
+          "updatedAt": "2026-07-14T20:30:29Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125338,40 +125356,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T19:12:08Z",
-          "updatedAt": "2026-07-14T19:12:08Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49360330",
-          "headline": "Experience facing England's Premier League stars may help in World Cup semifinal - Alexis Mac Allister",
-          "description": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689147_1296x729_16-9.jpg",
-          "imageAlt": "Alexis Mac Allister #20 of Argentina attends a training session one day ahead of the FIFA World Cup",
-          "credit": "Buda Mendes/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
-          "publishedAt": "2026-07-14T17:58:11Z",
-          "updatedAt": "2026-07-14T17:58:11Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49359198",
-          "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
-          "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689058_1296x729_16-9.jpg",
-          "imageAlt": "Lionel Messi and Harry Kane will go head-to-head with one another in Wednesday's World Cup semifinal.",
-          "credit": "Paul ELLIS / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49359198/lionel-messi-harry-kane-argentina-england-world-cup-2026",
-          "publishedAt": "2026-07-14T18:01:07Z",
-          "updatedAt": "2026-07-14T18:01:07Z",
+          "publishedAt": "2026-07-14T19:55:06Z",
+          "updatedAt": "2026-07-14T19:55:06Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125387,7 +125373,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T19:55:31.876Z",
+      "fetchedAt": "2026-07-14T21:01:58.380Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125427,15 +125413,47 @@
       "videos": [],
       "news": [
         {
+          "id": "49361129",
+          "headline": "Spain shut down France to advance to World Cup final",
+          "description": "Spain beat France 2-0 in their FIFA World Cup semifinal in Arlington, Texas, on Tuesday to make it three wins in a row against their European heavyweight rival.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689254_1296x729_16-9.jpg",
+          "imageAlt": "Spain players celebrate after scoring a goal against France in the semifinals of the World Cup.",
+          "credit": "Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49361129/spain-shut-france-advance-world-cup-final",
+          "publishedAt": "2026-07-14T21:01:04Z",
+          "updatedAt": "2026-07-14T21:01:04Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49356289",
-          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
+          "headline": "World Cup Daily live: Spain score twice to defeat France, become first finalist",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we saw Spain defeat France to become the tournament's first finalist.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689221_1296x729_16-9.jpg",
+          "imageAlt": "Spain [1296x729]",
+          "credit": "(Photo by Omar Vega/Getty Images)",
           "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T19:43:28Z",
-          "updatedAt": "2026-07-14T19:43:28Z",
+          "publishedAt": "2026-07-14T20:59:37Z",
+          "updatedAt": "2026-07-14T20:59:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361407",
+          "headline": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "description": "Fans in Madrid go wild as Pedro Porro doubles Spain's lead",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead/dm_260714_Fans_in_Madrid_go_wild_as_Pedro_Porro_doubles_Spains_lead.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361407/fans-madrid-go-wild-pedro-porro-doubles-spain-lead",
+          "publishedAt": "2026-07-14T20:30:29Z",
+          "updatedAt": "2026-07-14T20:30:29Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125482,40 +125500,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T19:12:08Z",
-          "updatedAt": "2026-07-14T19:12:08Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49360330",
-          "headline": "Experience facing England's Premier League stars may help in World Cup semifinal - Alexis Mac Allister",
-          "description": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689147_1296x729_16-9.jpg",
-          "imageAlt": "Alexis Mac Allister #20 of Argentina attends a training session one day ahead of the FIFA World Cup",
-          "credit": "Buda Mendes/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
-          "publishedAt": "2026-07-14T17:58:11Z",
-          "updatedAt": "2026-07-14T17:58:11Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49359198",
-          "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
-          "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689058_1296x729_16-9.jpg",
-          "imageAlt": "Lionel Messi and Harry Kane will go head-to-head with one another in Wednesday's World Cup semifinal.",
-          "credit": "Paul ELLIS / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49359198/lionel-messi-harry-kane-argentina-england-world-cup-2026",
-          "publishedAt": "2026-07-14T18:01:07Z",
-          "updatedAt": "2026-07-14T18:01:07Z",
+          "publishedAt": "2026-07-14T19:55:06Z",
+          "updatedAt": "2026-07-14T19:55:06Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
