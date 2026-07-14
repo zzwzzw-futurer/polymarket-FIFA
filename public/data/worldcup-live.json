@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-14T18:38:55.009Z",
-    "startedAt": "2026-07-14T18:38:53.957Z",
+    "fetchedAt": "2026-07-14T19:55:33.194Z",
+    "startedAt": "2026-07-14T19:55:31.437Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3289,16 +3289,18 @@
       "matchday": 13798,
       "home": "478",
       "away": "164",
-      "score": "-",
-      "status": "未开始",
+      "score": "0 - 1",
+      "status": "进行中",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
       "weather": "天气数据待接入",
-      "timeElapsed": "Scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "timeElapsed": "HT",
+      "homeScore": 0,
+      "awayScore": 1,
       "homeScorers": [],
-      "awayScorers": []
+      "awayScorers": [
+        "M. Oyarzabal"
+      ]
     },
     {
       "id": "760515",
@@ -4067,6 +4069,15 @@
       "shots": 12
     },
     {
+      "name": "M. Oyarzabal",
+      "country": "164",
+      "team": "西班牙",
+      "goals": 5,
+      "assists": 0,
+      "rating": 9,
+      "shots": 10
+    },
+    {
       "name": "O. Dembélé",
       "country": "478",
       "team": "法国",
@@ -4097,15 +4108,6 @@
       "name": "J. Quiñones",
       "country": "203",
       "team": "墨西哥",
-      "goals": 4,
-      "assists": 0,
-      "rating": 8.6,
-      "shots": 8
-    },
-    {
-      "name": "M. Oyarzabal",
-      "country": "164",
-      "team": "西班牙",
       "goals": 4,
       "assists": 0,
       "rating": 8.6,
@@ -5804,21 +5806,21 @@
       "odds": []
     },
     "760514": {
-      "home": 37.1,
-      "draw": 32.6,
-      "away": 30.3,
+      "home": 17.6,
+      "draw": 28,
+      "away": 54.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "36.9%",
-          "draw": "32.4%",
-          "away": "30.1%",
-          "homeProbability": 0.36875,
-          "drawProbability": 0.32375,
-          "awayProbability": 0.30125,
+          "home": "17.6%",
+          "draw": "28.1%",
+          "away": "54.6%",
+          "homeProbability": 0.17625,
+          "drawProbability": 0.28125,
+          "awayProbability": 0.54625,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-esp-2026-07-14",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-esp-2026-07-14",
@@ -5827,21 +5829,21 @@
       ]
     },
     "760515": {
-      "home": 35.8,
+      "home": 35,
       "draw": 33,
-      "away": 31.2,
+      "away": 32,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "35.6%",
+          "home": "34.9%",
           "draw": "32.9%",
-          "away": "31.1%",
-          "homeProbability": 0.35625,
+          "away": "31.9%",
+          "homeProbability": 0.34875,
           "drawProbability": 0.32875,
-          "awayProbability": 0.31125,
+          "awayProbability": 0.31875,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-eng-arg-2026-07-15",
           "eventUrl": "https://polymarket.com/event/fifwc-eng-arg-2026-07-15",
@@ -5868,6 +5870,38 @@
   },
   "news": [
     {
+      "id": "49356289",
+      "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
+      "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
+      "imageAlt": "Erling Haaland [1296x729]",
+      "credit": "Lars Baron/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+      "publishedAt": "2026-07-14T19:43:28Z",
+      "updatedAt": "2026-07-14T19:43:28Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "法国 vs 西班牙",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49361014",
+      "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+      "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+      "publishedAt": "2026-07-14T19:41:13Z",
+      "updatedAt": "2026-07-14T19:41:13Z",
+      "source": "ESPN news",
+      "matchId": "760514",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
       "id": "49353881",
       "headline": "How Scaloni unlocked Messi's goal scoring at World Cup for Argentina",
       "description": "Lionel Messi went from six goals in four World Cups to 15 (and counting) in 2022 and 2026. What changed under Lionel Scaloni?",
@@ -5875,13 +5909,13 @@
       "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
       "credit": "Koji Watanabe/Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-      "publishedAt": "2026-07-14T18:14:56Z",
-      "updatedAt": "2026-07-14T18:14:56Z",
+      "publishedAt": "2026-07-14T19:12:08Z",
+      "updatedAt": "2026-07-14T19:12:08Z",
       "source": "ESPN news",
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49359198",
@@ -5897,7 +5931,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49360330",
@@ -5913,55 +5947,7 @@
       "matchId": "760514",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49356289",
-      "headline": "World Cup Daily live: Haaland latest star to inspire baby name boom",
-      "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-      "imageAlt": "Erling Haaland [1296x729]",
-      "credit": "Lars Baron/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-      "publishedAt": "2026-07-14T17:45:36Z",
-      "updatedAt": "2026-07-14T17:45:36Z",
-      "source": "ESPN news",
-      "matchId": "760514",
-      "matchLabel": "法国 vs 西班牙",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49358886",
-      "headline": "USMNT's Folarin Balogun: World Cup ban overturn affected teammates",
-      "description": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685293_1296x729_16-9.jpg",
-      "imageAlt": "Andscape USMNT [1296x729]",
-      "credit": "Maja Hitij - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-      "publishedAt": "2026-07-14T16:17:28Z",
-      "updatedAt": "2026-07-14T16:17:28Z",
-      "source": "ESPN news",
-      "matchId": "760514",
-      "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49353029",
-      "headline": "Why England vs. Argentina is World Cup's best, angriest, most chaotic rivalry",
-      "description": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688924_1296x729_16-9.jpg",
-      "imageAlt": "England v Argentina 1966 260713 [1296x729]",
-      "credit": "S&G/PA Images via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-      "publishedAt": "2026-07-14T15:59:34Z",
-      "updatedAt": "2026-07-14T15:59:34Z",
-      "source": "ESPN news",
-      "matchId": "760514",
-      "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49338957",
@@ -6442,10 +6428,26 @@
       "matchLabel": "",
       "stage": "16强",
       "status": "已结束"
+    },
+    {
+      "id": "49295929",
+      "headline": "Gary Lineker: USA should have left Folarin Balogun out of Belgium game",
+      "description": "Gary Lineker believes the United States should have left Folarin Balogun out of their team to face Belgium in the World Cup last 16 even after the controversial decision to suspend his one-match ban.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685624_1296x729_16-9.jpg",
+      "imageAlt": "Folarin Balogun",
+      "credit": "AP Photo/Lindsey Wasson",
+      "link": "https://www.espn.com/soccer/story/_/id/49295929/gary-lineker-usa-left-folarin-balogun-belgium-game",
+      "publishedAt": "2026-07-07T14:53:14Z",
+      "updatedAt": "2026-07-07T14:53:14Z",
+      "source": "ESPN news",
+      "matchId": "760509",
+      "matchLabel": "",
+      "stage": "16强",
+      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-14T18:38:55.009Z",
+    "updatedAt": "2026-07-14T19:55:33.194Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -123535,9 +123537,9 @@
     },
     "760514": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T18:38:54.291Z",
+      "fetchedAt": "2026-07-14T19:55:31.867Z",
       "source": "ESPN summary",
-      "status": "Scheduled",
+      "status": "Halftime",
       "lineups": {
         "home": {
           "team": "478",
@@ -123552,8 +123554,8 @@
               "jersey": "16",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123565,7 +123567,7 @@
               "jersey": "17",
               "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
+              "subbedIn": false,
               "subbedOut": true,
               "goals": "0",
               "shots": "0",
@@ -123578,8 +123580,8 @@
               "jersey": "4",
               "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123591,8 +123593,8 @@
               "jersey": "3",
               "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123604,8 +123606,8 @@
               "jersey": "5",
               "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123617,8 +123619,8 @@
               "jersey": "11",
               "position": "AM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123630,10 +123632,10 @@
               "jersey": "14",
               "position": "LM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -123643,8 +123645,8 @@
               "jersey": "8",
               "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123656,8 +123658,8 @@
               "jersey": "10",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123669,10 +123671,10 @@
               "jersey": "12",
               "position": "AM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -123682,8 +123684,8 @@
               "jersey": "7",
               "position": "AM-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123697,8 +123699,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123710,8 +123712,8 @@
               "jersey": "23",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123723,8 +123725,8 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123736,8 +123738,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123749,8 +123751,8 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123762,8 +123764,8 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123775,8 +123777,8 @@
               "jersey": "6",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123788,8 +123790,8 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123801,8 +123803,8 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123814,8 +123816,8 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123827,8 +123829,8 @@
               "jersey": "24",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123840,8 +123842,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123853,8 +123855,8 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123866,8 +123868,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123880,7 +123882,7 @@
               "position": "SUB",
               "starter": false,
               "subbedIn": true,
-              "subbedOut": true,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123900,8 +123902,8 @@
               "jersey": "23",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123913,8 +123915,8 @@
               "jersey": "14",
               "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123926,8 +123928,8 @@
               "jersey": "22",
               "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123939,8 +123941,8 @@
               "jersey": "24",
               "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -123952,10 +123954,10 @@
               "jersey": "12",
               "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -123965,10 +123967,10 @@
               "jersey": "10",
               "position": "AM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -123978,10 +123980,10 @@
               "jersey": "8",
               "position": "LM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -123991,8 +123993,8 @@
               "jersey": "16",
               "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124004,10 +124006,10 @@
               "jersey": "21",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "1",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124017,10 +124019,10 @@
               "jersey": "15",
               "position": "AM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124030,8 +124032,8 @@
               "jersey": "19",
               "position": "AM-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124045,8 +124047,8 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124058,8 +124060,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124071,8 +124073,8 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124084,8 +124086,8 @@
               "jersey": "26",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124097,8 +124099,8 @@
               "jersey": "5",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124110,8 +124112,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124123,8 +124125,8 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124136,8 +124138,8 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124149,8 +124151,8 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124162,8 +124164,8 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124175,8 +124177,8 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124188,8 +124190,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124201,8 +124203,8 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124214,8 +124216,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124227,8 +124229,8 @@
               "jersey": "6",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124238,28 +124240,172 @@
       },
       "stats": [
         {
-          "key": "goalDifference",
-          "label": "净胜球",
-          "home": "14",
+          "key": "foulsCommitted",
+          "label": "犯规",
+          "home": "5",
+          "away": "5"
+        },
+        {
+          "key": "yellowCards",
+          "label": "黄牌",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "key": "redCards",
+          "label": "红牌",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "offsides",
+          "label": "越位",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "key": "wonCorners",
+          "label": "角球",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "key": "saves",
+          "label": "扑救",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "possessionPct",
+          "label": "控球率",
+          "home": "44.5",
+          "away": "55.5"
+        },
+        {
+          "key": "totalShots",
+          "label": "射门",
+          "home": "2",
+          "away": "5"
+        },
+        {
+          "key": "shotsOnTarget",
+          "label": "射正",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "shotPct",
+          "label": "On Target %",
+          "home": "0.0",
+          "away": "0.2"
+        },
+        {
+          "key": "penaltyKickGoals",
+          "label": "Penalty Goals",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "penaltyKickShots",
+          "label": "Penalty Kicks Taken",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "accuratePasses",
+          "label": "成功传球",
+          "home": "163",
+          "away": "219"
+        },
+        {
+          "key": "totalPasses",
+          "label": "传球",
+          "home": "195",
+          "away": "252"
+        },
+        {
+          "key": "passPct",
+          "label": "传球成功率",
+          "home": "0.8",
+          "away": "0.9"
+        },
+        {
+          "key": "accurateCrosses",
+          "label": "Accurate Crosses",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "key": "totalCrosses",
+          "label": "Crosses",
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "key": "crossPct",
+          "label": "Cross %",
+          "home": "0.3",
+          "away": "0.2"
+        },
+        {
+          "key": "totalLongBalls",
+          "label": "Long Balls",
+          "home": "20",
+          "away": "21"
+        },
+        {
+          "key": "accurateLongBalls",
+          "label": "Accurate Long Balls",
+          "home": "12",
+          "away": "7"
+        },
+        {
+          "key": "longballPct",
+          "label": "Long Balls %",
+          "home": "0.6",
+          "away": "0.3"
+        },
+        {
+          "key": "blockedShots",
+          "label": "Blocked Shots",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "key": "effectiveTackles",
+          "label": "Effective Tackles",
+          "home": "3",
+          "away": "5"
+        },
+        {
+          "key": "totalTackles",
+          "label": "Tackles",
+          "home": "7",
           "away": "10"
         },
         {
-          "key": "totalGoals",
-          "label": "进球",
-          "home": "16",
-          "away": "11"
+          "key": "tacklePct",
+          "label": "Tackle %",
+          "home": "0.4",
+          "away": "0.5"
         },
         {
-          "key": "goalAssists",
-          "label": "助攻",
-          "home": "14",
-          "away": "8"
-        },
-        {
-          "key": "goalsConceded",
-          "label": "失球",
-          "home": "2",
+          "key": "interceptions",
+          "label": "Interceptions",
+          "home": "4",
           "away": "1"
+        },
+        {
+          "key": "effectiveClearance",
+          "label": "Effective Clearances",
+          "home": "8",
+          "away": "7"
+        },
+        {
+          "key": "totalClearance",
+          "label": "Clearances",
+          "home": "8",
+          "away": "7"
         }
       ],
       "leaders": [
@@ -124268,38 +124414,31 @@
           "teamName": "法国",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Kylian Mbappé",
-              "value": "Matches: 6, Goals: 8",
-              "summary": "6 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Michael Olise",
-              "value": "Matches: 6, Assists: 5",
-              "summary": "6 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Kylian Mbappé",
-              "value": "30",
-              "summary": ""
+              "player": "Bradley Barcola",
+              "value": "1",
+              "summary": "0 SOG, 0.03 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Dayot Upamecano",
-              "value": "347",
-              "summary": ""
+              "player": "Aurélien Tchouaméni",
+              "value": "21",
+              "summary": "23 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Adrien Rabiot",
+              "value": "11",
+              "summary": "2 TKLW, 6 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Mike Maignan",
-              "value": "9",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -124309,38 +124448,31 @@
           "teamName": "西班牙",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Mikel Oyarzabal",
-              "value": "Matches: 6, Goals: 4",
-              "summary": "6 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Marc Cucurella",
-              "value": "Matches: 6, Assists: 2",
-              "summary": "6 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Lamine Yamal",
-              "value": "23",
-              "summary": ""
+              "player": "Álex Baena",
+              "value": "1",
+              "summary": "0 SOG, 0.06 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Rodri",
-              "value": "597",
-              "summary": ""
+              "player": "Aymeric Laporte",
+              "value": "48",
+              "summary": "50 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Pau Cubarsí",
+              "value": "4",
+              "summary": "2 TKLW, 2 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Unai Simón",
-              "value": "7",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -124513,76 +124645,74 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2.jpg",
-        "alt": "Hislop: Yamal needs to be at his best in order for Spain to beat France",
-        "caption": "Hislop: Yamal needs to be at his best in order for Spain to beat France",
+        "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+        "alt": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+        "caption": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
         "credit": "",
         "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49353555/yamal-needs-his-best-order-spain-beat-france"
+        "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot"
       },
       "videos": [
         {
-          "id": "49353555",
-          "headline": "Hislop: Yamal needs to be at his best in order for Spain to beat France",
-          "description": "Hislop: Yamal needs to be at his best in order for Spain to beat France",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49353555/yamal-needs-his-best-order-spain-beat-france",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2/dm_260713_COM_SOC_Analysis_Hislop3A_Yamal_needs_to_be_at_his_best_in_order_for_Spain_to_beat_France__GLOBAL_2_720p30_2896k.mp4",
-          "duration": 164,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49353597",
-          "headline": "Has Olise 'outshined' Mbappé for France at the World Cup?",
-          "description": "Has Olise 'outshined' Mbappé for France at the World Cup?",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_COM_SOC_Analysis_Has_Olise_E28098outshin1102/dm_260713_COM_SOC_Analysis_Has_Olise_E28098outshin1102.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49353597/has-olise-outshined-mbappe-france-world-cup",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_COM_SOC_Analysis_Has_Olise_E28098outshinedE28099_MbappC3A9_for_France_at_the_World_Cup3F__GLOBAL_2026-07-13/dm_260713_COM_SOC_Analysis_Has_Olise_E28098outshinedE28099_MbappC3A9_for_France_at_the_World_Cup3F__GLOBAL_2026-07-13_720p30_2896k.mp4",
-          "duration": 196,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49358184",
-          "headline": "How the midfield will decide France vs. Spain",
-          "description": "How the midfield will decide France vs. Spain",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_COM_SOC_Analysis_How_the_midfield_will_decide_France_vs_Spain_20260714_GLOBAL_FIFA_WORLD_CUP/dm_260714_COM_SOC_Analysis_How_the_midfield_will_decide_France_vs_Spain_20260714_GLOBAL_FIFA_WORLD_CUP.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49358184/how-midfield-decide-france-vs-spain",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0714/dm_260714_COM_SOC_Analysis_How_the_midfield_will_decide_France_vs_Spain_20260714_GLOBAL_FIFA_WORLD_CUP/dm_260714_COM_SOC_Analysis_How_the_midfield_will_decide_France_vs_Spain_20260714_GLOBAL_FIFA_WORLD_CUP_720p30_2896k.mp4",
-          "duration": 198,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49328898",
-          "headline": "Spain's Yamal: If anyone can stop France, it's us",
-          "description": "Spain's Yamal: If anyone can stop France, it's us",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0710/dm_260710_Spains_Yamal_If_anyone_can_stop_France_its_us/dm_260710_Spains_Yamal_If_anyone_can_stop_France_its_us.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49328898/anyone-stop-france-us",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0710/dm_260710_Spains_Yamal_If_anyone_can_stop_France_its_us/dm_260710_Spains_Yamal_If_anyone_can_stop_France_its_us_720p30_2896k.mp4",
-          "duration": 44,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49348696",
-          "headline": "Rodri jokes about him aged 19 vs. Yamal in a World Cup semifinal",
-          "description": "Rodri jokes about him aged 19 vs. Yamal in a World Cup semifinal",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_Rodri_jokes_about_him_aged_19_vs_Yamal_in_a_World_Cup_semifinal/dm_260713_Rodri_jokes_about_him_aged_19_vs_Yamal_in_a_World_Cup_semifinal.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49348696/rodri-jokes-aged-19-vs-yamal-world-cup-semifinal",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_Rodri_jokes_about_him_aged_19_vs_Yamal_in_a_World_Cup_semifinal/dm_260713_Rodri_jokes_about_him_aged_19_vs_Yamal_in_a_World_Cup_semifinal_720p30_2896k.mp4",
-          "duration": 64,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49348805",
-          "headline": "France defenders 'not focusing on one particular player' ahead of semifinal",
-          "description": "France defenders 'not focusing on one particular player' ahead of semifinal",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_France_defenders_not_focusing_on_one_particular_player_ahead_of_semifinal/dm_260713_France_defenders_not_focusing_on_one_particular_player_ahead_of_semifinal.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49348805/france-defenders-not-focusing-one-particular-player-ahead-semifinal",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_France_defenders_not_focusing_on_one_particular_player_ahead_of_semifinal/dm_260713_France_defenders_not_focusing_on_one_particular_player_ahead_of_semifinal_720p30_2896k.mp4",
-          "duration": 43,
+          "id": "49361014",
+          "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_gives_Spain_the_lead_from_the_spot/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_gives_Spain_the_lead_from_the_spot_720p30_2896k.mp4",
+          "duration": 40,
           "source": "ESPN video"
         }
       ],
       "news": [
+        {
+          "id": "49356289",
+          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "Lars Baron/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "publishedAt": "2026-07-14T19:43:28Z",
+          "updatedAt": "2026-07-14T19:43:28Z",
+          "source": "ESPN news",
+          "matchId": "760514",
+          "matchLabel": "法国 vs 西班牙",
+          "stage": "半决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup: Brad Pitt, Penelope Cruz, Javier Bardem headline celebrities",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687501_1296x729_16-9.jpg",
+          "imageAlt": "Penelope Cruz, Brad Pitt, Javier Bardem [1296x729]",
+          "credit": "Paul Ellis/AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-14T19:49:19Z",
+          "updatedAt": "2026-07-14T19:49:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361014",
+          "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+          "publishedAt": "2026-07-14T19:41:13Z",
+          "updatedAt": "2026-07-14T19:41:13Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49353881",
           "headline": "How Scaloni unlocked Messi's goal scoring at World Cup for Argentina",
@@ -124591,8 +124721,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T18:14:56Z",
-          "updatedAt": "2026-07-14T18:14:56Z",
+          "publishedAt": "2026-07-14T19:12:08Z",
+          "updatedAt": "2026-07-14T19:12:08Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -124616,22 +124746,6 @@
           "status": ""
         },
         {
-          "id": "49356289",
-          "headline": "World Cup Daily live: Haaland latest star to inspire baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T17:45:36Z",
-          "updatedAt": "2026-07-14T17:45:36Z",
-          "source": "ESPN news",
-          "matchId": "760514",
-          "matchLabel": "法国 vs 西班牙",
-          "stage": "半决赛",
-          "status": "未开始"
-        },
-        {
           "id": "49359198",
           "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
           "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
@@ -124646,49 +124760,17 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49353029",
-          "headline": "Why England vs. Argentina is World Cup's best, angriest, most chaotic rivalry",
-          "description": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688924_1296x729_16-9.jpg",
-          "imageAlt": "England v Argentina 1966 260713 [1296x729]",
-          "credit": "S&G/PA Images via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-          "publishedAt": "2026-07-14T15:59:34Z",
-          "updatedAt": "2026-07-14T15:59:34Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49358886",
-          "headline": "USMNT's Folarin Balogun: World Cup ban overturn affected teammates",
-          "description": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685293_1296x729_16-9.jpg",
-          "imageAlt": "Andscape USMNT [1296x729]",
-          "credit": "Maja Hitij - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-          "publishedAt": "2026-07-14T16:17:28Z",
-          "updatedAt": "2026-07-14T16:17:28Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
         "attendance": "",
-        "referee": "",
+        "referee": "Iván Arcides Barton Cisneros",
         "venue": "AT&T Stadium"
       }
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T18:38:54.273Z",
+      "fetchedAt": "2026-07-14T19:55:31.852Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125057,6 +125139,54 @@
       ],
       "news": [
         {
+          "id": "49356289",
+          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "Lars Baron/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "publishedAt": "2026-07-14T19:43:28Z",
+          "updatedAt": "2026-07-14T19:43:28Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup: Brad Pitt, Penelope Cruz, Javier Bardem headline celebrities",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687501_1296x729_16-9.jpg",
+          "imageAlt": "Penelope Cruz, Brad Pitt, Javier Bardem [1296x729]",
+          "credit": "Paul Ellis/AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-14T19:49:19Z",
+          "updatedAt": "2026-07-14T19:49:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361014",
+          "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+          "publishedAt": "2026-07-14T19:41:13Z",
+          "updatedAt": "2026-07-14T19:41:13Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49353881",
           "headline": "How Scaloni unlocked Messi's goal scoring at World Cup for Argentina",
           "description": "Lionel Messi went from six goals in four World Cups to 15 (and counting) in 2022 and 2026. What changed under Lionel Scaloni?",
@@ -125064,8 +125194,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T18:14:56Z",
-          "updatedAt": "2026-07-14T18:14:56Z",
+          "publishedAt": "2026-07-14T19:12:08Z",
+          "updatedAt": "2026-07-14T19:12:08Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125089,22 +125219,6 @@
           "status": "未开始"
         },
         {
-          "id": "49356289",
-          "headline": "World Cup Daily live: Haaland latest star to inspire baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T17:45:36Z",
-          "updatedAt": "2026-07-14T17:45:36Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49359198",
           "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
           "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
@@ -125119,38 +125233,6 @@
           "matchLabel": "英格兰 vs 阿根廷",
           "stage": "半决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49353029",
-          "headline": "Why England vs. Argentina is World Cup's best, angriest, most chaotic rivalry",
-          "description": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688924_1296x729_16-9.jpg",
-          "imageAlt": "England v Argentina 1966 260713 [1296x729]",
-          "credit": "S&G/PA Images via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-          "publishedAt": "2026-07-14T15:59:34Z",
-          "updatedAt": "2026-07-14T15:59:34Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49358886",
-          "headline": "USMNT's Folarin Balogun: World Cup ban overturn affected teammates",
-          "description": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685293_1296x729_16-9.jpg",
-          "imageAlt": "Andscape USMNT [1296x729]",
-          "credit": "Maja Hitij - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-          "publishedAt": "2026-07-14T16:17:28Z",
-          "updatedAt": "2026-07-14T16:17:28Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -125161,7 +125243,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T18:38:54.285Z",
+      "fetchedAt": "2026-07-14T19:55:31.878Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125201,6 +125283,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49356289",
+          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "Lars Baron/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "publishedAt": "2026-07-14T19:43:28Z",
+          "updatedAt": "2026-07-14T19:43:28Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup: Brad Pitt, Penelope Cruz, Javier Bardem headline celebrities",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687501_1296x729_16-9.jpg",
+          "imageAlt": "Penelope Cruz, Brad Pitt, Javier Bardem [1296x729]",
+          "credit": "Paul Ellis/AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-14T19:49:19Z",
+          "updatedAt": "2026-07-14T19:49:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361014",
+          "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+          "publishedAt": "2026-07-14T19:41:13Z",
+          "updatedAt": "2026-07-14T19:41:13Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49353881",
           "headline": "How Scaloni unlocked Messi's goal scoring at World Cup for Argentina",
           "description": "Lionel Messi went from six goals in four World Cups to 15 (and counting) in 2022 and 2026. What changed under Lionel Scaloni?",
@@ -125208,8 +125338,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T18:14:56Z",
-          "updatedAt": "2026-07-14T18:14:56Z",
+          "publishedAt": "2026-07-14T19:12:08Z",
+          "updatedAt": "2026-07-14T19:12:08Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125233,22 +125363,6 @@
           "status": ""
         },
         {
-          "id": "49356289",
-          "headline": "World Cup Daily live: Haaland latest star to inspire baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T17:45:36Z",
-          "updatedAt": "2026-07-14T17:45:36Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49359198",
           "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
           "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
@@ -125258,38 +125372,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49359198/lionel-messi-harry-kane-argentina-england-world-cup-2026",
           "publishedAt": "2026-07-14T18:01:07Z",
           "updatedAt": "2026-07-14T18:01:07Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49353029",
-          "headline": "Why England vs. Argentina is World Cup's best, angriest, most chaotic rivalry",
-          "description": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688924_1296x729_16-9.jpg",
-          "imageAlt": "England v Argentina 1966 260713 [1296x729]",
-          "credit": "S&G/PA Images via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-          "publishedAt": "2026-07-14T15:59:34Z",
-          "updatedAt": "2026-07-14T15:59:34Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49358886",
-          "headline": "USMNT's Folarin Balogun: World Cup ban overturn affected teammates",
-          "description": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685293_1296x729_16-9.jpg",
-          "imageAlt": "Andscape USMNT [1296x729]",
-          "credit": "Maja Hitij - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-          "publishedAt": "2026-07-14T16:17:28Z",
-          "updatedAt": "2026-07-14T16:17:28Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125305,7 +125387,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-14T18:38:54.285Z",
+      "fetchedAt": "2026-07-14T19:55:31.876Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125345,6 +125427,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49356289",
+          "headline": "World Cup Daily live: France take on Spain; Haaland inspires baby name boom",
+          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
+          "imageAlt": "Erling Haaland [1296x729]",
+          "credit": "Lars Baron/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "publishedAt": "2026-07-14T19:43:28Z",
+          "updatedAt": "2026-07-14T19:43:28Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup: Brad Pitt, Penelope Cruz, Javier Bardem headline celebrities",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687501_1296x729_16-9.jpg",
+          "imageAlt": "Penelope Cruz, Brad Pitt, Javier Bardem [1296x729]",
+          "credit": "Paul Ellis/AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-14T19:49:19Z",
+          "updatedAt": "2026-07-14T19:49:19Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49361014",
+          "headline": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "description": "Celebrations in Madrid as Oyarzabal gives Spain the lead from the spot",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940/dm_260714_Celebrations_in_Madrid_as_Oyarzabal_give940.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49361014/celebrations-madrid-oyarzabal-gives-spain-lead-spot",
+          "publishedAt": "2026-07-14T19:41:13Z",
+          "updatedAt": "2026-07-14T19:41:13Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49353881",
           "headline": "How Scaloni unlocked Messi's goal scoring at World Cup for Argentina",
           "description": "Lionel Messi went from six goals in four World Cups to 15 (and counting) in 2022 and 2026. What changed under Lionel Scaloni?",
@@ -125352,8 +125482,8 @@
           "imageAlt": "Messi's eight goals put him ahead of Kane, who has six, in the race for the Golden Boot.",
           "credit": "Koji Watanabe/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49353881/how-argentina-coach-scaloni-unlocked-messi-goal-scoring-2026-world-cup",
-          "publishedAt": "2026-07-14T18:14:56Z",
-          "updatedAt": "2026-07-14T18:14:56Z",
+          "publishedAt": "2026-07-14T19:12:08Z",
+          "updatedAt": "2026-07-14T19:12:08Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125377,22 +125507,6 @@
           "status": ""
         },
         {
-          "id": "49356289",
-          "headline": "World Cup Daily live: Haaland latest star to inspire baby name boom",
-          "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we build up to the first semifinal -- France vs. Spain.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688980_1296x729_16-9.jpg",
-          "imageAlt": "Erling Haaland [1296x729]",
-          "credit": "Lars Baron/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
-          "publishedAt": "2026-07-14T17:45:36Z",
-          "updatedAt": "2026-07-14T17:45:36Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49359198",
           "headline": "Lionel Messi vs. Harry Kane: How do Argentina and England's captains compare? Key stats before World Cup semifinal clash",
           "description": "In the latest iteration of a footballing rivalry that goes back generations, England and Argentina are due to showdown in the World Cup semifinal.",
@@ -125402,38 +125516,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49359198/lionel-messi-harry-kane-argentina-england-world-cup-2026",
           "publishedAt": "2026-07-14T18:01:07Z",
           "updatedAt": "2026-07-14T18:01:07Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49353029",
-          "headline": "Why England vs. Argentina is World Cup's best, angriest, most chaotic rivalry",
-          "description": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1688924_1296x729_16-9.jpg",
-          "imageAlt": "England v Argentina 1966 260713 [1296x729]",
-          "credit": "S&G/PA Images via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-          "publishedAt": "2026-07-14T15:59:34Z",
-          "updatedAt": "2026-07-14T15:59:34Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49358886",
-          "headline": "USMNT's Folarin Balogun: World Cup ban overturn affected teammates",
-          "description": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685293_1296x729_16-9.jpg",
-          "imageAlt": "Andscape USMNT [1296x729]",
-          "credit": "Maja Hitij - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-          "publishedAt": "2026-07-14T16:17:28Z",
-          "updatedAt": "2026-07-14T16:17:28Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
