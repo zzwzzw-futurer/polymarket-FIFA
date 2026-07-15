@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T14:02:05.615Z",
-    "startedAt": "2026-07-15T14:02:01.807Z",
+    "fetchedAt": "2026-07-15T15:50:23.121Z",
+    "startedAt": "2026-07-15T15:50:20.372Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5797,21 +5797,21 @@
       "odds": []
     },
     "760515": {
-      "home": 35.4,
+      "home": 35.7,
       "draw": 33.2,
-      "away": 31.4,
+      "away": 31.2,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "35.6%",
+          "home": "35.9%",
           "draw": "33.4%",
-          "away": "31.6%",
-          "homeProbability": 0.35625,
+          "away": "31.4%",
+          "homeProbability": 0.35875,
           "drawProbability": 0.33375,
-          "awayProbability": 0.31625,
+          "awayProbability": 0.31375,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-eng-arg-2026-07-15",
           "eventUrl": "https://polymarket.com/event/fifwc-eng-arg-2026-07-15",
@@ -5837,6 +5837,22 @@
     }
   },
   "news": [
+    {
+      "id": "49365557",
+      "headline": "Argentina vice president before World Cup semifinal: England are 'invaders'",
+      "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice president ahead of the teams' World Cup semifinal clash.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689456_1296x729_16-9.jpg",
+      "imageAlt": "Argentina [1296x729]",
+      "credit": "Getty",
+      "link": "https://www.espn.com/soccer/story/_/id/49365557/argentina-vice-president-world-cup-semifinal-england-invaders",
+      "publishedAt": "2026-07-15T14:31:02Z",
+      "updatedAt": "2026-07-15T14:31:02Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "英格兰 vs 阿根廷",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
     {
       "id": "49366431",
       "headline": "Should England focus on Messi or Argentina's midfield?",
@@ -5882,22 +5898,6 @@
       "source": "ESPN news",
       "matchId": "760515",
       "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49365557",
-      "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
-      "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689456_1296x729_16-9.jpg",
-      "imageAlt": "Argentina [1296x729]",
-      "credit": "Getty",
-      "link": "https://www.espn.com/soccer/story/_/id/49365557/argentina-vice-president-world-cup-semifinal-england-invaders",
-      "publishedAt": "2026-07-15T10:02:41Z",
-      "updatedAt": "2026-07-15T10:02:41Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "英格兰 vs 阿根廷",
       "stage": "半决赛",
       "status": "未开始"
     },
@@ -6415,7 +6415,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T14:02:05.615Z",
+    "updatedAt": "2026-07-15T15:50:23.121Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -124738,7 +124738,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T14:02:02.338Z",
+      "fetchedAt": "2026-07-15T15:50:20.669Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125156,14 +125156,14 @@
         },
         {
           "id": "49365557",
-          "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
-          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
+          "headline": "Argentina vice president before World Cup semifinal: England are 'invaders'",
+          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice president ahead of the teams' World Cup semifinal clash.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689456_1296x729_16-9.jpg",
           "imageAlt": "Argentina [1296x729]",
           "credit": "Getty",
           "link": "https://www.espn.com/soccer/story/_/id/49365557/argentina-vice-president-world-cup-semifinal-england-invaders",
-          "publishedAt": "2026-07-15T10:02:41Z",
-          "updatedAt": "2026-07-15T10:02:41Z",
+          "publishedAt": "2026-07-15T14:31:02Z",
+          "updatedAt": "2026-07-15T14:31:02Z",
           "source": "ESPN news",
           "matchId": "760515",
           "matchLabel": "英格兰 vs 阿根廷",
@@ -125211,7 +125211,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T14:02:02.370Z",
+      "fetchedAt": "2026-07-15T15:50:20.661Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125423,14 +125423,14 @@
         },
         {
           "id": "49365557",
-          "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
-          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
+          "headline": "Argentina vice president before World Cup semifinal: England are 'invaders'",
+          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice president ahead of the teams' World Cup semifinal clash.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689456_1296x729_16-9.jpg",
           "imageAlt": "Argentina [1296x729]",
           "credit": "Getty",
           "link": "https://www.espn.com/soccer/story/_/id/49365557/argentina-vice-president-world-cup-semifinal-england-invaders",
-          "publishedAt": "2026-07-15T10:02:41Z",
-          "updatedAt": "2026-07-15T10:02:41Z",
+          "publishedAt": "2026-07-15T14:31:02Z",
+          "updatedAt": "2026-07-15T14:31:02Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125478,7 +125478,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T14:02:02.437Z",
+      "fetchedAt": "2026-07-15T15:50:20.677Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125708,14 +125708,14 @@
         },
         {
           "id": "49365557",
-          "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
-          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
+          "headline": "Argentina vice president before World Cup semifinal: England are 'invaders'",
+          "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice president ahead of the teams' World Cup semifinal clash.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689456_1296x729_16-9.jpg",
           "imageAlt": "Argentina [1296x729]",
           "credit": "Getty",
           "link": "https://www.espn.com/soccer/story/_/id/49365557/argentina-vice-president-world-cup-semifinal-england-invaders",
-          "publishedAt": "2026-07-15T10:02:41Z",
-          "updatedAt": "2026-07-15T10:02:41Z",
+          "publishedAt": "2026-07-15T14:31:02Z",
+          "updatedAt": "2026-07-15T14:31:02Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
