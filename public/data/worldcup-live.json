@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T18:38:10.591Z",
-    "startedAt": "2026-07-15T18:38:08.835Z",
+    "fetchedAt": "2026-07-15T19:51:39.409Z",
+    "startedAt": "2026-07-15T19:51:37.428Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3297,14 +3297,14 @@
       "matchday": 13798,
       "home": "448",
       "away": "202",
-      "score": "-",
-      "status": "未开始",
+      "score": "0 - 0",
+      "status": "进行中",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
       "weather": "天气数据待接入",
-      "timeElapsed": "Scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "timeElapsed": "HT",
+      "homeScore": 0,
+      "awayScore": 0,
       "homeScorers": [],
       "awayScorers": []
     },
@@ -5797,21 +5797,21 @@
       "odds": []
     },
     "760515": {
-      "home": 35.9,
-      "draw": 33.2,
-      "away": 30.9,
+      "home": 32.7,
+      "draw": 41.9,
+      "away": 25.5,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "36.1%",
-          "draw": "33.4%",
-          "away": "31.1%",
-          "homeProbability": 0.36125,
-          "drawProbability": 0.33375,
-          "awayProbability": 0.31125,
+          "home": "32.9%",
+          "draw": "42.1%",
+          "away": "25.6%",
+          "homeProbability": 0.32875,
+          "drawProbability": 0.42125,
+          "awayProbability": 0.25625,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-eng-arg-2026-07-15",
           "eventUrl": "https://polymarket.com/event/fifwc-eng-arg-2026-07-15",
@@ -5838,6 +5838,54 @@
   },
   "news": [
     {
+      "id": "49368693",
+      "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
+      "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
+      "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
+      "credit": "Photo by Tom Weller/picture alliance via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
+      "publishedAt": "2026-07-15T19:24:37Z",
+      "updatedAt": "2026-07-15T19:24:37Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49352315",
+      "headline": "Harry Kane becomes England's second most capped player of all time",
+      "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
+      "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
+      "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
+      "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
+      "publishedAt": "2026-07-15T19:09:26Z",
+      "updatedAt": "2026-07-15T19:09:26Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "英格兰 vs 阿根廷",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49368478",
+      "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
+      "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
+      "imageAlt": "Post Malone  [1296x729]",
+      "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
+      "publishedAt": "2026-07-15T19:00:57Z",
+      "updatedAt": "2026-07-15T19:00:57Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
       "id": "49368198",
       "headline": "Fans can pay $80 to attend pre-World Cup final news conference",
       "description": "FIFA is to stage the World Cup final news conference in front of paying fans with supporters having to pay in excess of $80 (£60) to watch the coaches and players from the two finalists.",
@@ -5851,7 +5899,7 @@
       "matchId": "760515",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49368040",
@@ -5867,7 +5915,7 @@
       "matchId": "760515",
       "matchLabel": "英格兰 vs 阿根廷",
       "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49368280",
@@ -5883,39 +5931,7 @@
       "matchId": "760515",
       "matchLabel": "英格兰 vs 阿根廷",
       "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49366431",
-      "headline": "Should England focus on Messi or Argentina's midfield?",
-      "description": "Should England focus on Messi or Argentina's midfield?",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49366431/should-england-focus-messi-argentina-midfield",
-      "publishedAt": "2026-07-15T13:21:23Z",
-      "updatedAt": "2026-07-15T13:21:23Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "英格兰 vs 阿根廷",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49365585",
-      "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
-      "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
-      "imageAlt": "Spain reached their first World Cup final in 16 years.",
-      "credit": "Photo by David Buono/Icon Sportswire",
-      "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
-      "publishedAt": "2026-07-15T10:31:48Z",
-      "updatedAt": "2026-07-15T10:31:48Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49356289",
@@ -6396,26 +6412,10 @@
       "matchLabel": "",
       "stage": "16强",
       "status": "已结束"
-    },
-    {
-      "id": "48913351",
-      "headline": "Inside the 'goalkeepers' union,' where mutual support is mandatory ... until it isn't",
-      "description": "Goalkeepers are unique among soccer players, and so is the supportive bond that (almost) all of them share.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685910_1296x729_16-9.jpg",
-      "imageAlt": "Matt Freese [1296x729]",
-      "credit": "Luke Hales/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/48913351/inside-goalkeepers-union-where-mutual-support-mandatory-2026-world-cup-freese-usmnt-kinsky",
-      "publishedAt": "2026-07-07T21:19:19Z",
-      "updatedAt": "2026-07-07T21:19:19Z",
-      "source": "ESPN news",
-      "matchId": "760508",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T18:38:10.591Z",
+    "updatedAt": "2026-07-15T19:51:39.409Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6494,7 +6494,7 @@
       },
       {
         "label": "视频",
-        "value": "76 场"
+        "value": "75 场"
       },
       {
         "label": "新闻",
@@ -124738,9 +124738,9 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T18:38:09.144Z",
+      "fetchedAt": "2026-07-15T19:51:37.791Z",
       "source": "ESPN summary",
-      "status": "Scheduled",
+      "status": "Halftime",
       "lineups": {
         "home": {
           "team": "448",
@@ -124755,8 +124755,8 @@
               "jersey": "1",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124768,8 +124768,8 @@
               "jersey": "6",
               "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124781,10 +124781,10 @@
               "jersey": "5",
               "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124794,8 +124794,8 @@
               "jersey": "25",
               "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124807,8 +124807,8 @@
               "jersey": "24",
               "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124820,8 +124820,8 @@
               "jersey": "10",
               "position": "AM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124833,8 +124833,8 @@
               "jersey": "8",
               "position": "LM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124846,8 +124846,8 @@
               "jersey": "4",
               "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124859,8 +124859,8 @@
               "jersey": "9",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124872,8 +124872,8 @@
               "jersey": "18",
               "position": "AM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124885,8 +124885,8 @@
               "jersey": "17",
               "position": "AM-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124900,8 +124900,8 @@
               "jersey": "14",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124913,8 +124913,8 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124926,8 +124926,8 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124939,8 +124939,8 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124952,8 +124952,8 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124965,8 +124965,8 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124978,8 +124978,8 @@
               "jersey": "23",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124991,8 +124991,8 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125004,8 +125004,8 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125017,8 +125017,8 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125030,8 +125030,8 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125043,8 +125043,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125056,8 +125056,8 @@
               "jersey": "16",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125069,8 +125069,8 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125080,7 +125080,7 @@
         "away": {
           "team": "202",
           "teamName": "阿根廷",
-          "formation": "4-4-2",
+          "formation": "4-1-4-1",
           "status": "official",
           "starters": [
             {
@@ -125090,8 +125090,8 @@
               "jersey": "23",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125103,8 +125103,8 @@
               "jersey": "6",
               "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125116,8 +125116,21 @@
               "jersey": "13",
               "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "153115",
+              "name": "Leandro Paredes",
+              "shortName": "L. Paredes",
+              "jersey": "5",
+              "position": "DM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125129,8 +125142,8 @@
               "jersey": "3",
               "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125142,8 +125155,8 @@
               "jersey": "26",
               "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125155,21 +125168,8 @@
               "jersey": "20",
               "position": "CM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "153115",
-              "name": "Leandro Paredes",
-              "shortName": "L. Paredes",
-              "jersey": "5",
-              "position": "CM-R",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125179,10 +125179,23 @@
               "name": "Enzo Fernández",
               "shortName": "E. Fernández",
               "jersey": "24",
+              "position": "CM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "277206",
+              "name": "Julián Álvarez",
+              "shortName": "J. Álvarez",
+              "jersey": "9",
               "position": "LM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125194,21 +125207,8 @@
               "jersey": "17",
               "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "277206",
-              "name": "Julián Álvarez",
-              "shortName": "J. Álvarez",
-              "jersey": "9",
-              "position": "CF-L",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125218,12 +125218,12 @@
               "name": "Lionel Messi",
               "shortName": "L. Messi",
               "jersey": "10",
-              "position": "CF-R",
+              "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             }
           ],
@@ -125235,8 +125235,8 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125248,8 +125248,8 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125261,8 +125261,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125274,8 +125274,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125287,8 +125287,8 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125300,8 +125300,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125313,8 +125313,8 @@
               "jersey": "8",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125326,8 +125326,8 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125339,8 +125339,8 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125352,8 +125352,8 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125365,8 +125365,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125378,8 +125378,8 @@
               "jersey": "16",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125391,8 +125391,8 @@
               "jersey": "14",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125404,8 +125404,8 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125417,8 +125417,8 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125428,28 +125428,172 @@
       },
       "stats": [
         {
-          "key": "goalDifference",
-          "label": "净胜球",
+          "key": "foulsCommitted",
+          "label": "犯规",
           "home": "7",
+          "away": "12"
+        },
+        {
+          "key": "yellowCards",
+          "label": "黄牌",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "key": "redCards",
+          "label": "红牌",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "offsides",
+          "label": "越位",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "key": "wonCorners",
+          "label": "角球",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "key": "saves",
+          "label": "扑救",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "possessionPct",
+          "label": "控球率",
+          "home": "44.5",
+          "away": "55.5"
+        },
+        {
+          "key": "totalShots",
+          "label": "射门",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "key": "shotsOnTarget",
+          "label": "射正",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "shotPct",
+          "label": "On Target %",
+          "home": "0.0",
+          "away": "0.0"
+        },
+        {
+          "key": "penaltyKickGoals",
+          "label": "Penalty Goals",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "penaltyKickShots",
+          "label": "Penalty Kicks Taken",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "accuratePasses",
+          "label": "成功传球",
+          "home": "178",
+          "away": "224"
+        },
+        {
+          "key": "totalPasses",
+          "label": "传球",
+          "home": "198",
+          "away": "251"
+        },
+        {
+          "key": "passPct",
+          "label": "传球成功率",
+          "home": "0.9",
+          "away": "0.9"
+        },
+        {
+          "key": "accurateCrosses",
+          "label": "Accurate Crosses",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "key": "totalCrosses",
+          "label": "Crosses",
+          "home": "7",
+          "away": "4"
+        },
+        {
+          "key": "crossPct",
+          "label": "Cross %",
+          "home": "0.3",
+          "away": "0.3"
+        },
+        {
+          "key": "totalLongBalls",
+          "label": "Long Balls",
+          "home": "13",
+          "away": "12"
+        },
+        {
+          "key": "accurateLongBalls",
+          "label": "Accurate Long Balls",
+          "home": "5",
+          "away": "5"
+        },
+        {
+          "key": "longballPct",
+          "label": "Long Balls %",
+          "home": "0.4",
+          "away": "0.4"
+        },
+        {
+          "key": "blockedShots",
+          "label": "Blocked Shots",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "effectiveTackles",
+          "label": "Effective Tackles",
+          "home": "5",
+          "away": "4"
+        },
+        {
+          "key": "totalTackles",
+          "label": "Tackles",
+          "home": "8",
           "away": "11"
         },
         {
-          "key": "totalGoals",
-          "label": "进球",
-          "home": "13",
-          "away": "17"
+          "key": "tacklePct",
+          "label": "Tackle %",
+          "home": "0.6",
+          "away": "0.4"
         },
         {
-          "key": "goalAssists",
-          "label": "助攻",
-          "home": "10",
+          "key": "interceptions",
+          "label": "Interceptions",
+          "home": "5",
+          "away": "3"
+        },
+        {
+          "key": "effectiveClearance",
+          "label": "Effective Clearances",
+          "home": "7",
           "away": "10"
         },
         {
-          "key": "goalsConceded",
-          "label": "失球",
-          "home": "6",
-          "away": "6"
+          "key": "totalClearance",
+          "label": "Clearances",
+          "home": "7",
+          "away": "10"
         }
       ],
       "leaders": [
@@ -125458,38 +125602,31 @@
           "teamName": "英格兰",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Harry Kane",
-              "value": "Matches: 6, Goals: 6",
-              "summary": "6 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Bukayo Saka",
-              "value": "Matches: 6, Assists: 3",
-              "summary": "6 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Harry Kane",
-              "value": "22",
-              "summary": ""
+              "player": "John Stones",
+              "value": "1",
+              "summary": "0 SOG, 0.06 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Ezri Konsa",
-              "value": "404",
-              "summary": ""
+              "player": "Marc Guéhi",
+              "value": "40",
+              "summary": "40 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Djed Spence",
+              "value": "7",
+              "summary": "3 TKLW, 4 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Jordan Pickford",
-              "value": "12",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -125499,38 +125636,31 @@
           "teamName": "阿根廷",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Lionel Messi",
-              "value": "Matches: 6, Goals: 8",
-              "summary": "6 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Lionel Messi",
-              "value": "Matches: 6, Assists: 2",
-              "summary": "6 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Lionel Messi",
-              "value": "33",
-              "summary": ""
+              "player": "Enzo Fernández",
+              "value": "1",
+              "summary": "0 SOG, 0.02 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Leandro Paredes",
-              "value": "427",
-              "summary": ""
+              "value": "40",
+              "summary": "41 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Nahuel Molina",
+              "value": "4",
+              "summary": "1 TKLW, 1 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Emiliano Martínez",
-              "value": "8",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -125703,76 +125833,63 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England.jpg",
-        "alt": "When Diego Maradona relived his 'Hand of God' goal against England",
-        "caption": "When Diego Maradona relived his 'Hand of God' goal against England",
-        "credit": "",
-        "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49350743/when-diego-maradona-relived-hand-god-goal-england"
+        "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
+        "alt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
+        "caption": "Harry Kane has become England's second most capped player.",
+        "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
+        "source": "ESPN news",
+        "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026"
       },
-      "videos": [
-        {
-          "id": "49350743",
-          "headline": "When Diego Maradona relived his 'Hand of God' goal against England",
-          "description": "When Diego Maradona relived his 'Hand of God' goal against England",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49350743/when-diego-maradona-relived-hand-god-goal-england",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England/dm_260713_When_Diego_Maradona_relived_his_Hand_of_God_goal_against_England_720p30_2896k.mp4",
-          "duration": 171,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49346270",
-          "headline": "Klinsmann: Argentina vs. England semifinal will be 50-50",
-          "description": "Klinsmann: Argentina vs. England semifinal will be 50-50",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0712/dm_260712_Klinsmann_Argentina_vs_England_semifinal_will_be_50_50/dm_260712_Klinsmann_Argentina_vs_England_semifinal_will_be_50_50.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49346270/argentina-vs-england-semifinal-50-50",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0712/dm_260712_Klinsmann_Argentina_vs_England_semifinal_will_be_50_50/dm_260712_Klinsmann_Argentina_vs_England_semifinal_will_be_50_50_720p30_2896k.mp4",
-          "duration": 95,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49353621",
-          "headline": "Have Argentina had the easiest route to the World Cup semifinals?",
-          "description": "Have Argentina had the easiest route to the World Cup semifinals?",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_COM_SOC_Analysis_Have_Argentina_had_the_easiest_route_to_the_World_Cup_semifinals3F__GLOBAL_2026-07/dm_260713_COM_SOC_Analysis_Have_Argentina_had_the_easiest_route_to_the_World_Cup_semifinals3F__GLOBAL_2026-07.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49353621/have-argentina-had-easiest-route-world-cup-semifinals",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_COM_SOC_Analysis_Have_Argentina_had_the_easiest_route_to_the_World_Cup_semifinals3F__GLOBAL_2026-07/dm_260713_COM_SOC_Analysis_Have_Argentina_had_the_easiest_route_to_the_World_Cup_semifinals3F__GLOBAL_2026-07_720p30_2896k.mp4",
-          "duration": 109,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49353729",
-          "headline": "Moreno: Kane is the best player Argentina have faced this World Cup",
-          "description": "Moreno: Kane is the best player Argentina have faced this World Cup",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0713/dm_260713_COM_SOC_Analysis_Moreno3A_Kane_is_the_best_player_Argentina_have_faced_this_World_Cup_GLOBAL_2026-0/dm_260713_COM_SOC_Analysis_Moreno3A_Kane_is_the_best_player_Argentina_have_faced_this_World_Cup_GLOBAL_2026-0.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49353729/kane-best-player-argentina-faced-world-cup",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0713/dm_260713_COM_SOC_Analysis_Moreno3A_Kane_is_the_best_player_Argentina_have_faced_this_World_Cup_GLOBAL_2026-0/dm_260713_COM_SOC_Analysis_Moreno3A_Kane_is_the_best_player_Argentina_have_faced_this_World_Cup_GLOBAL_2026-0_720p30_2896k.mp4",
-          "duration": 181,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49358524",
-          "headline": "Moreno backs Bellingham to thrive in 'prickly' environment",
-          "description": "Moreno backs Bellingham to thrive in 'prickly' environment",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0714/dm_260714_COM_SOC_Analysis_Moreno_backs_Bellingham_to_thrive_in_prickly_environment_20260714_GLOBAL_FIFA/dm_260714_COM_SOC_Analysis_Moreno_backs_Bellingham_to_thrive_in_prickly_environment_20260714_GLOBAL_FIFA.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49358524/moreno-backs-bellingham-thrive-prickly-environment",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0714/dm_260714_COM_SOC_Analysis_Moreno_backs_Bellingham_to_thrive_in_prickly_environment_20260714_GLOBAL_FIFA/dm_260714_COM_SOC_Analysis_Moreno_backs_Bellingham_to_thrive_in_prickly_environment_20260714_GLOBAL_FIFA_720p30_2896k.mp4",
-          "duration": 118,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49366431",
-          "headline": "Should England focus on Messi or Argentina's midfield?",
-          "description": "Should England focus on Messi or Argentina's midfield?",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49366431/should-england-focus-messi-argentina-midfield",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield_720p30_2896k.mp4",
-          "duration": 161,
-          "source": "ESPN video"
-        }
-      ],
+      "videos": [],
       "news": [
+        {
+          "id": "49368693",
+          "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
+          "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
+          "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
+          "credit": "Photo by Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
+          "publishedAt": "2026-07-15T19:24:37Z",
+          "updatedAt": "2026-07-15T19:24:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49352315",
+          "headline": "Harry Kane becomes England's second most capped player of all time",
+          "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
+          "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
+          "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
+          "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
+          "publishedAt": "2026-07-15T19:09:26Z",
+          "updatedAt": "2026-07-15T19:09:26Z",
+          "source": "ESPN news",
+          "matchId": "760515",
+          "matchLabel": "英格兰 vs 阿根廷",
+          "stage": "半决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49368478",
+          "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
+          "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
+          "imageAlt": "Post Malone  [1296x729]",
+          "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
+          "publishedAt": "2026-07-15T19:00:57Z",
+          "updatedAt": "2026-07-15T19:00:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49368040",
           "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
@@ -125787,7 +125904,7 @@
           "matchId": "760515",
           "matchLabel": "英格兰 vs 阿根廷",
           "stage": "半决赛",
-          "status": "未开始"
+          "status": "进行中"
         },
         {
           "id": "49368280",
@@ -125803,7 +125920,7 @@
           "matchId": "760515",
           "matchLabel": "英格兰 vs 阿根廷",
           "stage": "半决赛",
-          "status": "未开始"
+          "status": "进行中"
         },
         {
           "id": "49368198",
@@ -125820,65 +125937,17 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49366431",
-          "headline": "Should England focus on Messi or Argentina's midfield?",
-          "description": "Should England focus on Messi or Argentina's midfield?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49366431/should-england-focus-messi-argentina-midfield",
-          "publishedAt": "2026-07-15T13:21:23Z",
-          "updatedAt": "2026-07-15T13:21:23Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as each exits the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how its run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689296_1296x729_16-9.jpg",
-          "imageAlt": "Kylian Mbappe [1296x729]",
-          "credit": "Tom Weller/picture alliance via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-15T13:22:17Z",
-          "updatedAt": "2026-07-15T13:22:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49365585",
-          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
-          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
-          "imageAlt": "Spain reached their first World Cup final in 16 years.",
-          "credit": "Photo by David Buono/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
-          "publishedAt": "2026-07-15T10:31:48Z",
-          "updatedAt": "2026-07-15T10:31:48Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
         "attendance": "",
-        "referee": "",
+        "referee": "Ismail Elfath",
         "venue": "Mercedes-Benz Stadium"
       }
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T18:38:09.156Z",
+      "fetchedAt": "2026-07-15T19:51:37.804Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126041,6 +126110,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49368693",
+          "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
+          "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
+          "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
+          "credit": "Photo by Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
+          "publishedAt": "2026-07-15T19:24:37Z",
+          "updatedAt": "2026-07-15T19:24:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49352315",
+          "headline": "Harry Kane becomes England's second most capped player of all time",
+          "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
+          "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
+          "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
+          "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
+          "publishedAt": "2026-07-15T19:09:26Z",
+          "updatedAt": "2026-07-15T19:09:26Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49368478",
+          "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
+          "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
+          "imageAlt": "Post Malone  [1296x729]",
+          "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
+          "publishedAt": "2026-07-15T19:00:57Z",
+          "updatedAt": "2026-07-15T19:00:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49368040",
           "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
           "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
@@ -126087,54 +126204,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49366431",
-          "headline": "Should England focus on Messi or Argentina's midfield?",
-          "description": "Should England focus on Messi or Argentina's midfield?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49366431/should-england-focus-messi-argentina-midfield",
-          "publishedAt": "2026-07-15T13:21:23Z",
-          "updatedAt": "2026-07-15T13:21:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as each exits the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how its run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689296_1296x729_16-9.jpg",
-          "imageAlt": "Kylian Mbappe [1296x729]",
-          "credit": "Tom Weller/picture alliance via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-15T13:22:17Z",
-          "updatedAt": "2026-07-15T13:22:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49365585",
-          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
-          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
-          "imageAlt": "Spain reached their first World Cup final in 16 years.",
-          "credit": "Photo by David Buono/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
-          "publishedAt": "2026-07-15T10:31:48Z",
-          "updatedAt": "2026-07-15T10:31:48Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -126145,7 +126214,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T18:38:09.168Z",
+      "fetchedAt": "2026-07-15T19:51:37.806Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126326,6 +126395,54 @@
       ],
       "news": [
         {
+          "id": "49368693",
+          "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
+          "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
+          "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
+          "credit": "Photo by Tom Weller/picture alliance via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
+          "publishedAt": "2026-07-15T19:24:37Z",
+          "updatedAt": "2026-07-15T19:24:37Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49352315",
+          "headline": "Harry Kane becomes England's second most capped player of all time",
+          "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
+          "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
+          "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
+          "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
+          "publishedAt": "2026-07-15T19:09:26Z",
+          "updatedAt": "2026-07-15T19:09:26Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49368478",
+          "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
+          "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
+          "imageAlt": "Post Malone  [1296x729]",
+          "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
+          "publishedAt": "2026-07-15T19:00:57Z",
+          "updatedAt": "2026-07-15T19:00:57Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49368040",
           "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
           "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
@@ -126367,54 +126484,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49368198/2026-world-cup-final-press-conference-fanatics-fest-fans",
           "publishedAt": "2026-07-15T18:02:27Z",
           "updatedAt": "2026-07-15T18:02:27Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49366431",
-          "headline": "Should England focus on Messi or Argentina's midfield?",
-          "description": "Should England focus on Messi or Argentina's midfield?",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49366431/should-england-focus-messi-argentina-midfield",
-          "publishedAt": "2026-07-15T13:21:23Z",
-          "updatedAt": "2026-07-15T13:21:23Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49178425",
-          "headline": "World Cup: Grades for every eliminated team as each exits the tournament",
-          "description": "When the World Cup ends, 47 teams will have been eliminated, and we're grading every one on how its run compared with expectations.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689296_1296x729_16-9.jpg",
-          "imageAlt": "Kylian Mbappe [1296x729]",
-          "credit": "Tom Weller/picture alliance via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
-          "publishedAt": "2026-07-15T13:22:17Z",
-          "updatedAt": "2026-07-15T13:22:17Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49365585",
-          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
-          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
-          "imageAlt": "Spain reached their first World Cup final in 16 years.",
-          "credit": "Photo by David Buono/Icon Sportswire",
-          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
-          "publishedAt": "2026-07-15T10:31:48Z",
-          "updatedAt": "2026-07-15T10:31:48Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
