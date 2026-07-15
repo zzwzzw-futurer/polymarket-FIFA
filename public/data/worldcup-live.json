@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T10:23:54.281Z",
-    "startedAt": "2026-07-15T10:23:52.457Z",
+    "fetchedAt": "2026-07-15T11:58:56.139Z",
+    "startedAt": "2026-07-15T11:58:55.128Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5797,19 +5797,19 @@
       "odds": []
     },
     "760515": {
-      "home": 35.1,
+      "home": 35.2,
       "draw": 33.3,
-      "away": 31.6,
+      "away": 31.5,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "35.1%",
+          "home": "35.4%",
           "draw": "33.4%",
           "away": "31.6%",
-          "homeProbability": 0.35125,
+          "homeProbability": 0.35375,
           "drawProbability": 0.33375,
           "awayProbability": 0.31625,
           "spread": "全场赛果预测市场",
@@ -5838,6 +5838,38 @@
   },
   "news": [
     {
+      "id": "48939282",
+      "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
+      "description": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
+      "imageUrl": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg",
+      "imageAlt": "World Cup trophy DC [1296x729]",
+      "credit": "Michael Regan - FIFA/FIFA via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "publishedAt": "2026-07-15T10:35:36Z",
+      "updatedAt": "2026-07-15T10:35:36Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49365585",
+      "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
+      "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
+      "imageAlt": "Spain reached their first World Cup final in 16 years.",
+      "credit": "Photo by David Buono/Icon Sportswire",
+      "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
+      "publishedAt": "2026-07-15T10:31:48Z",
+      "updatedAt": "2026-07-15T10:31:48Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49365557",
       "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
       "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
@@ -5850,22 +5882,6 @@
       "source": "ESPN news",
       "matchId": "760515",
       "matchLabel": "英格兰 vs 阿根廷",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "48939282",
-      "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-      "description": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-      "imageUrl": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg",
-      "imageAlt": "World Cup trophy DC [1296x729]",
-      "credit": "Michael Regan - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-      "publishedAt": "2026-07-15T08:50:05Z",
-      "updatedAt": "2026-07-15T08:50:05Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "",
       "stage": "半决赛",
       "status": "未开始"
     },
@@ -5911,22 +5927,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49364445/france-move-deschamps-zidane-wondering-couldve-been",
       "publishedAt": "2026-07-15T07:38:43Z",
       "updatedAt": "2026-07-15T07:38:43Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "",
-      "stage": "半决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49294190",
-      "headline": "2026 World Cup Stock Watch: Which players starred?",
-      "description": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0714/soc_wc-stock-up-down_16x9.jpg",
-      "imageAlt": "Vozinha, Michael Olise, Ayyoub Bouadd, Federico Valverde, Neymar, Matt Freese",
-      "credit": "Illustration by ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
-      "publishedAt": "2026-07-15T07:33:08Z",
-      "updatedAt": "2026-07-15T07:33:08Z",
       "source": "ESPN news",
       "matchId": "760515",
       "matchLabel": "",
@@ -6415,7 +6415,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T10:23:54.281Z",
+    "updatedAt": "2026-07-15T11:58:56.139Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -124738,7 +124738,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T10:23:52.833Z",
+      "fetchedAt": "2026-07-15T11:58:55.471Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125107,6 +125107,22 @@
       ],
       "news": [
         {
+          "id": "49365585",
+          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
+          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
+          "imageAlt": "Spain reached their first World Cup final in 16 years.",
+          "credit": "Photo by David Buono/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
+          "publishedAt": "2026-07-15T10:31:48Z",
+          "updatedAt": "2026-07-15T10:31:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49365557",
           "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
           "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
@@ -125130,8 +125146,8 @@
           "imageAlt": "World Cup trophy DC [1296x729]",
           "credit": "Michael Regan - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-          "publishedAt": "2026-07-15T08:50:05Z",
-          "updatedAt": "2026-07-15T08:50:05Z",
+          "publishedAt": "2026-07-15T10:35:36Z",
+          "updatedAt": "2026-07-15T10:35:36Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125185,22 +125201,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49294190",
-          "headline": "2026 World Cup Stock Watch: Which players starred?",
-          "description": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/soc_wc-stock-up-down_16x9.jpg",
-          "imageAlt": "Vozinha, Michael Olise, Ayyoub Bouadd, Federico Valverde, Neymar, Matt Freese",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
-          "publishedAt": "2026-07-15T07:33:08Z",
-          "updatedAt": "2026-07-15T07:33:08Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -125211,7 +125211,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T10:23:52.857Z",
+      "fetchedAt": "2026-07-15T11:58:55.463Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125374,6 +125374,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49365585",
+          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
+          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
+          "imageAlt": "Spain reached their first World Cup final in 16 years.",
+          "credit": "Photo by David Buono/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
+          "publishedAt": "2026-07-15T10:31:48Z",
+          "updatedAt": "2026-07-15T10:31:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49365557",
           "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
           "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
@@ -125397,8 +125413,8 @@
           "imageAlt": "World Cup trophy DC [1296x729]",
           "credit": "Michael Regan - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-          "publishedAt": "2026-07-15T08:50:05Z",
-          "updatedAt": "2026-07-15T08:50:05Z",
+          "publishedAt": "2026-07-15T10:35:36Z",
+          "updatedAt": "2026-07-15T10:35:36Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125452,22 +125468,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49294190",
-          "headline": "2026 World Cup Stock Watch: Which players starred?",
-          "description": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/soc_wc-stock-up-down_16x9.jpg",
-          "imageAlt": "Vozinha, Michael Olise, Ayyoub Bouadd, Federico Valverde, Neymar, Matt Freese",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
-          "publishedAt": "2026-07-15T07:33:08Z",
-          "updatedAt": "2026-07-15T07:33:08Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -125478,7 +125478,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T10:23:52.817Z",
+      "fetchedAt": "2026-07-15T11:58:55.476Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125659,6 +125659,22 @@
       ],
       "news": [
         {
+          "id": "49365585",
+          "headline": "Spain's Lamine Yamal issues World Cup final warning: 'New York we're coming for you'",
+          "description": "Lamine Yamal is looking forward to take New York by storm after helping Spain reach the World Cup final with a 2-0 win against France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0714/r1689332_1296x729_16-9.jpg",
+          "imageAlt": "Spain reached their first World Cup final in 16 years.",
+          "credit": "Photo by David Buono/Icon Sportswire",
+          "link": "https://www.espn.com/soccer/story/_/id/49365585/lamine-yamal-sends-world-cup-final-warning-new-york-coming-you",
+          "publishedAt": "2026-07-15T10:31:48Z",
+          "updatedAt": "2026-07-15T10:31:48Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49365557",
           "headline": "Argentina vice-president before World Cup semifinal: England are 'invaders'",
           "description": "England have been described as \"invaders\" and \"usurping pirates\" by Argentina's vice-president ahead of the teams' World Cup semifinal clash.",
@@ -125682,8 +125698,8 @@
           "imageAlt": "World Cup trophy DC [1296x729]",
           "credit": "Michael Regan - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-          "publishedAt": "2026-07-15T08:50:05Z",
-          "updatedAt": "2026-07-15T08:50:05Z",
+          "publishedAt": "2026-07-15T10:35:36Z",
+          "updatedAt": "2026-07-15T10:35:36Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -125732,22 +125748,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49364445/france-move-deschamps-zidane-wondering-couldve-been",
           "publishedAt": "2026-07-15T07:38:43Z",
           "updatedAt": "2026-07-15T07:38:43Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49294190",
-          "headline": "2026 World Cup Stock Watch: Which players starred?",
-          "description": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0714/soc_wc-stock-up-down_16x9.jpg",
-          "imageAlt": "Vozinha, Michael Olise, Ayyoub Bouadd, Federico Valverde, Neymar, Matt Freese",
-          "credit": "Illustration by ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
-          "publishedAt": "2026-07-15T07:33:08Z",
-          "updatedAt": "2026-07-15T07:33:08Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
