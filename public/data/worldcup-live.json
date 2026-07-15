@@ -6,32 +6,32 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T21:01:21.003Z",
-    "startedAt": "2026-07-15T21:01:19.864Z",
+    "fetchedAt": "2026-07-15T22:12:51.835Z",
+    "startedAt": "2026-07-15T22:12:48.776Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
     "totalTeams": 48,
     "odds": {
-      "status": "polymarket_live",
-      "matches": 1,
-      "polymarketMatches": 1,
-      "espnMatches": 0,
+      "status": "espn_draftkings",
+      "matches": 2,
+      "polymarketMatches": 0,
+      "espnMatches": 2,
       "polymarket": {
         "status": "fallback_search",
         "strategy": "public-search",
         "primaryError": "stdout maxBuffer length exceeded",
         "requestedUrl": "https://gamma-api.polymarket.com/public-search",
-        "events": 1,
-        "searchedMatches": 3,
+        "events": 0,
+        "searchedMatches": 2,
         "failedSearches": 0,
         "searchLimit": 8,
-        "scannedMatches": 3,
-        "matches": 1
+        "scannedMatches": 2,
+        "matches": 0
       }
     },
     "details": {
-      "requested": 3,
+      "requested": 2,
       "total": 104,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
     },
@@ -128,7 +128,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "group": "L组",
-      "form": "WWWWD",
+      "form": "LWWWW",
       "sourceName": "England"
     },
     "449": {
@@ -463,24 +463,6 @@
       "group": "E组",
       "form": "LWLWW",
       "sourceName": "Ivory Coast"
-    },
-    "5959": {
-      "name": "半决赛第2场负者",
-      "code": "SF L2",
-      "flag": "",
-      "flagUrl": "",
-      "group": "",
-      "form": "待更新",
-      "sourceName": "Semifinal 2 Loser"
-    },
-    "5961": {
-      "name": "半决赛第2场胜者",
-      "code": "SFW2",
-      "flag": "",
-      "flagUrl": "",
-      "group": "",
-      "form": "待更新",
-      "sourceName": "Semifinal 2 Winner"
     },
     "11678": {
       "name": "库拉索",
@@ -3298,11 +3280,11 @@
       "home": "448",
       "away": "202",
       "score": "1 - 2",
-      "status": "进行中",
+      "status": "已结束",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
       "weather": "天气数据待接入",
-      "timeElapsed": "90'+10'",
+      "timeElapsed": "FT",
       "homeScore": 1,
       "awayScore": 2,
       "homeScorers": [
@@ -3324,7 +3306,7 @@
       "group": "三四名决赛",
       "matchday": 13797,
       "home": "478",
-      "away": "5959",
+      "away": "448",
       "score": "-",
       "status": "未开始",
       "venue": "Hard Rock Stadium",
@@ -3347,7 +3329,7 @@
       "group": "决赛",
       "matchday": 13803,
       "home": "164",
-      "away": "5961",
+      "away": "202",
       "score": "-",
       "status": "未开始",
       "venue": "MetLife Stadium",
@@ -4548,7 +4530,7 @@
       "goalsAgainst": 2,
       "goalDifference": "+4",
       "points": 7,
-      "form": "WWWWD",
+      "form": "LWWWW",
       "name": "英格兰"
     },
     {
@@ -5802,46 +5784,145 @@
       "odds": []
     },
     "760515": {
-      "home": 0.1,
-      "draw": 2.4,
-      "away": 97.5,
-      "model": "Polymarket 即时市场价格隐含概率",
-      "trend": "Polymarket live",
+      "home": 0,
+      "draw": 0,
+      "away": 100,
+      "model": "无赔率时的结果/均衡展示",
+      "trend": "无实时赔率",
+      "odds": []
+    },
+    "760516": {
+      "home": 48.3,
+      "draw": 25.8,
+      "away": 25.8,
+      "model": "ESPN / DraftKings moneyline 隐含概率",
+      "trend": "ESPN odds",
       "odds": [
         {
-          "book": "Polymarket",
-          "source": "polymarket",
-          "home": "0.13%",
-          "draw": "2.38%",
-          "away": "97.6%",
-          "homeProbability": 0.00125,
-          "drawProbability": 0.02375,
-          "awayProbability": 0.97625,
-          "spread": "全场赛果预测市场",
-          "eventSlug": "fifwc-eng-arg-2026-07-15",
-          "eventUrl": "https://polymarket.com/event/fifwc-eng-arg-2026-07-15",
-          "marketTitle": "England vs. Argentina"
+          "book": "DraftKings",
+          "source": "espn",
+          "home": "1.95",
+          "draw": "3.65",
+          "away": "3.65",
+          "spread": "FRA -105"
         }
       ]
     },
-    "760516": {
-      "home": 37.5,
-      "draw": 25,
-      "away": 37.5,
-      "model": "无赔率时的结果/均衡展示",
-      "trend": "无实时赔率",
-      "odds": []
-    },
     "760517": {
-      "home": 37.5,
-      "draw": 25,
-      "away": 37.5,
-      "model": "无赔率时的结果/均衡展示",
-      "trend": "无实时赔率",
-      "odds": []
+      "home": 41.2,
+      "draw": 32.1,
+      "away": 26.7,
+      "model": "ESPN / DraftKings moneyline 隐含概率",
+      "trend": "ESPN odds",
+      "odds": [
+        {
+          "book": "DraftKings",
+          "source": "espn",
+          "home": "2.30",
+          "draw": "2.95",
+          "away": "3.55",
+          "spread": "ESP +130"
+        }
+      ]
     }
   },
   "news": [
+    {
+      "id": "49370496",
+      "headline": "Spain open as favorites to beat Argentina in World Cup final",
+      "description": "Defending European Champions Spain head to the World Cup final in the same position they were when the tournament kicked off: as favorites to lift the trophy.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685532_1296x729_16-9.jpg",
+      "imageAlt": "Spain players celebrate after scoring a goal against Portugal in the World Cup.",
+      "credit": "Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49370496/spain-open-favorites-beat-argentina-world-cup-final",
+      "publishedAt": "2026-07-15T22:09:34Z",
+      "updatedAt": "2026-07-15T22:09:34Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49370656",
+      "headline": "Late Messi assists help Argentina to dramatic semifinal win over England",
+      "description": "Argentina secure a late victory with two goals in seven minutes, completing the comeback against England and setting up a mouthwatering clash with Spain in the FIFA World Cup final.",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49370656/late-messi-assists-help-argentina-dramatic-semifinal-win-england",
+      "publishedAt": "2026-07-15T22:09:06Z",
+      "updatedAt": "2026-07-15T22:09:06Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49370513",
+      "headline": "Wayne Rooney: England would have lost belief after Tuchel's second-half subs in Argentina World Cup defeat",
+      "description": "England players will have lost belief at Thomas Tuchel's second-half substitutions in the World Cup semifinal defeat to Argentina, according to former captain Wayne Rooney.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689747_1296x729_16-9.jpg",
+      "imageAlt": "It was devastation for England after Argentina scored two late goals to send them out of the World Cup.",
+      "credit": "Photo by Daniela Porcelli/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49370513/wayne-rooney-alan-shearer-england-reaction-world-cup-semifinal-argentina-defeat-substitutes",
+      "publishedAt": "2026-07-15T22:06:36Z",
+      "updatedAt": "2026-07-15T22:06:36Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49368783",
+      "headline": "Argentina show why they're World Cup champs with epic comeback over England",
+      "description": "Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689722_1296x729_16-9.jpg",
+      "imageAlt": "Enzo Fernandez",
+      "credit": "Image Photo Agency/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49368783/argentina-show-why-world-cup-champs-epic-comeback-england",
+      "publishedAt": "2026-07-15T21:53:43Z",
+      "updatedAt": "2026-07-15T21:53:43Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49370500",
+      "headline": "Why Spain are favourites to beat Argentina in the World Cup final",
+      "description": "Why Spain are favourites to beat Argentina in the World Cup final",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49370500/why-spain-favourites-beat-argentina-world-cup-final",
+      "publishedAt": "2026-07-15T21:52:59Z",
+      "updatedAt": "2026-07-15T21:52:59Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49370447",
+      "headline": "McManaman: Argentina deserved to beat England",
+      "description": "McManaman: Argentina deserved to beat England",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49370447/argentina-deserved-beat-england",
+      "publishedAt": "2026-07-15T21:46:32Z",
+      "updatedAt": "2026-07-15T21:46:32Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
     {
       "id": "49369819",
       "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
@@ -5856,7 +5937,7 @@
       "matchId": "760515",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49363385",
@@ -5904,7 +5985,7 @@
       "matchId": "760515",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49352315",
@@ -5936,7 +6017,7 @@
       "matchId": "760515",
       "matchLabel": "",
       "stage": "半决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49356289",
@@ -6321,106 +6402,10 @@
       "matchLabel": "",
       "stage": "四分之一决赛",
       "status": "已结束"
-    },
-    {
-      "id": "49317664",
-      "headline": "Jarell Quansah's extended World Cup ban 'very frustrating' - Bukayo Saka",
-      "description": "England's Bukayo Saka has said Jarell Quansah's two-game World Cup ban is \"very frustrating.\"",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685146_1296x729_16-9.jpg",
-      "imageAlt": "Jesus Gallardo #23 of Mexico is tackled by Jarell Quansah #26 of England during the FIFA World Cup 2026 Round of 16 match between Mexico and England at Mexico City Stadium on July 05, 2026 in Mexico City, Mexico. Quansah was issued a red card on the play.",
-      "credit": "Michael Steele/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49317664/jarell-quansah-extended-world-cup-ban-very-frustrating-bukayo-saka",
-      "publishedAt": "2026-07-09T21:03:02Z",
-      "updatedAt": "2026-07-09T21:03:02Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
-    },
-    {
-      "id": "49318102",
-      "headline": "Fans in Paris and Casablanca react to Mbappe penalty miss",
-      "description": "Fans in Paris and Casablanca react to Mbappe penalty miss",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9/dm_260709_COM_SOC_NEWS_Fans_in_Paris_and_Casablanca_react_to_Mbappe_penalty_miss_2026_7_9.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49318102/fans-paris-casablanca-react-mbappe-penalty-miss",
-      "publishedAt": "2026-07-09T20:54:46Z",
-      "updatedAt": "2026-07-09T20:54:46Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
-    },
-    {
-      "id": "49317174",
-      "headline": "Norway's Haaland: Chances of winning World Cup 'really low', pressure fully on England",
-      "description": "Norway striker Erling Haaland has said that his side's chances of winning the World Cup are \"really low\" -- and that all the pressure is on England ahead of their World Cup quarterfinal in Miami.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686981_1296x729_16-9.jpg",
-      "imageAlt": "Erling Haaland has played down chances of his country winning the World Cup.",
-      "credit": "Photo by Image Photo Agency/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-      "publishedAt": "2026-07-09T20:46:53Z",
-      "updatedAt": "2026-07-09T20:46:53Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
-    },
-    {
-      "id": "49317036",
-      "headline": "Haaland: All the pressure is on England in quarterfinal",
-      "description": "Haaland: All the pressure is on England in quarterfinal",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0709/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9/dm_260709_COM_SOC_ANALYSIS_Haaland_All_the_pressure_is_on_England_in_quarterfinal_2026_7_9.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49317036/all-pressure-england-quarterfinal",
-      "publishedAt": "2026-07-09T18:38:17Z",
-      "updatedAt": "2026-07-09T18:38:17Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
-    },
-    {
-      "id": "49299241",
-      "headline": "Lionel Messi says goal celeb 'huge release' after missed pen",
-      "description": "Lautaro Martinez told a visibly emotional Lionel Messi to enjoy the moment following Argentina's 3-2 triumph over Egypt on Tuesday to qualify for the quarterfinals of the FIFA World Cup.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1686056_1296x729_16-9.jpg",
-      "imageAlt": "Lionel Messi is overcome with emotion after Argentina's comeback to beat Egypt at the World Cup.",
-      "credit": "Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49299241/martinez-told-messi-enjoy-last-world-cup",
-      "publishedAt": "2026-07-07T21:47:11Z",
-      "updatedAt": "2026-07-07T21:47:11Z",
-      "source": "ESPN news",
-      "matchId": "760508",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
-    },
-    {
-      "id": "49293140",
-      "headline": "World Cup Daily live: Argentina, Messi produce late magic to avoid Egypt shock",
-      "description": "Enjoy all the features, news, video analysis and color from around the 2026 World Cup as we figure out the last two teams to make the quarterfinals.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0707/r1685981_1296x729_16-9.jpg",
-      "imageAlt": "Lionel Messi [1296x729]",
-      "credit": "Evrim Aydin/Anadolu via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49293140/world-cup-daily-live-messi-fans-troll-speed-ronaldo-exit-argentina-colombia-action",
-      "publishedAt": "2026-07-07T21:37:12Z",
-      "updatedAt": "2026-07-07T21:37:12Z",
-      "source": "ESPN news",
-      "matchId": "760508",
-      "matchLabel": "",
-      "stage": "16强",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T21:01:21.003Z",
+    "updatedAt": "2026-07-15T22:12:51.835Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6507,7 +6492,7 @@
       },
       {
         "label": "Polymarket",
-        "value": "1 场"
+        "value": "0 场"
       }
     ],
     "updatePolicy": [
@@ -125973,7 +125958,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T21:01:20.322Z",
+      "fetchedAt": "2026-07-15T22:12:49.230Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125986,8 +125971,8 @@
           "substitutes": []
         },
         "away": {
-          "team": "5959",
-          "teamName": "半决赛第2场负者",
+          "team": "448",
+          "teamName": "英格兰",
           "formation": "待公布",
           "status": "pending",
           "starters": [],
@@ -125999,25 +125984,25 @@
           "key": "goalDifference",
           "label": "净胜球",
           "home": "12",
-          "away": "-"
+          "away": "7"
         },
         {
           "key": "totalGoals",
           "label": "进球",
           "home": "16",
-          "away": "-"
+          "away": "13"
         },
         {
           "key": "goalAssists",
           "label": "助攻",
           "home": "14",
-          "away": "-"
+          "away": "10"
         },
         {
           "key": "goalsConceded",
           "label": "失球",
           "home": "4",
-          "away": "-"
+          "away": "6"
         }
       ],
       "leaders": [
@@ -126063,12 +126048,99 @@
           ]
         },
         {
-          "teamId": "5959",
-          "teamName": "半决赛第2场负者",
-          "leaders": []
+          "teamId": "448",
+          "teamName": "英格兰",
+          "leaders": [
+            {
+              "key": "goalsLeaders",
+              "label": "Goals",
+              "player": "Harry Kane",
+              "value": "Matches: 6, Goals: 6",
+              "summary": "6 APP"
+            },
+            {
+              "key": "assistsLeaders",
+              "label": "Assists",
+              "player": "Bukayo Saka",
+              "value": "Matches: 6, Assists: 3",
+              "summary": "6 APP"
+            },
+            {
+              "key": "totalShots",
+              "label": "射门",
+              "player": "Harry Kane",
+              "value": "22",
+              "summary": ""
+            },
+            {
+              "key": "accuratePasses",
+              "label": "成功传球",
+              "player": "Ezri Konsa",
+              "value": "404",
+              "summary": ""
+            },
+            {
+              "key": "saves",
+              "label": "扑救",
+              "player": "Jordan Pickford",
+              "value": "12",
+              "summary": ""
+            }
+          ]
         }
       ],
-      "headToHead": [],
+      "headToHead": [
+        {
+          "id": "633846",
+          "date": "12-11 03:00",
+          "sourceTeam": "法国",
+          "opponent": "英格兰",
+          "atVs": "@",
+          "score": "2-1",
+          "result": "胜",
+          "competition": "2022 FIFA 世界杯"
+        },
+        {
+          "id": "471133",
+          "date": "06-14 03:00",
+          "sourceTeam": "法国",
+          "opponent": "英格兰",
+          "atVs": "vs",
+          "score": "3-2",
+          "result": "胜",
+          "competition": "2017 国际友谊赛"
+        },
+        {
+          "id": "409724",
+          "date": "11-18 04:00",
+          "sourceTeam": "法国",
+          "opponent": "英格兰",
+          "atVs": "@",
+          "score": "2-0",
+          "result": "负",
+          "competition": "国际友谊赛"
+        },
+        {
+          "id": "334190",
+          "date": "06-12 00:00",
+          "sourceTeam": "法国",
+          "opponent": "英格兰",
+          "atVs": "vs",
+          "score": "1-1",
+          "result": "平",
+          "competition": "2012 欧洲杯"
+        },
+        {
+          "id": "308044",
+          "date": "11-18 04:00",
+          "sourceTeam": "法国",
+          "opponent": "英格兰",
+          "atVs": "@",
+          "score": "2-1",
+          "result": "胜",
+          "competition": "国际友谊赛"
+        }
+      ],
       "recentForm": [
         {
           "teamId": "478",
@@ -126127,24 +126199,75 @@
           ]
         },
         {
-          "teamId": "5959",
-          "teamName": "半决赛第2场负者",
-          "events": []
+          "teamId": "448",
+          "teamName": "英格兰",
+          "events": [
+            {
+              "id": "760458",
+              "date": "06-24 04:00",
+              "sourceTeam": "英格兰",
+              "opponent": "加纳",
+              "atVs": "vs",
+              "score": "0-0",
+              "result": "平",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760485",
+              "date": "06-28 05:00",
+              "sourceTeam": "英格兰",
+              "opponent": "巴拿马",
+              "atVs": "@",
+              "score": "2-0",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760495",
+              "date": "07-02 00:00",
+              "sourceTeam": "英格兰",
+              "opponent": "刚果（金）",
+              "atVs": "vs",
+              "score": "2-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760505",
+              "date": "07-06 09:00",
+              "sourceTeam": "英格兰",
+              "opponent": "墨西哥",
+              "atVs": "@",
+              "score": "3-2",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760512",
+              "date": "07-12 05:00",
+              "sourceTeam": "英格兰",
+              "opponent": "挪威",
+              "atVs": "@",
+              "score": "2-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            }
+          ]
         }
       ],
       "media": null,
       "videos": [],
       "news": [
         {
-          "id": "49369819",
-          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
-          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "id": "49370656",
+          "headline": "Late Messi assists help Argentina to dramatic semifinal win over England",
+          "description": "Argentina secure a late victory with two goals in seven minutes, completing the comeback against England and setting up a mouthwatering clash with Spain in the FIFA World Cup final.",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
-          "publishedAt": "2026-07-15T20:59:09Z",
-          "updatedAt": "2026-07-15T20:59:09Z",
+          "link": "https://www.espn.com/video/clip/_/id/49370656/late-messi-assists-help-argentina-dramatic-semifinal-win-england",
+          "publishedAt": "2026-07-15T22:09:06Z",
+          "updatedAt": "2026-07-15T22:09:06Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126152,15 +126275,15 @@
           "status": ""
         },
         {
-          "id": "49363385",
-          "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
-          "imageAlt": "Argentina England [1296x729]",
-          "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
-          "publishedAt": "2026-07-15T20:49:43Z",
-          "updatedAt": "2026-07-15T20:49:43Z",
+          "id": "49370513",
+          "headline": "Wayne Rooney: England would have lost belief after Tuchel's second-half subs in Argentina World Cup defeat",
+          "description": "England players will have lost belief at Thomas Tuchel's second-half substitutions in the World Cup semifinal defeat to Argentina, according to former captain Wayne Rooney.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689747_1296x729_16-9.jpg",
+          "imageAlt": "It was devastation for England after Argentina scored two late goals to send them out of the World Cup.",
+          "credit": "Photo by Daniela Porcelli/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49370513/wayne-rooney-alan-shearer-england-reaction-world-cup-semifinal-argentina-defeat-substitutes",
+          "publishedAt": "2026-07-15T22:06:36Z",
+          "updatedAt": "2026-07-15T22:06:36Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126168,15 +126291,31 @@
           "status": ""
         },
         {
-          "id": "49369523",
-          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
-          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "id": "49370496",
+          "headline": "Spain open as favorites to beat Argentina in World Cup final",
+          "description": "Defending European Champions Spain head to the World Cup final in the same position they were when the tournament kicked off: as favorites to lift the trophy.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685532_1296x729_16-9.jpg",
+          "imageAlt": "Spain players celebrate after scoring a goal against Portugal in the World Cup.",
+          "credit": "Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49370496/spain-open-favorites-beat-argentina-world-cup-final",
+          "publishedAt": "2026-07-15T22:09:34Z",
+          "updatedAt": "2026-07-15T22:09:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49370500",
+          "headline": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "description": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
-          "publishedAt": "2026-07-15T20:42:39Z",
-          "updatedAt": "2026-07-15T20:42:39Z",
+          "link": "https://www.espn.com/video/clip/_/id/49370500/why-spain-favourites-beat-argentina-world-cup-final",
+          "publishedAt": "2026-07-15T21:52:59Z",
+          "updatedAt": "2026-07-15T21:52:59Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126184,15 +126323,15 @@
           "status": ""
         },
         {
-          "id": "49368693",
-          "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
-          "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
-          "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
-          "credit": "Photo by Tom Weller/picture alliance via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
-          "publishedAt": "2026-07-15T19:24:37Z",
-          "updatedAt": "2026-07-15T19:24:37Z",
+          "id": "49368783",
+          "headline": "Argentina show why they're World Cup champs with epic comeback over England",
+          "description": "Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689722_1296x729_16-9.jpg",
+          "imageAlt": "Enzo Fernandez",
+          "credit": "Image Photo Agency/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49368783/argentina-show-why-world-cup-champs-epic-comeback-england",
+          "publishedAt": "2026-07-15T21:53:43Z",
+          "updatedAt": "2026-07-15T21:53:43Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126200,31 +126339,15 @@
           "status": ""
         },
         {
-          "id": "49352315",
-          "headline": "Harry Kane becomes England's second most capped player of all time",
-          "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
-          "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
-          "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
-          "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
-          "publishedAt": "2026-07-15T19:09:26Z",
-          "updatedAt": "2026-07-15T19:09:26Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368478",
-          "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
-          "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
-          "imageAlt": "Post Malone  [1296x729]",
-          "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
-          "publishedAt": "2026-07-15T19:00:57Z",
-          "updatedAt": "2026-07-15T19:00:57Z",
+          "id": "49370447",
+          "headline": "McManaman: Argentina deserved to beat England",
+          "description": "McManaman: Argentina deserved to beat England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49370447/argentina-deserved-beat-england",
+          "publishedAt": "2026-07-15T21:46:32Z",
+          "updatedAt": "2026-07-15T21:46:32Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126240,7 +126363,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T21:01:20.331Z",
+      "fetchedAt": "2026-07-15T22:12:49.247Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126253,8 +126376,8 @@
           "substitutes": []
         },
         "away": {
-          "team": "5961",
-          "teamName": "半决赛第2场胜者",
+          "team": "202",
+          "teamName": "阿根廷",
           "formation": "待公布",
           "status": "pending",
           "starters": [],
@@ -126266,25 +126389,25 @@
           "key": "goalDifference",
           "label": "净胜球",
           "home": "12",
-          "away": "-"
+          "away": "11"
         },
         {
           "key": "totalGoals",
           "label": "进球",
           "home": "13",
-          "away": "-"
+          "away": "17"
         },
         {
           "key": "goalAssists",
           "label": "助攻",
           "home": "9",
-          "away": "-"
+          "away": "10"
         },
         {
           "key": "goalsConceded",
           "label": "失球",
           "home": "1",
-          "away": "-"
+          "away": "6"
         }
       ],
       "leaders": [
@@ -126330,12 +126453,99 @@
           ]
         },
         {
-          "teamId": "5961",
-          "teamName": "半决赛第2场胜者",
-          "leaders": []
+          "teamId": "202",
+          "teamName": "阿根廷",
+          "leaders": [
+            {
+              "key": "goalsLeaders",
+              "label": "Goals",
+              "player": "Lionel Messi",
+              "value": "Matches: 6, Goals: 8",
+              "summary": "6 APP"
+            },
+            {
+              "key": "assistsLeaders",
+              "label": "Assists",
+              "player": "Lionel Messi",
+              "value": "Matches: 6, Assists: 2",
+              "summary": "6 APP"
+            },
+            {
+              "key": "totalShots",
+              "label": "射门",
+              "player": "Lionel Messi",
+              "value": "33",
+              "summary": ""
+            },
+            {
+              "key": "accuratePasses",
+              "label": "成功传球",
+              "player": "Leandro Paredes",
+              "value": "427",
+              "summary": ""
+            },
+            {
+              "key": "saves",
+              "label": "扑救",
+              "player": "Emiliano Martínez",
+              "value": "8",
+              "summary": ""
+            }
+          ]
         }
       ],
-      "headToHead": [],
+      "headToHead": [
+        {
+          "id": "506549",
+          "date": "03-28 03:30",
+          "sourceTeam": "西班牙",
+          "opponent": "阿根廷",
+          "atVs": "vs",
+          "score": "6-1",
+          "result": "胜",
+          "competition": "2018 国际友谊赛"
+        },
+        {
+          "id": "306218",
+          "date": "09-08 04:00",
+          "sourceTeam": "西班牙",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "4-1",
+          "result": "负",
+          "competition": "国际友谊赛"
+        },
+        {
+          "id": "284407",
+          "date": "11-15 03:45",
+          "sourceTeam": "西班牙",
+          "opponent": "阿根廷",
+          "atVs": "vs",
+          "score": "2-1",
+          "result": "胜",
+          "competition": "国际友谊赛"
+        },
+        {
+          "id": "206333",
+          "date": "10-12 04:00",
+          "sourceTeam": "西班牙",
+          "opponent": "阿根廷",
+          "atVs": "vs",
+          "score": "2-1",
+          "result": "胜",
+          "competition": "国际友谊赛"
+        },
+        {
+          "id": "197738",
+          "date": "07-13 15:00",
+          "sourceTeam": "西班牙",
+          "opponent": "阿根廷",
+          "atVs": "@",
+          "score": "2-1",
+          "result": "负",
+          "competition": "1966 英格兰世界杯"
+        }
+      ],
       "recentForm": [
         {
           "teamId": "164",
@@ -126394,9 +126604,60 @@
           ]
         },
         {
-          "teamId": "5961",
-          "teamName": "半决赛第2场胜者",
-          "events": []
+          "teamId": "202",
+          "teamName": "阿根廷",
+          "events": [
+            {
+              "id": "760456",
+              "date": "06-23 01:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "奥地利",
+              "atVs": "vs",
+              "score": "2-0",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760483",
+              "date": "06-28 10:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "约旦",
+              "atVs": "@",
+              "score": "3-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760500",
+              "date": "07-04 06:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "佛得角",
+              "atVs": "vs",
+              "score": "3-2",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760509",
+              "date": "07-08 00:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "埃及",
+              "atVs": "vs",
+              "score": "3-2",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            },
+            {
+              "id": "760513",
+              "date": "07-12 09:00",
+              "sourceTeam": "阿根廷",
+              "opponent": "瑞士",
+              "atVs": "vs",
+              "score": "3-1",
+              "result": "胜",
+              "competition": "2026 FIFA 世界杯"
+            }
+          ]
         }
       ],
       "media": {
@@ -126417,99 +126678,119 @@
           "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0714/dm_260714_Why_Spain_will_be_huge_favourites_no_matter_their_final_opponents/dm_260714_Why_Spain_will_be_huge_favourites_no_matter_their_final_opponents_720p30_2896k.mp4",
           "duration": 58,
           "source": "ESPN video"
+        },
+        {
+          "id": "49370500",
+          "headline": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "description": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49370500/why-spain-favourites-beat-argentina-world-cup-final",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0715/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final_720p30_2896k.mp4",
+          "duration": 69,
+          "source": "ESPN video"
+        },
+        {
+          "id": "49367842",
+          "headline": "From baby pictures to World Cup final opponents - When Messi met Yamal",
+          "description": "From baby pictures to World Cup final opponents - When Messi met Yamal",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Feature_From_baby_pictures_to_World_Cup_final_opponents_When_Messi_met_Yamal_20260715/dm_260715_COM_SOC_Feature_From_baby_pictures_to_World_Cup_final_opponents_When_Messi_met_Yamal_20260715.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49367842/from-baby-pictures-world-cup-final-opponents-messi-met-yamal",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0715/dm_260715_COM_SOC_Feature_From_baby_pictures_to_World_Cup_final_opponents_When_Messi_met_Yamal_20260715/dm_260715_COM_SOC_Feature_From_baby_pictures_to_World_Cup_final_opponents_When_Messi_met_Yamal_20260715_720p30_2896k.mp4",
+          "duration": 151,
+          "source": "ESPN video"
         }
       ],
       "news": [
         {
-          "id": "49369819",
-          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
-          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "id": "49370656",
+          "headline": "Late Messi assists help Argentina to dramatic semifinal win over England",
+          "description": "Argentina secure a late victory with two goals in seven minutes, completing the comeback against England and setting up a mouthwatering clash with Spain in the FIFA World Cup final.",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716/dm_260715_Soccer_HIGHLIGHT_Late_Messi_assists_help_Argentina_to_dramatic_semifinal_win_over_England_20260716.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
-          "publishedAt": "2026-07-15T20:59:09Z",
-          "updatedAt": "2026-07-15T20:59:09Z",
+          "link": "https://www.espn.com/video/clip/_/id/49370656/late-messi-assists-help-argentina-dramatic-semifinal-win-england",
+          "publishedAt": "2026-07-15T22:09:06Z",
+          "updatedAt": "2026-07-15T22:09:06Z",
           "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
         },
         {
-          "id": "49363385",
-          "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
-          "imageAlt": "Argentina England [1296x729]",
-          "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
-          "publishedAt": "2026-07-15T20:49:43Z",
-          "updatedAt": "2026-07-15T20:49:43Z",
+          "id": "49370513",
+          "headline": "Wayne Rooney: England would have lost belief after Tuchel's second-half subs in Argentina World Cup defeat",
+          "description": "England players will have lost belief at Thomas Tuchel's second-half substitutions in the World Cup semifinal defeat to Argentina, according to former captain Wayne Rooney.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689747_1296x729_16-9.jpg",
+          "imageAlt": "It was devastation for England after Argentina scored two late goals to send them out of the World Cup.",
+          "credit": "Photo by Daniela Porcelli/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49370513/wayne-rooney-alan-shearer-england-reaction-world-cup-semifinal-argentina-defeat-substitutes",
+          "publishedAt": "2026-07-15T22:06:36Z",
+          "updatedAt": "2026-07-15T22:06:36Z",
           "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
         },
         {
-          "id": "49369523",
-          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
-          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "id": "49370496",
+          "headline": "Spain open as favorites to beat Argentina in World Cup final",
+          "description": "Defending European Champions Spain head to the World Cup final in the same position they were when the tournament kicked off: as favorites to lift the trophy.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0706/r1685532_1296x729_16-9.jpg",
+          "imageAlt": "Spain players celebrate after scoring a goal against Portugal in the World Cup.",
+          "credit": "Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49370496/spain-open-favorites-beat-argentina-world-cup-final",
+          "publishedAt": "2026-07-15T22:09:34Z",
+          "updatedAt": "2026-07-15T22:09:34Z",
+          "source": "ESPN news",
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
+        },
+        {
+          "id": "49370500",
+          "headline": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "description": "Why Spain are favourites to beat Argentina in the World Cup final",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final/dm_260715_Why_Spain_are_favourites_to_beat_Argentina_in_the_World_Cup_final.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
-          "publishedAt": "2026-07-15T20:42:39Z",
-          "updatedAt": "2026-07-15T20:42:39Z",
+          "link": "https://www.espn.com/video/clip/_/id/49370500/why-spain-favourites-beat-argentina-world-cup-final",
+          "publishedAt": "2026-07-15T21:52:59Z",
+          "updatedAt": "2026-07-15T21:52:59Z",
           "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
         },
         {
-          "id": "49368693",
-          "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
-          "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689629_1296x729_16-9.jpg",
-          "imageAlt": "Kylian MbappÃ© (France) speaks with referee Ivan Barton (El Salvador",
-          "credit": "Photo by Tom Weller/picture alliance via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
-          "publishedAt": "2026-07-15T19:24:37Z",
-          "updatedAt": "2026-07-15T19:24:37Z",
+          "id": "49368783",
+          "headline": "Argentina show why they're World Cup champs with epic comeback over England",
+          "description": "Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain.",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_McManaman_England_only_have_themselves_to_blame_for_Argentina_comeback/dm_260715_McManaman_England_only_have_themselves_to_blame_for_Argentina_comeback.jpg",
+          "imageAlt": "McManaman: England only have themselves to blame for Argentina comeback",
+          "credit": "",
+          "link": "https://www.espn.com/soccer/story/_/id/49368783/argentina-show-why-world-cup-champs-epic-comeback-england",
+          "publishedAt": "2026-07-15T21:53:43Z",
+          "updatedAt": "2026-07-15T21:53:43Z",
           "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
         },
         {
-          "id": "49352315",
-          "headline": "Harry Kane becomes England's second most capped player of all time",
-          "description": "Harry Kane is now England's second most capped player of all time, as he started Wednesday's World Cup semifinal against Argentina.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
-          "imageAlt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
-          "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
-          "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026",
-          "publishedAt": "2026-07-15T19:09:26Z",
-          "updatedAt": "2026-07-15T19:09:26Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368478",
-          "headline": "Post Malone, Tom Cruise, IShowSpeed headline World Cup closing ceremony",
-          "description": "A wide array of performers, from Post Malone to Tom Cruise to streamer IShowSpeed, will help close out the World Cup, FIFA said Tuesday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689611_1296x729_16-9.jpg",
-          "imageAlt": "Post Malone  [1296x729]",
-          "credit": "Photo by: Maarten de Boer/NBC via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
-          "publishedAt": "2026-07-15T19:00:57Z",
-          "updatedAt": "2026-07-15T19:00:57Z",
+          "id": "49370447",
+          "headline": "McManaman: Argentina deserved to beat England",
+          "description": "McManaman: Argentina deserved to beat England",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15/dm_260715_COM_SOC_Analysis_McManaman3A_Argentina_deserved_to_beat_England__GLOBAL_2026-07-15.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49370447/argentina-deserved-beat-england",
+          "publishedAt": "2026-07-15T21:46:32Z",
+          "updatedAt": "2026-07-15T21:46:32Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
