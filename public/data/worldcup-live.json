@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T19:51:39.409Z",
-    "startedAt": "2026-07-15T19:51:37.428Z",
+    "fetchedAt": "2026-07-15T21:01:21.003Z",
+    "startedAt": "2026-07-15T21:01:19.864Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3297,16 +3297,21 @@
       "matchday": 13798,
       "home": "448",
       "away": "202",
-      "score": "0 - 0",
+      "score": "1 - 2",
       "status": "进行中",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
       "weather": "天气数据待接入",
-      "timeElapsed": "HT",
-      "homeScore": 0,
-      "awayScore": 0,
-      "homeScorers": [],
-      "awayScorers": []
+      "timeElapsed": "90'+10'",
+      "homeScore": 1,
+      "awayScore": 2,
+      "homeScorers": [
+        "A. Gordon"
+      ],
+      "awayScorers": [
+        "E. Fernández",
+        "L. Martínez"
+      ]
     },
     {
       "id": "760516",
@@ -4097,6 +4102,15 @@
       "shots": 8
     },
     {
+      "name": "L. Martínez",
+      "country": "202",
+      "team": "阿根廷",
+      "goals": 4,
+      "assists": 0,
+      "rating": 8.6,
+      "shots": 8
+    },
+    {
       "name": "Vinícius Júnior",
       "country": "205",
       "team": "巴西",
@@ -4190,15 +4204,6 @@
       "name": "K. Havertz",
       "country": "481",
       "team": "德国",
-      "goals": 3,
-      "assists": 0,
-      "rating": 8.2,
-      "shots": 6
-    },
-    {
-      "name": "L. Martínez",
-      "country": "202",
-      "team": "阿根廷",
       "goals": 3,
       "assists": 0,
       "rating": 8.2,
@@ -4367,6 +4372,15 @@
       "shots": 4
     },
     {
+      "name": "E. Fernández",
+      "country": "202",
+      "team": "阿根廷",
+      "goals": 2,
+      "assists": 0,
+      "rating": 7.8,
+      "shots": 4
+    },
+    {
       "name": "E. Mahmic",
       "country": "452",
       "team": "波黑",
@@ -4442,15 +4456,6 @@
       "name": "M. Arnautovic",
       "country": "474",
       "team": "奥地利",
-      "goals": 2,
-      "assists": 0,
-      "rating": 7.8,
-      "shots": 4
-    },
-    {
-      "name": "M. Galarza",
-      "country": "210",
-      "team": "巴拉圭",
       "goals": 2,
       "assists": 0,
       "rating": 7.8,
@@ -5797,21 +5802,21 @@
       "odds": []
     },
     "760515": {
-      "home": 32.7,
-      "draw": 41.9,
-      "away": 25.5,
+      "home": 0.1,
+      "draw": 2.4,
+      "away": 97.5,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "32.9%",
-          "draw": "42.1%",
-          "away": "25.6%",
-          "homeProbability": 0.32875,
-          "drawProbability": 0.42125,
-          "awayProbability": 0.25625,
+          "home": "0.13%",
+          "draw": "2.38%",
+          "away": "97.6%",
+          "homeProbability": 0.00125,
+          "drawProbability": 0.02375,
+          "awayProbability": 0.97625,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-eng-arg-2026-07-15",
           "eventUrl": "https://polymarket.com/event/fifwc-eng-arg-2026-07-15",
@@ -5837,6 +5842,54 @@
     }
   },
   "news": [
+    {
+      "id": "49369819",
+      "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+      "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
+      "publishedAt": "2026-07-15T20:59:09Z",
+      "updatedAt": "2026-07-15T20:59:09Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49363385",
+      "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
+      "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
+      "imageAlt": "Argentina England [1296x729]",
+      "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
+      "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+      "publishedAt": "2026-07-15T20:49:43Z",
+      "updatedAt": "2026-07-15T20:49:43Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "英格兰 vs 阿根廷",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49369523",
+      "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+      "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
+      "publishedAt": "2026-07-15T20:42:39Z",
+      "updatedAt": "2026-07-15T20:42:39Z",
+      "source": "ESPN news",
+      "matchId": "760515",
+      "matchLabel": "英格兰 vs 阿根廷",
+      "stage": "半决赛",
+      "status": "进行中"
+    },
     {
       "id": "49368693",
       "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
@@ -5882,54 +5935,6 @@
       "source": "ESPN news",
       "matchId": "760515",
       "matchLabel": "",
-      "stage": "半决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49368198",
-      "headline": "Fans can pay $80 to attend pre-World Cup final news conference",
-      "description": "FIFA is to stage the World Cup final news conference in front of paying fans with supporters having to pay in excess of $80 (£60) to watch the coaches and players from the two finalists.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689594_1296x729_16-9.jpg",
-      "imageAlt": "Lamine Yamal of Spain C attends a press conference ahead of the semi-final match between France and Spain at the 2026 FIFA World Cup in Dallas, the United States, on July 13, 2026.",
-      "credit": "Hu Xingyu/Xinhua via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49368198/2026-world-cup-final-press-conference-fanatics-fest-fans",
-      "publishedAt": "2026-07-15T18:02:27Z",
-      "updatedAt": "2026-07-15T18:02:27Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "",
-      "stage": "半决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49368040",
-      "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
-      "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-      "imageAlt": "Should England focus on Messi or Argentina's midfield?",
-      "credit": "",
-      "link": "https://www.espn.com/soccer/story/_/id/49368040/england-team-news-world-cup-2026-england-argentina-morgan-rogers-djed-spence-reece-james",
-      "publishedAt": "2026-07-15T17:55:36Z",
-      "updatedAt": "2026-07-15T17:55:36Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "英格兰 vs 阿根廷",
-      "stage": "半决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49368280",
-      "headline": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-      "description": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49368280/reacting-england-xi-face-argentina",
-      "publishedAt": "2026-07-15T17:51:44Z",
-      "updatedAt": "2026-07-15T17:51:44Z",
-      "source": "ESPN news",
-      "matchId": "760515",
-      "matchLabel": "英格兰 vs 阿根廷",
       "stage": "半决赛",
       "status": "进行中"
     },
@@ -6415,7 +6420,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T19:51:39.409Z",
+    "updatedAt": "2026-07-15T21:01:21.003Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6494,7 +6499,7 @@
       },
       {
         "label": "视频",
-        "value": "75 场"
+        "value": "76 场"
       },
       {
         "label": "新闻",
@@ -124738,9 +124743,9 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T19:51:37.791Z",
+      "fetchedAt": "2026-07-15T21:01:20.291Z",
       "source": "ESPN summary",
-      "status": "Halftime",
+      "status": "Second Half",
       "lineups": {
         "home": {
           "team": "448",
@@ -124782,7 +124787,7 @@
               "position": "CD-R",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "1",
               "passes": ""
@@ -124795,7 +124800,7 @@
               "position": "LB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124808,7 +124813,7 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -124847,9 +124852,9 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124862,7 +124867,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124873,9 +124878,9 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
-              "goals": "0",
-              "shots": "0",
+              "subbedOut": true,
+              "goals": "1",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -124888,7 +124893,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             }
           ],
@@ -124991,7 +124996,7 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125017,7 +125022,7 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125030,7 +125035,7 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125043,7 +125048,7 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125069,7 +125074,7 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125104,7 +125109,7 @@
               "position": "CD-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125130,9 +125135,9 @@
               "position": "DM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -125143,7 +125148,7 @@
               "position": "LB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125156,7 +125161,7 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125171,7 +125176,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "3",
               "passes": ""
             },
             {
@@ -125183,8 +125188,8 @@
               "starter": true,
               "subbedIn": false,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "1",
+              "goals": "1",
+              "shots": "4",
               "passes": ""
             },
             {
@@ -125197,7 +125202,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "3",
               "passes": ""
             },
             {
@@ -125208,7 +125213,7 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -125235,7 +125240,7 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125248,10 +125253,10 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "0",
+              "goals": "1",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -125287,10 +125292,10 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -125352,7 +125357,7 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -125404,10 +125409,10 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -125430,14 +125435,14 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "7",
-          "away": "12"
+          "home": "10",
+          "away": "15"
         },
         {
           "key": "yellowCards",
           "label": "黄牌",
           "home": "1",
-          "away": "1"
+          "away": "3"
         },
         {
           "key": "redCards",
@@ -125449,43 +125454,43 @@
           "key": "offsides",
           "label": "越位",
           "home": "1",
-          "away": "2"
+          "away": "3"
         },
         {
           "key": "wonCorners",
           "label": "角球",
           "home": "2",
-          "away": "1"
+          "away": "6"
         },
         {
           "key": "saves",
           "label": "扑救",
-          "home": "0",
-          "away": "0"
+          "home": "3",
+          "away": "1"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "44.5",
-          "away": "55.5"
+          "home": "35.1",
+          "away": "64.9"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "1",
-          "away": "2"
+          "home": "5",
+          "away": "15"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
-          "home": "0",
-          "away": "0"
+          "home": "2",
+          "away": "5"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.0",
-          "away": "0.0"
+          "home": "0.4",
+          "away": "0.3"
         },
         {
           "key": "penaltyKickGoals",
@@ -125502,98 +125507,98 @@
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "178",
-          "away": "224"
+          "home": "265",
+          "away": "534"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "198",
-          "away": "251"
+          "home": "313",
+          "away": "585"
         },
         {
           "key": "passPct",
           "label": "传球成功率",
-          "home": "0.9",
+          "home": "0.8",
           "away": "0.9"
         },
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "2",
-          "away": "1"
+          "home": "3",
+          "away": "6"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "7",
-          "away": "4"
+          "home": "15",
+          "away": "19"
         },
         {
           "key": "crossPct",
           "label": "Cross %",
-          "home": "0.3",
+          "home": "0.2",
           "away": "0.3"
         },
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "13",
-          "away": "12"
+          "home": "38",
+          "away": "24"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "5",
-          "away": "5"
+          "home": "15",
+          "away": "12"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
           "home": "0.4",
-          "away": "0.4"
+          "away": "0.5"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
-          "home": "0",
-          "away": "1"
+          "home": "2",
+          "away": "3"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "5",
-          "away": "4"
+          "home": "8",
+          "away": "10"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "8",
-          "away": "11"
+          "home": "14",
+          "away": "19"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
           "home": "0.6",
-          "away": "0.4"
+          "away": "0.5"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "5",
-          "away": "3"
+          "home": "9",
+          "away": "6"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "7",
-          "away": "10"
+          "home": "29",
+          "away": "28"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "7",
-          "away": "10"
+          "home": "29",
+          "away": "28"
         }
       ],
       "leaders": [
@@ -125604,30 +125609,30 @@
             {
               "key": "totalShots",
               "label": "射门",
-              "player": "John Stones",
+              "player": "Anthony Gordon",
               "value": "1",
-              "summary": "0 SOG, 0.06 xG"
+              "summary": "1 SOG, 0.38 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Marc Guéhi",
-              "value": "40",
-              "summary": "40 PASS"
+              "value": "52",
+              "summary": "53 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Djed Spence",
-              "value": "7",
-              "summary": "3 TKLW, 4 DUELW"
+              "value": "10",
+              "summary": "4 TKLW, 7 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Jordan Pickford",
+              "value": "3",
+              "summary": "5 SOGA, 1.80 xGC"
             }
           ]
         },
@@ -125639,29 +125644,29 @@
               "key": "totalShots",
               "label": "射门",
               "player": "Enzo Fernández",
-              "value": "1",
-              "summary": "0 SOG, 0.02 xG"
+              "value": "4",
+              "summary": "1 SOG, 0.11 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Leandro Paredes",
-              "value": "40",
-              "summary": "41 PASS"
+              "player": "Enzo Fernández",
+              "value": "82",
+              "summary": "84 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
-              "player": "Nahuel Molina",
-              "value": "4",
-              "summary": "1 TKLW, 1 DUELW"
+              "player": "Cristian Romero",
+              "value": "17",
+              "summary": "3 TKLW, 7 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "待定",
-              "value": "",
-              "summary": ""
+              "player": "Emiliano Martínez",
+              "value": "1",
+              "summary": "2 SOGA, 0.54 xGC"
             }
           ]
         }
@@ -125833,15 +125838,84 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689622_1296x729_16-9.jpg",
-        "alt": "Harry Kane greets Lionel Messi at the coin toss prior to England's semifinal with Argentina.",
-        "caption": "Harry Kane has become England's second most capped player.",
-        "credit": "Photo by Michael Regan - FIFA/FIFA via Getty Images.",
-        "source": "ESPN news",
-        "link": "https://www.espn.com/soccer/story/_/id/49352315/harry-kane-england-argentina-england-caps-record-world-cup-2026"
+        "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+        "alt": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+        "caption": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+        "credit": "",
+        "source": "ESPN video",
+        "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina"
       },
-      "videos": [],
+      "videos": [
+        {
+          "id": "49369523",
+          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1_720p30_2896k.mp4",
+          "duration": 34,
+          "source": "ESPN video"
+        },
+        {
+          "id": "49369819",
+          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "thumbnail": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
+          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina_720p30_2896k.mp4",
+          "duration": 52,
+          "source": "ESPN video"
+        }
+      ],
       "news": [
+        {
+          "id": "49369819",
+          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
+          "publishedAt": "2026-07-15T20:59:09Z",
+          "updatedAt": "2026-07-15T20:59:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49363385",
+          "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
+          "imageAlt": "Argentina England [1296x729]",
+          "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+          "publishedAt": "2026-07-15T20:49:43Z",
+          "updatedAt": "2026-07-15T20:49:43Z",
+          "source": "ESPN news",
+          "matchId": "760515",
+          "matchLabel": "英格兰 vs 阿根廷",
+          "stage": "半决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49369523",
+          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
+          "publishedAt": "2026-07-15T20:42:39Z",
+          "updatedAt": "2026-07-15T20:42:39Z",
+          "source": "ESPN news",
+          "matchId": "760515",
+          "matchLabel": "英格兰 vs 阿根廷",
+          "stage": "半决赛",
+          "status": "进行中"
+        },
         {
           "id": "49368693",
           "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
@@ -125889,54 +125963,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49368040",
-          "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
-          "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield/dm_260715_Should_England_focus_on_Messi_or_Argentinas_midfield.jpg",
-          "imageAlt": "Should England focus on Messi or Argentina's midfield?",
-          "credit": "",
-          "link": "https://www.espn.com/soccer/story/_/id/49368040/england-team-news-world-cup-2026-england-argentina-morgan-rogers-djed-spence-reece-james",
-          "publishedAt": "2026-07-15T17:55:36Z",
-          "updatedAt": "2026-07-15T17:55:36Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "进行中"
-        },
-        {
-          "id": "49368280",
-          "headline": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "description": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49368280/reacting-england-xi-face-argentina",
-          "publishedAt": "2026-07-15T17:51:44Z",
-          "updatedAt": "2026-07-15T17:51:44Z",
-          "source": "ESPN news",
-          "matchId": "760515",
-          "matchLabel": "英格兰 vs 阿根廷",
-          "stage": "半决赛",
-          "status": "进行中"
-        },
-        {
-          "id": "49368198",
-          "headline": "Fans can pay $80 to attend pre-World Cup final news conference",
-          "description": "FIFA is to stage the World Cup final news conference in front of paying fans with supporters having to pay in excess of $80 (£60) to watch the coaches and players from the two finalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689594_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal of Spain C attends a press conference ahead of the semi-final match between France and Spain at the 2026 FIFA World Cup in Dallas, the United States, on July 13, 2026.",
-          "credit": "Hu Xingyu/Xinhua via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368198/2026-world-cup-final-press-conference-fanatics-fest-fans",
-          "publishedAt": "2026-07-15T18:02:27Z",
-          "updatedAt": "2026-07-15T18:02:27Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -125947,7 +125973,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T19:51:37.804Z",
+      "fetchedAt": "2026-07-15T21:01:20.322Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126110,6 +126136,54 @@
       "videos": [],
       "news": [
         {
+          "id": "49369819",
+          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
+          "publishedAt": "2026-07-15T20:59:09Z",
+          "updatedAt": "2026-07-15T20:59:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49363385",
+          "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
+          "imageAlt": "Argentina England [1296x729]",
+          "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+          "publishedAt": "2026-07-15T20:49:43Z",
+          "updatedAt": "2026-07-15T20:49:43Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49369523",
+          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
+          "publishedAt": "2026-07-15T20:42:39Z",
+          "updatedAt": "2026-07-15T20:42:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49368693",
           "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
           "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
@@ -126156,54 +126230,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49368040",
-          "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
-          "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689590_1296x729_16-9.jpg",
-          "imageAlt": "Spence James Rogers [1296x729]",
-          "credit": "(Harry Langer/DeFodi Images/DeFodi via Getty Images) (Marvin Ibo Guengoer - GES Sportfoto/Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49368040/england-team-news-world-cup-2026-england-argentina-morgan-rogers-djed-spence-reece-james",
-          "publishedAt": "2026-07-15T17:55:36Z",
-          "updatedAt": "2026-07-15T17:55:36Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368280",
-          "headline": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "description": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49368280/reacting-england-xi-face-argentina",
-          "publishedAt": "2026-07-15T17:51:44Z",
-          "updatedAt": "2026-07-15T17:51:44Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368198",
-          "headline": "Fans can pay $80 to attend pre-World Cup final news conference",
-          "description": "FIFA is to stage the World Cup final news conference in front of paying fans with supporters having to pay in excess of $80 (£60) to watch the coaches and players from the two finalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689594_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal of Spain C attends a press conference ahead of the semi-final match between France and Spain at the 2026 FIFA World Cup in Dallas, the United States, on July 13, 2026.",
-          "credit": "Hu Xingyu/Xinhua via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368198/2026-world-cup-final-press-conference-fanatics-fest-fans",
-          "publishedAt": "2026-07-15T18:02:27Z",
-          "updatedAt": "2026-07-15T18:02:27Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -126214,7 +126240,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T19:51:37.806Z",
+      "fetchedAt": "2026-07-15T21:01:20.331Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126395,6 +126421,54 @@
       ],
       "news": [
         {
+          "id": "49369819",
+          "headline": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "description": "Buenos Aires goes wild as Enzo Fernandez levels it for Argentina",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina/dm_260715_Buenos_Aires_goes_wild_as_Enzo_Fernandez_levels_it_for_Argentina.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369819/buenos-aires-goes-wild-enzo-fernandez-levels-argentina",
+          "publishedAt": "2026-07-15T20:59:09Z",
+          "updatedAt": "2026-07-15T20:59:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49363385",
+          "headline": "World Cup Daily live: Argentina levels it against England in semifinal",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689650_1296x729_16-9.jpg",
+          "imageAlt": "Argentina England [1296x729]",
+          "credit": "(Photo by Rob Newell - CameraSport via Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+          "publishedAt": "2026-07-15T20:49:43Z",
+          "updatedAt": "2026-07-15T20:49:43Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49369523",
+          "headline": "Fans goes crazy as Gordon gives England the lead vs. Argentina",
+          "description": "Fans goes crazy as Gordon gives England the lead vs. Argentina ",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1/dm_260715_COM_SOC_Fans_BOXPARK_goes_crazy_as_as_Gordon_gives_England_the_lead_vs_Argentina_GLOBAL_2026-07-1.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49369523/fans-goes-crazy-gordon-gives-england-lead-vs-argentina",
+          "publishedAt": "2026-07-15T20:42:39Z",
+          "updatedAt": "2026-07-15T20:42:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49368693",
           "headline": "FIFA defends semifinal referee after France, Deschamps criticism",
           "description": "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
@@ -126436,54 +126510,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49368478/post-malone-tom-cruise-ishowspeed-world-cup-closing-ceremony",
           "publishedAt": "2026-07-15T19:00:57Z",
           "updatedAt": "2026-07-15T19:00:57Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368040",
-          "headline": "Morgan Rogers, Djed Spence and Reece James start for England in Argentina semifinal showdown",
-          "description": "England have made three changes for their World Cup semifinal against Argentina with Morgan Rogers, Djed Spence and Reece James all starting.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689590_1296x729_16-9.jpg",
-          "imageAlt": "Spence James Rogers [1296x729]",
-          "credit": "(Harry Langer/DeFodi Images/DeFodi via Getty Images) (Marvin Ibo Guengoer - GES Sportfoto/Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49368040/england-team-news-world-cup-2026-england-argentina-morgan-rogers-djed-spence-reece-james",
-          "publishedAt": "2026-07-15T17:55:36Z",
-          "updatedAt": "2026-07-15T17:55:36Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368280",
-          "headline": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "description": "Rogers, Spence & James start: Reacting to England's XI to face Argentina",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0715/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina/dm_260715_Rogers_Spence_James_start_Reacting_to_Englands_XI_to_face_Argentina.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49368280/reacting-england-xi-face-argentina",
-          "publishedAt": "2026-07-15T17:51:44Z",
-          "updatedAt": "2026-07-15T17:51:44Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49368198",
-          "headline": "Fans can pay $80 to attend pre-World Cup final news conference",
-          "description": "FIFA is to stage the World Cup final news conference in front of paying fans with supporters having to pay in excess of $80 (£60) to watch the coaches and players from the two finalists.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0715/r1689594_1296x729_16-9.jpg",
-          "imageAlt": "Lamine Yamal of Spain C attends a press conference ahead of the semi-final match between France and Spain at the 2026 FIFA World Cup in Dallas, the United States, on July 13, 2026.",
-          "credit": "Hu Xingyu/Xinhua via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49368198/2026-world-cup-final-press-conference-fanatics-fest-fans",
-          "publishedAt": "2026-07-15T18:02:27Z",
-          "updatedAt": "2026-07-15T18:02:27Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
