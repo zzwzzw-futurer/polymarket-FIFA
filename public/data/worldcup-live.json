@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-15T15:50:23.121Z",
-    "startedAt": "2026-07-15T15:50:20.372Z",
+    "fetchedAt": "2026-07-15T17:18:48.988Z",
+    "startedAt": "2026-07-15T17:18:46.350Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5797,19 +5797,19 @@
       "odds": []
     },
     "760515": {
-      "home": 35.7,
-      "draw": 33.2,
-      "away": 31.2,
+      "home": 35.8,
+      "draw": 33.1,
+      "away": 31.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "35.9%",
+          "home": "36.1%",
           "draw": "33.4%",
           "away": "31.4%",
-          "homeProbability": 0.35875,
+          "homeProbability": 0.36125,
           "drawProbability": 0.33375,
           "awayProbability": 0.31375,
           "spread": "全场赛果预测市场",
@@ -6415,7 +6415,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-15T15:50:23.121Z",
+    "updatedAt": "2026-07-15T17:18:48.988Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -124738,7 +124738,7 @@
     },
     "760515": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T15:50:20.669Z",
+      "fetchedAt": "2026-07-15T17:18:46.759Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125211,7 +125211,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T15:50:20.661Z",
+      "fetchedAt": "2026-07-15T17:18:46.752Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -125478,7 +125478,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-15T15:50:20.677Z",
+      "fetchedAt": "2026-07-15T17:18:46.790Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
