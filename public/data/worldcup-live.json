@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-17T19:10:44.486Z",
-    "startedAt": "2026-07-17T19:10:43.740Z",
+    "fetchedAt": "2026-07-17T20:14:27.218Z",
+    "startedAt": "2026-07-17T20:14:26.280Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5836,6 +5836,38 @@
   },
   "news": [
     {
+      "id": "49385575",
+      "headline": "Third place matches at the men's World Cup: Winners, results",
+      "description": "Who has won the third-place playoff at the men's World Cup? Find out all the winners throughout the tournament's history.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690544_608x342_16-9.jpg",
+      "imageAlt": "World Cup logo",
+      "credit": "Image Photo Agency/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49385575/third-place-matches-men-world-cup-winners-results",
+      "publishedAt": "2026-07-17T19:51:17Z",
+      "updatedAt": "2026-07-17T19:51:17Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49380811",
+      "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
+      "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
+      "imageAlt": "FIFA World Cup championship ring [500x281]",
+      "credit": "FIFA",
+      "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
+      "publishedAt": "2026-07-17T19:35:39Z",
+      "updatedAt": "2026-07-17T19:35:39Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49385606",
       "headline": "Didier Deschamps confirms Kylian Mbappé 'available' for third place playoff with Golden Boot in sights",
       "description": "Didier Deschamps confirmed Kylian Mbappe is \"available\" for the World Cup third place playoff with England and highlighted his plans to make changes in his final match as France boss.",
@@ -5884,22 +5916,6 @@
       "status": "未开始"
     },
     {
-      "id": "49380811",
-      "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-      "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-      "imageAlt": "FIFA World Cup championship ring [500x281]",
-      "credit": "FIFA",
-      "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-      "publishedAt": "2026-07-17T18:08:16Z",
-      "updatedAt": "2026-07-17T18:08:16Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
       "id": "49384849",
       "headline": "World Cup beer sales hopping for host cities across U.S.",
       "description": "The World Cup has been a bonanza for beer in the U.S., with host cities reporting a 14% bump in sales at bars, restaurants and stadiums in the first four weeks of the tournament.",
@@ -5909,22 +5925,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49384849/world-cup-beer-sales-hopping-host-cities-us",
       "publishedAt": "2026-07-17T18:04:09Z",
       "updatedAt": "2026-07-17T18:04:09Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49384614",
-      "headline": "Gary Neville has 'big problem' with Thomas Tuchel's England 'DNA' comment",
-      "description": "Former England defender Gary Neville has said he has a \"big problem\" with Thomas Tuchel suggesting England's \"DNA\" needs to change in major tournaments.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0705/r1684648_1296x729_16-9.jpg",
-      "imageAlt": "Tuchel [1296x729]",
-      "credit": "Getty",
-      "link": "https://www.espn.com/soccer/story/_/id/49384614/gary-neville-big-problem-thomas-tuchel-england-dna-comment",
-      "publishedAt": "2026-07-17T15:42:33Z",
-      "updatedAt": "2026-07-17T15:42:33Z",
       "source": "ESPN news",
       "matchId": "760516",
       "matchLabel": "",
@@ -6413,7 +6413,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-17T19:10:44.486Z",
+    "updatedAt": "2026-07-17T20:14:27.218Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -125966,7 +125966,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-17T19:10:44.027Z",
+      "fetchedAt": "2026-07-17T20:14:26.811Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126274,6 +126274,38 @@
       "videos": [],
       "news": [
         {
+          "id": "49385575",
+          "headline": "Third place matches at the men's World Cup: Winners, results",
+          "description": "Who has won the third-place playoff at the men's World Cup? Find out all the winners throughout the tournament's history.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690544_608x342_16-9.jpg",
+          "imageAlt": "World Cup logo",
+          "credit": "Image Photo Agency/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49385575/third-place-matches-men-world-cup-winners-results",
+          "publishedAt": "2026-07-17T19:51:17Z",
+          "updatedAt": "2026-07-17T19:51:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49380811",
+          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
+          "imageAlt": "FIFA World Cup championship ring [500x281]",
+          "credit": "FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
+          "publishedAt": "2026-07-17T19:35:39Z",
+          "updatedAt": "2026-07-17T19:35:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49385606",
           "headline": "Didier Deschamps confirms Kylian Mbappé 'available' for third place playoff with Golden Boot in sights",
           "description": "Didier Deschamps confirmed Kylian Mbappe is \"available\" for the World Cup third place playoff with England and highlighted his plans to make changes in his final match as France boss.",
@@ -126322,22 +126354,6 @@
           "status": ""
         },
         {
-          "id": "49380811",
-          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-          "imageAlt": "FIFA World Cup championship ring [500x281]",
-          "credit": "FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-          "publishedAt": "2026-07-17T18:08:16Z",
-          "updatedAt": "2026-07-17T18:08:16Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49384849",
           "headline": "World Cup beer sales hopping for host cities across U.S.",
           "description": "The World Cup has been a bonanza for beer in the U.S., with host cities reporting a 14% bump in sales at bars, restaurants and stadiums in the first four weeks of the tournament.",
@@ -126347,22 +126363,6 @@
           "link": "https://www.espn.com/soccer/story/_/id/49384849/world-cup-beer-sales-hopping-host-cities-us",
           "publishedAt": "2026-07-17T18:04:09Z",
           "updatedAt": "2026-07-17T18:04:09Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49384614",
-          "headline": "Gary Neville has 'big problem' with Thomas Tuchel's England 'DNA' comment",
-          "description": "Former England defender Gary Neville has said he has a \"big problem\" with Thomas Tuchel suggesting England's \"DNA\" needs to change in major tournaments.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0705/r1684648_1296x729_16-9.jpg",
-          "imageAlt": "Tuchel [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49384614/gary-neville-big-problem-thomas-tuchel-england-dna-comment",
-          "publishedAt": "2026-07-17T15:42:33Z",
-          "updatedAt": "2026-07-17T15:42:33Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -126378,7 +126378,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-17T19:10:44.063Z",
+      "fetchedAt": "2026-07-17T20:14:26.820Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126747,6 +126747,38 @@
       ],
       "news": [
         {
+          "id": "49385575",
+          "headline": "Third place matches at the men's World Cup: Winners, results",
+          "description": "Who has won the third-place playoff at the men's World Cup? Find out all the winners throughout the tournament's history.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690544_608x342_16-9.jpg",
+          "imageAlt": "World Cup logo",
+          "credit": "Image Photo Agency/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49385575/third-place-matches-men-world-cup-winners-results",
+          "publishedAt": "2026-07-17T19:51:17Z",
+          "updatedAt": "2026-07-17T19:51:17Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49380811",
+          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
+          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
+          "imageAlt": "FIFA World Cup championship ring [500x281]",
+          "credit": "FIFA",
+          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
+          "publishedAt": "2026-07-17T19:35:39Z",
+          "updatedAt": "2026-07-17T19:35:39Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49385606",
           "headline": "Didier Deschamps confirms Kylian Mbappé 'available' for third place playoff with Golden Boot in sights",
           "description": "Didier Deschamps confirmed Kylian Mbappe is \"available\" for the World Cup third place playoff with England and highlighted his plans to make changes in his final match as France boss.",
@@ -126795,22 +126827,6 @@
           "status": ""
         },
         {
-          "id": "49380811",
-          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-          "imageAlt": "FIFA World Cup championship ring [500x281]",
-          "credit": "FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-          "publishedAt": "2026-07-17T18:08:16Z",
-          "updatedAt": "2026-07-17T18:08:16Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
           "id": "49384849",
           "headline": "World Cup beer sales hopping for host cities across U.S.",
           "description": "The World Cup has been a bonanza for beer in the U.S., with host cities reporting a 14% bump in sales at bars, restaurants and stadiums in the first four weeks of the tournament.",
@@ -126825,22 +126841,6 @@
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49384614",
-          "headline": "Gary Neville has 'big problem' with Thomas Tuchel's England 'DNA' comment",
-          "description": "Former England defender Gary Neville has said he has a \"big problem\" with Thomas Tuchel suggesting England's \"DNA\" needs to change in major tournaments.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0705/r1684648_1296x729_16-9.jpg",
-          "imageAlt": "Tuchel [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49384614/gary-neville-big-problem-thomas-tuchel-england-dna-comment",
-          "publishedAt": "2026-07-17T15:42:33Z",
-          "updatedAt": "2026-07-17T15:42:33Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
