@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T03:32:01.460Z",
-    "startedAt": "2026-07-18T03:32:00.785Z",
+    "fetchedAt": "2026-07-18T05:52:23.999Z",
+    "startedAt": "2026-07-18T05:52:23.315Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5836,6 +5836,22 @@
   },
   "news": [
     {
+      "id": "49388164",
+      "headline": "Messi, Scaloni shrug off World Cup final pressure at star-studded event",
+      "description": "Lionel Messi, Lionel Scaloni, and Emiliano Martinez attended a star-studded event in New York on Friday ahead of the World Cup final, downplaying the pressure to defend their title on Sunday against Spain.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690696_1296x729_16-9.jpg",
+      "imageAlt": "Argentina's Emiliano Martinez, Lionel Scaloni, and Lionel Messi participated in the Fanatics Fest event in New York, moderated by Tom Brady and Novak Djokovic, among other sports stars.",
+      "credit": "Photo by Hannah Peters - FIFA/FIFA via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49388164/argentina-messi-scaloni-shrug-world-cup-final-pressure-star-studded-event",
+      "publishedAt": "2026-07-18T03:55:09Z",
+      "updatedAt": "2026-07-18T03:55:09Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49387821",
       "headline": "Messi on viral Yamal baby photo: 'Incredible' we're playing in World Cup final",
       "description": "Argentina captain Lionel Messi called his viral 2007 photo with a baby Lamine Yamal \"incredible\" on Friday, ahead of their historic matchup in Sunday's World Cup final.",
@@ -5893,22 +5909,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49387336/spain-captain-rodri-raise-level-argentina",
       "publishedAt": "2026-07-18T00:45:01Z",
       "updatedAt": "2026-07-18T00:45:01Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49380811",
-      "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-      "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-      "imageAlt": "FIFA World Cup championship ring [500x281]",
-      "credit": "FIFA",
-      "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-      "publishedAt": "2026-07-17T23:53:51Z",
-      "updatedAt": "2026-07-17T23:53:51Z",
       "source": "ESPN news",
       "matchId": "760516",
       "matchLabel": "",
@@ -6413,7 +6413,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T03:32:01.460Z",
+    "updatedAt": "2026-07-18T05:52:23.999Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -125966,7 +125966,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T03:32:01.221Z",
+      "fetchedAt": "2026-07-18T05:52:23.728Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126267,6 +126267,22 @@
       "videos": [],
       "news": [
         {
+          "id": "49388164",
+          "headline": "Messi, Scaloni shrug off World Cup final pressure at star-studded event",
+          "description": "Lionel Messi, Lionel Scaloni, and Emiliano Martinez attended a star-studded event in New York on Friday ahead of the World Cup final, downplaying the pressure to defend their title on Sunday against Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690696_1296x729_16-9.jpg",
+          "imageAlt": "Argentina's Emiliano Martinez, Lionel Scaloni, and Lionel Messi participated in the Fanatics Fest event in New York, moderated by Tom Brady and Novak Djokovic, among other sports stars.",
+          "credit": "Photo by Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49388164/argentina-messi-scaloni-shrug-world-cup-final-pressure-star-studded-event",
+          "publishedAt": "2026-07-18T03:55:09Z",
+          "updatedAt": "2026-07-18T03:55:09Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49387604",
           "headline": "Thomas Tuchel: England must learn to handle pressure to close gap to rivals",
           "description": "Thomas Tuchel has said England must close a gap to the top nations after suggesting his side must learn to play better football under pressure at tournaments.",
@@ -126345,22 +126361,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49380811",
-          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-          "imageAlt": "FIFA World Cup championship ring [500x281]",
-          "credit": "FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-          "publishedAt": "2026-07-17T23:53:51Z",
-          "updatedAt": "2026-07-17T23:53:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -126371,7 +126371,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T03:32:01.237Z",
+      "fetchedAt": "2026-07-18T05:52:23.742Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126699,7 +126699,7 @@
         },
         {
           "id": "49374394",
-          "headline": "Laurens: Half-time shows should be left to American sports",
+          "headline": "Laurens: Halftime shows should be left to American sports",
           "description": "Laurens: Halftime shows should be left to American sports",
           "thumbnail": "https://a.espncdn.com/media/motion/2026/0716/dm_260716_COM_SOC_Analysis_Laurens_Halftime_shows_should_be_left_to_American_sports_20260716_GLOBAL_FIFA/dm_260716_COM_SOC_Analysis_Laurens_Halftime_shows_should_be_left_to_American_sports_20260716_GLOBAL_FIFA.jpg",
           "link": "https://www.espn.com/video/clip/_/id/49374394/half-shows-left-american-sports",
@@ -126739,6 +126739,22 @@
         }
       ],
       "news": [
+        {
+          "id": "49388164",
+          "headline": "Messi, Scaloni shrug off World Cup final pressure at star-studded event",
+          "description": "Lionel Messi, Lionel Scaloni, and Emiliano Martinez attended a star-studded event in New York on Friday ahead of the World Cup final, downplaying the pressure to defend their title on Sunday against Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690696_1296x729_16-9.jpg",
+          "imageAlt": "Argentina's Emiliano Martinez, Lionel Scaloni, and Lionel Messi participated in the Fanatics Fest event in New York, moderated by Tom Brady and Novak Djokovic, among other sports stars.",
+          "credit": "Photo by Hannah Peters - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49388164/argentina-messi-scaloni-shrug-world-cup-final-pressure-star-studded-event",
+          "publishedAt": "2026-07-18T03:55:09Z",
+          "updatedAt": "2026-07-18T03:55:09Z",
+          "source": "ESPN news",
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "未开始"
+        },
         {
           "id": "49387604",
           "headline": "Thomas Tuchel: England must learn to handle pressure to close gap to rivals",
@@ -126818,22 +126834,6 @@
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49380811",
-          "headline": "World Cup Daily live: Final winners (and fans!) to get championship rings",
-          "description": "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690333_2_500x281_16-9.png",
-          "imageAlt": "FIFA World Cup championship ring [500x281]",
-          "credit": "FIFA",
-          "link": "https://www.espn.com/soccer/story/_/id/49380811/final-winners-fans-get-championship-rings",
-          "publishedAt": "2026-07-17T23:53:51Z",
-          "updatedAt": "2026-07-17T23:53:51Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
