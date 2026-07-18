@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T09:26:42.849Z",
-    "startedAt": "2026-07-18T09:26:42.350Z",
+    "fetchedAt": "2026-07-18T10:47:05.962Z",
+    "startedAt": "2026-07-18T10:47:05.226Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5836,6 +5836,22 @@
   },
   "news": [
     {
+      "id": "49387153",
+      "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+      "imageAlt": "France [1296x729]",
+      "credit": "(Photo by Buda Mendes/Getty Images)",
+      "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+      "publishedAt": "2026-07-18T09:59:38Z",
+      "updatedAt": "2026-07-18T09:59:38Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "法国 vs 英格兰",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
       "id": "49363512",
       "headline": "The world's most remote FIFA World Cup final watch parties",
       "description": "The World Cup final is the most watched sporting event on Earth. Among the estimated 1.5 billion viewers will be fans in the world's most isolated locations.",
@@ -5909,22 +5925,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49389338/tuchel-reveals-no-regrets-decisions-vs-argentina",
       "publishedAt": "2026-07-18T07:37:24Z",
       "updatedAt": "2026-07-18T07:37:24Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49389236",
-      "headline": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture",
-      "description": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture.",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49389236/messi-gives-take-crazy-full-circle-lamine-yamal-fixture",
-      "publishedAt": "2026-07-18T07:03:19Z",
-      "updatedAt": "2026-07-18T07:03:19Z",
       "source": "ESPN news",
       "matchId": "760516",
       "matchLabel": "",
@@ -6413,7 +6413,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T09:26:42.849Z",
+    "updatedAt": "2026-07-18T10:47:05.962Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -125966,7 +125966,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T09:26:42.639Z",
+      "fetchedAt": "2026-07-18T10:47:05.667Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126295,6 +126295,22 @@
       ],
       "news": [
         {
+          "id": "49387153",
+          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+          "imageAlt": "France [1296x729]",
+          "credit": "(Photo by Buda Mendes/Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T09:59:38Z",
+          "updatedAt": "2026-07-18T09:59:38Z",
+          "source": "ESPN news",
+          "matchId": "760516",
+          "matchLabel": "法国 vs 英格兰",
+          "stage": "三四名决赛",
+          "status": "未开始"
+        },
+        {
           "id": "49363512",
           "headline": "The world's most remote FIFA World Cup final watch parties",
           "description": "The World Cup final is the most watched sporting event on Earth. Among the estimated 1.5 billion viewers will be fans in the world's most isolated locations.",
@@ -126373,22 +126389,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49389236",
-          "headline": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture",
-          "description": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49389236/messi-gives-take-crazy-full-circle-lamine-yamal-fixture",
-          "publishedAt": "2026-07-18T07:03:19Z",
-          "updatedAt": "2026-07-18T07:03:19Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -126399,7 +126399,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T09:26:42.649Z",
+      "fetchedAt": "2026-07-18T10:47:05.689Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126768,6 +126768,22 @@
       ],
       "news": [
         {
+          "id": "49387153",
+          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
+          "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
+          "credit": "Instagram @michaelrubin",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T09:59:38Z",
+          "updatedAt": "2026-07-18T09:59:38Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49363512",
           "headline": "The world's most remote FIFA World Cup final watch parties",
           "description": "The World Cup final is the most watched sporting event on Earth. Among the estimated 1.5 billion viewers will be fans in the world's most isolated locations.",
@@ -126841,22 +126857,6 @@
           "link": "https://www.espn.com/video/clip/_/id/49389338/tuchel-reveals-no-regrets-decisions-vs-argentina",
           "publishedAt": "2026-07-18T07:37:24Z",
           "updatedAt": "2026-07-18T07:37:24Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49389236",
-          "headline": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture",
-          "description": "Messi gives his take on 'crazy' full-circle Lamine Yamal fixture.",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture/dm_260718_Messi_gives_his_take_on_crazy_full_circle_Lamine_Yamal_fixture.jpg",
-          "imageAlt": "",
-          "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49389236/messi-gives-take-crazy-full-circle-lamine-yamal-fixture",
-          "publishedAt": "2026-07-18T07:03:19Z",
-          "updatedAt": "2026-07-18T07:03:19Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
