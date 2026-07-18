@@ -6,28 +6,28 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T22:51:08.387Z",
-    "startedAt": "2026-07-18T22:51:07.639Z",
+    "fetchedAt": "2026-07-18T23:54:30.551Z",
+    "startedAt": "2026-07-18T23:54:30.098Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
     "totalTeams": 48,
     "odds": {
       "status": "polymarket_live",
-      "matches": 2,
-      "polymarketMatches": 2,
+      "matches": 1,
+      "polymarketMatches": 1,
       "espnMatches": 0,
       "polymarket": {
         "status": "ok",
         "strategy": "events",
         "requestedUrl": "https://gamma-api.polymarket.com/events?series_id=11433&active=true&closed=false&limit=40",
-        "events": 2,
-        "scannedMatches": 2,
-        "matches": 2
+        "events": 1,
+        "scannedMatches": 1,
+        "matches": 1
       }
     },
     "details": {
-      "requested": 2,
+      "requested": 1,
       "total": 104,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
     },
@@ -124,7 +124,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "group": "L组",
-      "form": "LWWWW",
+      "form": "WLWWW",
       "sourceName": "England"
     },
     "449": {
@@ -250,7 +250,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "group": "I组",
-      "form": "LWWWW",
+      "form": "LLWWW",
       "sourceName": "France"
     },
     "481": {
@@ -3303,25 +3303,27 @@
       "matchday": 13797,
       "home": "478",
       "away": "448",
-      "score": "3 - 5",
-      "status": "进行中",
+      "score": "4 - 6",
+      "status": "已结束",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "weather": "天气数据待接入",
-      "timeElapsed": "88'",
-      "homeScore": 3,
-      "awayScore": 5,
+      "timeElapsed": "FT",
+      "homeScore": 4,
+      "awayScore": 6,
       "homeScorers": [
         "K. Mbappé",
         "B. Barcola",
-        "K. Mbappé"
+        "K. Mbappé",
+        "O. Dembélé"
       ],
       "awayScorers": [
         "D. Rice",
         "E. Konsa",
         "B. Saka",
         "B. Saka",
-        "B. Saka"
+        "B. Saka",
+        "J. Bellingham"
       ]
     },
     {
@@ -4027,6 +4029,15 @@
       "shots": 14
     },
     {
+      "name": "J. Bellingham",
+      "country": "448",
+      "team": "英格兰",
+      "goals": 7,
+      "assists": 0,
+      "rating": 9.8,
+      "shots": 14
+    },
+    {
       "name": "H. Kane",
       "country": "448",
       "team": "英格兰",
@@ -4036,9 +4047,9 @@
       "shots": 12
     },
     {
-      "name": "J. Bellingham",
-      "country": "448",
-      "team": "英格兰",
+      "name": "O. Dembélé",
+      "country": "478",
+      "team": "法国",
       "goals": 6,
       "assists": 0,
       "rating": 9.4,
@@ -4048,15 +4059,6 @@
       "name": "M. Oyarzabal",
       "country": "164",
       "team": "西班牙",
-      "goals": 5,
-      "assists": 0,
-      "rating": 9,
-      "shots": 10
-    },
-    {
-      "name": "O. Dembélé",
-      "country": "478",
-      "team": "法国",
       "goals": 5,
       "assists": 0,
       "rating": 9,
@@ -4459,7 +4461,7 @@
       "goalsAgainst": 2,
       "goalDifference": "+8",
       "points": 9,
-      "form": "LWWWW",
+      "form": "LLWWW",
       "name": "法国"
     },
     {
@@ -4536,7 +4538,7 @@
       "goalsAgainst": 2,
       "goalDifference": "+4",
       "points": 7,
-      "form": "LWWWW",
+      "form": "WLWWW",
       "name": "英格兰"
     },
     {
@@ -5798,32 +5800,17 @@
       "odds": []
     },
     "760516": {
-      "home": 2.5,
-      "draw": 6.5,
-      "away": 91,
-      "model": "Polymarket 即时市场价格隐含概率",
-      "trend": "Polymarket live",
-      "odds": [
-        {
-          "book": "Polymarket",
-          "source": "polymarket",
-          "home": "2.50%",
-          "draw": "6.50%",
-          "away": "91.0%",
-          "homeProbability": 0.025,
-          "drawProbability": 0.065,
-          "awayProbability": 0.9095,
-          "spread": "全场赛果预测市场",
-          "eventSlug": "fifwc-fra-eng-2026-07-18",
-          "eventUrl": "https://polymarket.com/event/fifwc-fra-eng-2026-07-18",
-          "marketTitle": "France vs. England"
-        }
-      ]
+      "home": 0,
+      "draw": 0,
+      "away": 100,
+      "model": "无赔率时的结果/均衡展示",
+      "trend": "无实时赔率",
+      "odds": []
     },
     "760517": {
-      "home": 42.2,
-      "draw": 31.5,
-      "away": 26.3,
+      "home": 42,
+      "draw": 31.4,
+      "away": 26.6,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5832,10 +5819,10 @@
           "source": "polymarket",
           "home": "42.4%",
           "draw": "31.6%",
-          "away": "26.4%",
+          "away": "26.9%",
           "homeProbability": 0.42375,
           "drawProbability": 0.31625,
-          "awayProbability": 0.26375,
+          "awayProbability": 0.26875,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-esp-arg-2026-07-19",
           "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
@@ -5845,6 +5832,54 @@
     }
   },
   "news": [
+    {
+      "id": "49394849",
+      "headline": "McManaman: Tuchel's excuses after the game were 'ridiculous'",
+      "description": "McManaman: Tuchel's excuses after the game were 'ridiculous'",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_McManaman_Tuchels_excuses_after_the_game_were_ridiculous_20260719_GLOBAL_FI/dm_260718_COM_SOC_Analysis_McManaman_Tuchels_excuses_after_the_game_were_ridiculous_20260719_GLOBAL_FI.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49394849/tuchel-excuses-game-were-ridiculous",
+      "publishedAt": "2026-07-18T23:43:32Z",
+      "updatedAt": "2026-07-18T23:43:32Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "",
+      "stage": "决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49394841",
+      "headline": "Mbappé makes World Cup history as all-time top scorer",
+      "description": "Mbappé makes World Cup history as all-time top scorer",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Mbappe_makes_World_Cup_history_as_alltime_top_scorer_20260719_GLOBAL_FIFA_WORL/dm_260718_COM_SOC_Analysis_Mbappe_makes_World_Cup_history_as_alltime_top_scorer_20260719_GLOBAL_FIFA_WORL.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49394841/mbappe-makes-world-cup-history-all-top-scorer",
+      "publishedAt": "2026-07-18T23:42:43Z",
+      "updatedAt": "2026-07-18T23:42:43Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "",
+      "stage": "决赛",
+      "status": "未开始"
+    },
+    {
+      "id": "49394816",
+      "headline": "Leboeuf: France had nothing defensively",
+      "description": "Leboeuf: France had nothing defensively",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Leboeuf_France_had_nothing_defensively_20260719_GLOBAL_FIFA_WORLD_CUP/dm_260718_COM_SOC_Analysis_Leboeuf_France_had_nothing_defensively_20260719_GLOBAL_FIFA_WORLD_CUP.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49394816/france-had-defensively",
+      "publishedAt": "2026-07-18T23:42:03Z",
+      "updatedAt": "2026-07-18T23:42:03Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "",
+      "stage": "决赛",
+      "status": "未开始"
+    },
     {
       "id": "49257085",
       "headline": "Kylian Mbappé surpasses Lionel Messi's all-time World Cup goal-scoring record",
@@ -5859,7 +5894,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49387153",
@@ -5891,7 +5926,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49393019",
@@ -5923,7 +5958,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49392880",
@@ -5939,7 +5974,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49369819",
@@ -6372,58 +6407,10 @@
       "matchLabel": "",
       "stage": "四分之一决赛",
       "status": "已结束"
-    },
-    {
-      "id": "49326277",
-      "headline": "Should Mbappé win the Ballon d'Or if France win the World Cup?",
-      "description": "Should Mbappé win the Ballon d'Or if France win the World Cup?",
-      "imageUrl": "https://a.espncdn.com/media/motion/2026/0710/dm_260710_COM_SOC_Analysis_Should_MbappC3A9_win_the_Ballon_dOr_if_France_win_the_World_Cup3F__GLOBAL_2026-07-10/dm_260710_COM_SOC_Analysis_Should_MbappC3A9_win_the_Ballon_dOr_if_France_win_the_World_Cup3F__GLOBAL_2026-07-10.jpg",
-      "imageAlt": "",
-      "credit": "",
-      "link": "https://www.espn.com/video/clip/_/id/49326277/should-mbappe-win-ballon-dor-france-win-world-cup",
-      "publishedAt": "2026-07-10T17:56:21Z",
-      "updatedAt": "2026-07-10T17:56:21Z",
-      "source": "ESPN news",
-      "matchId": "760511",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
-    },
-    {
-      "id": "49309361",
-      "headline": "World Cup updates: Mbappé, Dembelé strike to double France's lead over Morocco",
-      "description": "Enjoy all the updates from Thursday's 2026 World Cup quarterfinal in Foxborough as France take on Morocco.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1687050_1296x729_16-9.jpg",
-      "imageAlt": "Mbappe [1296x729]",
-      "credit": "(Photo by Harry Langer/DeFodi Images/DeFodi via Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49309361/world-cup-updates-france-take-morocco-first-quarterfinal-showdown",
-      "publishedAt": "2026-07-09T21:43:08Z",
-      "updatedAt": "2026-07-09T21:43:08Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "法国 vs 摩洛哥",
-      "stage": "四分之一决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49309123",
-      "headline": "World Cup Daily live: Mexico star Mora's high school graduation",
-      "description": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0709/r1686754_1296x729_16-9.jpg",
-      "imageAlt": "Mexico's Gilberto Mora [1296x729]",
-      "credit": "Carl Recine/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
-      "publishedAt": "2026-07-09T21:28:46Z",
-      "updatedAt": "2026-07-09T21:28:46Z",
-      "source": "ESPN news",
-      "matchId": "760510",
-      "matchLabel": "",
-      "stage": "四分之一决赛",
-      "status": "已结束"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T22:51:08.387Z",
+    "updatedAt": "2026-07-18T23:54:30.551Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6510,7 +6497,7 @@
       },
       {
         "label": "Polymarket",
-        "value": "2 场"
+        "value": "1 场"
       }
     ],
     "updatePolicy": [
@@ -127185,7 +127172,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T22:51:08.037Z",
+      "fetchedAt": "2026-07-18T23:54:30.440Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -127555,14 +127542,14 @@
       "news": [
         {
           "id": "49387153",
-          "headline": "World Cup Daily live: France, England play for third place; Messi, Brady in KD's all-star selfie",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "headline": "World Cup Daily live: England defeat France for third place; Messi, Brady in KD's all-star selfie",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as England edge France in the third-place match.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
           "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
           "credit": "Instagram @michaelrubin",
           "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-          "publishedAt": "2026-07-18T22:35:36Z",
-          "updatedAt": "2026-07-18T22:35:36Z",
+          "publishedAt": "2026-07-18T23:42:58Z",
+          "updatedAt": "2026-07-18T23:42:58Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -127570,31 +127557,15 @@
           "status": ""
         },
         {
-          "id": "49257085",
-          "headline": "Kylian Mbappé surpasses Lionel Messi's all-time World Cup goal-scoring record",
-          "description": "Kylian Mbappé has leapfrogged Lionel Messi on the all-time World Cup goal-scoring chart as he scored his 21st and 22nd career goals in the tournament.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1691006_1296x729_16-9.jpg",
-          "imageAlt": "France's forward #10 Kylian Mbappe celebrates scoring his team's first goal during the 2026 World Cup football tournament third-place match",
-          "credit": "ROBERTO SCHMIDT / AFP via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49257085/kylian-mbappe-lionel-messi-all-world-cup-goals-record",
-          "publishedAt": "2026-07-18T22:50:15Z",
-          "updatedAt": "2026-07-18T22:50:15Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49394018",
-          "headline": "Argentina fans take over Times Square ahead of World Cup final",
-          "description": "Argentina fans take over Times Square ahead of World Cup final",
-          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA.jpg",
+          "id": "49394849",
+          "headline": "McManaman: Tuchel's excuses after the game were 'ridiculous'",
+          "description": "McManaman: Tuchel's excuses after the game were 'ridiculous'",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_McManaman_Tuchels_excuses_after_the_game_were_ridiculous_20260719_GLOBAL_FI/dm_260718_COM_SOC_Analysis_McManaman_Tuchels_excuses_after_the_game_were_ridiculous_20260719_GLOBAL_FI.jpg",
           "imageAlt": "",
           "credit": "",
-          "link": "https://www.espn.com/video/clip/_/id/49394018/argentina-fans-take-s-square-ahead-world-cup-final",
-          "publishedAt": "2026-07-18T21:47:46Z",
-          "updatedAt": "2026-07-18T21:47:46Z",
+          "link": "https://www.espn.com/video/clip/_/id/49394849/tuchel-excuses-game-were-ridiculous",
+          "publishedAt": "2026-07-18T23:43:32Z",
+          "updatedAt": "2026-07-18T23:43:32Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -127602,15 +127573,15 @@
           "status": ""
         },
         {
-          "id": "49393307",
-          "headline": "Future of hydration breaks undecided - FIFA's Arsène Wenger",
-          "description": "",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0623/r1678036_1296x729_16-9.jpg",
-          "imageAlt": "USMNT hydration break June19-2026 [1296x729]",
-          "credit": "Jamie Squire/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49393307/future-hydration-breaks-undecided-fifa-arsene-wenger",
-          "publishedAt": "2026-07-18T20:42:11Z",
-          "updatedAt": "2026-07-18T20:42:11Z",
+          "id": "49394841",
+          "headline": "Mbappé makes World Cup history as all-time top scorer",
+          "description": "Mbappé makes World Cup history as all-time top scorer",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Mbappe_makes_World_Cup_history_as_alltime_top_scorer_20260719_GLOBAL_FIFA_WORL/dm_260718_COM_SOC_Analysis_Mbappe_makes_World_Cup_history_as_alltime_top_scorer_20260719_GLOBAL_FIFA_WORL.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49394841/mbappe-makes-world-cup-history-all-top-scorer",
+          "publishedAt": "2026-07-18T23:42:43Z",
+          "updatedAt": "2026-07-18T23:42:43Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -127618,15 +127589,15 @@
           "status": ""
         },
         {
-          "id": "49393019",
-          "headline": "France vs. England: Thomas Tuchel names Ivan Toney in much-changed World Cup team",
-          "description": "Thomas Tuchel has made seven changes to the England team that lost the World Cup semifinal against France on Wednesday.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690931_1296x729_16-9.jpg",
-          "imageAlt": "Ivan Toney of England looks on during the FIFA World Cup 2026 Semi Final match between England and Argentina",
-          "credit": "Sebastian Frej/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49393019/france-vs-england-thomas-tuchel-names-ivan-toney-much-changed-team-world-cup",
-          "publishedAt": "2026-07-18T20:43:42Z",
-          "updatedAt": "2026-07-18T20:43:42Z",
+          "id": "49394816",
+          "headline": "Leboeuf: France had nothing defensively",
+          "description": "Leboeuf: France had nothing defensively",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Leboeuf_France_had_nothing_defensively_20260719_GLOBAL_FIFA_WORLD_CUP/dm_260718_COM_SOC_Analysis_Leboeuf_France_had_nothing_defensively_20260719_GLOBAL_FIFA_WORLD_CUP.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49394816/france-had-defensively",
+          "publishedAt": "2026-07-18T23:42:03Z",
+          "updatedAt": "2026-07-18T23:42:03Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -127634,20 +127605,36 @@
           "status": ""
         },
         {
-          "id": "49392880",
-          "headline": "Spain-Argentina World Cup final last-minute tickets start at $10,000",
-          "description": "Last-minute tickets to see Lionel Messi and Argentina face off against Lamine Yamal and Spain in the FIFA World Cup final range from $10,000 to $60,000.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690410_1296x729_16-9.jpg",
-          "imageAlt": "Messi and Yamal [1296x729]",
-          "credit": "Getty",
-          "link": "https://www.espn.com/soccer/story/_/id/49392880/spain-argentina-world-cup-final-last-minute-tickets-start-10k",
-          "publishedAt": "2026-07-18T19:48:56Z",
-          "updatedAt": "2026-07-18T19:48:56Z",
+          "id": "49021847",
+          "headline": "Who scored the most goals in a single men's World Cup?",
+          "description": "Just Fontaine scored the most goals in a single men's World Cup. Check out which other players made the list.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0610/r1670957_608x342_16-9.jpg",
+          "imageAlt": "Kylian Mbappe",
+          "credit": "AP Photo/Natacha Pisarenko",
+          "link": "https://www.espn.com/soccer/story/_/id/49021847/who-scored-most-goals-single-men-world-cup",
+          "publishedAt": "2026-07-18T23:19:22Z",
+          "updatedAt": "2026-07-18T23:19:22Z",
           "source": "ESPN news",
-          "matchId": "760517",
-          "matchLabel": "西班牙 vs 阿根廷",
-          "stage": "决赛",
-          "status": "未开始"
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49019838",
+          "headline": "Who scored the most goals in men's World Cup history?",
+          "description": "Argentina's Lionel Messi scored the most goals in men's World Cup history. Check out which other soccer stars made the list.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0622/r1677710_608x342_16-9.jpg",
+          "imageAlt": "Messi celebration",
+          "credit": "Alex Pantling - FIFA/FIFA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49019838/who-scored-most-goals-men-world-cup-history",
+          "publishedAt": "2026-07-18T23:17:34Z",
+          "updatedAt": "2026-07-18T23:17:34Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
         }
       ],
       "gameInfo": {
