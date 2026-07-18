@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T20:50:15.305Z",
-    "startedAt": "2026-07-18T20:50:14.434Z",
+    "fetchedAt": "2026-07-18T21:52:02.775Z",
+    "startedAt": "2026-07-18T21:52:01.983Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3303,16 +3303,21 @@
       "matchday": 13797,
       "home": "478",
       "away": "448",
-      "score": "-",
-      "status": "未开始",
+      "score": "0 - 4",
+      "status": "进行中",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "weather": "天气数据待接入",
-      "timeElapsed": "Scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "timeElapsed": "HT",
+      "homeScore": 0,
+      "awayScore": 4,
       "homeScorers": [],
-      "awayScorers": []
+      "awayScorers": [
+        "D. Rice",
+        "E. Konsa",
+        "B. Saka",
+        "B. Saka"
+      ]
     },
     {
       "id": "760517",
@@ -4296,6 +4301,15 @@
       "shots": 4
     },
     {
+      "name": "B. Saka",
+      "country": "448",
+      "team": "英格兰",
+      "goals": 2,
+      "assists": 0,
+      "rating": 7.8,
+      "shots": 4
+    },
+    {
       "name": "C. Larin",
       "country": "206",
       "team": "加拿大",
@@ -4425,15 +4439,6 @@
       "name": "M. Araújo",
       "country": "212",
       "team": "乌拉圭",
-      "goals": 2,
-      "assists": 0,
-      "rating": 7.8,
-      "shots": 4
-    },
-    {
-      "name": "M. Arnautovic",
-      "country": "474",
-      "team": "奥地利",
       "goals": 2,
       "assists": 0,
       "rating": 7.8,
@@ -5788,21 +5793,21 @@
       "odds": []
     },
     "760516": {
-      "home": 55.8,
-      "draw": 22.6,
-      "away": 21.6,
+      "home": 0.9,
+      "draw": 1.9,
+      "away": 97.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "55.5%",
-          "draw": "22.5%",
-          "away": "21.5%",
-          "homeProbability": 0.555,
-          "drawProbability": 0.225,
-          "awayProbability": 0.215,
+          "home": "0.95%",
+          "draw": "1.95%",
+          "away": "97.3%",
+          "homeProbability": 0.0095,
+          "drawProbability": 0.0195,
+          "awayProbability": 0.973,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-eng-2026-07-18",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-eng-2026-07-18",
@@ -5811,21 +5816,21 @@
       ]
     },
     "760517": {
-      "home": 41.9,
-      "draw": 31.4,
-      "away": 26.7,
+      "home": 42.2,
+      "draw": 31.5,
+      "away": 26.3,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "42.1%",
+          "home": "42.4%",
           "draw": "31.6%",
-          "away": "26.9%",
-          "homeProbability": 0.42125,
+          "away": "26.4%",
+          "homeProbability": 0.42375,
           "drawProbability": 0.31625,
-          "awayProbability": 0.26875,
+          "awayProbability": 0.26375,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-esp-arg-2026-07-19",
           "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
@@ -5835,6 +5840,22 @@
     }
   },
   "news": [
+    {
+      "id": "49394018",
+      "headline": "Argentina fans take over Times Square ahead of World Cup final",
+      "description": "Argentina fans take over Times Square ahead of World Cup final",
+      "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA.jpg",
+      "imageAlt": "",
+      "credit": "",
+      "link": "https://www.espn.com/video/clip/_/id/49394018/argentina-fans-take-s-square-ahead-world-cup-final",
+      "publishedAt": "2026-07-18T21:47:46Z",
+      "updatedAt": "2026-07-18T21:47:46Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "进行中"
+    },
     {
       "id": "49393019",
       "headline": "France vs. England: Thomas Tuchel names Ivan Toney in much-changed World Cup team",
@@ -5849,7 +5870,7 @@
       "matchId": "760516",
       "matchLabel": "法国 vs 英格兰",
       "stage": "三四名决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49393307",
@@ -5865,23 +5886,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49387153",
-      "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
-      "imageAlt": "France [1296x729]",
-      "credit": "(Photo by Buda Mendes/Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-      "publishedAt": "2026-07-18T20:12:36Z",
-      "updatedAt": "2026-07-18T20:12:36Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "法国 vs 英格兰",
-      "stage": "三四名决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49392880",
@@ -5897,7 +5902,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49392587",
@@ -5913,7 +5918,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49392007",
@@ -5929,7 +5934,7 @@
       "matchId": "760516",
       "matchLabel": "",
       "stage": "三四名决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49369819",
@@ -6413,7 +6418,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T20:50:15.305Z",
+    "updatedAt": "2026-07-18T21:52:02.775Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6492,7 +6497,7 @@
       },
       {
         "label": "视频",
-        "value": "77 场"
+        "value": "76 场"
       },
       {
         "label": "新闻",
@@ -125966,9 +125971,9 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T20:50:15.132Z",
+      "fetchedAt": "2026-07-18T21:52:02.440Z",
       "source": "ESPN summary",
-      "status": "Scheduled",
+      "status": "Halftime",
       "lineups": {
         "home": {
           "team": "478",
@@ -125983,21 +125988,8 @@
               "jersey": "16",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "251634",
-              "name": "Ibrahima Konaté",
-              "shortName": "I. Konaté",
-              "jersey": "15",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126007,23 +125999,23 @@
               "name": "Maxence Lacroix",
               "shortName": "M. Lacroix",
               "jersey": "26",
-              "position": "D",
+              "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
             },
             {
-              "id": "308947",
-              "name": "Malo Gusto",
-              "shortName": "M. Gusto",
-              "jersey": "2",
-              "position": "D",
+              "id": "251634",
+              "name": "Ibrahima Konaté",
+              "shortName": "I. Konaté",
+              "jersey": "15",
+              "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126033,62 +126025,23 @@
               "name": "Theo Hernández",
               "shortName": "T. Hernández",
               "jersey": "19",
-              "position": "D",
+              "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
             },
             {
-              "id": "286831",
-              "name": "Michael Olise",
-              "shortName": "M. Olise",
-              "jersey": "11",
-              "position": "M",
+              "id": "308947",
+              "name": "Malo Gusto",
+              "shortName": "M. Gusto",
+              "jersey": "2",
+              "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "176203",
-              "name": "Adrien Rabiot",
-              "shortName": "A. Rabiot",
-              "jersey": "14",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "345581",
-              "name": "Warren Zaïre-Emery",
-              "shortName": "W. Zaïre-Emery",
-              "jersey": "18",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "336388",
-              "name": "Désiré Doué",
-              "shortName": "D. Doué",
-              "jersey": "20",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126098,12 +126051,38 @@
               "name": "Rayan Cherki",
               "shortName": "R. Cherki",
               "jersey": "24",
-              "position": "M",
+              "position": "AM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "176203",
+              "name": "Adrien Rabiot",
+              "shortName": "A. Rabiot",
+              "jersey": "14",
+              "position": "LM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "345581",
+              "name": "Warren Zaïre-Emery",
+              "shortName": "W. Zaïre-Emery",
+              "jersey": "18",
+              "position": "RM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126113,8 +126092,34 @@
               "jersey": "10",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "3",
+              "passes": ""
+            },
+            {
+              "id": "336388",
+              "name": "Désiré Doué",
+              "shortName": "D. Doué",
+              "jersey": "20",
+              "position": "AM-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "286831",
+              "name": "Michael Olise",
+              "shortName": "M. Olise",
+              "jersey": "11",
+              "position": "AM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126128,8 +126133,8 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126141,8 +126146,8 @@
               "jersey": "23",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126154,8 +126159,8 @@
               "jersey": "6",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126167,8 +126172,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126180,8 +126185,8 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126193,8 +126198,8 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126206,8 +126211,8 @@
               "jersey": "5",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126219,8 +126224,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126232,8 +126237,8 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126245,8 +126250,8 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126258,8 +126263,8 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126271,8 +126276,8 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126284,8 +126289,8 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126297,8 +126302,8 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126310,8 +126315,8 @@
               "jersey": "8",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126331,34 +126336,8 @@
               "jersey": "13",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "298524",
-              "name": "Jarell Quansah",
-              "shortName": "J. Quansah",
-              "jersey": "26",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "267711",
-              "name": "Djed Spence",
-              "shortName": "D. Spence",
-              "jersey": "25",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126368,10 +126347,10 @@
               "name": "Marc Guéhi",
               "shortName": "M. Guéhi",
               "jersey": "6",
-              "position": "D",
+              "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126381,36 +126360,49 @@
               "name": "Ezri Konsa",
               "shortName": "E. Konsa",
               "jersey": "2",
-              "position": "D",
+              "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "1",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "238262",
+              "name": "Declan Rice",
+              "shortName": "D. Rice",
+              "jersey": "4",
+              "position": "DM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "1",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "267711",
+              "name": "Djed Spence",
+              "shortName": "D. Spence",
+              "jersey": "25",
+              "position": "LB",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
             },
             {
-              "id": "265653",
-              "name": "Morgan Rogers",
-              "shortName": "M. Rogers",
-              "jersey": "17",
-              "position": "M",
+              "id": "298524",
+              "name": "Jarell Quansah",
+              "shortName": "J. Quansah",
+              "jersey": "26",
+              "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "230945",
-              "name": "Marcus Rashford",
-              "shortName": "M. Rashford",
-              "jersey": "11",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126420,12 +126412,38 @@
               "name": "Eberechi Eze",
               "shortName": "E. Eze",
               "jersey": "21",
-              "position": "M",
+              "position": "CM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
+              "passes": ""
+            },
+            {
+              "id": "265653",
+              "name": "Morgan Rogers",
+              "shortName": "M. Rogers",
+              "jersey": "17",
+              "position": "CM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "230945",
+              "name": "Marcus Rashford",
+              "shortName": "M. Rashford",
+              "jersey": "11",
+              "position": "LM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "3",
               "passes": ""
             },
             {
@@ -126433,25 +126451,12 @@
               "name": "Bukayo Saka",
               "shortName": "B. Saka",
               "jersey": "7",
-              "position": "M",
+              "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "238262",
-              "name": "Declan Rice",
-              "shortName": "D. Rice",
-              "jersey": "4",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "2",
+              "shots": "4",
               "passes": ""
             },
             {
@@ -126461,8 +126466,8 @@
               "jersey": "22",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126476,8 +126481,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126489,8 +126494,8 @@
               "jersey": "10",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126502,8 +126507,8 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126515,8 +126520,8 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126528,8 +126533,8 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126541,8 +126546,8 @@
               "jersey": "8",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126554,8 +126559,8 @@
               "jersey": "23",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126567,8 +126572,8 @@
               "jersey": "5",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126580,8 +126585,8 @@
               "jersey": "15",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126593,8 +126598,8 @@
               "jersey": "14",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126606,8 +126611,8 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126619,8 +126624,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126632,8 +126637,8 @@
               "jersey": "24",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126645,8 +126650,8 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126656,28 +126661,172 @@
       },
       "stats": [
         {
-          "key": "goalDifference",
-          "label": "净胜球",
-          "home": "12",
-          "away": "6"
+          "key": "foulsCommitted",
+          "label": "犯规",
+          "home": "5",
+          "away": "5"
         },
         {
-          "key": "totalGoals",
-          "label": "进球",
-          "home": "16",
+          "key": "yellowCards",
+          "label": "黄牌",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "redCards",
+          "label": "红牌",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "offsides",
+          "label": "越位",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "key": "wonCorners",
+          "label": "角球",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "key": "saves",
+          "label": "扑救",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "key": "possessionPct",
+          "label": "控球率",
+          "home": "44.6",
+          "away": "55.4"
+        },
+        {
+          "key": "totalShots",
+          "label": "射门",
+          "home": "5",
+          "away": "10"
+        },
+        {
+          "key": "shotsOnTarget",
+          "label": "射正",
+          "home": "2",
+          "away": "7"
+        },
+        {
+          "key": "shotPct",
+          "label": "On Target %",
+          "home": "0.4",
+          "away": "0.7"
+        },
+        {
+          "key": "penaltyKickGoals",
+          "label": "Penalty Goals",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "penaltyKickShots",
+          "label": "Penalty Kicks Taken",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "accuratePasses",
+          "label": "成功传球",
+          "home": "216",
+          "away": "273"
+        },
+        {
+          "key": "totalPasses",
+          "label": "传球",
+          "home": "238",
+          "away": "291"
+        },
+        {
+          "key": "passPct",
+          "label": "传球成功率",
+          "home": "0.9",
+          "away": "0.9"
+        },
+        {
+          "key": "accurateCrosses",
+          "label": "Accurate Crosses",
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "key": "totalCrosses",
+          "label": "Crosses",
+          "home": "2",
+          "away": "9"
+        },
+        {
+          "key": "crossPct",
+          "label": "Cross %",
+          "home": "0.0",
+          "away": "0.3"
+        },
+        {
+          "key": "totalLongBalls",
+          "label": "Long Balls",
+          "home": "17",
           "away": "14"
         },
         {
-          "key": "goalAssists",
-          "label": "助攻",
-          "home": "14",
-          "away": "11"
+          "key": "accurateLongBalls",
+          "label": "Accurate Long Balls",
+          "home": "10",
+          "away": "7"
         },
         {
-          "key": "goalsConceded",
-          "label": "失球",
+          "key": "longballPct",
+          "label": "Long Balls %",
+          "home": "0.6",
+          "away": "0.5"
+        },
+        {
+          "key": "blockedShots",
+          "label": "Blocked Shots",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "key": "effectiveTackles",
+          "label": "Effective Tackles",
           "home": "4",
-          "away": "8"
+          "away": "5"
+        },
+        {
+          "key": "totalTackles",
+          "label": "Tackles",
+          "home": "7",
+          "away": "12"
+        },
+        {
+          "key": "tacklePct",
+          "label": "Tackle %",
+          "home": "0.6",
+          "away": "0.4"
+        },
+        {
+          "key": "interceptions",
+          "label": "Interceptions",
+          "home": "3",
+          "away": "7"
+        },
+        {
+          "key": "effectiveClearance",
+          "label": "Effective Clearances",
+          "home": "3",
+          "away": "6"
+        },
+        {
+          "key": "totalClearance",
+          "label": "Clearances",
+          "home": "3",
+          "away": "6"
         }
       ],
       "leaders": [
@@ -126686,39 +126835,32 @@
           "teamName": "法国",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Kylian Mbappé",
-              "value": "Matches: 7, Goals: 8",
-              "summary": "7 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Michael Olise",
-              "value": "Matches: 7, Assists: 5",
-              "summary": "7 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
               "player": "Kylian Mbappé",
-              "value": "33",
-              "summary": ""
+              "value": "3",
+              "summary": "1 SOG, 0.22 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Dayot Upamecano",
-              "value": "397",
-              "summary": ""
+              "player": "Rayan Cherki",
+              "value": "25",
+              "summary": "29 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Theo Hernández",
+              "value": "5",
+              "summary": "0 TKLW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Mike Maignan",
-              "value": "9",
-              "summary": ""
+              "value": "2",
+              "summary": "6 SOGA, 1.39 xGC"
             }
           ]
         },
@@ -126727,39 +126869,32 @@
           "teamName": "英格兰",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Harry Kane",
-              "value": "Matches: 7, Goals: 6",
-              "summary": "7 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Anthony Gordon",
-              "value": "Matches: 6, Assists: 3",
-              "summary": "6 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Harry Kane",
-              "value": "23",
-              "summary": ""
+              "player": "Bukayo Saka",
+              "value": "4",
+              "summary": "3 SOG, 0.70 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Marc Guéhi",
-              "value": "441",
-              "summary": ""
+              "player": "Declan Rice",
+              "value": "49",
+              "summary": "50 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Declan Rice",
+              "value": "7",
+              "summary": "1 TKLW, 4 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Jordan Pickford",
-              "value": "15",
-              "summary": ""
+              "player": "Dean Henderson",
+              "value": "2",
+              "summary": "2 SOGA, 0.29 xGC"
             }
           ]
         }
@@ -126931,61 +127066,30 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E216/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E216.jpg",
-        "alt": "Tuchel reveals he has 'no regrets' over his decisions vs. Argentina",
-        "caption": "Tuchel reveals he has 'no regrets' over his decisions vs. Argentina",
-        "credit": "",
-        "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49389338/tuchel-reveals-no-regrets-decisions-vs-argentina"
+        "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690931_1296x729_16-9.jpg",
+        "alt": "Ivan Toney of England looks on during the FIFA World Cup 2026 Semi Final match between England and Argentina",
+        "caption": "Ivan Toney of England looks on during the FIFA World Cup 2026 Semi Final match between England and Argentina\n [1296x729]",
+        "credit": "Sebastian Frej/Getty Images",
+        "source": "ESPN news",
+        "link": "https://www.espn.com/soccer/story/_/id/49393019/france-vs-england-thomas-tuchel-names-ivan-toney-much-changed-team-world-cup"
       },
-      "videos": [
-        {
-          "id": "49389338",
-          "headline": "Tuchel reveals he has 'no regrets' over his decisions vs. Argentina",
-          "description": "Tuchel reveals he has 'no regrets' over his decisions vs. Argentina",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E216/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E216.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49389338/tuchel-reveals-no-regrets-decisions-vs-argentina",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E28098no_regretsE28099_over_his_decisions_vs_Argentina_GLOBAL_2026-0/dm_260718_COM_SOC_Analysis_Tuchel_reveals_he_has_E28098no_regretsE28099_over_his_decisions_vs_Argentina_GLOBAL_2026-0_720p30_2896k.mp4",
-          "duration": 58,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49389431",
-          "headline": "Trump questions Kane's 'defensive' role in England's WC exit to Argentina",
-          "description": "Trump questions Kane's 'defensive' role in England's WC exit to Argentina",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_Analysis_Trump_questions_Kanes_defensive_role_in_EnglandE28099s_WC_exit_to_Argentina_GLOBAL/dm_260718_COM_SOC_Analysis_Trump_questions_Kanes_defensive_role_in_EnglandE28099s_WC_exit_to_Argentina_GLOBAL.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49389431/trump-questions-kane-defensive-role-england-wc-exit-argentina",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_COM_SOC_Analysis_Trump_questions_Kanes_defensive_role_in_EnglandE28099s_WC_exit_to_Argentina_GLOBAL/dm_260718_COM_SOC_Analysis_Trump_questions_Kanes_defensive_role_in_EnglandE28099s_WC_exit_to_Argentina_GLOBAL_720p30_2896k.mp4",
-          "duration": 46,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49390159",
-          "headline": "Deschamps reflects on final game as France head coach",
-          "description": "Deschamps reflects on final game as France head coach",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_Deschamps_reflects_on_final_game_as_France_head_coach/dm_260718_Deschamps_reflects_on_final_game_as_France_head_coach.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49390159/deschamps-reflects-final-game-france-head-coach",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_Deschamps_reflects_on_final_game_as_France_head_coach/dm_260718_Deschamps_reflects_on_final_game_as_France_head_coach_720p30_2896k.mp4",
-          "duration": 33,
-          "source": "ESPN video"
-        }
-      ],
+      "videos": [],
       "news": [
         {
-          "id": "49387153",
-          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
-          "imageAlt": "France [1296x729]",
-          "credit": "(Photo by Buda Mendes/Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-          "publishedAt": "2026-07-18T20:12:36Z",
-          "updatedAt": "2026-07-18T20:12:36Z",
+          "id": "49394018",
+          "headline": "Argentina fans take over Times Square ahead of World Cup final",
+          "description": "Argentina fans take over Times Square ahead of World Cup final",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49394018/argentina-fans-take-s-square-ahead-world-cup-final",
+          "publishedAt": "2026-07-18T21:47:46Z",
+          "updatedAt": "2026-07-18T21:47:46Z",
           "source": "ESPN news",
-          "matchId": "760516",
-          "matchLabel": "法国 vs 英格兰",
-          "stage": "三四名决赛",
-          "status": "未开始"
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
         },
         {
           "id": "49393307",
@@ -127017,7 +127121,7 @@
           "matchId": "760516",
           "matchLabel": "法国 vs 英格兰",
           "stage": "三四名决赛",
-          "status": "未开始"
+          "status": "进行中"
         },
         {
           "id": "49392880",
@@ -127070,13 +127174,13 @@
       ],
       "gameInfo": {
         "attendance": "",
-        "referee": "",
+        "referee": "Jesús Valenzuela",
         "venue": "Hard Rock Stadium"
       }
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T20:50:15.161Z",
+      "fetchedAt": "2026-07-18T21:52:02.456Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -127445,15 +127549,15 @@
       ],
       "news": [
         {
-          "id": "49387153",
-          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
-          "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
-          "credit": "Instagram @michaelrubin",
-          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-          "publishedAt": "2026-07-18T20:12:36Z",
-          "updatedAt": "2026-07-18T20:12:36Z",
+          "id": "49394018",
+          "headline": "Argentina fans take over Times Square ahead of World Cup final",
+          "description": "Argentina fans take over Times Square ahead of World Cup final",
+          "imageUrl": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA/dm_260718_COM_SOC_News_Argentina_fans_take_over_Times_Square_ahead_of_World_Cup_final_20260718_GLOBAL_FIFA.jpg",
+          "imageAlt": "",
+          "credit": "",
+          "link": "https://www.espn.com/video/clip/_/id/49394018/argentina-fans-take-s-square-ahead-world-cup-final",
+          "publishedAt": "2026-07-18T21:47:46Z",
+          "updatedAt": "2026-07-18T21:47:46Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
