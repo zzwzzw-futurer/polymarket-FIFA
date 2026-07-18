@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T11:53:08.632Z",
-    "startedAt": "2026-07-18T11:53:08.216Z",
+    "fetchedAt": "2026-07-18T13:16:30.215Z",
+    "startedAt": "2026-07-18T13:16:29.215Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5788,9 +5788,9 @@
       "odds": []
     },
     "760516": {
-      "home": 51.2,
-      "draw": 24.4,
-      "away": 24.4,
+      "home": 51.8,
+      "draw": 23.6,
+      "away": 24.6,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5798,10 +5798,10 @@
           "book": "Polymarket",
           "source": "polymarket",
           "home": "51.5%",
-          "draw": "24.5%",
+          "draw": "23.5%",
           "away": "24.5%",
           "homeProbability": 0.515,
-          "drawProbability": 0.245,
+          "drawProbability": 0.235,
           "awayProbability": 0.245,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-eng-2026-07-18",
@@ -5836,6 +5836,22 @@
   },
   "news": [
     {
+      "id": "49387153",
+      "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+      "imageAlt": "France [1296x729]",
+      "credit": "(Photo by Buda Mendes/Getty Images)",
+      "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+      "publishedAt": "2026-07-18T12:59:38Z",
+      "updatedAt": "2026-07-18T12:59:38Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "法国 vs 英格兰",
+      "stage": "三四名决赛",
+      "status": "未开始"
+    },
+    {
       "id": "48352807",
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
       "description": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
@@ -5845,22 +5861,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/48352807/world-cup-2026-kit-ranking-canada-mexico-united-states-argentina-australia-brazil-england-france-germany-portugal-spain",
       "publishedAt": "2026-07-18T11:42:58Z",
       "updatedAt": "2026-07-18T11:42:58Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "法国 vs 英格兰",
-      "stage": "三四名决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49387153",
-      "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
-      "imageAlt": "France [1296x729]",
-      "credit": "(Photo by Buda Mendes/Getty Images)",
-      "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-      "publishedAt": "2026-07-18T11:17:04Z",
-      "updatedAt": "2026-07-18T11:17:04Z",
       "source": "ESPN news",
       "matchId": "760516",
       "matchLabel": "法国 vs 英格兰",
@@ -6413,7 +6413,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T11:53:08.632Z",
+    "updatedAt": "2026-07-18T13:16:30.215Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -125966,7 +125966,7 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T11:53:08.528Z",
+      "fetchedAt": "2026-07-18T13:16:29.909Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126305,6 +126305,22 @@
       ],
       "news": [
         {
+          "id": "49387153",
+          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+          "imageAlt": "France [1296x729]",
+          "credit": "(Photo by Buda Mendes/Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T12:59:38Z",
+          "updatedAt": "2026-07-18T12:59:38Z",
+          "source": "ESPN news",
+          "matchId": "760516",
+          "matchLabel": "法国 vs 英格兰",
+          "stage": "三四名决赛",
+          "status": "未开始"
+        },
+        {
           "id": "49385857",
           "headline": "Back to his best, Rodri has powered Spain to World Cup final",
           "description": "Other Spain players get the attention, but midfielder Rodri is the key to them stopping Lionel Messi and Argentina.",
@@ -126319,22 +126335,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49387153",
-          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
-          "imageAlt": "France [1296x729]",
-          "credit": "(Photo by Buda Mendes/Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-          "publishedAt": "2026-07-18T11:17:04Z",
-          "updatedAt": "2026-07-18T11:17:04Z",
-          "source": "ESPN news",
-          "matchId": "760516",
-          "matchLabel": "法国 vs 英格兰",
-          "stage": "三四名决赛",
-          "status": "未开始"
         },
         {
           "id": "49381908",
@@ -126409,7 +126409,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T11:53:08.503Z",
+      "fetchedAt": "2026-07-18T13:16:29.895Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -126778,6 +126778,22 @@
       ],
       "news": [
         {
+          "id": "49387153",
+          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
+          "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
+          "credit": "Instagram @michaelrubin",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T12:59:38Z",
+          "updatedAt": "2026-07-18T12:59:38Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49385857",
           "headline": "Back to his best, Rodri has powered Spain to World Cup final",
           "description": "Other Spain players get the attention, but midfielder Rodri is the key to them stopping Lionel Messi and Argentina.",
@@ -126792,22 +126808,6 @@
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49387153",
-          "headline": "World Cup Daily live: Messi, Brady in Durant's all-star selfie; France, England play for third place",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
-          "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
-          "credit": "Instagram @michaelrubin",
-          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
-          "publishedAt": "2026-07-18T11:17:04Z",
-          "updatedAt": "2026-07-18T11:17:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         },
         {
           "id": "49381908",
