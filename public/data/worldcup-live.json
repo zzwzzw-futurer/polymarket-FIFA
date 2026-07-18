@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-18T21:52:02.775Z",
-    "startedAt": "2026-07-18T21:52:01.983Z",
+    "fetchedAt": "2026-07-18T22:51:08.387Z",
+    "startedAt": "2026-07-18T22:51:07.639Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3303,18 +3303,23 @@
       "matchday": 13797,
       "home": "478",
       "away": "448",
-      "score": "0 - 4",
+      "score": "3 - 5",
       "status": "进行中",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "weather": "天气数据待接入",
-      "timeElapsed": "HT",
-      "homeScore": 0,
-      "awayScore": 4,
-      "homeScorers": [],
+      "timeElapsed": "88'",
+      "homeScore": 3,
+      "awayScore": 5,
+      "homeScorers": [
+        "K. Mbappé",
+        "B. Barcola",
+        "K. Mbappé"
+      ],
       "awayScorers": [
         "D. Rice",
         "E. Konsa",
+        "B. Saka",
         "B. Saka",
         "B. Saka"
       ]
@@ -3998,10 +4003,10 @@
       "name": "K. Mbappé",
       "country": "478",
       "team": "法国",
-      "goals": 8,
+      "goals": 10,
       "assists": 0,
-      "rating": 10.2,
-      "shots": 16
+      "rating": 11,
+      "shots": 20
     },
     {
       "name": "L. Messi",
@@ -4103,9 +4108,27 @@
       "shots": 8
     },
     {
+      "name": "B. Barcola",
+      "country": "478",
+      "team": "法国",
+      "goals": 3,
+      "assists": 0,
+      "rating": 8.2,
+      "shots": 6
+    },
+    {
       "name": "B. Brobbey",
       "country": "449",
       "team": "荷兰",
+      "goals": 3,
+      "assists": 0,
+      "rating": 8.2,
+      "shots": 6
+    },
+    {
+      "name": "B. Saka",
+      "country": "448",
+      "team": "英格兰",
       "goals": 3,
       "assists": 0,
       "rating": 8.2,
@@ -4283,27 +4306,9 @@
       "shots": 4
     },
     {
-      "name": "B. Barcola",
-      "country": "478",
-      "team": "法国",
-      "goals": 2,
-      "assists": 0,
-      "rating": 7.8,
-      "shots": 4
-    },
-    {
       "name": "B. Embolo",
       "country": "475",
       "team": "瑞士",
-      "goals": 2,
-      "assists": 0,
-      "rating": 7.8,
-      "shots": 4
-    },
-    {
-      "name": "B. Saka",
-      "country": "448",
-      "team": "英格兰",
       "goals": 2,
       "assists": 0,
       "rating": 7.8,
@@ -5793,21 +5798,21 @@
       "odds": []
     },
     "760516": {
-      "home": 0.9,
-      "draw": 1.9,
-      "away": 97.1,
+      "home": 2.5,
+      "draw": 6.5,
+      "away": 91,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "0.95%",
-          "draw": "1.95%",
-          "away": "97.3%",
-          "homeProbability": 0.0095,
-          "drawProbability": 0.0195,
-          "awayProbability": 0.973,
+          "home": "2.50%",
+          "draw": "6.50%",
+          "away": "91.0%",
+          "homeProbability": 0.025,
+          "drawProbability": 0.065,
+          "awayProbability": 0.9095,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-fra-eng-2026-07-18",
           "eventUrl": "https://polymarket.com/event/fifwc-fra-eng-2026-07-18",
@@ -5840,6 +5845,38 @@
     }
   },
   "news": [
+    {
+      "id": "49257085",
+      "headline": "Kylian Mbappé surpasses Lionel Messi's all-time World Cup goal-scoring record",
+      "description": "Kylian Mbappé has leapfrogged Lionel Messi on the all-time World Cup goal-scoring chart as he scored his 21st and 22nd career goals in the tournament.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1691006_1296x729_16-9.jpg",
+      "imageAlt": "France's forward #10 Kylian Mbappe celebrates scoring his team's first goal during the 2026 World Cup football tournament third-place match",
+      "credit": "ROBERTO SCHMIDT / AFP via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49257085/kylian-mbappe-lionel-messi-all-world-cup-goals-record",
+      "publishedAt": "2026-07-18T22:50:15Z",
+      "updatedAt": "2026-07-18T22:50:15Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "",
+      "stage": "三四名决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49387153",
+      "headline": "World Cup Daily live: France, England play for third place; Messi, Brady in KD's all-star selfie",
+      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+      "imageAlt": "France [1296x729]",
+      "credit": "(Photo by Buda Mendes/Getty Images)",
+      "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+      "publishedAt": "2026-07-18T22:35:36Z",
+      "updatedAt": "2026-07-18T22:35:36Z",
+      "source": "ESPN news",
+      "matchId": "760516",
+      "matchLabel": "法国 vs 英格兰",
+      "stage": "三四名决赛",
+      "status": "进行中"
+    },
     {
       "id": "49394018",
       "headline": "Argentina fans take over Times Square ahead of World Cup final",
@@ -5898,38 +5935,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49392880/spain-argentina-world-cup-final-last-minute-tickets-start-10k",
       "publishedAt": "2026-07-18T19:48:56Z",
       "updatedAt": "2026-07-18T19:48:56Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49392587",
-      "headline": "Storms expected to clear wildfire smoke ahead of World Cup final",
-      "description": "Smoke from the Canadian wildfires that has engulfed the Northeast in haze is expected to mostly clear from the New Jersey area just in time for the World Cup final on Sunday, thanks to thunderstorms passing through the area, meteorologists say.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690902_1296x729_16-9.jpg",
-      "imageAlt": "Hazy NYC Skyline World Cup final [1296x729]",
-      "credit": "Photo by Gary Hershorn/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49392587/storms-due-clear-wildfire-smoke-world-cup-final-spain-argentina",
-      "publishedAt": "2026-07-18T19:20:24Z",
-      "updatedAt": "2026-07-18T19:20:24Z",
-      "source": "ESPN news",
-      "matchId": "760516",
-      "matchLabel": "",
-      "stage": "三四名决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49392007",
-      "headline": "Argentina's Emiliano Martínez admits playing with pain of broken finger",
-      "description": "Argentina goalkeeper Emiliano \"Dibu\" Martínez admitted he's been playing through pain in his right hand throughout the World Cup after avoiding a recommended operation in order to participate in the tournament.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690635_1296x729_16-9.jpg",
-      "imageAlt": "Dibu Martínez",
-      "credit": "AP Photo",
-      "link": "https://www.espn.com/soccer/story/_/id/49392007/argentina-emiliano-martinez-admits-playing-pain-broken-finger",
-      "publishedAt": "2026-07-18T19:17:38Z",
-      "updatedAt": "2026-07-18T19:17:38Z",
       "source": "ESPN news",
       "matchId": "760516",
       "matchLabel": "",
@@ -6418,7 +6423,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-18T21:52:02.775Z",
+    "updatedAt": "2026-07-18T22:51:08.387Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -125971,9 +125976,9 @@
     },
     "760516": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T21:52:02.440Z",
+      "fetchedAt": "2026-07-18T22:51:08.054Z",
       "source": "ESPN summary",
-      "status": "Halftime",
+      "status": "Second Half",
       "lineups": {
         "home": {
           "team": "478",
@@ -126015,7 +126020,7 @@
               "position": "CD-R",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126028,7 +126033,7 @@
               "position": "LB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126054,7 +126059,7 @@
               "position": "AM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "1",
               "passes": ""
@@ -126069,7 +126074,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126094,8 +126099,8 @@
               "starter": true,
               "subbedIn": false,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "3",
+              "goals": "2",
+              "shots": "8",
               "passes": ""
             },
             {
@@ -126106,7 +126111,7 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126121,7 +126126,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "3",
               "passes": ""
             }
           ],
@@ -126185,10 +126190,10 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
-              "goals": "0",
-              "shots": "0",
+              "goals": "1",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126250,10 +126255,10 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126263,10 +126268,10 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126289,7 +126294,7 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -126402,7 +126407,7 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -126415,9 +126420,9 @@
               "position": "CM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "1",
+              "shots": "3",
               "passes": ""
             },
             {
@@ -126430,7 +126435,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126441,7 +126446,7 @@
               "position": "LM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "3",
               "passes": ""
@@ -126455,8 +126460,8 @@
               "starter": true,
               "subbedIn": false,
               "subbedOut": false,
-              "goals": "2",
-              "shots": "4",
+              "goals": "3",
+              "shots": "5",
               "passes": ""
             },
             {
@@ -126467,9 +126472,9 @@
               "position": "F",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "2",
               "passes": ""
             }
           ],
@@ -126494,10 +126499,10 @@
               "jersey": "10",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -126546,7 +126551,7 @@
               "jersey": "8",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -126637,7 +126642,7 @@
               "jersey": "24",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -126650,10 +126655,10 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             }
           ]
@@ -126663,8 +126668,8 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "5",
-          "away": "5"
+          "home": "13",
+          "away": "8"
         },
         {
           "key": "yellowCards",
@@ -126681,44 +126686,44 @@
         {
           "key": "offsides",
           "label": "越位",
-          "home": "1",
+          "home": "2",
           "away": "3"
         },
         {
           "key": "wonCorners",
           "label": "角球",
           "home": "2",
-          "away": "3"
+          "away": "4"
         },
         {
           "key": "saves",
           "label": "扑救",
-          "home": "2",
-          "away": "2"
+          "home": "4",
+          "away": "5"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "44.6",
-          "away": "55.4"
+          "home": "45.8",
+          "away": "54.2"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "5",
-          "away": "10"
+          "home": "17",
+          "away": "18"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
-          "home": "2",
-          "away": "7"
+          "home": "8",
+          "away": "10"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.4",
-          "away": "0.7"
+          "home": "0.5",
+          "away": "0.6"
         },
         {
           "key": "penaltyKickGoals",
@@ -126730,19 +126735,19 @@
           "key": "penaltyKickShots",
           "label": "Penalty Kicks Taken",
           "home": "0",
-          "away": "0"
+          "away": "1"
         },
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "216",
-          "away": "273"
+          "home": "366",
+          "away": "429"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "238",
-          "away": "291"
+          "home": "401",
+          "away": "468"
         },
         {
           "key": "passPct",
@@ -126753,14 +126758,14 @@
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "0",
-          "away": "3"
+          "home": "1",
+          "away": "4"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "2",
-          "away": "9"
+          "home": "5",
+          "away": "12"
         },
         {
           "key": "crossPct",
@@ -126771,62 +126776,62 @@
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "17",
-          "away": "14"
+          "home": "26",
+          "away": "30"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "10",
-          "away": "7"
+          "home": "17",
+          "away": "14"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
-          "home": "0.6",
+          "home": "0.7",
           "away": "0.5"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
-          "home": "2",
-          "away": "3"
+          "home": "3",
+          "away": "6"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "4",
-          "away": "5"
+          "home": "9",
+          "away": "7"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "7",
-          "away": "12"
+          "home": "13",
+          "away": "20"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
-          "home": "0.6",
+          "home": "0.7",
           "away": "0.4"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "3",
-          "away": "7"
+          "home": "5",
+          "away": "10"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "3",
-          "away": "6"
+          "home": "9",
+          "away": "9"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "3",
-          "away": "6"
+          "home": "9",
+          "away": "9"
         }
       ],
       "leaders": [
@@ -126838,29 +126843,29 @@
               "key": "totalShots",
               "label": "射门",
               "player": "Kylian Mbappé",
-              "value": "3",
-              "summary": "1 SOG, 0.22 xG"
+              "value": "8",
+              "summary": "4 SOG, 1.39 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Rayan Cherki",
-              "value": "25",
-              "summary": "29 PASS"
+              "player": "Warren Zaïre-Emery",
+              "value": "52",
+              "summary": "54 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
-              "player": "Theo Hernández",
-              "value": "5",
-              "summary": "0 TKLW"
+              "player": "Malo Gusto",
+              "value": "9",
+              "summary": "3 TKLW, 5 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Mike Maignan",
-              "value": "2",
-              "summary": "6 SOGA, 1.39 xGC"
+              "value": "4",
+              "summary": "9 SOGA, 1.79 xGC"
             }
           ]
         },
@@ -126872,29 +126877,29 @@
               "key": "totalShots",
               "label": "射门",
               "player": "Bukayo Saka",
-              "value": "4",
-              "summary": "3 SOG, 0.70 xG"
+              "value": "5",
+              "summary": "4 SOG, 0.71 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Declan Rice",
-              "value": "49",
-              "summary": "50 PASS"
+              "value": "81",
+              "summary": "84 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Declan Rice",
-              "value": "7",
-              "summary": "1 TKLW, 4 DUELW"
+              "value": "10",
+              "summary": "1 TKLW, 6 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Dean Henderson",
-              "value": "2",
-              "summary": "2 SOGA, 0.29 xGC"
+              "value": "5",
+              "summary": "8 SOGA, 2.54 xGC"
             }
           ]
         }
@@ -127066,15 +127071,47 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690931_1296x729_16-9.jpg",
-        "alt": "Ivan Toney of England looks on during the FIFA World Cup 2026 Semi Final match between England and Argentina",
-        "caption": "Ivan Toney of England looks on during the FIFA World Cup 2026 Semi Final match between England and Argentina\n [1296x729]",
-        "credit": "Sebastian Frej/Getty Images",
+        "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+        "alt": "France [1296x729]",
+        "caption": "France [1296x729]",
+        "credit": "(Photo by Buda Mendes/Getty Images)",
         "source": "ESPN news",
-        "link": "https://www.espn.com/soccer/story/_/id/49393019/france-vs-england-thomas-tuchel-names-ivan-toney-much-changed-team-world-cup"
+        "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff"
       },
       "videos": [],
       "news": [
+        {
+          "id": "49387153",
+          "headline": "World Cup Daily live: France, England play for third place; Messi, Brady in KD's all-star selfie",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690625_1296x729_16-9.jpg",
+          "imageAlt": "France [1296x729]",
+          "credit": "(Photo by Buda Mendes/Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T22:35:36Z",
+          "updatedAt": "2026-07-18T22:35:36Z",
+          "source": "ESPN news",
+          "matchId": "760516",
+          "matchLabel": "法国 vs 英格兰",
+          "stage": "三四名决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49257085",
+          "headline": "Kylian Mbappé surpasses Lionel Messi's all-time World Cup goal-scoring record",
+          "description": "Kylian Mbappé has leapfrogged Lionel Messi on the all-time World Cup goal-scoring chart as he scored his 21st and 22nd career goals in the tournament.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1691006_1296x729_16-9.jpg",
+          "imageAlt": "France's forward #10 Kylian Mbappe celebrates scoring his team's first goal during the 2026 World Cup football tournament third-place match",
+          "credit": "ROBERTO SCHMIDT / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49257085/kylian-mbappe-lionel-messi-all-world-cup-goals-record",
+          "publishedAt": "2026-07-18T22:50:15Z",
+          "updatedAt": "2026-07-18T22:50:15Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49394018",
           "headline": "Argentina fans take over Times Square ahead of World Cup final",
@@ -127138,38 +127175,6 @@
           "matchLabel": "",
           "stage": "",
           "status": ""
-        },
-        {
-          "id": "49392587",
-          "headline": "Storms expected to clear wildfire smoke ahead of World Cup final",
-          "description": "Smoke from the Canadian wildfires that has engulfed the Northeast in haze is expected to mostly clear from the New Jersey area just in time for the World Cup final on Sunday, thanks to thunderstorms passing through the area, meteorologists say.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690902_1296x729_16-9.jpg",
-          "imageAlt": "Hazy NYC Skyline World Cup final [1296x729]",
-          "credit": "Photo by Gary Hershorn/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49392587/storms-due-clear-wildfire-smoke-world-cup-final-spain-argentina",
-          "publishedAt": "2026-07-18T19:20:24Z",
-          "updatedAt": "2026-07-18T19:20:24Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49392007",
-          "headline": "Argentina's Emiliano Martínez admits playing with pain of broken finger",
-          "description": "Argentina goalkeeper Emiliano \"Dibu\" Martínez admitted he's been playing through pain in his right hand throughout the World Cup after avoiding a recommended operation in order to participate in the tournament.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690635_1296x729_16-9.jpg",
-          "imageAlt": "Dibu Martínez",
-          "credit": "AP Photo",
-          "link": "https://www.espn.com/soccer/story/_/id/49392007/argentina-emiliano-martinez-admits-playing-pain-broken-finger",
-          "publishedAt": "2026-07-18T19:17:38Z",
-          "updatedAt": "2026-07-18T19:17:38Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
@@ -127180,7 +127185,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-18T21:52:02.456Z",
+      "fetchedAt": "2026-07-18T22:51:08.037Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -127549,6 +127554,38 @@
       ],
       "news": [
         {
+          "id": "49387153",
+          "headline": "World Cup Daily live: France, England play for third place; Messi, Brady in KD's all-star selfie",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as we decide who finishes in third place between England and France.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690743_1296x729_16-9.jpg",
+          "imageAlt": "Kevin Durant selfie with Lionel Messi, Rodri, Tom Brady [1296x729]",
+          "credit": "Instagram @michaelrubin",
+          "link": "https://www.espn.com/soccer/story/_/id/49387153/world-cup-daily-kevin-durant-tom-brady-lionel-messi-selfie-france-england-third-place-playoff",
+          "publishedAt": "2026-07-18T22:35:36Z",
+          "updatedAt": "2026-07-18T22:35:36Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49257085",
+          "headline": "Kylian Mbappé surpasses Lionel Messi's all-time World Cup goal-scoring record",
+          "description": "Kylian Mbappé has leapfrogged Lionel Messi on the all-time World Cup goal-scoring chart as he scored his 21st and 22nd career goals in the tournament.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1691006_1296x729_16-9.jpg",
+          "imageAlt": "France's forward #10 Kylian Mbappe celebrates scoring his team's first goal during the 2026 World Cup football tournament third-place match",
+          "credit": "ROBERTO SCHMIDT / AFP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49257085/kylian-mbappe-lionel-messi-all-world-cup-goals-record",
+          "publishedAt": "2026-07-18T22:50:15Z",
+          "updatedAt": "2026-07-18T22:50:15Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
           "id": "49394018",
           "headline": "Argentina fans take over Times Square ahead of World Cup final",
           "description": "Argentina fans take over Times Square ahead of World Cup final",
@@ -127611,38 +127648,6 @@
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "未开始"
-        },
-        {
-          "id": "49392587",
-          "headline": "Storms expected to clear wildfire smoke ahead of World Cup final",
-          "description": "Smoke from the Canadian wildfires that has engulfed the Northeast in haze is expected to mostly clear from the New Jersey area just in time for the World Cup final on Sunday, thanks to thunderstorms passing through the area, meteorologists say.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0718/r1690902_1296x729_16-9.jpg",
-          "imageAlt": "Hazy NYC Skyline World Cup final [1296x729]",
-          "credit": "Photo by Gary Hershorn/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49392587/storms-due-clear-wildfire-smoke-world-cup-final-spain-argentina",
-          "publishedAt": "2026-07-18T19:20:24Z",
-          "updatedAt": "2026-07-18T19:20:24Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49392007",
-          "headline": "Argentina's Emiliano Martínez admits playing with pain of broken finger",
-          "description": "Argentina goalkeeper Emiliano \"Dibu\" Martínez admitted he's been playing through pain in his right hand throughout the World Cup after avoiding a recommended operation in order to participate in the tournament.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0717/r1690635_1296x729_16-9.jpg",
-          "imageAlt": "Dibu Martínez",
-          "credit": "AP Photo",
-          "link": "https://www.espn.com/soccer/story/_/id/49392007/argentina-emiliano-martinez-admits-playing-pain-broken-finger",
-          "publishedAt": "2026-07-18T19:17:38Z",
-          "updatedAt": "2026-07-18T19:17:38Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
