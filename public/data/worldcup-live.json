@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-19T20:32:15.545Z",
-    "startedAt": "2026-07-19T20:32:14.830Z",
+    "fetchedAt": "2026-07-19T21:35:01.350Z",
+    "startedAt": "2026-07-19T21:34:57.555Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -43,7 +43,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "group": "H组",
-      "form": "WWWWW",
+      "form": "DWWWW",
       "sourceName": "Spain"
     },
     "202": {
@@ -52,7 +52,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "group": "J组",
-      "form": "WWWWW",
+      "form": "DWWWW",
       "sourceName": "Argentina"
     },
     "203": {
@@ -3343,7 +3343,7 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
       "weather": "天气数据待接入",
-      "timeElapsed": "55'",
+      "timeElapsed": "104'",
       "homeScore": 0,
       "awayScore": 0,
       "homeScorers": [],
@@ -4472,7 +4472,7 @@
       "goalsAgainst": 1,
       "goalDifference": "+7",
       "points": 9,
-      "form": "WWWWW",
+      "form": "DWWWW",
       "name": "阿根廷"
     },
     {
@@ -4516,7 +4516,7 @@
       "goalsAgainst": 0,
       "goalDifference": "+5",
       "points": 7,
-      "form": "WWWWW",
+      "form": "DWWWW",
       "name": "西班牙"
     },
     {
@@ -5808,21 +5808,21 @@
       "odds": []
     },
     "760517": {
-      "home": 36.7,
-      "draw": 42.5,
-      "away": 20.8,
+      "home": 0.1,
+      "draw": 99.8,
+      "away": 0.1,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "36.9%",
-          "draw": "42.6%",
-          "away": "20.9%",
-          "homeProbability": 0.36875,
-          "drawProbability": 0.42625,
-          "awayProbability": 0.20875,
+          "home": "0.13%",
+          "draw": "99.9%",
+          "away": "0.13%",
+          "homeProbability": 0.00125,
+          "drawProbability": 0.99875,
+          "awayProbability": 0.00125,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-esp-arg-2026-07-19",
           "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
@@ -5833,6 +5833,38 @@
   },
   "news": [
     {
+      "id": "49402540",
+      "headline": "World Cup final halftime show: Rating every performer as Madonna, BTS, Justin Bieber and Shakira star",
+      "description": "The first World Cup final halftime show brought together some of the biggest names in music, with BTS, Justin Bieber, Madonna and Shakira -- but how did we rate them?",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691421_1296x729_16-9.jpg",
+      "imageAlt": "Singer Justin Bieber during the Halftime show of the 2026 FIFA World Cup final between Spain and Argentina at the New York/New Jersey Stadium on July 19, 2026, in East Rutherford, New Jersey, United States.",
+      "credit": "ANP via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49402540/world-cup-final-half-show-2026-rating-every-performer-madonna-bts-justin-bieber-shakira-headline-argentina-spain",
+      "publishedAt": "2026-07-19T21:30:46Z",
+      "updatedAt": "2026-07-19T21:30:46Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "西班牙 vs 阿根廷",
+      "stage": "决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49402754",
+      "headline": "Argentina lose Martínez, Romero to injury in World Cup final vs. Spain",
+      "description": "Argentina lost center backs Lisandro Martínez and Cristian Romero to injury in Sunday's World Cup final against Spain.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691390_1296x729_16-9.jpg",
+      "imageAlt": "Argentina's defender #06 Lisandro Martinez leaves the pitch during the 2026 World Cup football tournament final match between Spain and Argentina at the New York/New Jersey Stadium in East Rutherford on July 19, 2026",
+      "credit": "JUAN MABROMATA / AFP via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49402754/argentina-lisandro-martinez-forced-injured-world-cup-final-vs-spain",
+      "publishedAt": "2026-07-19T21:14:24Z",
+      "updatedAt": "2026-07-19T21:14:24Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "西班牙 vs 阿根廷",
+      "stage": "决赛",
+      "status": "进行中"
+    },
+    {
       "id": "49397462",
       "headline": "World Cup final LIVE: Spain, Argentina face off in New Jersey",
       "description": "Enjoy all the features, news, video analysis and color from around the World Cup as Spain and Lamine Yamal take on Argentina and Lionel Messi in the final.",
@@ -5840,8 +5872,8 @@
       "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
       "credit": "Sebastian Frej/Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-      "publishedAt": "2026-07-19T20:22:33Z",
-      "updatedAt": "2026-07-19T20:22:33Z",
+      "publishedAt": "2026-07-19T20:45:50Z",
+      "updatedAt": "2026-07-19T20:45:50Z",
       "source": "ESPN news",
       "matchId": "760517",
       "matchLabel": "西班牙 vs 阿根廷",
@@ -5856,27 +5888,11 @@
       "imageAlt": "FIFA president Gianni Infantino at 2026 World Cup final [1296x729]",
       "credit": "Eva Marie Uzcategui - FIFA/FIFA via Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
-      "publishedAt": "2026-07-19T20:08:11Z",
-      "updatedAt": "2026-07-19T20:08:11Z",
+      "publishedAt": "2026-07-19T20:45:11Z",
+      "updatedAt": "2026-07-19T20:45:11Z",
       "source": "ESPN news",
       "matchId": "760517",
       "matchLabel": "",
-      "stage": "决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49402754",
-      "headline": "Argentina's Lisandro Martínez forced off injured in World Cup final vs. Spain",
-      "description": "Argentina centre-back Lisandro Martínez was forced off in the first half of the World Cup final against Spain.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691390_1296x729_16-9.jpg",
-      "imageAlt": "Argentina's defender #06 Lisandro Martinez leaves the pitch during the 2026 World Cup football tournament final match between Spain and Argentina at the New York/New Jersey Stadium in East Rutherford on July 19, 2026",
-      "credit": "JUAN MABROMATA / AFP via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49402754/argentina-lisandro-martinez-forced-injured-world-cup-final-vs-spain",
-      "publishedAt": "2026-07-19T20:01:17Z",
-      "updatedAt": "2026-07-19T20:01:17Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "西班牙 vs 阿根廷",
       "stage": "决赛",
       "status": "进行中"
     },
@@ -5888,27 +5904,11 @@
       "imageAlt": "Messi [1296x729]",
       "credit": "Evrim Aydin/Anadolu via Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49400680/world-cup-final-2026-spain-vs-argentina-lionel-messi",
-      "publishedAt": "2026-07-19T19:59:58Z",
-      "updatedAt": "2026-07-19T19:59:58Z",
+      "publishedAt": "2026-07-19T20:34:16Z",
+      "updatedAt": "2026-07-19T20:34:16Z",
       "source": "ESPN news",
       "matchId": "760517",
       "matchLabel": "西班牙 vs 阿根廷",
-      "stage": "决赛",
-      "status": "进行中"
-    },
-    {
-      "id": "49401541",
-      "headline": "Harry Kane warns England are 'still in that grieving stage' but strongly backs Thomas Tuchel",
-      "description": "Harry Kane admitted England will be \"grieving\" their World Cup heartbreak for some time to come although he backed Thomas Tuchel to stay on as head coach.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691326_1296x729_16-9.jpg",
-      "imageAlt": "MIAMI GARDENS, FLORIDA - JULY 18: Players of England pose for a photograph with their bronze medals after the team's victory in the FIFA World Cup 2026 Bronze Final between France and England at Miami Stadium on July 18, 2026 in Miami Gardens, Florida.",
-      "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49401541/harry-kane-warns-england-that-grieving-stage-strongly-backs-manager-thomas-tuchel",
-      "publishedAt": "2026-07-19T18:57:04Z",
-      "updatedAt": "2026-07-19T18:57:04Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "",
       "stage": "决赛",
       "status": "进行中"
     },
@@ -6410,7 +6410,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-19T20:32:15.545Z",
+    "updatedAt": "2026-07-19T21:35:01.350Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -127172,9 +127172,9 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-19T20:32:15.233Z",
+      "fetchedAt": "2026-07-19T21:35:01.181Z",
       "source": "ESPN summary",
-      "status": "In Progress",
+      "status": "Overtime",
       "lineups": {
         "home": {
           "team": "164",
@@ -127203,9 +127203,9 @@
               "position": "CD-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -127218,7 +127218,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -127255,9 +127255,9 @@
               "position": "AM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -127268,7 +127268,7 @@
               "position": "LM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127281,9 +127281,9 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -127294,7 +127294,7 @@
               "position": "F",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "1",
               "passes": ""
@@ -127307,7 +127307,7 @@
               "position": "AM-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "1",
               "passes": ""
@@ -127322,7 +127322,7 @@
               "subbedIn": false,
               "subbedOut": false,
               "goals": "0",
-              "shots": "1",
+              "shots": "4",
               "passes": ""
             }
           ],
@@ -127347,7 +127347,7 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127360,10 +127360,10 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -127386,10 +127386,10 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "2",
               "passes": ""
             },
             {
@@ -127412,10 +127412,10 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -127425,10 +127425,10 @@
               "jersey": "6",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
-              "shots": "0",
+              "shots": "1",
               "passes": ""
             },
             {
@@ -127516,7 +127516,7 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127564,7 +127564,7 @@
               "position": "CD-R",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127590,7 +127590,7 @@
               "position": "RB",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127642,7 +127642,7 @@
               "position": "RM",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127655,7 +127655,7 @@
               "position": "CF-L",
               "starter": true,
               "subbedIn": false,
-              "subbedOut": false,
+              "subbedOut": true,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127747,7 +127747,7 @@
               "jersey": "26",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127773,7 +127773,7 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127812,7 +127812,7 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127851,7 +127851,7 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": false,
+              "subbedIn": true,
               "subbedOut": false,
               "goals": "0",
               "shots": "0",
@@ -127877,20 +127877,20 @@
         {
           "key": "foulsCommitted",
           "label": "犯规",
-          "home": "10",
-          "away": "10"
+          "home": "16",
+          "away": "21"
         },
         {
           "key": "yellowCards",
           "label": "黄牌",
           "home": "0",
-          "away": "2"
+          "away": "3"
         },
         {
           "key": "redCards",
           "label": "红牌",
           "home": "0",
-          "away": "0"
+          "away": "1"
         },
         {
           "key": "offsides",
@@ -127901,37 +127901,37 @@
         {
           "key": "wonCorners",
           "label": "角球",
-          "home": "2",
+          "home": "9",
           "away": "1"
         },
         {
           "key": "saves",
           "label": "扑救",
           "home": "0",
-          "away": "3"
+          "away": "11"
         },
         {
           "key": "possessionPct",
           "label": "控球率",
-          "home": "61",
-          "away": "39"
+          "home": "68.1",
+          "away": "31.9"
         },
         {
           "key": "totalShots",
           "label": "射门",
-          "home": "4",
+          "home": "18",
           "away": "0"
         },
         {
           "key": "shotsOnTarget",
           "label": "射正",
-          "home": "3",
+          "home": "11",
           "away": "0"
         },
         {
           "key": "shotPct",
           "label": "On Target %",
-          "home": "0.8",
+          "home": "0.6",
           "away": "0.0"
         },
         {
@@ -127949,14 +127949,14 @@
         {
           "key": "accuratePasses",
           "label": "成功传球",
-          "home": "340",
-          "away": "202"
+          "home": "678",
+          "away": "282"
         },
         {
           "key": "totalPasses",
           "label": "传球",
-          "home": "381",
-          "away": "250"
+          "home": "747",
+          "away": "358"
         },
         {
           "key": "passPct",
@@ -127967,80 +127967,80 @@
         {
           "key": "accurateCrosses",
           "label": "Accurate Crosses",
-          "home": "1",
+          "home": "4",
           "away": "0"
         },
         {
           "key": "totalCrosses",
           "label": "Crosses",
-          "home": "10",
+          "home": "26",
           "away": "2"
         },
         {
           "key": "crossPct",
           "label": "Cross %",
-          "home": "0.1",
+          "home": "0.2",
           "away": "0.0"
         },
         {
           "key": "totalLongBalls",
           "label": "Long Balls",
-          "home": "26",
-          "away": "31"
+          "home": "41",
+          "away": "51"
         },
         {
           "key": "accurateLongBalls",
           "label": "Accurate Long Balls",
-          "home": "11",
-          "away": "8"
+          "home": "21",
+          "away": "16"
         },
         {
           "key": "longballPct",
           "label": "Long Balls %",
-          "home": "0.4",
+          "home": "0.5",
           "away": "0.3"
         },
         {
           "key": "blockedShots",
           "label": "Blocked Shots",
-          "home": "0",
+          "home": "2",
           "away": "0"
         },
         {
           "key": "effectiveTackles",
           "label": "Effective Tackles",
-          "home": "7",
-          "away": "6"
+          "home": "9",
+          "away": "11"
         },
         {
           "key": "totalTackles",
           "label": "Tackles",
-          "home": "8",
-          "away": "8"
+          "home": "14",
+          "away": "15"
         },
         {
           "key": "tacklePct",
           "label": "Tackle %",
-          "home": "0.9",
-          "away": "0.8"
+          "home": "0.6",
+          "away": "0.7"
         },
         {
           "key": "interceptions",
           "label": "Interceptions",
-          "home": "6",
-          "away": "5"
+          "home": "8",
+          "away": "14"
         },
         {
           "key": "effectiveClearance",
           "label": "Effective Clearances",
-          "home": "8",
-          "away": "4"
+          "home": "11",
+          "away": "20"
         },
         {
           "key": "totalClearance",
           "label": "Clearances",
-          "home": "8",
-          "away": "4"
+          "home": "11",
+          "away": "20"
         }
       ],
       "leaders": [
@@ -128052,22 +128052,22 @@
               "key": "totalShots",
               "label": "射门",
               "player": "Lamine Yamal",
-              "value": "1",
-              "summary": "1 SOG, 0.10 xG"
+              "value": "4",
+              "summary": "2 SOG, 0.23 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Pau Cubarsí",
-              "value": "64",
-              "summary": "65 PASS"
+              "value": "111",
+              "summary": "115 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
               "player": "Pedro Porro",
-              "value": "7",
-              "summary": "2 TKLW, 3 DUELW"
+              "value": "8",
+              "summary": "2 TKLW, 4 DUELW"
             },
             {
               "key": "saves",
@@ -128093,22 +128093,22 @@
               "key": "accuratePasses",
               "label": "成功传球",
               "player": "Cristian Romero",
-              "value": "34",
-              "summary": "37 PASS"
+              "value": "36",
+              "summary": "40 PASS"
             },
             {
               "key": "defensiveInterventions",
               "label": "防守干预",
-              "player": "Lisandro Martínez",
-              "value": "5",
-              "summary": "1 TKLW, 2 DUELW"
+              "player": "Nicolás Tagliafico",
+              "value": "11",
+              "summary": "2 TKLW, 6 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Emiliano Martínez",
-              "value": "3",
-              "summary": "3 SOGA, 0.31 xGC"
+              "value": "11",
+              "summary": "11 SOGA, 1.45 xGC"
             }
           ]
         }
@@ -128280,30 +128280,30 @@
         }
       ],
       "media": {
-        "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691151_1296x729_16-9.jpg",
-        "alt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
-        "caption": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
-        "credit": "Sebastian Frej/Getty Images",
+        "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691421_1296x729_16-9.jpg",
+        "alt": "Singer Justin Bieber during the Halftime show of the 2026 FIFA World Cup final between Spain and Argentina at the New York/New Jersey Stadium on July 19, 2026, in East Rutherford, New Jersey, United States.",
+        "caption": "We expected a little more from Justin Bieber.",
+        "credit": "ANP via Getty Images",
         "source": "ESPN news",
-        "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal"
+        "link": "https://www.espn.com/soccer/story/_/id/49402540/world-cup-final-half-show-2026-rating-every-performer-madonna-bts-justin-bieber-shakira-headline-argentina-spain"
       },
       "videos": [],
       "news": [
         {
-          "id": "49089105",
-          "headline": "2026 World Cup final: President Trump, Timothée Chalamet headline celebrities in attendance",
-          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691371_608x342_16-9.jpg",
-          "imageAlt": "trump [608x342]",
-          "credit": "(Photo by Eva Marie Uzcategui - FIFA/FIFA via Getty Images)",
-          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
-          "publishedAt": "2026-07-19T20:29:01Z",
-          "updatedAt": "2026-07-19T20:29:01Z",
+          "id": "49402540",
+          "headline": "World Cup final halftime show: Rating every performer as Madonna, BTS, Justin Bieber and Shakira star",
+          "description": "The first World Cup final halftime show brought together some of the biggest names in music, with BTS, Justin Bieber, Madonna and Shakira -- but how did we rate them?",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691421_1296x729_16-9.jpg",
+          "imageAlt": "Singer Justin Bieber during the Halftime show of the 2026 FIFA World Cup final between Spain and Argentina at the New York/New Jersey Stadium on July 19, 2026, in East Rutherford, New Jersey, United States.",
+          "credit": "ANP via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49402540/world-cup-final-half-show-2026-rating-every-performer-madonna-bts-justin-bieber-shakira-headline-argentina-spain",
+          "publishedAt": "2026-07-19T21:30:46Z",
+          "updatedAt": "2026-07-19T21:30:46Z",
           "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "进行中"
         },
         {
           "id": "49397462",
@@ -128313,13 +128313,29 @@
           "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
           "credit": "Sebastian Frej/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-          "publishedAt": "2026-07-19T20:22:33Z",
-          "updatedAt": "2026-07-19T20:22:33Z",
+          "publishedAt": "2026-07-19T20:45:50Z",
+          "updatedAt": "2026-07-19T20:45:50Z",
           "source": "ESPN news",
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "进行中"
+        },
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup final: President Trump, Timothée Chalamet headline celebrities in attendance",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691371_608x342_16-9.jpg",
+          "imageAlt": "trump [608x342]",
+          "credit": "(Photo by Eva Marie Uzcategui - FIFA/FIFA via Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-19T20:51:00Z",
+          "updatedAt": "2026-07-19T20:51:00Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
         },
         {
           "id": "49116383",
@@ -128329,8 +128345,8 @@
           "imageAlt": "FIFA president Gianni Infantino at 2026 World Cup final [1296x729]",
           "credit": "Eva Marie Uzcategui - FIFA/FIFA via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
-          "publishedAt": "2026-07-19T20:08:11Z",
-          "updatedAt": "2026-07-19T20:08:11Z",
+          "publishedAt": "2026-07-19T20:45:11Z",
+          "updatedAt": "2026-07-19T20:45:11Z",
           "source": "ESPN news",
           "matchId": "",
           "matchLabel": "",
@@ -128339,14 +128355,14 @@
         },
         {
           "id": "49402754",
-          "headline": "Argentina's Lisandro Martínez forced off injured in World Cup final vs. Spain",
-          "description": "Argentina centre-back Lisandro Martínez was forced off in the first half of the World Cup final against Spain.",
+          "headline": "Argentina lose Martínez, Romero to injury in World Cup final vs. Spain",
+          "description": "Argentina lost center backs Lisandro Martínez and Cristian Romero to injury in Sunday's World Cup final against Spain.",
           "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691390_1296x729_16-9.jpg",
           "imageAlt": "Argentina's defender #06 Lisandro Martinez leaves the pitch during the 2026 World Cup football tournament final match between Spain and Argentina at the New York/New Jersey Stadium in East Rutherford on July 19, 2026",
           "credit": "JUAN MABROMATA / AFP via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49402754/argentina-lisandro-martinez-forced-injured-world-cup-final-vs-spain",
-          "publishedAt": "2026-07-19T20:01:17Z",
-          "updatedAt": "2026-07-19T20:01:17Z",
+          "publishedAt": "2026-07-19T21:14:24Z",
+          "updatedAt": "2026-07-19T21:14:24Z",
           "source": "ESPN news",
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
@@ -128361,29 +128377,13 @@
           "imageAlt": "Messi [1296x729]",
           "credit": "Evrim Aydin/Anadolu via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49400680/world-cup-final-2026-spain-vs-argentina-lionel-messi",
-          "publishedAt": "2026-07-19T19:59:58Z",
-          "updatedAt": "2026-07-19T19:59:58Z",
+          "publishedAt": "2026-07-19T20:34:16Z",
+          "updatedAt": "2026-07-19T20:34:16Z",
           "source": "ESPN news",
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
           "status": "进行中"
-        },
-        {
-          "id": "49401541",
-          "headline": "Harry Kane warns England are 'still in that grieving stage' but strongly backs Thomas Tuchel",
-          "description": "Harry Kane admitted England will be \"grieving\" their World Cup heartbreak for some time to come although he backed Thomas Tuchel to stay on as head coach.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691326_1296x729_16-9.jpg",
-          "imageAlt": "MIAMI GARDENS, FLORIDA - JULY 18: Players of England pose for a photograph with their bronze medals after the team's victory in the FIFA World Cup 2026 Bronze Final between France and England at Miami Stadium on July 18, 2026 in Miami Gardens, Florida.",
-          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49401541/harry-kane-warns-england-that-grieving-stage-strongly-backs-manager-thomas-tuchel",
-          "publishedAt": "2026-07-19T18:57:04Z",
-          "updatedAt": "2026-07-19T18:57:04Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
         }
       ],
       "gameInfo": {
