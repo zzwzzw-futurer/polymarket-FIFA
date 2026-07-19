@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-19T14:06:11.952Z",
-    "startedAt": "2026-07-19T14:06:11.243Z",
+    "fetchedAt": "2026-07-19T15:15:03.304Z",
+    "startedAt": "2026-07-19T15:15:02.495Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5808,19 +5808,19 @@
       "odds": []
     },
     "760517": {
-      "home": 42.1,
+      "home": 42.3,
       "draw": 31.4,
-      "away": 26.5,
+      "away": 26.4,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "42.4%",
+          "home": "42.6%",
           "draw": "31.6%",
           "away": "26.6%",
-          "homeProbability": 0.42375,
+          "homeProbability": 0.42625,
           "drawProbability": 0.31625,
           "awayProbability": 0.26625,
           "spread": "全场赛果预测市场",
@@ -5840,8 +5840,8 @@
       "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
       "credit": "Sebastian Frej/Getty Images",
       "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-      "publishedAt": "2026-07-19T13:45:12Z",
-      "updatedAt": "2026-07-19T13:45:12Z",
+      "publishedAt": "2026-07-19T14:57:41Z",
+      "updatedAt": "2026-07-19T14:57:41Z",
       "source": "ESPN news",
       "matchId": "760517",
       "matchLabel": "西班牙 vs 阿根廷",
@@ -6410,7 +6410,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-19T14:06:11.952Z",
+    "updatedAt": "2026-07-19T15:15:03.304Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -127172,7 +127172,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-19T14:06:11.633Z",
+      "fetchedAt": "2026-07-19T15:15:02.997Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
@@ -127548,8 +127548,8 @@
           "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
           "credit": "Sebastian Frej/Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-          "publishedAt": "2026-07-19T13:45:12Z",
-          "updatedAt": "2026-07-19T13:45:12Z",
+          "publishedAt": "2026-07-19T14:57:41Z",
+          "updatedAt": "2026-07-19T14:57:41Z",
           "source": "ESPN news",
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
