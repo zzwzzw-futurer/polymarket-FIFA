@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-19T18:29:00.195Z",
-    "startedAt": "2026-07-19T18:28:59.487Z",
+    "fetchedAt": "2026-07-19T19:44:43.313Z",
+    "startedAt": "2026-07-19T19:44:42.432Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -3338,14 +3338,14 @@
       "matchday": 13803,
       "home": "164",
       "away": "202",
-      "score": "-",
-      "status": "未开始",
+      "score": "0 - 0",
+      "status": "进行中",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
       "weather": "天气数据待接入",
-      "timeElapsed": "Scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "timeElapsed": "38'",
+      "homeScore": 0,
+      "awayScore": 0,
       "homeScorers": [],
       "awayScorers": []
     }
@@ -5808,21 +5808,21 @@
       "odds": []
     },
     "760517": {
-      "home": 42.4,
-      "draw": 31.7,
-      "away": 26,
+      "home": 41.2,
+      "draw": 36.4,
+      "away": 22.5,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
         {
           "book": "Polymarket",
           "source": "polymarket",
-          "home": "42.6%",
-          "draw": "31.9%",
-          "away": "26.1%",
-          "homeProbability": 0.42625,
-          "drawProbability": 0.31875,
-          "awayProbability": 0.26125,
+          "home": "41.5%",
+          "draw": "36.6%",
+          "away": "22.6%",
+          "homeProbability": 0.415,
+          "drawProbability": 0.36625,
+          "awayProbability": 0.22625,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-esp-arg-2026-07-19",
           "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
@@ -5832,6 +5832,70 @@
     }
   },
   "news": [
+    {
+      "id": "49400680",
+      "headline": "Lionel Messi becomes the first man to start in three World Cup finals",
+      "description": "Lionel Messi has officially become the oldest outfield player to ever take the field in a World Cup final, after starting for Argentina as they take on Spain.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691373_1296x729_16-9.jpg",
+      "imageAlt": "Messi [1296x729]",
+      "credit": "Evrim Aydin/Anadolu via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49400680/world-cup-final-2026-spain-vs-argentina-lionel-messi",
+      "publishedAt": "2026-07-19T19:31:26Z",
+      "updatedAt": "2026-07-19T19:31:26Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "西班牙 vs 阿根廷",
+      "stage": "决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49397462",
+      "headline": "World Cup final LIVE: Spain, Argentina face off in New Jersey",
+      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as Spain and Lamine Yamal take on Argentina and Lionel Messi in the final.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691151_1296x729_16-9.jpg",
+      "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
+      "credit": "Sebastian Frej/Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
+      "publishedAt": "2026-07-19T19:19:56Z",
+      "updatedAt": "2026-07-19T19:19:56Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "西班牙 vs 阿根廷",
+      "stage": "决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49400794",
+      "headline": "Argentina make 3 changes to World Cup final lineup vs. Spain",
+      "description": "Argentina have made three changes to the starting lineup for the 2026 World Cup final against Spain, with Rodrigo De Paul, Nico González and Gonzalo Montiel set to kick off for the defending champions.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691291_1296x729_16-9.jpg",
+      "imageAlt": "Rodrigo de Paul of Argentina takes the pitch prior the 2026 FIFA World Cup semi-final match between England and Argentina at Mercedes-Benz Stadium (Atlanta Stadium) in Atlanta, Georgia, United States on July 15, 2026",
+      "credit": "Evrim Aydin/Anadolu via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49400794/argentina-spain-fifa-2026-world-cup-final-starting-lineups",
+      "publishedAt": "2026-07-19T19:19:14Z",
+      "updatedAt": "2026-07-19T19:19:14Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "西班牙 vs 阿根廷",
+      "stage": "决赛",
+      "status": "进行中"
+    },
+    {
+      "id": "49401541",
+      "headline": "Harry Kane warns England are 'still in that grieving stage' but strongly backs Thomas Tuchel",
+      "description": "Harry Kane admitted England will be \"grieving\" their World Cup heartbreak for some time to come although he backed Thomas Tuchel to stay on as head coach.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691326_1296x729_16-9.jpg",
+      "imageAlt": "MIAMI GARDENS, FLORIDA - JULY 18: Players of England pose for a photograph with their bronze medals after the team's victory in the FIFA World Cup 2026 Bronze Final between France and England at Miami Stadium on July 18, 2026 in Miami Gardens, Florida.",
+      "credit": "Eddie Keogh - The FA/The FA via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49401541/harry-kane-warns-england-that-grieving-stage-strongly-backs-manager-thomas-tuchel",
+      "publishedAt": "2026-07-19T18:57:04Z",
+      "updatedAt": "2026-07-19T18:57:04Z",
+      "source": "ESPN news",
+      "matchId": "760517",
+      "matchLabel": "",
+      "stage": "决赛",
+      "status": "进行中"
+    },
     {
       "id": "49401540",
       "headline": "What changes has Argentina made for the Final against Spain?",
@@ -5846,87 +5910,7 @@
       "matchId": "760517",
       "matchLabel": "西班牙 vs 阿根廷",
       "stage": "决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49397462",
-      "headline": "World Cup final LIVE: Spain, Argentina prepare to face off in New Jersey",
-      "description": "Enjoy all the features, news, video analysis and color from around the World Cup as Spain and Lamine Yamal take on Argentina and Lionel Messi in the final.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691151_1296x729_16-9.jpg",
-      "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
-      "credit": "Sebastian Frej/Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-      "publishedAt": "2026-07-19T18:20:06Z",
-      "updatedAt": "2026-07-19T18:20:06Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "西班牙 vs 阿根廷",
-      "stage": "决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49400794",
-      "headline": "Argentina make 3 changes to World Cup final lineup vs. Spain",
-      "description": "Argentina have made three changes to the starting lineup for the 2026 World Cup final against Spain, with Rodrigo De Paul, Nico González and Gonzalo Montiel set to kick off for the defending champions.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691291_1296x729_16-9.jpg",
-      "imageAlt": "Rodrigo de Paul of Argentina takes the pitch prior the 2026 FIFA World Cup semi-final match between England and Argentina at Mercedes-Benz Stadium (Atlanta Stadium) in Atlanta, Georgia, United States on July 15, 2026",
-      "credit": "Evrim Aydin/Anadolu via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49400794/argentina-spain-fifa-2026-world-cup-final-starting-lineups",
-      "publishedAt": "2026-07-19T18:17:35Z",
-      "updatedAt": "2026-07-19T18:17:35Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "西班牙 vs 阿根廷",
-      "stage": "决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49400888",
-      "headline": "Spain World Cup champ Capdevila gets into U.S. for final",
-      "description": "Former Spain defender Joan Capdevila has made it to the United States to watch the World Cup final after being denied authorization to travel a decade after playing in an exhibition game in Iran.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691298_1024x576_16-9.jpg",
-      "imageAlt": "Spain World Cup winner Joan Capdevila was granted entry to the U.S. at the last minute to attend the 2026 final.",
-      "credit": "Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49400888/spain-world-cup-champ-capdevila-gets-us-final",
-      "publishedAt": "2026-07-19T17:41:18Z",
-      "updatedAt": "2026-07-19T17:41:18Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "",
-      "stage": "决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49065000",
-      "headline": "We got a Scorigami! How England's 6-4 win vs. France made World Cup history",
-      "description": "In the 103rd and penultimate game of the 2026 World Cup, a Scorigami finally happened, but what is it?",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691093_1296x729_16-9.jpg",
-      "imageAlt": "England celebrate [1296x729]",
-      "credit": "Jared C. Tilton - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
-      "publishedAt": "2026-07-19T17:27:11Z",
-      "updatedAt": "2026-07-19T17:27:11Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "",
-      "stage": "决赛",
-      "status": "未开始"
-    },
-    {
-      "id": "49398782",
-      "headline": "Man United's Senne Lammens will bounce back well from Belgium World Cup woe - Tom Heaton",
-      "description": "Senne Lammens will come back from his FIFA World Cup frustration as a better goalkeeper, Manchester United teammate Tom Heaton has said.",
-      "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691190_1296x729_16-9.jpg",
-      "imageAlt": " Mikel Merino #6 of Spain scores past Senne Lammens [1296x729]",
-      "credit": "Photo by Joe Scarnici - FIFA/FIFA via Getty Images",
-      "link": "https://www.espn.com/soccer/story/_/id/49398782/man-united-senne-lammens-bounce-back-well-belgium-world-cup-woe-tom-heaton",
-      "publishedAt": "2026-07-19T12:19:47Z",
-      "updatedAt": "2026-07-19T12:19:47Z",
-      "source": "ESPN news",
-      "matchId": "760517",
-      "matchLabel": "",
-      "stage": "决赛",
-      "status": "未开始"
+      "status": "进行中"
     },
     {
       "id": "49257085",
@@ -6407,10 +6391,26 @@
       "matchLabel": "西班牙 vs 比利时",
       "stage": "四分之一决赛",
       "status": "进行中"
+    },
+    {
+      "id": "49326683",
+      "headline": "Belgium captain Tielemans injured in warmup before Spain clash",
+      "description": "Belgium captain Youri Tielemans was a late scratch from Belgium's lineup for their World Cup quarterfinal match against Spain on Friday.",
+      "imageUrl": "https://a.espncdn.com/photo/2026/0710/r1687441_1296x729_16-9.jpg",
+      "imageAlt": "Belgium's Youri Tielemans pictured at the warm up on the field ahead of a soccer game between Spain and Belgian national team Red Devils, on Friday 10 July 2026 in Los Angeles, USA, in the 1/4 finals of the FIFA World Cup 202",
+      "credit": "BRUNO FAHY / BELGA MAG / Belga / AFP via Getty Images",
+      "link": "https://www.espn.com/soccer/story/_/id/49326683/belgium-youri-tielemans-injury-warmup-spain-world-cup-quarterfinal",
+      "publishedAt": "2026-07-10T19:39:26Z",
+      "updatedAt": "2026-07-10T19:39:26Z",
+      "source": "ESPN news",
+      "matchId": "760511",
+      "matchLabel": "西班牙 vs 比利时",
+      "stage": "四分之一决赛",
+      "status": "进行中"
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-19T18:29:00.195Z",
+    "updatedAt": "2026-07-19T19:44:43.313Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6485,11 +6485,11 @@
       },
       {
         "label": "实况照片",
-        "value": "88 场"
+        "value": "87 场"
       },
       {
         "label": "视频",
-        "value": "76 场"
+        "value": "75 场"
       },
       {
         "label": "新闻",
@@ -127172,9 +127172,9 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-19T18:28:59.910Z",
+      "fetchedAt": "2026-07-19T19:44:42.926Z",
       "source": "ESPN summary",
-      "status": "Scheduled",
+      "status": "In Progress",
       "lineups": {
         "home": {
           "team": "164",
@@ -127189,21 +127189,8 @@
               "jersey": "23",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "268533",
-              "name": "Pedro Porro",
-              "shortName": "P. Porro",
-              "jersey": "12",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127213,10 +127200,10 @@
               "name": "Aymeric Laporte",
               "shortName": "A. Laporte",
               "jersey": "14",
-              "position": "D",
+              "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127226,10 +127213,10 @@
               "name": "Pau Cubarsí",
               "shortName": "P. Cubarsí",
               "jersey": "22",
-              "position": "D",
+              "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127239,49 +127226,23 @@
               "name": "Marc Cucurella",
               "shortName": "M. Cucurella",
               "jersey": "24",
-              "position": "D",
+              "position": "LB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
             },
             {
-              "id": "362150",
-              "name": "Lamine Yamal",
-              "shortName": "L. Yamal",
-              "jersey": "19",
-              "position": "M",
+              "id": "268533",
+              "name": "Pedro Porro",
+              "shortName": "P. Porro",
+              "jersey": "12",
+              "position": "RB",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "231828",
-              "name": "Rodri",
-              "shortName": "Rodri",
-              "jersey": "16",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "297373",
-              "name": "Álex Baena",
-              "shortName": "Á. Baena",
-              "jersey": "15",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127291,10 +127252,10 @@
               "name": "Dani Olmo",
               "shortName": "D. Olmo",
               "jersey": "10",
-              "position": "M",
+              "position": "AM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127304,10 +127265,23 @@
               "name": "Fabián Ruiz",
               "shortName": "F. Ruiz",
               "jersey": "8",
-              "position": "M",
+              "position": "LM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "231828",
+              "name": "Rodri",
+              "shortName": "Rodri",
+              "jersey": "16",
+              "position": "RM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127319,10 +127293,36 @@
               "jersey": "21",
               "position": "F",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "297373",
+              "name": "Álex Baena",
+              "shortName": "Á. Baena",
+              "jersey": "15",
+              "position": "AM-L",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "362150",
+              "name": "Lamine Yamal",
+              "shortName": "L. Yamal",
+              "jersey": "19",
+              "position": "AM-R",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "1",
               "passes": ""
             }
           ],
@@ -127334,8 +127334,8 @@
               "jersey": "3",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127347,8 +127347,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127360,8 +127360,8 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127373,8 +127373,8 @@
               "jersey": "26",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127386,8 +127386,8 @@
               "jersey": "7",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127399,8 +127399,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127412,8 +127412,8 @@
               "jersey": "20",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127425,8 +127425,8 @@
               "jersey": "6",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127438,8 +127438,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127451,8 +127451,8 @@
               "jersey": "9",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127464,8 +127464,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127477,8 +127477,8 @@
               "jersey": "5",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127490,8 +127490,8 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127503,8 +127503,8 @@
               "jersey": "13",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127516,8 +127516,8 @@
               "jersey": "4",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127537,21 +127537,8 @@
               "jersey": "23",
               "position": "G",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "228262",
-              "name": "Gonzalo Montiel",
-              "shortName": "G. Montiel",
-              "jersey": "4",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127561,23 +127548,10 @@
               "name": "Lisandro Martínez",
               "shortName": "L. Martínez",
               "jersey": "6",
-              "position": "D",
+              "position": "CD-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "145190",
-              "name": "Nicolás Tagliafico",
-              "shortName": "N. Tagliafico",
-              "jersey": "3",
-              "position": "D",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127587,10 +127561,36 @@
               "name": "Cristian Romero",
               "shortName": "C. Romero",
               "jersey": "13",
-              "position": "D",
+              "position": "CD-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "145190",
+              "name": "Nicolás Tagliafico",
+              "shortName": "N. Tagliafico",
+              "jersey": "3",
+              "position": "LB",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "228262",
+              "name": "Gonzalo Montiel",
+              "shortName": "G. Montiel",
+              "jersey": "4",
+              "position": "RB",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127600,23 +127600,10 @@
               "name": "Alexis Mac Allister",
               "shortName": "A. Mac Allister",
               "jersey": "20",
-              "position": "M",
+              "position": "CM-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
-              "goals": "0",
-              "shots": "0",
-              "passes": ""
-            },
-            {
-              "id": "76017",
-              "name": "Nico González",
-              "shortName": "N. González",
-              "jersey": "15",
-              "position": "M",
-              "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127626,10 +127613,23 @@
               "name": "Enzo Fernández",
               "shortName": "E. Fernández",
               "jersey": "24",
-              "position": "M",
+              "position": "CM-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
+              "goals": "0",
+              "shots": "0",
+              "passes": ""
+            },
+            {
+              "id": "76017",
+              "name": "Nico González",
+              "shortName": "N. González",
+              "jersey": "15",
+              "position": "LM",
+              "starter": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127639,10 +127639,10 @@
               "name": "Rodrigo De Paul",
               "shortName": "R. De Paul",
               "jersey": "7",
-              "position": "M",
+              "position": "RM",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127652,10 +127652,10 @@
               "name": "Julián Álvarez",
               "shortName": "J. Álvarez",
               "jersey": "9",
-              "position": "F",
+              "position": "CF-L",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127665,10 +127665,10 @@
               "name": "Lionel Messi",
               "shortName": "L. Messi",
               "jersey": "10",
-              "position": "F",
+              "position": "CF-R",
               "starter": true,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127682,8 +127682,8 @@
               "jersey": "14",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127695,8 +127695,8 @@
               "jersey": "5",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127708,8 +127708,8 @@
               "jersey": "8",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127721,8 +127721,8 @@
               "jersey": "12",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127734,8 +127734,8 @@
               "jersey": "19",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127747,8 +127747,8 @@
               "jersey": "26",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127760,8 +127760,8 @@
               "jersey": "11",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127773,8 +127773,8 @@
               "jersey": "17",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127786,8 +127786,8 @@
               "jersey": "21",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127799,8 +127799,8 @@
               "jersey": "16",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127812,8 +127812,8 @@
               "jersey": "2",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127825,8 +127825,8 @@
               "jersey": "22",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127838,8 +127838,8 @@
               "jersey": "1",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127851,8 +127851,8 @@
               "jersey": "25",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127864,8 +127864,8 @@
               "jersey": "18",
               "position": "SUB",
               "starter": false,
-              "subbedIn": true,
-              "subbedOut": true,
+              "subbedIn": false,
+              "subbedOut": false,
               "goals": "0",
               "shots": "0",
               "passes": ""
@@ -127875,28 +127875,172 @@
       },
       "stats": [
         {
-          "key": "goalDifference",
-          "label": "净胜球",
-          "home": "12",
-          "away": "12"
+          "key": "foulsCommitted",
+          "label": "犯规",
+          "home": "6",
+          "away": "8"
         },
         {
-          "key": "totalGoals",
-          "label": "进球",
-          "home": "13",
-          "away": "19"
+          "key": "yellowCards",
+          "label": "黄牌",
+          "home": "0",
+          "away": "0"
         },
         {
-          "key": "goalAssists",
-          "label": "助攻",
-          "home": "9",
-          "away": "12"
+          "key": "redCards",
+          "label": "红牌",
+          "home": "0",
+          "away": "0"
         },
         {
-          "key": "goalsConceded",
-          "label": "失球",
+          "key": "offsides",
+          "label": "越位",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "key": "wonCorners",
+          "label": "角球",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "key": "saves",
+          "label": "扑救",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "key": "possessionPct",
+          "label": "控球率",
+          "home": "64.3",
+          "away": "35.7"
+        },
+        {
+          "key": "totalShots",
+          "label": "射门",
           "home": "1",
-          "away": "7"
+          "away": "0"
+        },
+        {
+          "key": "shotsOnTarget",
+          "label": "射正",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "key": "shotPct",
+          "label": "On Target %",
+          "home": "1.0",
+          "away": "0.0"
+        },
+        {
+          "key": "penaltyKickGoals",
+          "label": "Penalty Goals",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "penaltyKickShots",
+          "label": "Penalty Kicks Taken",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "accuratePasses",
+          "label": "成功传球",
+          "home": "224",
+          "away": "116"
+        },
+        {
+          "key": "totalPasses",
+          "label": "传球",
+          "home": "250",
+          "away": "144"
+        },
+        {
+          "key": "passPct",
+          "label": "传球成功率",
+          "home": "0.9",
+          "away": "0.8"
+        },
+        {
+          "key": "accurateCrosses",
+          "label": "Accurate Crosses",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "key": "totalCrosses",
+          "label": "Crosses",
+          "home": "9",
+          "away": "0"
+        },
+        {
+          "key": "crossPct",
+          "label": "Cross %",
+          "home": "0.1",
+          "away": "0.0"
+        },
+        {
+          "key": "totalLongBalls",
+          "label": "Long Balls",
+          "home": "17",
+          "away": "20"
+        },
+        {
+          "key": "accurateLongBalls",
+          "label": "Accurate Long Balls",
+          "home": "8",
+          "away": "6"
+        },
+        {
+          "key": "longballPct",
+          "label": "Long Balls %",
+          "home": "0.5",
+          "away": "0.3"
+        },
+        {
+          "key": "blockedShots",
+          "label": "Blocked Shots",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "key": "effectiveTackles",
+          "label": "Effective Tackles",
+          "home": "4",
+          "away": "4"
+        },
+        {
+          "key": "totalTackles",
+          "label": "Tackles",
+          "home": "5",
+          "away": "6"
+        },
+        {
+          "key": "tacklePct",
+          "label": "Tackle %",
+          "home": "0.8",
+          "away": "0.7"
+        },
+        {
+          "key": "interceptions",
+          "label": "Interceptions",
+          "home": "3",
+          "away": "4"
+        },
+        {
+          "key": "effectiveClearance",
+          "label": "Effective Clearances",
+          "home": "3",
+          "away": "4"
+        },
+        {
+          "key": "totalClearance",
+          "label": "Clearances",
+          "home": "3",
+          "away": "4"
         }
       ],
       "leaders": [
@@ -127905,38 +128049,31 @@
           "teamName": "西班牙",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Mikel Oyarzabal",
-              "value": "Matches: 7, Goals: 5",
-              "summary": "7 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Marc Cucurella",
-              "value": "Matches: 7, Assists: 2",
-              "summary": "7 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
               "player": "Lamine Yamal",
-              "value": "23",
-              "summary": ""
+              "value": "1",
+              "summary": "1 SOG, 0.10 xG"
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Rodri",
-              "value": "655",
-              "summary": ""
+              "player": "Pau Cubarsí",
+              "value": "37",
+              "summary": "38 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Pedro Porro",
+              "value": "3",
+              "summary": "0 TKLW, 1 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
-              "player": "Unai Simón",
-              "value": "10",
+              "player": "待定",
+              "value": "",
               "summary": ""
             }
           ]
@@ -127946,39 +128083,32 @@
           "teamName": "阿根廷",
           "leaders": [
             {
-              "key": "goalsLeaders",
-              "label": "Goals",
-              "player": "Lionel Messi",
-              "value": "Matches: 7, Goals: 8",
-              "summary": "7 APP"
-            },
-            {
-              "key": "assistsLeaders",
-              "label": "Assists",
-              "player": "Lionel Messi",
-              "value": "Matches: 7, Assists: 4",
-              "summary": "7 APP"
-            },
-            {
               "key": "totalShots",
               "label": "射门",
-              "player": "Lionel Messi",
-              "value": "34",
+              "player": "待定",
+              "value": "",
               "summary": ""
             },
             {
               "key": "accuratePasses",
               "label": "成功传球",
-              "player": "Leandro Paredes",
-              "value": "495",
-              "summary": ""
+              "player": "Lisandro Martínez",
+              "value": "20",
+              "summary": "26 PASS"
+            },
+            {
+              "key": "defensiveInterventions",
+              "label": "防守干预",
+              "player": "Lisandro Martínez",
+              "value": "5",
+              "summary": "1 TKLW, 2 DUELW"
             },
             {
               "key": "saves",
               "label": "扑救",
               "player": "Emiliano Martínez",
-              "value": "9",
-              "summary": ""
+              "value": "1",
+              "summary": "1 SOGA, 0.10 xGC"
             }
           ]
         }
@@ -128149,77 +128279,73 @@
           ]
         }
       ],
-      "media": {
-        "imageUrl": "https://a.espncdn.com/media/motion/2026/0717/ss_20260717_143814555_3595678879/ss_20260717_143814555_3595678879.jpg",
-        "alt": "Pique: Yamal ahead of where Messi was at age 19",
-        "caption": "Pique: Yamal ahead of where Messi was at age 19",
-        "credit": "",
-        "source": "ESPN video",
-        "link": "https://www.espn.com/video/clip/_/id/49385557/yamal-ahead-where-messi-was-age-19"
-      },
-      "videos": [
-        {
-          "id": "49385557",
-          "headline": "Pique: Yamal ahead of where Messi was at age 19",
-          "description": "Pique: Yamal ahead of where Messi was at age 19",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0717/ss_20260717_143814555_3595678879/ss_20260717_143814555_3595678879.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49385557/yamal-ahead-where-messi-was-age-19",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0717/ss_20260717_143814555_3595678/ss_20260717_143814555_3595678_720p30_2896k.mp4",
-          "duration": 78,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49386817",
-          "headline": "Moreno: Yamal needs to elevate his game against Messi",
-          "description": "Moreno: Yamal needs to elevate his game against Messi",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0717/dm_260717_Moreno_Yamal_needs_to_elevate_his_game_against_Messi/dm_260717_Moreno_Yamal_needs_to_elevate_his_game_against_Messi.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49386817/yamal-needs-elevate-game-messi",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0717/dm_260717_Moreno_Yamal_needs_to_elevate_his_game_against_Messi/dm_260717_Moreno_Yamal_needs_to_elevate_his_game_against_Messi_720p30_2896k.mp4",
-          "duration": 58,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49386822",
-          "headline": "Hislop: WC final will be Spain's tactics vs. Argentina's pure grit",
-          "description": "Hislop: WC final will be Spain's tactics vs. Argentina's pure grit",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0717/dm_260717_Hislop_WC_final_will_be_Spains_tactics_vs_Argentinas_pure_grit/dm_260717_Hislop_WC_final_will_be_Spains_tactics_vs_Argentinas_pure_grit.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49386822/wc-final-spain-tactics-vs-argentina-pure-grit",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0717/dm_260717_Hislop_WC_final_will_be_Spains_tactics_vs_Argentinas_pure_grit/dm_260717_Hislop_WC_final_will_be_Spains_tactics_vs_Argentinas_pure_grit_720p30_2896k.mp4",
-          "duration": 80,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49391213",
-          "headline": "Asking Barcelona locals if they want Yamal or Messi to win the World Cup",
-          "description": "Asking Barcelona locals if they want Yamal or Messi to win the World Cup",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_COM_SOC_fans_Asking_Barcelona_locals_if_they_want_Yamal_or_Messi_to_win_the_World_Cup_GLOBAL_2026-/dm_260718_COM_SOC_fans_Asking_Barcelona_locals_if_they_want_Yamal_or_Messi_to_win_the_World_Cup_GLOBAL_2026-.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49391213/asking-barcelona-locals-want-yamal-messi-win-world-cup",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_COM_SOC_fans_Asking_Barcelona_locals_if_they_want_Yamal_or_Messi_to_win_the_World_Cup_GLOBAL_2026-/dm_260718_COM_SOC_fans_Asking_Barcelona_locals_if_they_want_Yamal_or_Messi_to_win_the_World_Cup_GLOBAL_2026-_720p30_2896k.mp4",
-          "duration": 69,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49395240",
-          "headline": "Klinsmann: The World Cup final will be an extreme mental battle",
-          "description": "Klinsmann: The World Cup final will be an extreme mental battle",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_Klinsmann_The_World_Cup_final_will_be_an_extreme_mental_battle/dm_260718_Klinsmann_The_World_Cup_final_will_be_an_extreme_mental_battle.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49395240/world-cup-final-extreme-mental-battle",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_Klinsmann_The_World_Cup_final_will_be_an_extreme_mental_battle/dm_260718_Klinsmann_The_World_Cup_final_will_be_an_extreme_mental_battle_720p30_2896k.mp4",
-          "duration": 56,
-          "source": "ESPN video"
-        },
-        {
-          "id": "49395399",
-          "headline": "McManaman: Spain have to be perfect to beat Argentina",
-          "description": "McManaman: Spain have to be perfect to beat Argentina",
-          "thumbnail": "https://a.espncdn.com/media/motion/2026/0718/dm_260718_McManaman_Spain_have_to_be_perfect_to_beat_Argentina/dm_260718_McManaman_Spain_have_to_be_perfect_to_beat_Argentina.jpg",
-          "link": "https://www.espn.com/video/clip/_/id/49395399/spain-perfect-beat-argentina",
-          "videoUrl": "https://media.video-cdn.espn.com/motion/2026/0718/dm_260718_McManaman_Spain_have_to_be_perfect_to_beat_Argentina/dm_260718_McManaman_Spain_have_to_be_perfect_to_beat_Argentina_720p30_2896k.mp4",
-          "duration": 41,
-          "source": "ESPN video"
-        }
-      ],
+      "media": null,
+      "videos": [],
       "news": [
+        {
+          "id": "49089105",
+          "headline": "2026 World Cup final: President Trump, Timothée Chalamet headline celebrities",
+          "description": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691371_608x342_16-9.jpg",
+          "imageAlt": "trump [608x342]",
+          "credit": "(Photo by Eva Marie Uzcategui - FIFA/FIFA via Getty Images)",
+          "link": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
+          "publishedAt": "2026-07-19T19:40:47Z",
+          "updatedAt": "2026-07-19T19:40:47Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
+        {
+          "id": "49400680",
+          "headline": "Lionel Messi becomes the first man to start in three World Cup finals",
+          "description": "Lionel Messi has officially become the oldest outfield player to ever take the field in a World Cup final, after starting for Argentina as they take on Spain.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691373_1296x729_16-9.jpg",
+          "imageAlt": "Messi [1296x729]",
+          "credit": "Evrim Aydin/Anadolu via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49400680/world-cup-final-2026-spain-vs-argentina-lionel-messi",
+          "publishedAt": "2026-07-19T19:31:26Z",
+          "updatedAt": "2026-07-19T19:31:26Z",
+          "source": "ESPN news",
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49397462",
+          "headline": "World Cup final LIVE: Spain, Argentina face off in New Jersey",
+          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as Spain and Lamine Yamal take on Argentina and Lionel Messi in the final.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691151_1296x729_16-9.jpg",
+          "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
+          "credit": "Sebastian Frej/Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
+          "publishedAt": "2026-07-19T19:19:56Z",
+          "updatedAt": "2026-07-19T19:19:56Z",
+          "source": "ESPN news",
+          "matchId": "760517",
+          "matchLabel": "西班牙 vs 阿根廷",
+          "stage": "决赛",
+          "status": "进行中"
+        },
+        {
+          "id": "49401541",
+          "headline": "Harry Kane warns England are 'still in that grieving stage' but strongly backs Thomas Tuchel",
+          "description": "Harry Kane admitted England will be \"grieving\" their World Cup heartbreak for some time to come although he backed Thomas Tuchel to stay on as head coach.",
+          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691326_1296x729_16-9.jpg",
+          "imageAlt": "MIAMI GARDENS, FLORIDA - JULY 18: Players of England pose for a photograph with their bronze medals after the team's victory in the FIFA World Cup 2026 Bronze Final between France and England at Miami Stadium on July 18, 2026 in Miami Gardens, Florida.",
+          "credit": "Eddie Keogh - The FA/The FA via Getty Images",
+          "link": "https://www.espn.com/soccer/story/_/id/49401541/harry-kane-warns-england-that-grieving-stage-strongly-backs-manager-thomas-tuchel",
+          "publishedAt": "2026-07-19T18:57:04Z",
+          "updatedAt": "2026-07-19T18:57:04Z",
+          "source": "ESPN news",
+          "matchId": "",
+          "matchLabel": "",
+          "stage": "",
+          "status": ""
+        },
         {
           "id": "49401540",
           "headline": "What changes has Argentina made for the Final against Spain?",
@@ -128234,23 +128360,7 @@
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49397462",
-          "headline": "World Cup final LIVE: Spain, Argentina prepare to face off in New Jersey",
-          "description": "Enjoy all the features, news, video analysis and color from around the World Cup as Spain and Lamine Yamal take on Argentina and Lionel Messi in the final.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691151_1296x729_16-9.jpg",
-          "imageAlt": "Argentina fans celebrate the FIFA World Cup 2026 Final at Times Square on July 18, 2026 in New York City",
-          "credit": "Sebastian Frej/Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49397462/world-cup-daily-live-final-countdown-spain-argentina-get-ready-take-new-york-messi-yamal",
-          "publishedAt": "2026-07-19T18:20:06Z",
-          "updatedAt": "2026-07-19T18:20:06Z",
-          "source": "ESPN news",
-          "matchId": "760517",
-          "matchLabel": "西班牙 vs 阿根廷",
-          "stage": "决赛",
-          "status": "未开始"
+          "status": "进行中"
         },
         {
           "id": "49400794",
@@ -128260,66 +128370,18 @@
           "imageAlt": "Rodrigo de Paul of Argentina takes the pitch prior the 2026 FIFA World Cup semi-final match between England and Argentina at Mercedes-Benz Stadium (Atlanta Stadium) in Atlanta, Georgia, United States on July 15, 2026",
           "credit": "Evrim Aydin/Anadolu via Getty Images",
           "link": "https://www.espn.com/soccer/story/_/id/49400794/argentina-spain-fifa-2026-world-cup-final-starting-lineups",
-          "publishedAt": "2026-07-19T18:17:35Z",
-          "updatedAt": "2026-07-19T18:17:35Z",
+          "publishedAt": "2026-07-19T19:19:14Z",
+          "updatedAt": "2026-07-19T19:19:14Z",
           "source": "ESPN news",
           "matchId": "760517",
           "matchLabel": "西班牙 vs 阿根廷",
           "stage": "决赛",
-          "status": "未开始"
-        },
-        {
-          "id": "49400888",
-          "headline": "Spain World Cup champ Capdevila gets into U.S. for final",
-          "description": "Former Spain defender Joan Capdevila has made it to the United States to watch the World Cup final after being denied authorization to travel a decade after playing in an exhibition game in Iran.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691298_1024x576_16-9.jpg",
-          "imageAlt": "Spain World Cup winner Joan Capdevila was granted entry to the U.S. at the last minute to attend the 2026 final.",
-          "credit": "Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49400888/spain-world-cup-champ-capdevila-gets-us-final",
-          "publishedAt": "2026-07-19T17:41:18Z",
-          "updatedAt": "2026-07-19T17:41:18Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49065000",
-          "headline": "We got a Scorigami! How England's 6-4 win vs. France made World Cup history",
-          "description": "In the 103rd and penultimate game of the 2026 World Cup, a Scorigami finally happened, but what is it?",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691093_1296x729_16-9.jpg",
-          "imageAlt": "England celebrate [1296x729]",
-          "credit": "Jared C. Tilton - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
-          "publishedAt": "2026-07-19T17:27:11Z",
-          "updatedAt": "2026-07-19T17:27:11Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
-        },
-        {
-          "id": "49398782",
-          "headline": "Man United's Senne Lammens will bounce back well from Belgium World Cup woe - Tom Heaton",
-          "description": "Senne Lammens will come back from his FIFA World Cup frustration as a better goalkeeper, Manchester United teammate Tom Heaton has said.",
-          "imageUrl": "https://a.espncdn.com/photo/2026/0719/r1691190_1296x729_16-9.jpg",
-          "imageAlt": " Mikel Merino #6 of Spain scores past Senne Lammens [1296x729]",
-          "credit": "Photo by Joe Scarnici - FIFA/FIFA via Getty Images",
-          "link": "https://www.espn.com/soccer/story/_/id/49398782/man-united-senne-lammens-bounce-back-well-belgium-world-cup-woe-tom-heaton",
-          "publishedAt": "2026-07-19T12:19:47Z",
-          "updatedAt": "2026-07-19T12:19:47Z",
-          "source": "ESPN news",
-          "matchId": "",
-          "matchLabel": "",
-          "stage": "",
-          "status": ""
+          "status": "进行中"
         }
       ],
       "gameInfo": {
         "attendance": "",
-        "referee": "",
+        "referee": "Slavko Vincici",
         "venue": "MetLife Stadium"
       }
     }
