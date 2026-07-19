@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-19T15:15:03.304Z",
-    "startedAt": "2026-07-19T15:15:02.495Z",
+    "fetchedAt": "2026-07-19T16:14:02.787Z",
+    "startedAt": "2026-07-19T16:14:02.177Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -5808,9 +5808,9 @@
       "odds": []
     },
     "760517": {
-      "home": 42.3,
-      "draw": 31.4,
-      "away": 26.4,
+      "home": 42.5,
+      "draw": 31.5,
+      "away": 26,
       "model": "Polymarket 即时市场价格隐含概率",
       "trend": "Polymarket live",
       "odds": [
@@ -5819,10 +5819,10 @@
           "source": "polymarket",
           "home": "42.6%",
           "draw": "31.6%",
-          "away": "26.6%",
+          "away": "26.1%",
           "homeProbability": 0.42625,
           "drawProbability": 0.31625,
-          "awayProbability": 0.26625,
+          "awayProbability": 0.26125,
           "spread": "全场赛果预测市场",
           "eventSlug": "fifwc-esp-arg-2026-07-19",
           "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
@@ -6410,7 +6410,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-19T15:15:03.304Z",
+    "updatedAt": "2026-07-19T16:14:02.787Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -127172,7 +127172,7 @@
     },
     "760517": {
       "schemaVersion": 9,
-      "fetchedAt": "2026-07-19T15:15:02.997Z",
+      "fetchedAt": "2026-07-19T16:14:02.523Z",
       "source": "ESPN summary",
       "status": "Scheduled",
       "lineups": {
