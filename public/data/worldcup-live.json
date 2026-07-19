@@ -6,28 +6,28 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-07-19T21:35:01.350Z",
-    "startedAt": "2026-07-19T21:34:57.555Z",
+    "fetchedAt": "2026-07-19T22:34:53.673Z",
+    "startedAt": "2026-07-19T22:34:52.723Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
     "totalTeams": 48,
     "odds": {
-      "status": "polymarket_live",
-      "matches": 1,
-      "polymarketMatches": 1,
+      "status": "not_available",
+      "matches": 0,
+      "polymarketMatches": 0,
       "espnMatches": 0,
       "polymarket": {
         "status": "ok",
         "strategy": "events",
         "requestedUrl": "https://gamma-api.polymarket.com/events?series_id=11433&active=true&closed=false&limit=40",
         "events": 1,
-        "scannedMatches": 1,
-        "matches": 1
+        "scannedMatches": 0,
+        "matches": 0
       }
     },
     "details": {
-      "requested": 1,
+      "requested": 0,
       "total": 104,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
     },
@@ -43,7 +43,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "group": "H组",
-      "form": "DWWWW",
+      "form": "WWWWW",
       "sourceName": "Spain"
     },
     "202": {
@@ -52,7 +52,7 @@
       "flag": "",
       "flagUrl": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "group": "J组",
-      "form": "DWWWW",
+      "form": "LWWWW",
       "sourceName": "Argentina"
     },
     "203": {
@@ -3338,15 +3338,17 @@
       "matchday": 13803,
       "home": "164",
       "away": "202",
-      "score": "0 - 0",
-      "status": "进行中",
+      "score": "1 - 0",
+      "status": "已结束",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
       "weather": "天气数据待接入",
-      "timeElapsed": "104'",
-      "homeScore": 0,
+      "timeElapsed": "AET",
+      "homeScore": 1,
       "awayScore": 0,
-      "homeScorers": [],
+      "homeScorers": [
+        "F. Torres"
+      ],
       "awayScorers": []
     }
   ],
@@ -4472,7 +4474,7 @@
       "goalsAgainst": 1,
       "goalDifference": "+7",
       "points": 9,
-      "form": "DWWWW",
+      "form": "LWWWW",
       "name": "阿根廷"
     },
     {
@@ -4516,7 +4518,7 @@
       "goalsAgainst": 0,
       "goalDifference": "+5",
       "points": 7,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "name": "西班牙"
     },
     {
@@ -5808,27 +5810,12 @@
       "odds": []
     },
     "760517": {
-      "home": 0.1,
-      "draw": 99.8,
-      "away": 0.1,
-      "model": "Polymarket 即时市场价格隐含概率",
-      "trend": "Polymarket live",
-      "odds": [
-        {
-          "book": "Polymarket",
-          "source": "polymarket",
-          "home": "0.13%",
-          "draw": "99.9%",
-          "away": "0.13%",
-          "homeProbability": 0.00125,
-          "drawProbability": 0.99875,
-          "awayProbability": 0.00125,
-          "spread": "全场赛果预测市场",
-          "eventSlug": "fifwc-esp-arg-2026-07-19",
-          "eventUrl": "https://polymarket.com/event/fifwc-esp-arg-2026-07-19",
-          "marketTitle": "Spain vs. Argentina"
-        }
-      ]
+      "home": 100,
+      "draw": 0,
+      "away": 0,
+      "model": "无赔率时的结果/均衡展示",
+      "trend": "无实时赔率",
+      "odds": []
     }
   },
   "news": [
@@ -5894,7 +5881,7 @@
       "matchId": "760517",
       "matchLabel": "",
       "stage": "决赛",
-      "status": "进行中"
+      "status": "已结束"
     },
     {
       "id": "49400680",
@@ -6410,7 +6397,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-07-19T21:35:01.350Z",
+    "updatedAt": "2026-07-19T22:34:53.673Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
@@ -6497,7 +6484,7 @@
       },
       {
         "label": "Polymarket",
-        "value": "1 场"
+        "value": "0 场"
       }
     ],
     "updatePolicy": [
