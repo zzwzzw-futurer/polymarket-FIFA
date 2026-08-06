@@ -6,8 +6,8 @@
     "standingsUrl": "https://site.web.api.espn.com/apis/v2/sports/soccer/fifa.world/standings",
     "teamsUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams",
     "summaryUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary",
-    "fetchedAt": "2026-08-06T06:15:11.096Z",
-    "startedAt": "2026-08-06T06:15:10.226Z",
+    "fetchedAt": "2026-08-06T09:11:02.708Z",
+    "startedAt": "2026-08-06T09:11:02.191Z",
     "refreshMs": 60000,
     "displayTimeZone": "Asia/Shanghai",
     "totalMatches": 104,
@@ -6397,7 +6397,7 @@
     }
   ],
   "dataDocs": {
-    "updatedAt": "2026-08-06T06:15:11.096Z",
+    "updatedAt": "2026-08-06T09:11:02.708Z",
     "refreshMs": 60000,
     "timeZone": "Asia/Shanghai",
     "sources": [
