@@ -34,7 +34,9 @@
     "news": {
       "articles": 36
     },
-    "note": "赛程、比分、状态、积分榜、球队、场馆、阵容、技术统计、历史交锋、近期战绩、新闻、实况照片和视频来自 ESPN API；Polymarket series 11433 提供可匹配比赛的即时预测市场价格。"
+    "note": "赛程、比分、状态、积分榜、球队、场馆、阵容、技术统计、历史交锋、近期战绩、新闻、实况照片和视频来自 ESPN API；Polymarket series 11433 提供可匹配比赛的即时预测市场价格。",
+    "lastSyncError": "fetch failed",
+    "lastSyncErrorAt": "2026-08-10T15:43:16.219Z"
   },
   "teams": {
     "164": {
